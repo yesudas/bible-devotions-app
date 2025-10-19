@@ -126,6 +126,7 @@
     justify-content: center;
     gap: 10px;
     position: relative;
+    align-self: center; /* Ensure it aligns with other flex items */
 }
 
 .zoom-controls .dropdown-menu {
@@ -216,7 +217,70 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.zoom-notification.show {
+/* Copy Controls */
+.copy-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.copy-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.copy-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.copy-btn:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+.copy-btn:disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+
+/* Copy Notification */
+.copy-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(40, 167, 69, 0.95);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 10000;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.copy-notification.error {
+    background: rgba(220, 53, 69, 0.95);
+}
+
+.copy-notification.show {
     opacity: 1;
     transform: translateY(0);
 }
@@ -350,12 +414,23 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
+/* Header Controls Container */
+.header-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
 /* Mode Selector Styles - Matching Zoom Controls */
 .mode-selector {
     display: flex;
     gap: 10px;
     justify-content: center;
     align-items: center;
+    align-self: center; /* Ensure it aligns with other flex items */
 }
 
 .mode-btn {
@@ -448,6 +523,42 @@ body {
     gap: 5px;
 }
 
+/* Copy Controls in Navigation */
+.navigation-center .copy-controls {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.navigation-center .copy-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.navigation-center .copy-btn:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.navigation-center .copy-btn:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+.navigation-center .copy-btn:disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+
 /* Disabled Button State */
 .nav-btn.disabled {
     opacity: 0.5;
@@ -467,10 +578,20 @@ body {
     
     .zoom-controls {
         gap: 8px;
-        margin-top: 12px;
+        margin-top: 0px;
     }
     
     .zoom-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+    
+    .copy-controls {
+        gap: 8px;
+    }
+    
+    .copy-btn {
         width: 35px;
         height: 35px;
         font-size: 0.9rem;
@@ -482,7 +603,8 @@ body {
         min-width: 45px;
     }
     
-    .zoom-notification {
+    .zoom-notification,
+    .copy-notification {
         top: 10px;
         right: 10px;
         left: 10px;
@@ -559,4 +681,767 @@ body {
     .footer-copyright p {
         font-size: 0.85rem;
     }
+}
+
+/* Admin Panel Styles */
+.admin-body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.admin-navbar {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-navbar .navbar-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.admin-navbar .navbar-text {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.admin-container {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.admin-login-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+}
+
+.admin-login-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 25px;
+    text-align: center;
+}
+
+.admin-login-header h4 {
+    margin: 0;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.admin-form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    padding: 12px 15px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.admin-form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.admin-btn-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.admin-btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.admin-btn-success {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.admin-btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(40, 167, 69, 0.4);
+}
+
+.admin-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.admin-card-header {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-bottom: 2px solid #dee2e6;
+    padding: 20px;
+}
+
+.admin-card-header h5 {
+    margin: 0;
+    color: #495057;
+    font-weight: 600;
+}
+
+.admin-table {
+    margin: 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table th {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.admin-table td {
+    padding: 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.admin-table tbody tr:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
+}
+
+.admin-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.admin-btn-group .btn {
+    border-radius: 8px;
+    margin: 0 2px;
+    padding: 8px 12px;
+    transition: all 0.3s ease;
+}
+
+.admin-btn-outline-primary {
+    border-color: #667eea;
+    color: #667eea;
+}
+
+.admin-btn-outline-primary:hover {
+    background: #667eea;
+    transform: scale(1.05);
+}
+
+.admin-btn-outline-warning {
+    border-color: #ffc107;
+    color: #ffc107;
+}
+
+.admin-btn-outline-warning:hover {
+    background: #ffc107;
+    transform: scale(1.05);
+}
+
+.admin-btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.admin-btn-outline-danger:hover {
+    background: #dc3545;
+    transform: scale(1.05);
+}
+
+/* Admin Modal - Complete Override for Better Control */
+.admin-modal.modal {
+    z-index: 1055;
+}
+
+.admin-modal.modal.show {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-modal .modal-dialog {
+    max-width: 1000px !important;
+    width: 90vw !important;
+    margin: 1rem auto !important;
+    height: calc(100vh - 2rem) !important;
+    max-height: calc(100vh - 2rem) !important;
+    display: flex !important;
+    align-items: stretch !important;
+    transform: none !important;
+}
+
+/* Fix modal backdrop */
+.modal-backdrop.show {
+    opacity: 0.6;
+}
+
+.admin-modal .modal-content {
+    border-radius: 15px !important;
+    border: none !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+    height: 100% !important;
+    overflow: visible !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.admin-modal .modal-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    color: white !important;
+    border-radius: 15px 15px 0 0 !important;
+    padding: 1rem 1.5rem !important;
+    flex-shrink: 0 !important;
+    border-bottom: none !important;
+}
+
+.admin-modal .modal-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.admin-modal .btn-close {
+    filter: brightness(0) invert(1);
+}
+
+.admin-modal .modal-body {
+    padding: 1.5rem !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    max-height: 100% !important;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #667eea #f0f4ff;
+    position: relative;
+}
+
+.admin-modal .modal-body::-webkit-scrollbar {
+    width: 8px;
+}
+
+.admin-modal .modal-body::-webkit-scrollbar-track {
+    background: #f0f4ff;
+    border-radius: 10px;
+}
+
+.admin-modal .modal-body::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.admin-modal .modal-body::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(135deg, #5568d3 0%, #63408b 100%);
+}
+
+.admin-modal .modal-footer {
+    border-top: 1px solid #dee2e6 !important;
+    padding: 1rem 1.5rem !important;
+    flex-shrink: 0 !important;
+    background-color: #f8f9fa !important;
+    border-radius: 0 0 15px 15px !important;
+}
+
+/* Ensure form doesn't interfere with scrolling */
+.admin-modal .admin-form {
+    display: contents;
+}
+
+/* Add scroll indicator shadow */
+.admin-modal .modal-body::before {
+    content: '';
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    z-index: 1;
+    pointer-events: none;
+    margin: -1.5rem -1.5rem 0 -1.5rem;
+    display: block;
+}
+
+.admin-modal .modal-body::after {
+    content: '';
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    z-index: 1;
+    pointer-events: none;
+    margin: 0 -1.5rem -1.5rem -1.5rem;
+    display: block;
+}
+
+.admin-form-section {
+    background: #f8f9fa;
+    border-left: 4px solid #667eea;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.admin-form-section h6 {
+    margin: 0 0 15px 0;
+    color: #667eea;
+    font-weight: 600;
+}
+
+/* Modal form improvements */
+.admin-modal .admin-form-group {
+    margin-bottom: 1.2rem;
+}
+
+.admin-modal .row .admin-form-group {
+    margin-bottom: 1rem;
+}
+
+/* Enhanced form section headers */
+.admin-modal h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #667eea;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e0e7ff;
+}
+
+.admin-modal h6 i {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+/* Enhanced form labels */
+.admin-modal .admin-form-label {
+    font-size: 13px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #495057;
+    display: block;
+    letter-spacing: 0.3px;
+}
+
+/* Enhanced form controls */
+.admin-modal .admin-form-control {
+    font-size: 14px;
+    padding: 10px 14px;
+    border: 2px solid #e0e7ff;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.admin-modal .admin-form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    outline: none;
+    background-color: #fafbff;
+}
+
+.admin-modal .admin-form-control:hover:not(:focus) {
+    border-color: #b8c5f2;
+}
+
+/* Enhanced textareas */
+.admin-modal textarea.admin-form-control {
+    resize: vertical;
+    min-height: 80px;
+    line-height: 1.6;
+}
+
+/* Input placeholders */
+.admin-modal .admin-form-control::placeholder {
+    color: #a8b3cf;
+    font-style: italic;
+}
+
+/* Date picker styling */
+.admin-modal input[type="date"].admin-form-control {
+    position: relative;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+/* Ensure the date field can be clicked */
+.admin-modal input[type="date"].admin-form-control {
+    pointer-events: auto !important;
+}
+
+.admin-modal input[type="date"].admin-form-control::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    background: transparent;
+    color: #667eea;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 2;
+    pointer-events: auto !important;
+}
+
+.admin-modal input[type="date"].admin-form-control::-webkit-calendar-picker-indicator:hover {
+    background-color: rgba(102, 126, 234, 0.1);
+}
+
+/* Ensure date picker dropdown appears above modal */
+.admin-modal input[type="date"]::-webkit-datetime-edit {
+    padding: 0;
+}
+
+.admin-modal input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 1;
+}
+
+/* Fix for Firefox */
+.admin-modal input[type="date"].admin-form-control::-moz-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+/* Ensure modal doesn't clip date picker */
+.admin-modal .modal-content {
+    overflow: visible !important;
+}
+
+.admin-modal .modal-dialog {
+    overflow: visible !important;
+}
+
+/* Force date picker to appear above Bootstrap modal */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    z-index: 9999 !important;
+}
+
+/* Ensure the date picker dropdown appears above everything */
+.admin-modal input[type="date"] {
+    z-index: 1060 !important;
+    position: relative;
+}
+
+/* Alternative: If the above doesn't work, we need to handle the form positioning */
+.admin-modal .modal-body {
+    position: relative;
+    z-index: 1;
+}
+
+/* Required field indicator */
+.admin-modal .admin-form-label:has(+ .admin-form-control[required])::after,
+.admin-modal .admin-form-label:contains("*")::after {
+    content: "";
+    color: #dc3545;
+    margin-left: 3px;
+}
+
+/* Smooth scrolling for modal body */
+.admin-modal .modal-body {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Number inputs */
+.admin-modal input[type="number"].admin-form-control {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+.admin-modal input[type="number"].admin-form-control::-webkit-inner-spin-button,
+.admin-modal input[type="number"].admin-form-control::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* URL inputs */
+.admin-modal input[type="url"].admin-form-control {
+    font-family: monospace;
+    font-size: 13px;
+}
+
+/* Form rows spacing */
+.admin-modal .row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.admin-modal .row > [class*="col-"] {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Disabled inputs */
+.admin-modal .admin-form-control:disabled {
+    background-color: #f5f7fa;
+    border-color: #e9ecef;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.admin-alert {
+    border-radius: 10px;
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+.admin-alert-success {
+    background: linear-gradient(135deg, rgba(40, 167, 69, 0.1), rgba(32, 201, 151, 0.1));
+    color: #155724;
+    border-left: 4px solid #28a745;
+}
+
+.admin-alert-danger {
+    background: linear-gradient(135deg, rgba(220, 53, 69, 0.1), rgba(220, 53, 69, 0.1));
+    color: #721c24;
+    border-left: 4px solid #dc3545;
+}
+
+.admin-empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #6c757d;
+}
+
+.admin-empty-state i {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+/* Admin Responsive */
+@media (max-width: 768px) {
+    .admin-container {
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+    .admin-login-card {
+        margin: 10px;
+        border-radius: 15px;
+    }
+    
+    .admin-table-responsive {
+        border-radius: 10px;
+    }
+    
+    .admin-btn-group {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .admin-btn-group .btn {
+        width: 100%;
+        margin: 2px 0;
+    }
+    
+    /* Admin Modal Responsive */
+    .admin-modal .modal-dialog {
+        width: calc(100vw - 1rem) !important;
+        height: calc(100vh - 1rem) !important;
+        margin: 0.5rem auto !important;
+    }
+    
+    .admin-modal .modal-header {
+        padding: 0.75rem 1rem !important;
+    }
+    
+    .admin-modal .modal-body {
+        padding: 1rem !important;
+    }
+    
+    .admin-modal .modal-footer {
+        padding: 0.75rem 1rem !important;
+    }
+    
+    .admin-modal .modal-title {
+        font-size: 1rem;
+    }
+    
+    .admin-form-section {
+        margin: 15px -10px;
+        border-radius: 0;
+        border-left: none;
+        border-top: 4px solid #667eea;
+    }
+}
+
+/* Admin Header Section - Mobile Friendly */
+.admin-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.admin-section-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #495057;
+    flex: 1 1 auto;
+    min-width: 200px;
+}
+
+.admin-action-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.admin-header-btn {
+    white-space: nowrap;
+}
+
+@media (max-width: 576px) {
+    .admin-header-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .admin-section-title {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    
+    .admin-action-buttons {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .admin-header-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .admin-header-btn span {
+        display: inline;
+    }
+}
+
+/* Mobile Card View for Meditations */
+.admin-mobile-list {
+    padding: 15px;
+}
+
+.admin-meditation-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+}
+
+.admin-meditation-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transform: translateY(-2px);
+}
+
+.admin-meditation-card-header {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 15px;
+    border-bottom: 2px solid #dee2e6;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.admin-meditation-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.admin-meditation-title {
+    margin: 0;
+    color: #495057;
+    font-weight: 600;
+    font-size: 1rem;
+    flex: 1;
+    line-height: 1.4;
+}
+
+.admin-meditation-card-body {
+    padding: 15px;
+}
+
+.admin-meditation-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.admin-meta-item {
+    color: #6c757d;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+}
+
+.admin-meta-item i {
+    color: #667eea;
+    margin-right: 6px;
+}
+
+.admin-meditation-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.admin-meditation-actions .btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.admin-meditation-actions .admin-btn-outline-warning {
+    background: rgba(255, 193, 7, 0.1);
+}
+
+.admin-meditation-actions .admin-btn-outline-danger {
+    background: rgba(220, 53, 69, 0.1);
 }

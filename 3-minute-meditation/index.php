@@ -1,10 +1,22 @@
 <?php
 
-include 'counter.php';
-
-$version = "2025.10.1";
+// Set session timeout to 5 minutes (300 seconds)
+ini_set('session.gc_maxlifetime', 300);
+session_set_cookie_params(300);
 
 session_start();
+
+// Add this reset logic
+if (isset($_GET['reset'])) {
+    session_destroy();
+    header('Location: index.php');
+    exit;
+}
+
+include 'counter.php';
+
+$version = "2025.10.4";
+
 
 // Initialize or get current meditation number
 $mode = $_GET['mode'] ?? 'latest';
@@ -12,30 +24,46 @@ $action = $_GET['action'] ?? '';
 $id = $_GET['id'] ?? null;
 
 // Get all meditation files
-function getMeditationFiles() {
-    $files = glob('meditations/*.json');
-    usort($files, function($a, $b) {
-        return (int)basename($a, '.json') - (int)basename($b, '.json');
-    });
-    return $files;
+function getAllMeditations() {
+    $file = __DIR__ . '/meditations/all-meditations.json';
+    if (file_exists($file)) {
+        return json_decode(file_get_contents($file), true) ?: [];
+    }
+    return [];
 }
 
 // Get total number of meditations
 function getTotalMeditations() {
-    return count(getMeditationFiles());
+    return count(getAllMeditations());
 }
 
 // Get current meditation based on mode
-function getCurrentMeditationId($mode, $action, $id) {
+function getCurrentMeditationIndex($mode, $action, $index) {
     $total = getTotalMeditations();
+    
+    // If no meditations exist, return null
+    if ($total === 0) {
+        return null;
+    }
     
     if ($mode === 'random') {
         if (!isset($_SESSION['random_sequence'])) {
-            $_SESSION['random_sequence'] = range(1, $total);
+            $_SESSION['random_sequence'] = range(0, $total - 1);
             shuffle($_SESSION['random_sequence']);
             $_SESSION['random_index'] = 0;
         }
         
+        // If a specific index is requested, find its position in the random sequence
+        if ($index !== null) {
+            $targetIndex = (int)$index;
+            $position = array_search($targetIndex, $_SESSION['random_sequence']);
+            if ($position !== false) {
+                $_SESSION['random_index'] = $position;
+                return $targetIndex;
+            }
+        }
+        
+        // Handle legacy action parameters (for backward compatibility)
         if ($action === 'next') {
             $_SESSION['random_index'] = ($_SESSION['random_index'] + 1) % $total;
         } elseif ($action === 'prev') {
@@ -45,50 +73,56 @@ function getCurrentMeditationId($mode, $action, $id) {
         return $_SESSION['random_sequence'][$_SESSION['random_index']];
     } else {
         // Latest mode
-        if ($id !== null) {
-            return (int)$id;
+        if ($index !== null) {
+            $targetIndex = (int)$index;
+            // Validate the index is within range
+            if ($targetIndex >= 0 && $targetIndex < $total) {
+                $_SESSION['current_meditation_index'] = $targetIndex;
+                return $targetIndex;
+            }
         }
         
-        if (!isset($_SESSION['current_meditation'])) {
-            $_SESSION['current_meditation'] = $total; // Start with latest
+        if (!isset($_SESSION['current_meditation_index'])) {
+            $_SESSION['current_meditation_index'] = 0; // Start with latest (first in array)
         }
         
+        // Handle legacy action parameters (for backward compatibility)
         if ($action === 'next') {
-            $_SESSION['current_meditation'] = min($_SESSION['current_meditation'] + 1, $total);
+            $_SESSION['current_meditation_index'] = min($_SESSION['current_meditation_index'] + 1, $total - 1);
         } elseif ($action === 'prev') {
-            $_SESSION['current_meditation'] = max($_SESSION['current_meditation'] - 1, 1);
+            $_SESSION['current_meditation_index'] = max($_SESSION['current_meditation_index'] - 1, 0);
         }
         
-        return $_SESSION['current_meditation'];
+        return $_SESSION['current_meditation_index'];
     }
 }
 
-// Load meditation data
-function loadMeditation($id) {
-    $file = "meditations/{$id}.json";
+// Load meditation data by filename
+function loadMeditationByFilename($filename) {
+    $file = __DIR__ . "/meditations/{$filename}";
     if (file_exists($file)) {
         return json_decode(file_get_contents($file), true);
     }
     return null;
 }
 
-// Load all meditations for listing
-function loadAllMeditations() {
-    $file = 'all-meditations.json';
-    if (file_exists($file)) {
-        return json_decode(file_get_contents($file), true);
-    }
-    return [];
-}
+// Initialize or get current meditation number
+$mode = $_GET['mode'] ?? 'latest';
+$action = $_GET['action'] ?? '';
+$index = $_GET['index'] ?? null;
 
-// Get current meditation
-$currentId = getCurrentMeditationId($mode, $action, $id);
-$meditation = loadMeditation($currentId);
-$total = getTotalMeditations();
+// Get all meditations and current meditation
+$allMeditations = getAllMeditations();
+$total = count($allMeditations);
+$currentIndex = getCurrentMeditationIndex($mode, $action, $index);
+$meditation = null;
+
+if ($currentIndex !== null && isset($allMeditations[$currentIndex])) {
+    $meditation = loadMeditationByFilename($allMeditations[$currentIndex]['filename']);
+}
 
 // If viewing all meditations
 $viewAll = ($_GET['view'] ?? '') === 'all';
-$allMeditations = $viewAll ? loadAllMeditations() : [];
 ?>
 
 <!DOCTYPE html>
@@ -128,17 +162,21 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
             <p class="site-tagline">Daily Christian Devotions for Spiritual Growth</p>
             
             <!-- Mode Selector & Zoom Controls -->
-            <div class="d-flex align-items-center justify-content-center gap-3 mt-3">
+                <div class="header-controls">
+                
+                <!-- Hamburger Menu -->
+                <?php include '../menu-links.php'; ?>
+
                 <!-- Mode Selector -->
                 <?php if (!$viewAll): ?>
                 <div class="mode-selector">
-                    <a href="index.php?mode=latest" class="mode-btn <?php echo $mode === 'latest' ? 'active' : ''; ?>" title="Latest Mode">
+                    <a href="?mode=latest" class="mode-btn <?php echo $mode === 'latest' ? 'active' : ''; ?>" title="Latest Mode">
                         <i class="fas fa-clock"></i> 
                     </a>
-                    <a href="index.php?mode=random" class="mode-btn <?php echo $mode === 'random' ? 'active' : ''; ?>" title="Random Mode">
+                    <a href="?mode=random" class="mode-btn <?php echo $mode === 'random' ? 'active' : ''; ?>" title="Random Mode">
                         <i class="fas fa-random"></i> 
                     </a>
-                    <a href="index.php?view=all&mode=<?php echo $mode; ?>" class="mode-btn" title="View All Meditations">
+                    <a href="?view=all&mode=<?php echo $mode; ?>" class="mode-btn" title="View All Meditations">
                         <i class="fas fa-th-list"></i> 
                     </a>
                 </div>
@@ -155,11 +193,8 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                     <button id="zoomInBtn" class="zoom-btn" title="Zoom In">
                         <i class="fas fa-search-plus"></i>
                     </button>
-                    
-                    <!-- Hamburger Menu -->
-                    <?php include '../menu-links.php'; ?>
-
                 </div>
+                
             </div>
         </div>
     </div>
@@ -178,13 +213,14 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                             <i class="fas fa-info-circle me-2"></i>No meditations available yet.
                         </div>
                     <?php else: ?>
-                        <?php foreach ($allMeditations as $med): ?>
+                        <?php foreach ($allMeditations as $idx => $med): ?>
                             <div class="meditation-item">
-                                <div class="meditation-number">#<?php echo $med['sequence']; ?></div>
+                                <div class="meditation-number">#<?php echo $idx + 1; ?></div>
                                 <div class="meditation-info">
                                     <h5><?php echo htmlspecialchars($med['title']); ?></h5>
+                                    <p class="text-muted mb-0"><?php echo htmlspecialchars($med['date']); ?></p>
                                 </div>
-                                <a href="index.php?mode=<?php echo $mode; ?>&id=<?php echo $med['sequence']; ?>" class="btn btn-sm nav-btn">
+                                <a href="?mode=<?php echo $mode; ?>&index=<?php echo $idx; ?>" class="btn btn-sm nav-btn">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -192,7 +228,7 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                     <?php endif; ?>
                 </div>
                 <div class="navigation">
-                    <a href="index.php?mode=<?php echo $mode; ?>" class="nav-btn">
+                    <a href="?mode=<?php echo $mode; ?>" class="nav-btn">
                         <i class="fas fa-arrow-left"></i> Back to Reading
                     </a>
                     <span class="devotion-counter">
@@ -222,6 +258,7 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                             <p><?php echo htmlspecialchars($meditation['quote']['text']); ?></p>
                         </div>
                     
+                        <?php if (!empty($meditation['recommended_book']) && !empty($meditation['recommended_book']['title'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-book-reader"></i> Recommended Book</h2>
                             <h6 class="fw-bold text-dark"><?php echo htmlspecialchars($meditation['recommended_book']['title']); ?></h6>
@@ -236,6 +273,7 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                                 </a>
                             <?php endif; ?>
                         </div>
+                        <?php endif; ?>
                     
                         <?php if (!empty($meditation['song'])): ?>
                         <div class="section">
@@ -281,24 +319,34 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                     </div>
                     
                     <div class="navigation">
-                        <a href="index.php?mode=<?php echo $mode; ?>&action=prev" 
-                           class="nav-btn <?php echo ($mode === 'latest' && $currentId <= 1) ? 'disabled' : ''; ?>">
+                        <?php 
+                        if ($currentIndex !== null) {
+                            $prevIndex = ($mode === 'random') ? 
+                                ($_SESSION['random_index'] > 0 ? $_SESSION['random_sequence'][$_SESSION['random_index'] - 1] : $_SESSION['random_sequence'][$total - 1]) :
+                                max($currentIndex - 1, 0);
+                            $nextIndex = ($mode === 'random') ? 
+                                ($_SESSION['random_index'] < $total - 1 ? $_SESSION['random_sequence'][$_SESSION['random_index'] + 1] : $_SESSION['random_sequence'][0]) :
+                                min($currentIndex + 1, $total - 1);
+                        ?>
+                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $prevIndex; ?>" 
+                           class="nav-btn <?php echo ($mode === 'latest' && $currentIndex <= 0) ? 'disabled' : ''; ?>">
                             <i class="fas fa-chevron-left"></i> Previous
                         </a>
                         
                         <div class="navigation-center">
                             <span class="devotion-counter">
-                                <?php echo $currentId; ?> of <?php echo $total; ?>
+                                <?php echo ($currentIndex + 1); ?> of <?php echo $total; ?>
                             </span>
-                            <a href="index.php?view=all&mode=<?php echo $mode; ?>" class="btn btn-sm btn-outline-primary mt-2">
+                            <a href="?view=all&mode=<?php echo $mode; ?>" class="btn btn-sm btn-outline-primary mt-2">
                                 <i class="fas fa-th-list"></i> View All
                             </a>
                         </div>
                         
-                        <a href="index.php?mode=<?php echo $mode; ?>&action=next" 
-                           class="nav-btn <?php echo ($mode === 'latest' && $currentId >= $total) ? 'disabled' : ''; ?>">
+                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $nextIndex; ?>" 
+                           class="nav-btn <?php echo ($mode === 'latest' && $currentIndex >= $total - 1) ? 'disabled' : ''; ?>">
                             Next <i class="fas fa-chevron-right"></i>
                         </a>
+                        <?php } ?>
                     </div>
                 <?php else: ?>
                     <div class="devotion-header">
@@ -310,7 +358,7 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                         </div>
                     </div>
                     <div class="navigation">
-                        <a href="index.php" class="nav-btn">
+                        <a href="" class="nav-btn">
                             <i class="fas fa-home"></i> Go Home
                         </a>
                         <span></span>
@@ -329,7 +377,7 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p class="mb-1">
                     <i class="fas fa-envelope me-2"></i>
-                    <a href="mailto:wordofgod@wordofgod.in" class="footer-link">wordofgod@wordofgod.in</a>
+                    <a href="mailto:mariajoseph@gmail.com" class="footer-link">mariajoseph@gmail.com</a>
                 </p>
                 <p class="mb-0">
                     <i class="fas fa-phone me-2"></i>
@@ -348,5 +396,6 @@ $allMeditations = $viewAll ? loadAllMeditations() : [];
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
     <script src="../js/zoom.js?v=<?php echo $version; ?>"></script>
+    <script src="../js/copy.js?v=<?php echo $version; ?>"></script>
 </body>
 </html>
