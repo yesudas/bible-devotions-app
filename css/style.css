@@ -1,0 +1,562 @@
+/* 3-Minute Meditation - Daily Devotions Styles */
+
+/* Site Header - Common across all pages */
+.site-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px 0 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.site-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.site-header h1 i {
+    margin-right: 10px;
+}
+
+.site-tagline {
+    font-size: 1rem;
+    opacity: 0.95;
+    margin: 0;
+    font-weight: 400;
+}
+
+/* Site Footer - Matching header design */
+.site-footer {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.site-footer .container {
+    max-width: 1200px;
+}
+
+.footer-section {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.footer-section:last-child {
+    margin-bottom: 0;
+}
+
+.footer-section h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.footer-section h5 i {
+    margin-right: 8px;
+}
+
+.footer-section p {
+    font-size: 1rem;
+    opacity: 0.95;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+}
+
+.footer-link:hover {
+    color: white;
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+.footer-separator {
+    opacity: 0.6;
+    margin: 0 5px;
+}
+
+.footer-visitors {
+    color: white;
+    font-weight: 600;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 6px 12px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.footer-copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.footer-copyright p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+.scripture-ref {
+    font-style: italic;
+    opacity: 0.85;
+    font-size: 0.9em;
+}
+
+/* Zoom Controls */
+.zoom-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.zoom-controls .dropdown-menu {
+    background: white;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 8px 0;
+    min-width: 250px;
+    margin-top: 8px;
+}
+
+.zoom-controls .dropdown-item {
+    padding: 10px 20px;
+    color: #555;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.zoom-controls .dropdown-item:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+    color: #667eea;
+}
+
+.zoom-controls .dropdown-divider {
+    margin: 8px 0;
+    border-color: #e0e0e0;
+}
+
+.zoom-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.zoom-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.zoom-btn:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+.zoom-btn:disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+
+.zoom-level {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    min-width: 50px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Zoom Notification */
+.zoom-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 10000;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.zoom-notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 0 0 40px 0;
+}
+
+.devotion-container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    overflow: hidden;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.devotion-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.devotion-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.devotion-date {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.devotion-content {
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.section h2 {
+    color: #667eea;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.section h2 i {
+    font-size: 1.5rem;
+}
+
+.section p {
+    color: #555;
+    line-height: 1.9;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1.05rem;
+}
+
+.verse-reference {
+    font-style: italic;
+    color: #764ba2;
+    font-weight: 600;
+    margin-top: 15px;
+    display: block;
+    font-size: 0.95rem;
+}
+
+.navigation {
+    background: #f8f9fa;
+    padding: 25px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.nav-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.devotion-counter {
+    font-weight: 600;
+    color: #667eea;
+    font-size: 1.1rem;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mode Selector Styles - Matching Zoom Controls */
+.mode-selector {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.mode-btn:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mode-btn:active:not(.active) {
+    transform: scale(0.95);
+}
+
+.mode-btn.active {
+    background: white;
+    color: #667eea;
+    border-color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Meditation List Item Styles */
+.meditation-item {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+    transition: all 0.3s ease;
+    gap: 20px;
+}
+
+.meditation-item:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.05), rgba(118, 75, 162, 0.05));
+    transform: translateX(5px);
+}
+
+.meditation-item:last-child {
+    border-bottom: none;
+}
+
+.meditation-number {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+}
+
+.meditation-info {
+    flex-grow: 1;
+}
+
+.meditation-info h5 {
+    margin: 0 0 8px 0;
+    color: #667eea;
+    font-weight: 600;
+}
+
+.meditation-info p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Navigation Center */
+.navigation-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Disabled Button State */
+.nav-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .site-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .site-tagline {
+        font-size: 0.9rem;
+    }
+    
+    .zoom-controls {
+        gap: 8px;
+        margin-top: 12px;
+    }
+    
+    .zoom-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+    
+    .zoom-level {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+        min-width: 45px;
+    }
+    
+    .zoom-notification {
+        top: 10px;
+        right: 10px;
+        left: 10px;
+        text-align: center;
+    }
+    
+    .devotion-header h2 {
+        font-size: 1.5rem;
+    }
+    
+    .devotion-content {
+        padding: 20px;
+    }
+    
+    .section h2 {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    
+    .section h2 i {
+        font-size: 1.1rem;
+    }
+    
+    .section p {
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+    
+    .mode-selector {
+        gap: 8px;
+    }
+    
+    .mode-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+    
+    .meditation-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .navigation {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .navigation-center {
+        order: -1;
+    }
+    
+    .nav-btn {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    /* Footer responsive */
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+    
+    .footer-separator {
+        display: none;
+    }
+    
+    .footer-section h5 {
+        font-size: 1.1rem;
+    }
+    
+    .footer-copyright p {
+        font-size: 0.85rem;
+    }
+}
