@@ -15,8 +15,7 @@ if (isset($_GET['reset'])) {
 
 include 'counter.php';
 
-$version = "2025.10.4";
-
+$version = "2025.10.5";
 
 // Initialize or get current meditation number
 $mode = $_GET['mode'] ?? 'latest';
@@ -377,7 +376,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p class="mb-1">
                     <i class="fas fa-envelope me-2"></i>
-                    <a href="mailto:mariajoseph@gmail.com" class="footer-link">mariajoseph@gmail.com</a>
+                    <a href="mailto:mjosephnj@gmail.com" class="footer-link">mjosephnj@gmail.com</a>
                 </p>
                 <p class="mb-0">
                     <i class="fas fa-phone me-2"></i>

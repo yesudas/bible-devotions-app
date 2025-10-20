@@ -20,9 +20,11 @@ class CopyManager {
             copyButtonsContainer.innerHTML = `
                 <button id="copyTextBtn" class="copy-btn" title="Copy Meditation Text">
                     <i class="fas fa-copy"></i>
+                    <span class="copy-btn-label">Copy Text</span>
                 </button>
                 <button id="copyLinkBtn" class="copy-btn" title="Copy Current Link">
                     <i class="fas fa-link"></i>
+                    <span class="copy-btn-label">Share Link</span>
                 </button>
             `;
             navigationCenter.appendChild(copyButtonsContainer);
@@ -61,11 +63,23 @@ class CopyManager {
 
     copyCurrentLink() {
         try {
-            const currentUrl = window.location.href;
+            const currentUrl = this.cleanUrl(window.location.href);
             this.copyToClipboard(currentUrl, 'Link copied to clipboard!');
         } catch (error) {
             console.error('Error copying link:', error);
             this.showNotification('Failed to copy link', 'error');
+        }
+    }
+
+    cleanUrl(url) {
+        try {
+            const urlObj = new URL(url);
+            // Remove f=app query parameter
+            urlObj.searchParams.delete('f');
+            return urlObj.toString();
+        } catch (error) {
+            console.error('Error cleaning URL:', error);
+            return url;
         }
     }
 
@@ -87,7 +101,8 @@ class CopyManager {
         });
 
         // Add source attribution
-        content += `\n---\nSource: 3-Minute Meditation - WordOfGod.in\nLink: ${window.location.href}`;
+        const cleanUrl = this.cleanUrl(window.location.href);
+        content += `\n---\nSource: 3-Minute Meditation - WordOfGod.in\nLink: ${cleanUrl}`;
 
         return content;
     }

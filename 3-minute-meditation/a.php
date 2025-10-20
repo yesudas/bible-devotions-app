@@ -1,13 +1,12 @@
 <?php
 
-$version = "2025.10.4";
+$version = "2025.10.5";
 
 // Set admin session timeout to 30 minutes (1800 seconds)
 ini_set('session.gc_maxlifetime', 1800);
 session_set_cookie_params(1800);
 
 session_start();
-
 
 // Admin credentials
 $admin_users = [
