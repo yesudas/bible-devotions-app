@@ -14,6 +14,7 @@ if (isset($_GET['reset'])) {
 }
 
 include 'counter.php';
+include '../detect-app.php';
 
 $version = "2025.10.5";
 
@@ -130,24 +131,24 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title><?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?>3-Minute Meditation - WordOfGod.in</title>
+    <title><?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> 3-Minute Meditation - WordOfGod.in</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections. 3-minute daily devotions for spiritual growth.">
-    <meta name="keywords" content="meditation, christian, bible, devotion, prayer, spiritual, faith, daily, WordOfGod.in, WordOfGod">
+    <meta name="description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections. 3-minute daily devotions for spiritual growth.">
+    <meta name="keywords" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> , meditation, christian, bible, devotion, prayer, spiritual, faith, daily, WordOfGod.in, WordOfGod">
     <meta name="author" content="Word of God Team">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="3-Minute Meditation - Daily Christian Devotions - WordOfGod.in">
-    <meta property="og:description" content="Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
+    <meta property="og:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> 3-Minute Meditation - Daily Christian Devotions - WordOfGod.in">
+    <meta property="og:description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="3-Minute Meditation - Daily Christian Devotions - WordOfGod.in">
-    <meta name="twitter:description" content="Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
+    <meta name="twitter:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> 3-Minute Meditation - Daily Christian Devotions - WordOfGod.in">
+    <meta name="twitter:description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -161,7 +162,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
             <p class="site-tagline">Daily Christian Devotions for Spiritual Growth</p>
             
             <!-- Mode Selector & Zoom Controls -->
-                <div class="header-controls">
+            <div class="header-controls">
                 
                 <!-- Hamburger Menu -->
                 <?php include '../menu-links.php'; ?>
@@ -195,6 +196,16 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                 </div>
                 
             </div>
+
+            <!-- PWA Install Button -->
+            <?php if ($installAsAppButton): ?>
+            <div>
+                    <button id="installAppBtn" class="btn btn-sm btn-outline-primary mt-2">
+                        <i class="fas fa-download me-1"></i>Install as App
+                    </button>
+            </div>
+            <?php endif; ?>
+
         </div>
     </div>
 

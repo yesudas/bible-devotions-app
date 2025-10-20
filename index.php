@@ -1,3 +1,11 @@
+<?php
+
+include 'detect-app.php';
+
+$version = "2025.10.1";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
