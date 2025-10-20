@@ -76,7 +76,8 @@ class CopyManager {
             const urlObj = new URL(url);
             // Remove f=app query parameter
             urlObj.searchParams.delete('f');
-            return urlObj.toString();
+            // Return decoded URL for better readability (especially for non-English characters)
+            return decodeURIComponent(urlObj.toString());
         } catch (error) {
             console.error('Error cleaning URL:', error);
             return url;

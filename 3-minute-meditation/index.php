@@ -18,14 +18,27 @@ include '../detect-app.php';
 
 $version = "2025.10.5";
 
+$languages = ["தமிழ்", "English"];
+
+// Language selection logic
+$selectedLanguage = $_GET['lang'] ?? $_SESSION['selected_language'] ?? $languages[0];
+
+// Validate selected language
+if (!in_array($selectedLanguage, $languages)) {
+    $selectedLanguage = $languages[0];
+}
+
+// Store in session for persistence
+$_SESSION['selected_language'] = $selectedLanguage;
+
 // Initialize or get current meditation number
 $mode = $_GET['mode'] ?? 'latest';
 $action = $_GET['action'] ?? '';
 $id = $_GET['id'] ?? null;
 
 // Check and activate scheduled meditations for today
-function checkAndActivateScheduledMeditations() {
-    $file = __DIR__ . '/meditations/all-meditations.json';
+function checkAndActivateScheduledMeditations($language) {
+    $file = __DIR__ . '/meditations/' . $language . '/all-meditations.json';
     if (!file_exists($file)) {
         return false;
     }
@@ -45,12 +58,12 @@ function checkAndActivateScheduledMeditations() {
             unset($meditation['scheduled']);
             
             // Also update the individual meditation file
-            $meditation_file = __DIR__ . '/meditations/' . $meditation['filename'];
+            $meditation_file = __DIR__ . '/meditations/' . $language . '/' . $meditation['filename'];
             if (file_exists($meditation_file)) {
                 $meditation_data = json_decode(file_get_contents($meditation_file), true);
                 if ($meditation_data && isset($meditation_data['scheduled'])) {
                     unset($meditation_data['scheduled']);
-                    file_put_contents($meditation_file, json_encode($meditation_data, JSON_PRETTY_PRINT));
+                    file_put_contents($meditation_file, json_encode($meditation_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
                 }
             }
             
@@ -60,15 +73,15 @@ function checkAndActivateScheduledMeditations() {
     
     // Save updated all-meditations.json if any changes were made
     if ($updated) {
-        file_put_contents($file, json_encode($all_meditations, JSON_PRETTY_PRINT));
+        file_put_contents($file, json_encode($all_meditations, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     }
     
     return $updated;
 }
 
 // Get all meditation files (excluding scheduled ones)
-function getAllMeditations() {
-    $file = __DIR__ . '/meditations/all-meditations.json';
+function getAllMeditations($language) {
+    $file = __DIR__ . '/meditations/' . $language . '/all-meditations.json';
     if (file_exists($file)) {
         $all_meditations = json_decode(file_get_contents($file), true) ?: [];
         
@@ -84,13 +97,13 @@ function getAllMeditations() {
 }
 
 // Get total number of meditations
-function getTotalMeditations() {
-    return count(getAllMeditations());
+function getTotalMeditations($language) {
+    return count(getAllMeditations($language));
 }
 
 // Get current meditation based on mode
-function getCurrentMeditationIndex($mode, $action, $index) {
-    $total = getTotalMeditations();
+function getCurrentMeditationIndex($mode, $action, $index, $language) {
+    $total = getTotalMeditations($language);
     
     // If no meditations exist, return null
     if ($total === 0) {
@@ -149,8 +162,8 @@ function getCurrentMeditationIndex($mode, $action, $index) {
 }
 
 // Load meditation data by filename
-function loadMeditationByFilename($filename) {
-    $file = __DIR__ . "/meditations/{$filename}";
+function loadMeditationByFilename($filename, $language) {
+    $file = __DIR__ . "/meditations/{$language}/{$filename}";
     if (file_exists($file)) {
         return json_decode(file_get_contents($file), true);
     }
@@ -158,7 +171,7 @@ function loadMeditationByFilename($filename) {
 }
 
 // Check and activate scheduled meditations for today
-checkAndActivateScheduledMeditations();
+checkAndActivateScheduledMeditations($selectedLanguage);
 
 // Initialize or get current meditation number
 $mode = $_GET['mode'] ?? 'latest';
@@ -166,13 +179,13 @@ $action = $_GET['action'] ?? '';
 $index = $_GET['index'] ?? null;
 
 // Get all meditations and current meditation
-$allMeditations = getAllMeditations();
+$allMeditations = getAllMeditations($selectedLanguage);
 $total = count($allMeditations);
-$currentIndex = getCurrentMeditationIndex($mode, $action, $index);
+$currentIndex = getCurrentMeditationIndex($mode, $action, $index, $selectedLanguage);
 $meditation = null;
 
 if ($currentIndex !== null && isset($allMeditations[$currentIndex])) {
-    $meditation = loadMeditationByFilename($allMeditations[$currentIndex]['filename']);
+    $meditation = loadMeditationByFilename($allMeditations[$currentIndex]['filename'], $selectedLanguage);
 }
 
 // If viewing all meditations
@@ -226,17 +239,40 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                 
                 <!-- Hamburger Menu -->
                 <?php include '../menu-links.php'; ?>
+                
+                <!-- Language Selector -->
+                <?php if (count($languages) > 1): ?>
+                <div class="language-selector">
+                    <button class="lang-btn dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false" title="Select Language">
+                        <i class="fas fa-language"></i>
+                        <span class="lang-label d-none d-sm-inline"><?php echo htmlspecialchars($selectedLanguage); ?></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                        <?php foreach ($languages as $lang): ?>
+                            <li>
+                                <a class="dropdown-item <?php echo $lang === $selectedLanguage ? 'active' : ''; ?>" 
+                                   href="?lang=<?php echo urlencode($lang); ?><?php echo isset($_GET['mode']) ? '&mode=' . htmlspecialchars($_GET['mode']) : ''; ?><?php echo isset($_GET['view']) ? '&view=' . htmlspecialchars($_GET['view']) : ''; ?><?php echo isset($_GET['index']) ? '&index=' . htmlspecialchars($_GET['index']) : ''; ?>">
+                                    <?php if ($lang === $selectedLanguage): ?>
+                                        <i class="fas fa-check me-2"></i>
+                                    <?php endif; ?>
+                                    <?php echo htmlspecialchars($lang); ?>
+                                </a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                </div>
+                <?php endif; ?>
 
                 <!-- Mode Selector -->
                 <?php if (!$viewAll): ?>
                 <div class="mode-selector">
-                    <a href="?mode=latest" class="mode-btn <?php echo $mode === 'latest' ? 'active' : ''; ?>" title="Latest Mode">
+                    <a href="?mode=latest&lang=<?php echo urlencode($selectedLanguage); ?>" class="mode-btn <?php echo $mode === 'latest' ? 'active' : ''; ?>" title="Latest Mode">
                         <i class="fas fa-clock"></i> 
                     </a>
-                    <a href="?mode=random" class="mode-btn <?php echo $mode === 'random' ? 'active' : ''; ?>" title="Random Mode">
+                    <a href="?mode=random&lang=<?php echo urlencode($selectedLanguage); ?>" class="mode-btn <?php echo $mode === 'random' ? 'active' : ''; ?>" title="Random Mode">
                         <i class="fas fa-random"></i> 
                     </a>
-                    <a href="?view=all&mode=<?php echo $mode; ?>" class="mode-btn" title="View All Meditations">
+                    <a href="?view=all&mode=<?php echo $mode; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" class="mode-btn" title="View All Meditations">
                         <i class="fas fa-th-list"></i> 
                     </a>
                 </div>
@@ -290,7 +326,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                                     <h5><?php echo htmlspecialchars($med['title']); ?></h5>
                                     <p class="text-muted mb-0"><?php echo htmlspecialchars($med['date']); ?></p>
                                 </div>
-                                <a href="?mode=<?php echo $mode; ?>&index=<?php echo $idx; ?>" class="btn btn-sm nav-btn">
+                                <a href="?mode=<?php echo $mode; ?>&index=<?php echo $idx; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" class="btn btn-sm nav-btn">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -298,7 +334,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                     <?php endif; ?>
                 </div>
                 <div class="navigation">
-                    <a href="?mode=<?php echo $mode; ?>" class="nav-btn">
+                    <a href="?mode=<?php echo $mode; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" class="nav-btn">
                         <i class="fas fa-arrow-left"></i> Back to Reading
                     </a>
                     <span class="devotion-counter">
@@ -330,12 +366,12 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                     
                         <?php if (!empty($meditation['recommended_book']) && !empty($meditation['recommended_book']['title'])): ?>
                         <div class="section">
-                            <h2><i class="fas fa-book-reader"></i> Recommended Book</h2>
+                            <h2><i class="fas fa-book-reader"></i> <?php echo $meditation['recommended_book']['label'] ?? 'Recommended Book'; ?></h2>
                             <h6 class="fw-bold text-dark"><?php echo htmlspecialchars($meditation['recommended_book']['title']); ?></h6>
                             <p class="text-muted mb-3">by <?php echo htmlspecialchars($meditation['recommended_book']['author']); ?></p>
                             <blockquote class="border-start border-3 border-success ps-3 mb-3">
                                 <p class="mb-1 fst-italic">"<?php echo htmlspecialchars($meditation['recommended_book']['quote']); ?>"</p>
-                                <small class="text-muted">— Page <?php echo $meditation['recommended_book']['page']; ?></small>
+                                <small class="text-muted">— <?php echo htmlspecialchars($meditation['recommended_book']['page']); ?></small>
                             </blockquote>
                             <?php if (!empty($meditation['recommended_book']['link'])): ?>
                                 <a href="<?php echo htmlspecialchars($meditation['recommended_book']['link']); ?>" target="_blank" class="btn btn-sm btn-outline-success">
@@ -398,7 +434,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                                 ($_SESSION['random_index'] < $total - 1 ? $_SESSION['random_sequence'][$_SESSION['random_index'] + 1] : $_SESSION['random_sequence'][0]) :
                                 min($currentIndex + 1, $total - 1);
                         ?>
-                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $prevIndex; ?>" 
+                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $prevIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
                            class="nav-btn <?php echo ($mode === 'latest' && $currentIndex <= 0) ? 'disabled' : ''; ?>">
                             <i class="fas fa-chevron-left"></i> Previous
                         </a>
@@ -407,12 +443,12 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                             <span class="devotion-counter">
                                 <?php echo ($currentIndex + 1); ?> of <?php echo $total; ?>
                             </span>
-                            <a href="?view=all&mode=<?php echo $mode; ?>" class="btn btn-sm btn-outline-primary mt-2">
+                            <a href="?view=all&mode=<?php echo $mode; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" class="btn btn-sm btn-outline-primary mt-2">
                                 <i class="fas fa-th-list"></i> View All
                             </a>
                         </div>
                         
-                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $nextIndex; ?>" 
+                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $nextIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
                            class="nav-btn <?php echo ($mode === 'latest' && $currentIndex >= $total - 1) ? 'disabled' : ''; ?>">
                             Next <i class="fas fa-chevron-right"></i>
                         </a>

@@ -424,11 +424,92 @@ body {
 /* Header Controls Container */
 .header-controls {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Language Selector Styles - Matching other controls */
+.language-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+}
+
+.lang-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lang-btn:active {
+    transform: scale(0.95);
+}
+
+.lang-btn i {
+    font-size: 1.1rem;
+}
+
+.lang-label {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.language-selector .dropdown-menu {
+    background: white;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 8px 0;
+    min-width: 150px;
+    margin-top: 8px;
+}
+
+.language-selector .dropdown-item {
+    padding: 10px 20px;
+    color: #555;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.language-selector .dropdown-item:hover {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+    color: #667eea;
+}
+
+.language-selector .dropdown-item.active {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.15));
+    color: #667eea;
+    font-weight: 600;
+}
+
+.language-selector .dropdown-item i {
+    color: #667eea;
+    font-size: 0.85rem;
 }
 
 /* Mode Selector Styles - Matching Zoom Controls */
@@ -594,6 +675,25 @@ body {
     
     .site-tagline {
         font-size: 0.9rem;
+    }
+    
+    .header-controls {
+        gap: 8px;
+    }
+    
+    /* Language selector mobile styles */
+    .lang-btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        border-radius: 18px;
+    }
+    
+    .lang-label {
+        max-width: 80px;
+    }
+    
+    .language-selector .dropdown-menu {
+        min-width: 140px;
     }
     
     .zoom-controls {

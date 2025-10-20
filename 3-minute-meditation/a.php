@@ -1,12 +1,26 @@
 <?php
 
-$version = "2025.10.5";
-
 // Set admin session timeout to 30 minutes (1800 seconds)
 ini_set('session.gc_maxlifetime', 1800);
 session_set_cookie_params(1800);
 
 session_start();
+
+$version = "2025.10.5";
+
+$languages = ["தமிழ்", "English"];
+
+// Language selection for admin (defaults to first language)
+$selectedLanguage = $_GET['lang'] ?? $_SESSION['admin_selected_language'] ?? $languages[0];
+
+// Validate selected language
+if (!in_array($selectedLanguage, $languages)) {
+    $selectedLanguage = $languages[0];
+}
+
+// Store in session for persistence
+$_SESSION['admin_selected_language'] = $selectedLanguage;
+
 
 // Admin credentials
 $admin_users = [
@@ -45,8 +59,8 @@ function generateUniqueId() {
     return date('YmdHis') . '_' . substr(md5(uniqid(mt_rand(), true)), 0, 8);
 }
 
-function updateAllMeditationsFile() {
-    $files = glob('meditations/*.json');
+function updateAllMeditationsFile($language) {
+    $files = glob("meditations/{$language}/*.json");
     $all_meditations = [];
     
     foreach ($files as $file) {
@@ -79,11 +93,11 @@ function updateAllMeditationsFile() {
         return strcmp($b['uniqueid'], $a['uniqueid']);
     });
     
-    file_put_contents('meditations/all-meditations.json', json_encode($all_meditations, JSON_PRETTY_PRINT));
+    file_put_contents("meditations/{$language}/all-meditations.json", json_encode($all_meditations, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 }
 
-function getNextFilename() {
-    $files = glob('meditations/*.json');
+function getNextFilename($language) {
+    $files = glob("meditations/{$language}/*.json");
     $max = 0;
     foreach ($files as $file) {
         $num = (int)basename($file, '.json');
@@ -98,8 +112,9 @@ if ($is_logged_in) {
     
     // Add meditation
     if ($action === 'add' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+        $language = $_POST['language'];
         $uniqueid = generateUniqueId();
-        $filename = getNextFilename();
+        $filename = getNextFilename($language);
         
         // Check if date is in the future
         $meditation_date = $_POST['date'];
@@ -112,27 +127,27 @@ if ($is_logged_in) {
             'title' => $_POST['title'],
             'key_verse' => $_POST['key_verse'],
             'memory_verse' => [
-                'label' => $_POST['memory_verse_label'] ?: 'Memory Verse',
+                'label' => $_POST['memory_verse_label'] ?: ($language === 'தமிழ்' ? 'மனப்பாட வசனம்' : 'Memory Verse'),
                 'text' => $_POST['memory_verse_text']
             ],
             'devotion' => [
-                'label' => $_POST['devotion_label'] ?: 'Insight / Reflection',
+                'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
                 'text' => $_POST['devotion_text']
             ],
             'quote' => [
-                'label' => $_POST['quote_label'] ?: "Today's Quote",
+                'label' => $_POST['quote_label'] ?: ($language === 'தமிழ்' ? 'பிரபல மேற்கோள்' : "Today's Quote"),
                 'text' => $_POST['quote_text']
             ],
             'prayer' => [
-                'label' => $_POST['prayer_label'] ?: 'Prayer',
+                'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
                 'text' => $_POST['prayer_text']
             ],
             'conclusion' => [
-                'label' => $_POST['conclusion_label'] ?: 'A Word to You',
+                'label' => $_POST['conclusion_label'] ?: ($language === 'தமிழ்' ? 'உங்களுக்கு ஒரு வார்த்தை' : 'A Word to You'),
                 'text' => array_filter(explode("\n", $_POST['conclusion_text']))
             ],
             'author' => [
-                'label' => 'Author',
+                'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
                 'author' => $_POST['author_name'],
                 'mobile' => $_POST['author_mobile'],
                 'whatsapp' => $_POST['author_whatsapp'],
@@ -148,9 +163,10 @@ if ($is_logged_in) {
         // Add recommended_book section if provided
         if (!empty($_POST['book_title']) || !empty($_POST['book_author'])) {
             $meditation['recommended_book'] = [
+                'label' => $_POST['book_label'] ?: ($language === 'தமிழ்' ? 'பரிந்துரைக்கப்படும் புத்தகம்' : 'Recommended Book'),
                 'title' => $_POST['book_title'] ?: '',
                 'author' => $_POST['book_author'] ?: '',
-                'page' => !empty($_POST['book_page']) ? (int)$_POST['book_page'] : 0,
+                'page' => $_POST['book_page'] ?: '',
                 'quote' => $_POST['book_quote'] ?: '',
                 'link' => $_POST['book_link'] ?: ''
             ];
@@ -159,22 +175,23 @@ if ($is_logged_in) {
         // Add song section if provided
         if (!empty($_POST['song_text'])) {
             $meditation['song'] = [
-                'label' => $_POST['song_label'] ?: 'Song',
+                'label' => $_POST['song_label'] ?: ($language === 'தமிழ்' ? 'பாடல்' : 'Song'),
                 'text' => $_POST['song_text']
             ];
         }
         
-        file_put_contents("meditations/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT));
-        updateAllMeditationsFile();
+        file_put_contents("meditations/{$language}/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        updateAllMeditationsFile($language);
         $success_message = "Meditation added successfully!";
     }
     
     // Edit meditation
     if ($action === 'edit' && $_SERVER['REQUEST_METHOD'] === 'POST') {
         $filename = $_POST['filename'];
+        $language = $_POST['language'];
         
         // Load existing meditation to preserve uniqueid
-        $existingData = json_decode(file_get_contents("meditations/{$filename}"), true);
+        $existingData = json_decode(file_get_contents("meditations/{$language}/{$filename}"), true);
         $uniqueid = $existingData['uniqueid'] ?? generateUniqueId();
         
         // Check if date is in the future
@@ -188,27 +205,27 @@ if ($is_logged_in) {
             'title' => $_POST['title'],
             'key_verse' => $_POST['key_verse'],
             'memory_verse' => [
-                'label' => $_POST['memory_verse_label'] ?: 'Memory Verse',
+                'label' => $_POST['memory_verse_label'] ?: ($language === 'தமிழ்' ? 'மனப்பாட வசனம்' : 'Memory Verse'),
                 'text' => $_POST['memory_verse_text']
             ],
             'devotion' => [
-                'label' => $_POST['devotion_label'] ?: 'Insight / Reflection',
+                'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
                 'text' => $_POST['devotion_text']
             ],
             'quote' => [
-                'label' => $_POST['quote_label'] ?: "Today's Quote",
+                'label' => $_POST['quote_label'] ?: ($language === 'தமிழ்' ? 'பிரபல மேற்கோள்' : "Today's Quote"),
                 'text' => $_POST['quote_text']
             ],
             'prayer' => [
-                'label' => $_POST['prayer_label'] ?: 'Prayer',
+                'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
                 'text' => $_POST['prayer_text']
             ],
             'conclusion' => [
-                'label' => $_POST['conclusion_label'] ?: 'A Word to You',
+                'label' => $_POST['conclusion_label'] ?: ($language === 'தமிழ்' ? 'உங்களுக்கு ஒரு வார்த்தை' : 'A Word to You'),
                 'text' => array_filter(explode("\n", $_POST['conclusion_text']))
             ],
             'author' => [
-                'label' => 'Author',
+                'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
                 'author' => $_POST['author_name'],
                 'mobile' => $_POST['author_mobile'],
                 'whatsapp' => $_POST['author_whatsapp'],
@@ -224,9 +241,10 @@ if ($is_logged_in) {
         // Add recommended_book section if provided
         if (!empty($_POST['book_title']) || !empty($_POST['book_author'])) {
             $meditation['recommended_book'] = [
+                'label' => $_POST['book_label'] ?: ($language === 'தமிழ்' ? 'பரிந்துரைக்கப்படும் புத்தகம்' : 'Recommended Book'),
                 'title' => $_POST['book_title'] ?: '',
                 'author' => $_POST['book_author'] ?: '',
-                'page' => !empty($_POST['book_page']) ? (int)$_POST['book_page'] : 0,
+                'page' => $_POST['book_page'] ?: '',
                 'quote' => $_POST['book_quote'] ?: '',
                 'link' => $_POST['book_link'] ?: ''
             ];
@@ -235,22 +253,23 @@ if ($is_logged_in) {
         // Add song section if provided
         if (!empty($_POST['song_text'])) {
             $meditation['song'] = [
-                'label' => $_POST['song_label'] ?: 'Song',
+                'label' => $_POST['song_label'] ?: ($language === 'தமிழ்' ? 'பாடல்' : 'Song'),
                 'text' => $_POST['song_text']
             ];
         }
         
-        file_put_contents("meditations/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT));
-        updateAllMeditationsFile();
+        file_put_contents("meditations/{$language}/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        updateAllMeditationsFile($language);
         $success_message = "Meditation updated successfully!";
     }
     
     // Delete meditation
     if ($action === 'delete') {
         $filename = $_GET['filename'];
-        if (file_exists("meditations/{$filename}")) {
-            unlink("meditations/{$filename}");
-            updateAllMeditationsFile();
+        $language = $_GET['lang'] ?? $selectedLanguage;
+        if (file_exists("meditations/{$language}/{$filename}")) {
+            unlink("meditations/{$language}/{$filename}");
+            updateAllMeditationsFile($language);
             $success_message = "Meditation deleted successfully!";
         }
     }
@@ -259,15 +278,17 @@ if ($is_logged_in) {
     $edit_meditation = null;
     if ($action === 'edit_form') {
         $filename = $_GET['filename'];
-        $file = "meditations/{$filename}";
+        $language = $_GET['lang'] ?? $selectedLanguage;
+        $file = "meditations/{$language}/{$filename}";
         if (file_exists($file)) {
             $edit_meditation = json_decode(file_get_contents($file), true);
             $edit_meditation['filename'] = $filename;
+            $edit_meditation['language'] = $language;
         }
     }
     
     // Load all meditations for display
-    $all_meditations_file = 'meditations/all-meditations.json';
+    $all_meditations_file = "meditations/{$selectedLanguage}/all-meditations.json";
     $all_meditations = file_exists($all_meditations_file) ? 
         json_decode(file_get_contents($all_meditations_file), true) : [];
 }
@@ -368,6 +389,9 @@ if ($is_logged_in) {
                             <a href="../index.php" class="btn btn-outline-secondary admin-header-btn">
                                 <i class="bi bi-arrow-left me-1"></i><span>Back to Site</span>
                             </a>
+                            <a href="?lang=<?php echo urlencode($selectedLanguage); ?>" class="btn btn-outline-primary admin-header-btn">
+                                <i class="bi bi-arrow-clockwise me-1"></i><span>Refresh</span>
+                            </a>
                             <button type="button" class="btn admin-btn-success admin-header-btn" data-bs-toggle="modal" data-bs-target="#addModal">
                                 <i class="bi bi-plus-circle me-1"></i><span>Add New</span>
                             </button>
@@ -385,7 +409,19 @@ if ($is_logged_in) {
                     <!-- Filters Section -->
                     <div class="admin-filters p-3 border-bottom">
                         <div class="row g-3">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
+                                <label class="form-label small text-muted mb-1">
+                                    <i class="bi bi-translate me-1"></i>Language
+                                </label>
+                                <select id="languageFilter" class="form-select form-select-sm" onchange="window.location.href='?lang=' + this.value">
+                                    <?php foreach ($languages as $lang): ?>
+                                        <option value="<?php echo htmlspecialchars($lang); ?>" <?php echo $selectedLanguage === $lang ? 'selected' : ''; ?>>
+                                            <?php echo htmlspecialchars($lang); ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
                                 <label class="form-label small text-muted mb-1">
                                     <i class="bi bi-funnel me-1"></i>Status
                                 </label>
@@ -395,13 +431,13 @@ if ($is_logged_in) {
                                     <option value="published">Published Only</option>
                                 </select>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <label class="form-label small text-muted mb-1">
                                     <i class="bi bi-calendar me-1"></i>Filter by Date
                                 </label>
                                 <input type="date" id="dateFilter" class="form-control form-control-sm" placeholder="Filter by date">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <label class="form-label small text-muted mb-1">
                                     <i class="bi bi-search me-1"></i>Search Title
                                 </label>
@@ -467,11 +503,11 @@ if ($is_logged_in) {
                                                 </td>
                                                 <td>
                                                     <div class="btn-group btn-group-sm">
-                                                        <a href="?action=edit_form&filename=<?php echo urlencode($meditation['filename']); ?>" 
+                                                        <a href="?action=edit_form&filename=<?php echo urlencode($meditation['filename']); ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
                                                            class="btn admin-btn-outline-warning" title="Edit">
                                                             <i class="bi bi-pencil"></i>
                                                         </a>
-                                                        <a href="?action=delete&filename=<?php echo urlencode($meditation['filename']); ?>" 
+                                                        <a href="?action=delete&filename=<?php echo urlencode($meditation['filename']); ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
                                                            class="btn admin-btn-outline-danger" title="Delete"
                                                            onclick="return confirm('Are you sure you want to delete this meditation?')">
                                                             <i class="bi bi-trash"></i>
@@ -516,11 +552,11 @@ if ($is_logged_in) {
                                                 </span>
                                             </div>
                                             <div class="admin-meditation-actions">
-                                                <a href="?action=edit_form&filename=<?php echo urlencode($meditation['filename']); ?>" 
+                                                <a href="?action=edit_form&filename=<?php echo urlencode($meditation['filename']); ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
                                                    class="btn btn-sm admin-btn-outline-warning">
                                                     <i class="bi bi-pencil me-1"></i>Edit
                                                 </a>
-                                                <a href="?action=delete&filename=<?php echo urlencode($meditation['filename']); ?>" 
+                                                <a href="?action=delete&filename=<?php echo urlencode($meditation['filename']); ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
                                                    class="btn btn-sm admin-btn-outline-danger"
                                                    onclick="return confirm('Are you sure you want to delete this meditation?')">
                                                     <i class="bi bi-trash me-1"></i>Delete
@@ -564,11 +600,23 @@ if ($is_logged_in) {
                                     </div>
                                     <div class="col-md-6">
                                         <div class="admin-form-group">
-                                            <label for="title" class="admin-form-label">Title *</label>
-                                            <input type="text" class="admin-form-control" id="title" name="title" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['title']) : ''; ?>" required>
+                                            <label for="language" class="admin-form-label">Language *</label>
+                                            <select class="admin-form-control" id="language" name="language" required>
+                                                <?php foreach ($languages as $lang): ?>
+                                                    <option value="<?php echo htmlspecialchars($lang); ?>" 
+                                                        <?php echo ($edit_meditation && isset($edit_meditation['language']) && $edit_meditation['language'] === $lang) || (!$edit_meditation && $lang === $languages[0]) ? 'selected' : ''; ?>>
+                                                        <?php echo htmlspecialchars($lang); ?>
+                                                    </option>
+                                                <?php endforeach; ?>
+                                            </select>
                                         </div>
                                     </div>
+                                </div>
+                                
+                                <div class="admin-form-group">
+                                    <label for="title" class="admin-form-label">Title *</label>
+                                    <input type="text" class="admin-form-control" id="title" name="title" 
+                                           value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['title']) : ''; ?>" required>
                                 </div>
                                 
                                 <div class="admin-form-group">
@@ -583,7 +631,7 @@ if ($is_logged_in) {
                                         <div class="admin-form-group">
                                             <label for="memory_verse_label" class="admin-form-label">Memory Verse Label</label>
                                             <input type="text" class="admin-form-control" id="memory_verse_label" name="memory_verse_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['memory_verse']['label']) : 'Memory Verse'; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['memory_verse']['label']) : ''; ?>">
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -600,7 +648,7 @@ if ($is_logged_in) {
                                         <div class="admin-form-group">
                                             <label for="devotion_label" class="admin-form-label">Devotion Label</label>
                                             <input type="text" class="admin-form-control" id="devotion_label" name="devotion_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['devotion']['label']) : 'Insight / Reflection'; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['devotion']['label']) : ''; ?>">
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -616,7 +664,7 @@ if ($is_logged_in) {
                                         <div class="admin-form-group">
                                             <label for="quote_label" class="admin-form-label">Quote Label</label>
                                             <input type="text" class="admin-form-control" id="quote_label" name="quote_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['quote']['label']) : "Today's Quote"; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['quote']['label']) : ''; ?>">
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -631,7 +679,14 @@ if ($is_logged_in) {
                                 <!-- Recommended Book Section -->
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book me-2"></i>Recommended Book</h6>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-3">
+                                        <div class="admin-form-group">
+                                            <label for="book_label" class="admin-form-label">Book Label</label>
+                                            <input type="text" class="admin-form-control" id="book_label" name="book_label" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['recommended_book']['label'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
                                         <div class="admin-form-group">
                                             <label for="book_title" class="admin-form-label">Book Title</label>
                                             <input type="text" class="admin-form-control" id="book_title" name="book_title" 
@@ -645,19 +700,23 @@ if ($is_logged_in) {
                                                    value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['recommended_book']['author'] ?? '') : ''; ?>">
                                         </div>
                                     </div>
+                                </div>
+                                
+                                <div class="row">
                                     <div class="col-md-2">
                                         <div class="admin-form-group">
                                             <label for="book_page" class="admin-form-label">Page</label>
-                                            <input type="number" class="admin-form-control" id="book_page" name="book_page" 
-                                                   value="<?php echo $edit_meditation ? ($edit_meditation['recommended_book']['page'] ?? '') : ''; ?>">
+                                            <input type="text" class="admin-form-control" id="book_page" name="book_page" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['recommended_book']['page'] ?? '') : ''; ?>">
                                         </div>
                                     </div>
-                                </div>
-                                
-                                <div class="admin-form-group">
-                                    <label for="book_quote" class="admin-form-label">Book Quote</label>
-                                    <input type="text" class="admin-form-control" id="book_quote" name="book_quote" 
-                                           value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['recommended_book']['quote'] ?? '') : ''; ?>">
+                                    <div class="col-md-10">
+                                        <div class="admin-form-group">
+                                            <label for="book_quote" class="admin-form-label">Book Quote</label>
+                                            <input type="text" class="admin-form-control" id="book_quote" name="book_quote" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['recommended_book']['quote'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
                                 </div>
                                 
                                 <div class="admin-form-group">
@@ -673,7 +732,7 @@ if ($is_logged_in) {
                                         <div class="admin-form-group">
                                             <label for="song_label" class="admin-form-label">Song Label</label>
                                             <input type="text" class="admin-form-control" id="song_label" name="song_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['song']['label'] ?? 'Song') : 'Song'; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['song']['label'] ?? '') : ''; ?>">
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -691,7 +750,7 @@ if ($is_logged_in) {
                                         <div class="admin-form-group">
                                             <label for="prayer_label" class="admin-form-label">Prayer Label</label>
                                             <input type="text" class="admin-form-control" id="prayer_label" name="prayer_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['prayer']['label']) : 'Prayer'; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['prayer']['label']) : ''; ?>">
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -709,7 +768,7 @@ if ($is_logged_in) {
                                         <div class="admin-form-group">
                                             <label for="conclusion_label" class="admin-form-label">Conclusion Label</label>
                                             <input type="text" class="admin-form-control" id="conclusion_label" name="conclusion_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['conclusion']['label']) : 'A Word to You'; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['conclusion']['label']) : ''; ?>">
                                         </div>
                                     </div>
                                     <div class="col-md-9">
@@ -722,6 +781,16 @@ if ($is_logged_in) {
                                 
                                 <!-- Author Section -->
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-person me-2"></i>Author Information</h6>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="admin-form-group">
+                                            <label for="author_label" class="admin-form-label">Author Label</label>
+                                            <input type="text" class="admin-form-control" id="author_label" name="author_label" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['label'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                                
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="admin-form-group">
@@ -784,6 +853,8 @@ if ($is_logged_in) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Flatpickr JS -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- Translations JS -->
+    <script src="../js/translations.js?v=<?php echo $version; ?>"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Initialize Flatpickr
@@ -792,6 +863,44 @@ if ($is_logged_in) {
                 altFormat: "F j, Y",
                 dateFormat: "Y-m-d",
             });
+
+            // Language change handler
+            const languageSelect = document.getElementById('language');
+            if (languageSelect) {
+                languageSelect.addEventListener('change', function() {
+                    const selectedLanguage = this.value;
+                    updateLabels(selectedLanguage);
+                });
+
+                // Set initial labels based on selected language when modal opens
+                <?php if (!$edit_meditation): ?>
+                // For new meditation, set labels based on default language
+                const initialLanguage = languageSelect.value;
+                updateLabels(initialLanguage);
+                <?php endif; ?>
+            }
+
+            function updateLabels(language) {
+                if (labelTranslations[language]) {
+                    const labels = labelTranslations[language];
+                    
+                    // Only update if the field is empty or has the default value from another language
+                    Object.keys(labels).forEach(fieldId => {
+                        const field = document.getElementById(fieldId);
+                        if (field) {
+                            // Check if current value matches any default value from any language
+                            const isDefaultValue = Object.values(labelTranslations).some(langLabels => 
+                                langLabels[fieldId] === field.value
+                            );
+                            
+                            // Update only if it's a default value or empty
+                            if (isDefaultValue || field.value === '') {
+                                field.value = labels[fieldId];
+                            }
+                        }
+                    });
+                }
+            }
 
             <?php if ($edit_meditation): ?>
             var addModal = new bootstrap.Modal(document.getElementById('addModal'));
