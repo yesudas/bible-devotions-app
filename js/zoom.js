@@ -27,12 +27,6 @@
         devotionContent = document.querySelector('.devotion-content');
         devotionContainer = document.querySelector('.devotion-container');
 
-        console.log('Zoom initialized:', {
-            zoomInBtn: !!zoomInBtn,
-            devotionContent: !!devotionContent,
-            devotionContainer: !!devotionContainer
-        });
-
         // Load saved zoom level
         const savedZoom = localStorage.getItem(STORAGE_KEY);
         if (savedZoom) {
@@ -92,22 +86,14 @@
         const baseFontSize = 16;
         const newFontSize = (baseFontSize * zoom) / 100;
 
-        console.log('Applying zoom:', zoom + '%', 'Font size:', newFontSize + 'px');
-
         // Apply to devotion content (main target) with !important
         if (devotionContent) {
             devotionContent.style.setProperty('font-size', newFontSize + 'px', 'important');
-            console.log('Applied to devotion-content');
-        } else {
-            console.warn('devotion-content element not found');
         }
 
         // Also apply to container for any text outside content sections
         if (devotionContainer) {
             devotionContainer.style.setProperty('font-size', newFontSize + 'px', 'important');
-            console.log('Applied to devotion-container');
-        } else {
-            console.warn('devotion-container element not found');
         }
 
         // Apply to all section elements inside content
@@ -115,14 +101,12 @@
         sections.forEach(section => {
             section.style.setProperty('font-size', newFontSize + 'px', 'important');
         });
-        console.log('Applied to', sections.length, 'sections');
 
         // Apply to all paragraphs and text elements
         const textElements = document.querySelectorAll('.devotion-content p, .devotion-content span, .devotion-content blockquote, .devotion-content li');
         textElements.forEach(element => {
             element.style.setProperty('font-size', newFontSize + 'px', 'important');
         });
-        console.log('Applied to', textElements.length, 'text elements');
 
         // Update button states
         updateButtonStates();

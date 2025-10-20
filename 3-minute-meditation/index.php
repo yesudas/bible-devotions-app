@@ -222,6 +222,14 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="../css/style.css?v=<?php echo $version; ?>" rel="stylesheet">
 
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json?v=<?php echo $version; ?>">
+    <meta name="theme-color" content="#9657deff">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="3-Minute Meditation">
+
     <!-- Google Analytics -->
     <?php include '../google-analytics.php'; ?>
 
@@ -289,18 +297,17 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                     <button id="zoomInBtn" class="zoom-btn" title="Zoom In">
                         <i class="fas fa-search-plus"></i>
                     </button>
+                    <!-- PWA Install Button -->
+                    <?php if ($installAsAppButton): ?>
+                    <div>
+                        <button id="installAppBtn" class="zoom-btn" title="Install as App">
+                            <i class="bi bi-save"></i>
+                        </button>
+                    </div>
+                    <?php endif; ?>
                 </div>
                 
             </div>
-
-            <!-- PWA Install Button -->
-            <?php if ($installAsAppButton): ?>
-            <div>
-                    <button id="installAppBtn" class="btn btn-sm btn-outline-primary mt-2">
-                        <i class="fas fa-download me-1"></i>Install as App
-                    </button>
-            </div>
-            <?php endif; ?>
 
         </div>
     </div>
@@ -501,7 +508,8 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     </footer>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-    <script src="../js/zoom.js?v=<?php echo $version; ?>"></script>
-    <script src="../js/copy.js?v=<?php echo $version; ?>"></script>
+    <script src="../js/zoom.js?v=<?php echo $version; ?>" type="text/javascript"></script>
+    <script src="../js/copy.js?v=<?php echo $version; ?>" type="text/javascript"></script>
+    <script src="../pwa/pwa.js?v=<?php echo $version; ?>" type="text/javascript"></script>
 </body>
 </html>

@@ -6,10 +6,10 @@ if (stripos($userAgent, 'Android') !== false) {
     $installAsAppButton = false;
 } elseif (stripos($userAgent, 'iPhone') !== false || stripos($userAgent, 'iPad') !== false) {
     $device = 'iOS';
-    $installAsAppButton = false;
+    $installAsAppButton = true;
 } else {
     $device = 'Unknown';
-    $installAsAppButton = false;
+    $installAsAppButton = true;
 }
 
 ?>

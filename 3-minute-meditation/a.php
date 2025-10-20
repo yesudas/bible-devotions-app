@@ -309,6 +309,14 @@ if ($is_logged_in) {
     <!-- Custom CSS -->
     <link href="../css/style.css?v=<?php echo $version; ?>" rel="stylesheet">
 
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest-a.json?v=<?php echo $version; ?>">
+    <meta name="theme-color" content="#9657deff">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Admin - 3-Minute Meditation">
+
     <!-- Google Analytics -->
     <?php include '../google-analytics.php'; ?>
 
@@ -386,12 +394,15 @@ if ($is_logged_in) {
                     <div class="admin-header-section mb-4">
                         <h2 class="admin-section-title"><i class="bi bi-gear me-2"></i>Meditation Management</h2>
                         <div class="admin-action-buttons">
-                            <a href="../index.php" class="btn btn-outline-secondary admin-header-btn">
+                            <a href="index.php" class="btn btn-outline-secondary admin-header-btn">
                                 <i class="bi bi-arrow-left me-1"></i><span>Back to Site</span>
                             </a>
                             <a href="?lang=<?php echo urlencode($selectedLanguage); ?>" class="btn btn-outline-primary admin-header-btn">
                                 <i class="bi bi-arrow-clockwise me-1"></i><span>Refresh</span>
                             </a>
+                            <button id="installAppBtn" class="btn btn-outline-primary admin-header-btn">
+                                <i class="bi bi-save"></i> Install as App
+                            </button>
                             <button type="button" class="btn admin-btn-success admin-header-btn" data-bs-toggle="modal" data-bs-target="#addModal">
                                 <i class="bi bi-plus-circle me-1"></i><span>Add New</span>
                             </button>
@@ -855,6 +866,7 @@ if ($is_logged_in) {
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <!-- Translations JS -->
     <script src="../js/translations.js?v=<?php echo $version; ?>"></script>
+    <script src="../pwa/pwa.js?v=<?php echo $version; ?>" type="text/javascript"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Initialize Flatpickr
