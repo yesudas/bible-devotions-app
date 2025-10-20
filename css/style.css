@@ -1479,3 +1479,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .admin-meditation-actions .admin-btn-outline-danger {
     background: rgba(220, 53, 69, 0.1);
 }
+
+/* Admin Filters Section */
+.admin-filters {
+    background: #f8f9fa;
+}
+
+.admin-filters .form-label {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.admin-filters .form-select,
+.admin-filters .form-control {
+    border: 2px solid #e0e0e0;
+    transition: all 0.3s ease;
+}
+
+.admin-filters .form-select:focus,
+.admin-filters .form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}

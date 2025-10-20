@@ -1,0 +1,36 @@
+{
+    "uniqueid": "20251020005120_79cc4da4",
+    "date": "2025-10-21",
+    "title": "schedule testing",
+    "key_verse": "schedule testing",
+    "memory_verse": {
+        "label": "Memory Verse",
+        "text": "schedule testing"
+    },
+    "devotion": {
+        "label": "Insight \/ Reflection",
+        "text": "schedule testing"
+    },
+    "quote": {
+        "label": "Today's Quote",
+        "text": "schedule testing"
+    },
+    "prayer": {
+        "label": "Prayer",
+        "text": "schedule testing"
+    },
+    "conclusion": {
+        "label": "A Word to You",
+        "text": [
+            "schedule testing"
+        ]
+    },
+    "author": {
+        "label": "Author",
+        "author": "Pr. Maria Joseph",
+        "mobile": "",
+        "whatsapp": "919243183231",
+        "email": ""
+    },
+    "scheduled": true
+}

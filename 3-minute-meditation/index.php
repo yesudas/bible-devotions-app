@@ -23,11 +23,62 @@ $mode = $_GET['mode'] ?? 'latest';
 $action = $_GET['action'] ?? '';
 $id = $_GET['id'] ?? null;
 
-// Get all meditation files
+// Check and activate scheduled meditations for today
+function checkAndActivateScheduledMeditations() {
+    $file = __DIR__ . '/meditations/all-meditations.json';
+    if (!file_exists($file)) {
+        return false;
+    }
+    
+    $all_meditations = json_decode(file_get_contents($file), true);
+    if (!$all_meditations) {
+        return false;
+    }
+    
+    $today = date('Y-m-d');
+    $updated = false;
+    
+    // Check each meditation for scheduled items with today's date
+    foreach ($all_meditations as $index => &$meditation) {
+        if (isset($meditation['scheduled']) && $meditation['scheduled'] === true && $meditation['date'] === $today) {
+            // Remove scheduled attribute from all-meditations.json
+            unset($meditation['scheduled']);
+            
+            // Also update the individual meditation file
+            $meditation_file = __DIR__ . '/meditations/' . $meditation['filename'];
+            if (file_exists($meditation_file)) {
+                $meditation_data = json_decode(file_get_contents($meditation_file), true);
+                if ($meditation_data && isset($meditation_data['scheduled'])) {
+                    unset($meditation_data['scheduled']);
+                    file_put_contents($meditation_file, json_encode($meditation_data, JSON_PRETTY_PRINT));
+                }
+            }
+            
+            $updated = true;
+        }
+    }
+    
+    // Save updated all-meditations.json if any changes were made
+    if ($updated) {
+        file_put_contents($file, json_encode($all_meditations, JSON_PRETTY_PRINT));
+    }
+    
+    return $updated;
+}
+
+// Get all meditation files (excluding scheduled ones)
 function getAllMeditations() {
     $file = __DIR__ . '/meditations/all-meditations.json';
     if (file_exists($file)) {
-        return json_decode(file_get_contents($file), true) ?: [];
+        $all_meditations = json_decode(file_get_contents($file), true) ?: [];
+        
+        // Filter out scheduled meditations - only show published ones to users
+        $published_meditations = array_filter($all_meditations, function($meditation) {
+            return !isset($meditation['scheduled']) || $meditation['scheduled'] !== true;
+        });
+        
+        // Re-index the array to maintain proper sequential indices
+        return array_values($published_meditations);
     }
     return [];
 }
@@ -105,6 +156,9 @@ function loadMeditationByFilename($filename) {
     }
     return null;
 }
+
+// Check and activate scheduled meditations for today
+checkAndActivateScheduledMeditations();
 
 // Initialize or get current meditation number
 $mode = $_GET['mode'] ?? 'latest';

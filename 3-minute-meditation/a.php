@@ -56,12 +56,19 @@ function updateAllMeditationsFile() {
         $data = json_decode(file_get_contents($file), true);
         
         if ($data) {
-            $all_meditations[] = [
+            $entry = [
                 'uniqueid' => $data['uniqueid'] ?? $filename, // Use uniqueid if exists, fallback to filename
                 'filename' => $filename,
                 'title' => $data['title'],
                 'date' => $data['date']
             ];
+            
+            // Add scheduled attribute if present in the meditation file
+            if (isset($data['scheduled']) && $data['scheduled'] === true) {
+                $entry['scheduled'] = true;
+            }
+            
+            $all_meditations[] = $entry;
         }
     }
     
@@ -94,9 +101,14 @@ if ($is_logged_in) {
         $uniqueid = generateUniqueId();
         $filename = getNextFilename();
         
+        // Check if date is in the future
+        $meditation_date = $_POST['date'];
+        $today = date('Y-m-d');
+        $is_future = $meditation_date > $today;
+        
         $meditation = [
             'uniqueid' => $uniqueid,
-            'date' => $_POST['date'],
+            'date' => $meditation_date,
             'title' => $_POST['title'],
             'key_verse' => $_POST['key_verse'],
             'memory_verse' => [
@@ -127,6 +139,11 @@ if ($is_logged_in) {
                 'email' => $_POST['author_email']
             ]
         ];
+        
+        // Add scheduled attribute if date is in the future
+        if ($is_future) {
+            $meditation['scheduled'] = true;
+        }
         
         // Add recommended_book section if provided
         if (!empty($_POST['book_title']) || !empty($_POST['book_author'])) {
@@ -160,9 +177,14 @@ if ($is_logged_in) {
         $existingData = json_decode(file_get_contents("meditations/{$filename}"), true);
         $uniqueid = $existingData['uniqueid'] ?? generateUniqueId();
         
+        // Check if date is in the future
+        $meditation_date = $_POST['date'];
+        $today = date('Y-m-d');
+        $is_future = $meditation_date > $today;
+        
         $meditation = [
             'uniqueid' => $uniqueid,
-            'date' => $_POST['date'],
+            'date' => $meditation_date,
             'title' => $_POST['title'],
             'key_verse' => $_POST['key_verse'],
             'memory_verse' => [
@@ -193,6 +215,11 @@ if ($is_logged_in) {
                 'email' => $_POST['author_email']
             ]
         ];
+        
+        // Add scheduled attribute if date is in the future
+        if ($is_future) {
+            $meditation['scheduled'] = true;
+        }
         
         // Add recommended_book section if provided
         if (!empty($_POST['book_title']) || !empty($_POST['book_author'])) {
@@ -350,6 +377,40 @@ if ($is_logged_in) {
                     <div class="admin-card-header">
                         <h5><i class="bi bi-list me-2"></i>All Meditations</h5>
                     </div>
+                    
+                    <!-- Filters Section -->
+                    <div class="admin-filters p-3 border-bottom">
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <label class="form-label small text-muted mb-1">
+                                    <i class="bi bi-funnel me-1"></i>Status
+                                </label>
+                                <select id="statusFilter" class="form-select form-select-sm">
+                                    <option value="all">All Meditations</option>
+                                    <option value="scheduled">Scheduled Only</option>
+                                    <option value="published">Published Only</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label small text-muted mb-1">
+                                    <i class="bi bi-calendar me-1"></i>Filter by Date
+                                </label>
+                                <input type="date" id="dateFilter" class="form-control form-control-sm" placeholder="Filter by date">
+                            </div>
+                            <div class="col-md-4">
+                                <label class="form-label small text-muted mb-1">
+                                    <i class="bi bi-search me-1"></i>Search Title
+                                </label>
+                                <input type="text" id="titleFilter" class="form-control form-control-sm" placeholder="Search by title...">
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary" id="clearFilters">
+                                <i class="bi bi-x-circle me-1"></i>Clear Filters
+                            </button>
+                        </div>
+                    </div>
+                    
                     <div class="admin-card-body p-0">
                         <?php if (empty($all_meditations)): ?>
                             <div class="p-4 text-center text-muted">
@@ -359,19 +420,22 @@ if ($is_logged_in) {
                         <?php else: ?>
                             <!-- Desktop Table View -->
                             <div class="table-responsive d-none d-md-block">
-                                <table class="admin-table mb-0">
+                                <table class="admin-table mb-0" id="meditationsTable">
                                     <thead>
                                         <tr>
                                             <th>ID</th>
                                             <th>Title</th>
                                             <th>Date</th>
+                                            <th>Status</th>
                                             <th>File</th>
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php foreach ($all_meditations as $index => $meditation): ?>
-                                            <tr>
+                                            <tr data-scheduled="<?php echo isset($meditation['scheduled']) && $meditation['scheduled'] ? 'true' : 'false'; ?>" 
+                                                data-date="<?php echo $meditation['date']; ?>" 
+                                                data-title="<?php echo htmlspecialchars($meditation['title']); ?>">
                                                 <td>
                                                     <span class="badge bg-primary"><?php echo $index + 1; ?></span>
                                                 </td>
@@ -380,6 +444,17 @@ if ($is_logged_in) {
                                                     <small class="text-muted">
                                                         <i class="bi bi-calendar me-1"></i><?php echo $meditation['date']; ?>
                                                     </small>
+                                                </td>
+                                                <td>
+                                                    <?php if (isset($meditation['scheduled']) && $meditation['scheduled']): ?>
+                                                        <span class="badge bg-warning text-dark">
+                                                            <i class="bi bi-clock-history me-1"></i>Scheduled
+                                                        </span>
+                                                    <?php else: ?>
+                                                        <span class="badge bg-success">
+                                                            <i class="bi bi-check-circle me-1"></i>Published
+                                                        </span>
+                                                    <?php endif; ?>
                                                 </td>
                                                 <td>
                                                     <small class="text-muted">
@@ -406,9 +481,12 @@ if ($is_logged_in) {
                             </div>
                             
                             <!-- Mobile Card View -->
-                            <div class="d-md-none admin-mobile-list">
+                            <div class="d-md-none admin-mobile-list" id="mobileList">
                                 <?php foreach ($all_meditations as $index => $meditation): ?>
-                                    <div class="admin-meditation-card">
+                                    <div class="admin-meditation-card" 
+                                         data-scheduled="<?php echo isset($meditation['scheduled']) && $meditation['scheduled'] ? 'true' : 'false'; ?>" 
+                                         data-date="<?php echo $meditation['date']; ?>" 
+                                         data-title="<?php echo htmlspecialchars($meditation['title']); ?>">
                                         <div class="admin-meditation-card-header">
                                             <span class="admin-meditation-badge">#<?php echo $index + 1; ?></span>
                                             <h6 class="admin-meditation-title"><?php echo htmlspecialchars($meditation['title']); ?></h6>
@@ -417,6 +495,17 @@ if ($is_logged_in) {
                                             <div class="admin-meditation-meta">
                                                 <span class="admin-meta-item">
                                                     <i class="bi bi-calendar me-1"></i><?php echo $meditation['date']; ?>
+                                                </span>
+                                                <span class="admin-meta-item">
+                                                    <?php if (isset($meditation['scheduled']) && $meditation['scheduled']): ?>
+                                                        <span class="badge bg-warning text-dark">
+                                                            <i class="bi bi-clock-history me-1"></i>Scheduled
+                                                        </span>
+                                                    <?php else: ?>
+                                                        <span class="badge bg-success">
+                                                            <i class="bi bi-check-circle me-1"></i>Published
+                                                        </span>
+                                                    <?php endif; ?>
                                                 </span>
                                                 <span class="admin-meta-item">
                                                     <i class="bi bi-file-earmark me-1"></i><?php echo htmlspecialchars($meditation['filename']); ?>
@@ -704,6 +793,91 @@ if ($is_logged_in) {
             var addModal = new bootstrap.Modal(document.getElementById('addModal'));
             addModal.show();
             <?php endif; ?>
+            
+            // Filter functionality
+            const statusFilter = document.getElementById('statusFilter');
+            const dateFilter = document.getElementById('dateFilter');
+            const titleFilter = document.getElementById('titleFilter');
+            const clearFiltersBtn = document.getElementById('clearFilters');
+            const tableRows = document.querySelectorAll('#meditationsTable tbody tr');
+            const mobileCards = document.querySelectorAll('#mobileList .admin-meditation-card');
+            
+            function applyFilters() {
+                const statusValue = statusFilter ? statusFilter.value : 'all';
+                const dateValue = dateFilter ? dateFilter.value : '';
+                const titleValue = titleFilter ? titleFilter.value.toLowerCase() : '';
+                
+                // Filter table rows (desktop)
+                tableRows.forEach(row => {
+                    const scheduled = row.getAttribute('data-scheduled');
+                    const date = row.getAttribute('data-date');
+                    const title = row.getAttribute('data-title').toLowerCase();
+                    
+                    let showRow = true;
+                    
+                    // Status filter
+                    if (statusValue === 'scheduled' && scheduled !== 'true') {
+                        showRow = false;
+                    } else if (statusValue === 'published' && scheduled === 'true') {
+                        showRow = false;
+                    }
+                    
+                    // Date filter
+                    if (dateValue && date !== dateValue) {
+                        showRow = false;
+                    }
+                    
+                    // Title filter
+                    if (titleValue && !title.includes(titleValue)) {
+                        showRow = false;
+                    }
+                    
+                    row.style.display = showRow ? '' : 'none';
+                });
+                
+                // Filter mobile cards
+                mobileCards.forEach(card => {
+                    const scheduled = card.getAttribute('data-scheduled');
+                    const date = card.getAttribute('data-date');
+                    const title = card.getAttribute('data-title').toLowerCase();
+                    
+                    let showCard = true;
+                    
+                    // Status filter
+                    if (statusValue === 'scheduled' && scheduled !== 'true') {
+                        showCard = false;
+                    } else if (statusValue === 'published' && scheduled === 'true') {
+                        showCard = false;
+                    }
+                    
+                    // Date filter
+                    if (dateValue && date !== dateValue) {
+                        showCard = false;
+                    }
+                    
+                    // Title filter
+                    if (titleValue && !title.includes(titleValue)) {
+                        showCard = false;
+                    }
+                    
+                    card.style.display = showCard ? '' : 'none';
+                });
+            }
+            
+            // Attach event listeners
+            if (statusFilter) statusFilter.addEventListener('change', applyFilters);
+            if (dateFilter) dateFilter.addEventListener('change', applyFilters);
+            if (titleFilter) titleFilter.addEventListener('input', applyFilters);
+            
+            // Clear filters
+            if (clearFiltersBtn) {
+                clearFiltersBtn.addEventListener('click', function() {
+                    if (statusFilter) statusFilter.value = 'all';
+                    if (dateFilter) dateFilter.value = '';
+                    if (titleFilter) titleFilter.value = '';
+                    applyFilters();
+                });
+            }
         });
     </script>
 </body>
