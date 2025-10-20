@@ -287,6 +287,10 @@ if ($is_logged_in) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <!-- Custom CSS -->
     <link href="../css/style.css?v=<?php echo $version; ?>" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    <?php include '../google-analytics.php'; ?>
+
 </head>
 <body class="admin-body">
     <!-- Header -->
