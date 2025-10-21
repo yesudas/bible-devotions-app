@@ -2,18 +2,18 @@
     "uniqueid": "20251019132023_0230450d",
     "date": "2015-10-18",
     "title": "A Good Example for a Bad Ministry",
-    "key_verse": "47_3:5",
+    "key_verse": "55_3:5",
     "memory_verse": {
         "label": "Memory Verse",
         "text": "Having a form of godliness but denying its power - 2 Timothy 3:5"
     },
     "devotion": {
         "label": "Insight \/ Reflection",
-        "text": "Some people shine in personality but fail in purpose. They are disciplined, respectable, and admired yet their ministry lacks the heart of Christ. They guide, but not with grace. They speak truth, but without love. They demand loyalty, but not liberty.\r\n\r\nThey become good examples of what a bad ministry looks like \u2014 impressive in the flesh, but empty in the Spirit.\r\n\r\nA true ministry gives freedom, not fear. It builds others, not buries their zeal. God never called us to control His people, but to serve them. When someone\u2019s ministry silences the passion of others, they unknowingly stand against the work of the Holy Spirit.\r\n\r\nJesus said, \u201cWhoever wants to be first must be your servant.\u201d (Mark 9:35). Ministry is not about position, but submission. When we walk humbly, even quietly, the fragrance of Christ flows \u2014 that\u2019s the mark of a good ministry."
+        "text": "Some people shine in personality but fail in purpose. They are disciplined, respectable, and admired yet their ministry lacks the heart of Christ. They guide, but not with grace. They speak truth, but without love. They demand loyalty, but not liberty.\r\n\r\nThey become good examples of what a bad ministry looks like — impressive in the flesh, but empty in the Spirit.\r\n\r\nA true ministry gives freedom, not fear. It builds others, not buries their zeal. God never called us to control His people, but to serve them. When someone’s ministry silences the passion of others, they unknowingly stand against the work of the Holy Spirit.\r\n\r\nJesus said, “Whoever wants to be first must be your servant.” (Mark 9:35). Ministry is not about position, but submission. When we walk humbly, even quietly, the fragrance of Christ flows — that’s the mark of a good ministry."
     },
     "quote": {
         "label": "Today's Quote",
-        "text": "The measure of a ministry is not how many serve you, but how many you serve. \u2014 A. W. Tozer"
+        "text": "The measure of a ministry is not how many serve you, but how many you serve. — A. W. Tozer"
     },
     "prayer": {
         "label": "Prayer",
@@ -34,9 +34,10 @@
         "email": "mariajoseph@gmail.com"
     },
     "recommended_book": {
+        "label": "Recommended Book",
         "title": "The Cost of Discipleship",
         "author": "Dietrich Bonhoeffer",
-        "page": 87,
+        "page": "87",
         "quote": "Only the obedient believe, and only the believer obeys.",
         "link": "https:\/\/wordofgod.in\/"
     }

@@ -2,18 +2,18 @@
     "uniqueid": "20251019225105_fcda81d6",
     "date": "2025-10-20",
     "title": "NOW OR NEVER - THE CALL TO RETURN",
-    "key_verse": "HEBREWS 3:15",
+    "key_verse": "58_3:15",
     "memory_verse": {
         "label": "MEMORY VERSE",
-        "text": "\u201cToday, if you hear His voice, do not harden your hearts.\u201d \u2013 Hebrews 3:15"
+        "text": "“Today, if you hear His voice, do not harden your hearts.” – Hebrews 3:15"
     },
     "devotion": {
         "label": "INSIGHT \/ REFLECTION",
-        "text": "Today is not just another day, it\u2019s God\u2019s call for your repentance. He lovingly urges you to come close to Him for your safety. The enemy is roaring like a lion, ready to devour anyone who delays their surrender.\r\n\r\nAre you still waiting, planning, or postponing your decision? Remember Felix, the Roman governor who trembled when Paul spoke about righteousness and judgment \u2014 yet said, \u201cGo away for now; when I find a convenient time, I will call for you.\u201d That convenient time never came.\r\n\r\nThe Bible warns:\r\n\u201cNow is the accepted time; now is the day of salvation.\u201d \u2013 2 Corinthians 6:2\r\n\r\nTomorrow is never guaranteed. Delay is the devil\u2019s most effective trap. He has ages of experience in deceiving hearts. You may think you can escape later, but every delay draws you closer to danger.\r\n\r\nGod is waiting with open arms not to condemn, but to embrace. His mercy is still flowing; His grace still calling. When God speaks, don\u2019t reason or hesitate simply say, \u201cYes, Lord.\u201d That one word can change your eternity."
+        "text": "Today is not just another day, it’s God’s call for your repentance. He lovingly urges you to come close to Him for your safety. The enemy is roaring like a lion, ready to devour anyone who delays their surrender.\r\n\r\nAre you still waiting, planning, or postponing your decision? Remember Felix, the Roman governor who trembled when Paul spoke about righteousness and judgment — yet said, “Go away for now; when I find a convenient time, I will call for you.” That convenient time never came.\r\n\r\nThe Bible warns:\r\n“Now is the accepted time; now is the day of salvation.” – 2 Corinthians 6:2\r\n\r\nTomorrow is never guaranteed. Delay is the devil’s most effective trap. He has ages of experience in deceiving hearts. You may think you can escape later, but every delay draws you closer to danger.\r\n\r\nGod is waiting with open arms not to condemn, but to embrace. His mercy is still flowing; His grace still calling. When God speaks, don’t reason or hesitate simply say, “Yes, Lord.” That one word can change your eternity."
     },
     "quote": {
         "label": "TODAY'S QUOTE",
-        "text": "\u201cThe most dangerous word in the English language is \u2018tomorrow.\u2019\u201d \u2013 D. L. Moody"
+        "text": "“The most dangerous word in the English language is ‘tomorrow.’” – D. L. Moody"
     },
     "prayer": {
         "label": "PRAYER",
@@ -22,7 +22,7 @@
     "conclusion": {
         "label": "CLOSING BLESSING",
         "text": [
-            "May your \u201cYes, Lord\u201d today echo through eternity.\r",
+            "May your “Yes, Lord” today echo through eternity.\r",
             "May His arms hold you before the enemy even reaches you."
         ]
     },
@@ -34,10 +34,11 @@
         "email": "mjosephnj@gmail.com"
     },
     "recommended_book": {
-        "title": "THE PILGRIM\u2019S PROGRESS",
+        "label": "Recommended Book",
+        "title": "THE PILGRIM’S PROGRESS",
         "author": "JOHN BUNYAN",
-        "page": 0,
-        "quote": "Christian leaves the City of Destruction crying, \u201cLife! Life! Eternal life!\u201d \u2014 the cry of true repentance",
+        "page": "",
+        "quote": "Christian leaves the City of Destruction crying, “Life! Life! Eternal life!” — the cry of true repentance",
         "link": "https:\/\/t.me\/EnglishChristianPDFs\/20675"
     }
 }

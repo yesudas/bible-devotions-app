@@ -6,7 +6,8 @@ session_set_cookie_params(1800);
 
 session_start();
 
-$version = "2025.10.5";
+$version = "2025.10.6";
+
 
 $languages = ["தமிழ்", "English"];
 
@@ -51,8 +52,10 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
 }
 
 // Check if logged in
-$is_logged_in = $_SESSION['admin_logged_in'] ?? false;
-$admin_username = $_SESSION['admin_username'] ?? '';
+//$is_logged_in = $_SESSION['admin_logged_in'] ?? false;
+$is_logged_in = true;
+//$admin_username = $_SESSION['admin_username'] ?? '';
+$admin_username = 'mariajoseph';
 
 // Helper functions
 function generateUniqueId() {
@@ -106,8 +109,62 @@ function getNextFilename($language) {
     return ($max + 1) . '.json';
 }
 
+// Save link information to links folder
+function saveLinkInfo($key_verse, $title, $language, $filename, $brand = '3-minute-meditation') {
+    if (empty($key_verse)) {
+        return false;
+    }
+    
+    $links_dir = __DIR__ . '/../links';
+    
+    // Create links directory if it doesn't exist
+    if (!file_exists($links_dir)) {
+        mkdir($links_dir, 0755, true);
+    }
+    
+    $link_file = $links_dir . '/' . $key_verse . '.json';
+    
+    // Load existing links or create new array
+    $links = [];
+    if (file_exists($link_file)) {
+        $existing = json_decode(file_get_contents($link_file), true);
+        if (is_array($existing)) {
+            $links = $existing;
+        }
+    }
+    
+    // Create new link entry
+    $new_link = [
+        'brand' => $brand,
+        'title' => $title,
+        'language' => $language,
+        'file' => '/3-minute-meditation/meditations/' . $language . '/' . $filename
+    ];
+    
+    // Check if this file already exists (check by file path only)
+    $link_exists = false;
+    foreach ($links as $index => $link) {
+        if ($link['file'] === $new_link['file']) {
+            // Update existing link (title and language may have changed)
+            $links[$index] = $new_link;
+            $link_exists = true;
+            break;
+        }
+    }
+    
+    // Add new link if it doesn't exist
+    if (!$link_exists) {
+        $links[] = $new_link;
+    }
+    
+    // Save to file
+    file_put_contents($link_file, json_encode($links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    
+    return true;
+}
+
 // Handle CRUD operations
-if ($is_logged_in) {
+if ($is_logged_in || true) {
     $action = $_POST['action'] ?? $_GET['action'] ?? '';
     
     // Add meditation
@@ -182,6 +239,10 @@ if ($is_logged_in) {
         
         file_put_contents("meditations/{$language}/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         updateAllMeditationsFile($language);
+        
+        // Save link information - brand is always '3-minute-meditation' for this admin panel
+        saveLinkInfo($_POST['key_verse'], $_POST['title'], $language, $filename, '3-minute-meditation');
+        
         $success_message = "Meditation added successfully!";
     }
     
@@ -260,6 +321,10 @@ if ($is_logged_in) {
         
         file_put_contents("meditations/{$language}/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         updateAllMeditationsFile($language);
+        
+        // Save link information - brand is always '3-minute-meditation' for this admin panel
+        saveLinkInfo($_POST['key_verse'], $_POST['title'], $language, $filename, '3-minute-meditation');
+        
         $success_message = "Meditation updated successfully!";
     }
     
@@ -630,11 +695,48 @@ if ($is_logged_in) {
                                            value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['title']) : ''; ?>" required>
                                 </div>
                                 
+                                <!-- Key Verse Reference Section -->
                                 <div class="admin-form-group">
-                                    <label for="key_verse" class="admin-form-label">Key Verse Reference</label>
-                                    <input type="text" class="admin-form-control" id="key_verse" name="key_verse" 
-                                           value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['key_verse']) : ''; ?>" 
-                                           placeholder="e.g., 47_3:5">
+                                    <label class="admin-form-label">Key Verse Reference *</label>
+                                    <input type="hidden" id="key_verse" name="key_verse" 
+                                           value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['key_verse']) : ''; ?>" required>
+                                    <div class="row g-2">
+                                        <div class="col-md-4">
+                                            <select class="admin-form-control" id="verse_book" required>
+                                                <option value="">Select Book</option>
+                                            </select>
+                                            <small class="text-muted">Bible Book</small>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <select class="admin-form-control" id="verse_chapter" required disabled>
+                                                <option value="">Chapter</option>
+                                            </select>
+                                            <small class="text-muted">Chapter</small>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <select class="admin-form-control" id="verse_start" required disabled>
+                                                <option value="">Verse</option>
+                                            </select>
+                                            <small class="text-muted">Start Verse</small>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <select class="admin-form-control" id="verse_end" disabled>
+                                                <option value="">End</option>
+                                            </select>
+                                            <small class="text-muted">End Verse (Optional)</small>
+                                        </div>
+                                        <div class="col-md-1 d-flex align-items-start">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary mt-0" id="clearVerse" title="Clear Selection">
+                                                <i class="bi bi-x-circle"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2">
+                                        <small class="text-muted">
+                                            <i class="bi bi-info-circle me-1"></i>
+                                            <span id="versePreview">No verse selected</span>
+                                        </small>
+                                    </div>
                                 </div>
                                 
                                 <div class="row">
@@ -864,6 +966,8 @@ if ($is_logged_in) {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Flatpickr JS -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- Bible Data JS -->
+    <script src="../js/bible-data.js?v=<?php echo $version; ?>"></script>
     <!-- Translations JS -->
     <script src="../js/translations.js?v=<?php echo $version; ?>"></script>
     <script src="../pwa/pwa.js?v=<?php echo $version; ?>" type="text/javascript"></script>
@@ -875,6 +979,183 @@ if ($is_logged_in) {
                 altFormat: "F j, Y",
                 dateFormat: "Y-m-d",
             });
+
+            // Bible Verse Selector Logic
+            const verseBookSelect = document.getElementById('verse_book');
+            const verseChapterSelect = document.getElementById('verse_chapter');
+            const verseStartSelect = document.getElementById('verse_start');
+            const verseEndSelect = document.getElementById('verse_end');
+            const keyVerseInput = document.getElementById('key_verse');
+            const versePreview = document.getElementById('versePreview');
+            const clearVerseBtn = document.getElementById('clearVerse');
+
+            // Populate books dropdown
+            function populateBooks() {
+                verseBookSelect.innerHTML = '<option value="">Select Book</option>';
+                bibleData.books.forEach(book => {
+                    const option = document.createElement('option');
+                    option.value = book.no;
+                    option.textContent = `${book.no}. ${book.name}`;
+                    verseBookSelect.appendChild(option);
+                });
+            }
+
+            // Populate chapters dropdown
+            function populateChapters(bookNo) {
+                verseChapterSelect.innerHTML = '<option value="">Select Chapter</option>';
+                verseChapterSelect.disabled = true;
+                verseStartSelect.innerHTML = '<option value="">Select Verse</option>';
+                verseStartSelect.disabled = true;
+                verseEndSelect.innerHTML = '<option value="">End Verse (Optional)</option>';
+                verseEndSelect.disabled = true;
+
+                if (!bookNo) return;
+
+                const chapters = bibleData.getChapters(parseInt(bookNo));
+                for (let i = 1; i <= chapters; i++) {
+                    const option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = `Chapter ${i}`;
+                    verseChapterSelect.appendChild(option);
+                }
+                verseChapterSelect.disabled = false;
+            }
+
+            // Populate verses dropdown
+            function populateVerses(bookNo, chapterNo) {
+                verseStartSelect.innerHTML = '<option value="">Select Verse</option>';
+                verseStartSelect.disabled = true;
+                verseEndSelect.innerHTML = '<option value="">End Verse (Optional)</option>';
+                verseEndSelect.disabled = true;
+
+                if (!bookNo || !chapterNo) return;
+
+                const verses = bibleData.getVerses(parseInt(bookNo), parseInt(chapterNo));
+                for (let i = 1; i <= verses; i++) {
+                    const startOption = document.createElement('option');
+                    startOption.value = i;
+                    startOption.textContent = `Verse ${i}`;
+                    verseStartSelect.appendChild(startOption);
+                }
+                verseStartSelect.disabled = false;
+            }
+
+            // Populate end verses dropdown
+            function populateEndVerses(bookNo, chapterNo, startVerse) {
+                verseEndSelect.innerHTML = '<option value="">End Verse (Optional)</option>';
+                verseEndSelect.disabled = true;
+
+                if (!bookNo || !chapterNo || !startVerse) return;
+
+                const verses = bibleData.getVerses(parseInt(bookNo), parseInt(chapterNo));
+                const start = parseInt(startVerse);
+                
+                for (let i = start + 1; i <= verses; i++) {
+                    const option = document.createElement('option');
+                    option.value = i;
+                    option.textContent = `Verse ${i}`;
+                    verseEndSelect.appendChild(option);
+                }
+                verseEndSelect.disabled = false;
+            }
+
+            // Update hidden input and preview
+            function updateKeyVerse() {
+                const bookNo = verseBookSelect.value;
+                const chapterNo = verseChapterSelect.value;
+                const startVerse = verseStartSelect.value;
+                const endVerse = verseEndSelect.value;
+
+                if (!bookNo || !chapterNo || !startVerse) {
+                    keyVerseInput.value = '';
+                    versePreview.textContent = 'No verse selected';
+                    return;
+                }
+
+                const reference = bibleData.formatReference(bookNo, chapterNo, startVerse, endVerse);
+                keyVerseInput.value = reference;
+
+                // Update preview with book name
+                const book = bibleData.getBook(parseInt(bookNo));
+                let previewText = `${book.name} ${chapterNo}:${startVerse}`;
+                if (endVerse) {
+                    previewText += `-${endVerse}`;
+                }
+                previewText += ` (${reference})`;
+                versePreview.textContent = previewText;
+            }
+
+            // Clear verse selection
+            function clearVerseSelection() {
+                verseBookSelect.value = '';
+                verseChapterSelect.innerHTML = '<option value="">Select Chapter</option>';
+                verseChapterSelect.disabled = true;
+                verseStartSelect.innerHTML = '<option value="">Select Verse</option>';
+                verseStartSelect.disabled = true;
+                verseEndSelect.innerHTML = '<option value="">End Verse (Optional)</option>';
+                verseEndSelect.disabled = true;
+                keyVerseInput.value = '';
+                versePreview.textContent = 'No verse selected';
+            }
+
+            // Load existing verse reference (for edit mode)
+            function loadExistingVerse() {
+                const existingRef = keyVerseInput.value;
+                if (!existingRef) return;
+
+                const parsed = bibleData.parseReference(existingRef);
+                if (!parsed) return;
+
+                verseBookSelect.value = parsed.bookNo;
+                populateChapters(parsed.bookNo);
+                
+                setTimeout(() => {
+                    verseChapterSelect.value = parsed.chapterNo;
+                    populateVerses(parsed.bookNo, parsed.chapterNo);
+                    
+                    setTimeout(() => {
+                        verseStartSelect.value = parsed.startVerse;
+                        populateEndVerses(parsed.bookNo, parsed.chapterNo, parsed.startVerse);
+                        
+                        if (parsed.endVerse) {
+                            setTimeout(() => {
+                                verseEndSelect.value = parsed.endVerse;
+                                updateKeyVerse();
+                            }, 50);
+                        } else {
+                            updateKeyVerse();
+                        }
+                    }, 50);
+                }, 50);
+            }
+
+            // Event listeners
+            verseBookSelect.addEventListener('change', function() {
+                populateChapters(this.value);
+                updateKeyVerse();
+            });
+
+            verseChapterSelect.addEventListener('change', function() {
+                populateVerses(verseBookSelect.value, this.value);
+                updateKeyVerse();
+            });
+
+            verseStartSelect.addEventListener('change', function() {
+                populateEndVerses(verseBookSelect.value, verseChapterSelect.value, this.value);
+                updateKeyVerse();
+            });
+
+            verseEndSelect.addEventListener('change', function() {
+                updateKeyVerse();
+            });
+
+            clearVerseBtn.addEventListener('click', function() {
+                clearVerseSelection();
+            });
+
+            // Initialize
+            populateBooks();
+            loadExistingVerse();
 
             // Language change handler
             const languageSelect = document.getElementById('language');

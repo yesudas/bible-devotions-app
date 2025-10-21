@@ -16,7 +16,8 @@ if (isset($_GET['reset'])) {
 include 'counter.php';
 include '../detect-app.php';
 
-$version = "2025.10.5";
+$version = "2025.10.6";
+
 
 $languages = ["தமிழ்", "English"];
 
