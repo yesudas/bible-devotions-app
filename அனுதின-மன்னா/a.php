@@ -876,14 +876,14 @@ if ($is_logged_in || true) {
                                         <div class="admin-form-group">
                                             <label for="author_name" class="admin-form-label">Author Name *</label>
                                             <input type="text" class="admin-form-control" id="author_name" name="author_name" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['author']) : 'Gladys Sugandhi Hazlitt'; ?>" required>
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['author']) : 'கிளாடிஸ் சுகந்தி ஹாசிலிட்'; ?>" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="admin-form-group">
                                             <label for="author_whatsapp" class="admin-form-label">WhatsApp Number</label>
                                             <input type="text" class="admin-form-control" id="author_whatsapp" name="author_whatsapp" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['whatsapp']) : '919243183231'; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['whatsapp']) : '919901470809'; ?>">
                                         </div>
                                     </div>
                                 </div>
