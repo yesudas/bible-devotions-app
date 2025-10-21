@@ -54,18 +54,29 @@ Quick daily spiritual meditations designed to fit into your busy schedule. Perfe
 
 ### 2. அனுதின மன்னா (Daily Manna)
 
-**Status**: 🚧 Coming Soon
+**Status**: ✅ Live and Active
 
-Traditional Tamil devotions providing daily spiritual nourishment. Scriptural insights and reflections for Tamil-speaking believers.
+Traditional Tamil devotions providing daily spiritual nourishment. Streamlined scriptural insights and reflections for Tamil-speaking believers.
 
-**Planned Features**:
-- Daily Tamil devotions
-- Traditional hymns and songs
-- Tamil Bible references
-- Audio devotions support
-- Similar admin capabilities as 3-Minute Meditation
+**Key Features**:
+- 📅 Daily devotional content with scheduling support
+- 🔀 Latest and Random reading modes
+- 🔎 Zoom controls (100% - 250%)
+- 📖 Complete Bible verse selector (66 books)
+- 🎯 Streamlined content structure:
+  - Memory Verse
+  - Devotion
+  - Song (optional)
+  - Prayer
+  - Author Information
+- 🌐 Tamil-first with English support
+- 🔗 Cross-reference system by Bible verses
+- 🗂️ Advanced filtering (status, date, title)
+- 📱 PWA support with offline capability
+- 🔐 Secure admin panel for content management
 
-**Access**: [/அனுதின-மன்னா/](அனுதின-மன்னா/)
+**Access**: [/அனுதின-மன்னா/](அனுதின-மன்னா/)  
+**Documentation**: [அனுதின மன்னா README](அனுதின-மன்னா/README.md)
 
 ---
 
@@ -180,7 +191,17 @@ bible-devotions-app/
 │   ├── sw.js                     # Service worker
 │   └── README.md                 # Module documentation
 │
-├── அனுதின-மன்னா/                # Tamil Daily Manna (coming soon)
+├── அனுதின-மன்னா/                # Tamil Daily Manna
+│   ├── a.php                     # Admin panel
+│   ├── index.php                 # User interface
+│   ├── meditations/              # Content storage
+│   │   ├── English/              # English meditations
+│   │   └── தமிழ்/                # Tamil meditations
+│   ├── js/
+│   │   └── translations.js       # Tamil/English translations
+│   ├── manifest.json             # PWA manifest
+│   ├── sw.js                     # Service worker
+│   └── README.md                 # Module documentation
 │
 ├── css/                          # Global stylesheets
 │   └── style.css                 # Main styles
@@ -231,11 +252,13 @@ bible-devotions-app/
 2. **Set up permissions**
    ```bash
    chmod 755 3-minute-meditation/meditations
+   chmod 755 அனுதின-மன்னா/meditations
    chmod 755 links
    chmod 644 3-minute-meditation/counter.txt
+   chmod 644 அனுதின-மன்னா/counter.txt
    ```
 
-3. **Configure admin users** (edit `3-minute-meditation/a.php`)
+3. **Configure admin users** (edit both `3-minute-meditation/a.php` and `அனுதின-மன்னா/a.php`)
    ```php
    $admin_users = [
        'username' => 'password'
@@ -253,7 +276,9 @@ bible-devotions-app/
 5. **Access the application**
    - Landing Page: `http://localhost:8000/`
    - 3-Minute Meditation: `http://localhost:8000/3-minute-meditation/`
-   - Admin Panel: `http://localhost:8000/3-minute-meditation/a.php`
+   - 3-Minute Meditation Admin: `http://localhost:8000/3-minute-meditation/a.php`
+   - அனுதின மன்னா: `http://localhost:8000/அனுதின-மன்னா/`
+   - அனுதின மன்னா Admin: `http://localhost:8000/அனுதின-மன்னா/a.php`
 
 ### Initial Setup
 
@@ -261,6 +286,8 @@ bible-devotions-app/
    ```bash
    mkdir -p 3-minute-meditation/meditations/English
    mkdir -p 3-minute-meditation/meditations/தமிழ்
+   mkdir -p அனுதின-மன்னா/meditations/English
+   mkdir -p அனுதின-மன்னா/meditations/தமிழ்
    ```
 
 2. **Set up Google Analytics** (optional)
@@ -290,7 +317,7 @@ bible-devotions-app/
 
 ### For Content Creators
 
-1. **Login**: Access `/3-minute-meditation/a.php`
+1. **Login**: Access `/3-minute-meditation/a.php` or `/அனுதின-மன்னா/a.php`
 2. **Add Content**:
    - Click "Add New" button
    - Select language and date
@@ -523,8 +550,15 @@ We're grateful to all authors who contribute meditations and devotional content 
 
 ## 🗺️ Roadmap
 
+### Recently Completed ✅
+- [x] 3-Minute Meditation module (Full-featured)
+- [x] அனுதின மன்னா module (Streamlined Tamil devotions)
+- [x] Multi-language support (Tamil & English)
+- [x] PWA with offline capabilities
+- [x] Bible verse cross-reference system
+- [x] Scheduled publishing system
+
 ### Short Term (Q1 2025)
-- [ ] Complete அனுதின மன்னா module
 - [ ] Add audio devotions support
 - [ ] Implement search functionality
 - [ ] Add social sharing features
@@ -546,8 +580,8 @@ We're grateful to all authors who contribute meditations and devotional content 
 
 ## 📈 Project Status
 
-- **3-Minute Meditation**: ✅ Active Development
-- **அனுதின மன்னா**: 🚧 Coming Soon
+- **3-Minute Meditation**: ✅ Live and Active
+- **அனுதின மன்னா**: ✅ Live and Active
 - **Other Modules**: 📋 Planned
 
 ## 💝 Support the Project

@@ -6,10 +6,10 @@ session_set_cookie_params(1800);
 
 session_start();
 
-$version = "2025.10.6";
+$version = "2025.10.7";
 
 
-$languages = ["தமிழ்", "English"];
+$languages = ["தமிழ்"];
 
 // Language selection for admin (defaults to first language)
 $selectedLanguage = $_GET['lang'] ?? $_SESSION['admin_selected_language'] ?? $languages[0];
@@ -191,17 +191,9 @@ if ($is_logged_in || true) {
                 'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
                 'text' => $_POST['devotion_text']
             ],
-            'quote' => [
-                'label' => $_POST['quote_label'] ?: ($language === 'தமிழ்' ? 'பிரபல மேற்கோள்' : "Today's Quote"),
-                'text' => $_POST['quote_text']
-            ],
             'prayer' => [
                 'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
                 'text' => $_POST['prayer_text']
-            ],
-            'conclusion' => [
-                'label' => $_POST['conclusion_label'] ?: ($language === 'தமிழ்' ? 'உங்களுக்கு ஒரு வார்த்தை' : 'A Word to You'),
-                'text' => array_filter(explode("\n", $_POST['conclusion_text']))
             ],
             'author' => [
                 'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
@@ -215,18 +207,6 @@ if ($is_logged_in || true) {
         // Add scheduled attribute if date is in the future
         if ($is_future) {
             $meditation['scheduled'] = true;
-        }
-        
-        // Add recommended_book section if provided
-        if (!empty($_POST['book_title']) || !empty($_POST['book_author'])) {
-            $meditation['recommended_book'] = [
-                'label' => $_POST['book_label'] ?: ($language === 'தமிழ்' ? 'பரிந்துரைக்கப்படும் புத்தகம்' : 'Recommended Book'),
-                'title' => $_POST['book_title'] ?: '',
-                'author' => $_POST['book_author'] ?: '',
-                'page' => $_POST['book_page'] ?: '',
-                'quote' => $_POST['book_quote'] ?: '',
-                'link' => $_POST['book_link'] ?: ''
-            ];
         }
         
         // Add song section if provided
@@ -273,17 +253,9 @@ if ($is_logged_in || true) {
                 'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
                 'text' => $_POST['devotion_text']
             ],
-            'quote' => [
-                'label' => $_POST['quote_label'] ?: ($language === 'தமிழ்' ? 'பிரபல மேற்கோள்' : "Today's Quote"),
-                'text' => $_POST['quote_text']
-            ],
             'prayer' => [
                 'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
                 'text' => $_POST['prayer_text']
-            ],
-            'conclusion' => [
-                'label' => $_POST['conclusion_label'] ?: ($language === 'தமிழ்' ? 'உங்களுக்கு ஒரு வார்த்தை' : 'A Word to You'),
-                'text' => array_filter(explode("\n", $_POST['conclusion_text']))
             ],
             'author' => [
                 'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
@@ -297,18 +269,6 @@ if ($is_logged_in || true) {
         // Add scheduled attribute if date is in the future
         if ($is_future) {
             $meditation['scheduled'] = true;
-        }
-        
-        // Add recommended_book section if provided
-        if (!empty($_POST['book_title']) || !empty($_POST['book_author'])) {
-            $meditation['recommended_book'] = [
-                'label' => $_POST['book_label'] ?: ($language === 'தமிழ்' ? 'பரிந்துரைக்கப்படும் புத்தகம்' : 'Recommended Book'),
-                'title' => $_POST['book_title'] ?: '',
-                'author' => $_POST['book_author'] ?: '',
-                'page' => $_POST['book_page'] ?: '',
-                'quote' => $_POST['book_quote'] ?: '',
-                'link' => $_POST['book_link'] ?: ''
-            ];
         }
         
         // Add song section if provided
@@ -772,25 +732,29 @@ if ($is_logged_in || true) {
                                     </div>
                                 </div>
                                 
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="admin-form-group">
-                                            <label for="quote_label" class="admin-form-label">Quote Label</label>
-                                            <input type="text" class="admin-form-control" id="quote_label" name="quote_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['quote']['label']) : ''; ?>">
+                                <!-- Quote Section - Hidden for அனுதின-மன்னா -->
+                                <div style="display: none;">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="admin-form-group">
+                                                <label for="quote_label" class="admin-form-label">Quote Label</label>
+                                                <input type="text" class="admin-form-control" id="quote_label" name="quote_label" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['quote']['label'] ?? '') : ''; ?>">
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-9">
-                                        <div class="admin-form-group">
-                                            <label for="quote_text" class="admin-form-label">Quote Text *</label>
-                                            <input type="text" class="admin-form-control" id="quote_text" name="quote_text" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['quote']['text']) : ''; ?>" required>
+                                        <div class="col-md-9">
+                                            <div class="admin-form-group">
+                                                <label for="quote_text" class="admin-form-label">Quote Text</label>
+                                                <input type="text" class="admin-form-control" id="quote_text" name="quote_text" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['quote']['text'] ?? '') : ''; ?>">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <!-- Recommended Book Section -->
-                                <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book me-2"></i>Recommended Book</h6>
+                                <!-- Recommended Book Section - Hidden for அனுதின-மன்னா -->
+                                <div style="display: none;">
+                                    <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book me-2"></i>Recommended Book</h6>
                                 <div class="row">
                                     <div class="col-md-3">
                                         <div class="admin-form-group">
@@ -837,6 +801,7 @@ if ($is_logged_in || true) {
                                     <input type="url" class="admin-form-control" id="book_link" name="book_link" 
                                            value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['recommended_book']['link'] ?? '') : ''; ?>">
                                 </div>
+                                </div><!-- End of Hidden Recommended Book Section -->
                                 
                                 <!-- Song Section (Optional) -->
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-music-note me-2"></i>Song (Optional)</h6>
@@ -874,23 +839,25 @@ if ($is_logged_in || true) {
                                     </div>
                                 </div>
                                 
-                                <!-- Conclusion Section -->
-                                <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-star me-2"></i>Conclusion</h6>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="admin-form-group">
-                                            <label for="conclusion_label" class="admin-form-label">Conclusion Label</label>
-                                            <input type="text" class="admin-form-control" id="conclusion_label" name="conclusion_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['conclusion']['label']) : ''; ?>">
+                                <!-- Conclusion Section - Hidden for அனுதின-மன்னா -->
+                                <div style="display: none;">
+                                    <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-star me-2"></i>Conclusion</h6>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="admin-form-group">
+                                                <label for="conclusion_label" class="admin-form-label">Conclusion Label</label>
+                                                <input type="text" class="admin-form-control" id="conclusion_label" name="conclusion_label" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['conclusion']['label'] ?? '') : ''; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="admin-form-group">
+                                                <label for="conclusion_text" class="admin-form-label">Conclusion Text (one per line)</label>
+                                                <textarea class="admin-form-control" id="conclusion_text" name="conclusion_text" rows="3"><?php echo $edit_meditation ? implode("\n", $edit_meditation['conclusion']['text'] ?? []) : ''; ?></textarea>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-9">
-                                        <div class="admin-form-group">
-                                            <label for="conclusion_text" class="admin-form-label">Conclusion Text (one per line) *</label>
-                                            <textarea class="admin-form-control" id="conclusion_text" name="conclusion_text" rows="3" required><?php echo $edit_meditation ? implode("\n", $edit_meditation['conclusion']['text']) : ''; ?></textarea>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div><!-- End of Hidden Conclusion Section -->
                                 
                                 <!-- Author Section -->
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-person me-2"></i>Author Information</h6>
@@ -909,7 +876,7 @@ if ($is_logged_in || true) {
                                         <div class="admin-form-group">
                                             <label for="author_name" class="admin-form-label">Author Name *</label>
                                             <input type="text" class="admin-form-control" id="author_name" name="author_name" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['author']) : 'Pr. Maria Joseph'; ?>" required>
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['author']) : 'Gladys Sugandhi Hazlitt'; ?>" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">

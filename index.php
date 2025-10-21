@@ -131,6 +131,7 @@ $version = "2025.10.1";
                                     Quick daily spiritual meditations designed to fit into your busy schedule. 
                                     Perfect for morning devotions or moments of reflection.
                                 </p>
+                                <p>Pr. Maria Joseph</p>
                                 <a href="3-minute-meditation/" class="btn btn-app text-white">
                                     <i class="bi bi-play-circle me-2"></i>Start Meditating
                                 </a>
@@ -140,7 +141,7 @@ $version = "2025.10.1";
 
                     <!-- Tamil Daily Manna App -->
                     <div class="col-md-6">
-                        <div class="card app-card h-100 coming-soon">
+                        <div class="card app-card h-100">
                             <div class="card-body text-center p-4">
                                 <div class="app-icon mb-3">
                                     <i class="bi bi-sunrise"></i>
@@ -150,9 +151,10 @@ $version = "2025.10.1";
                                     Daily spiritual nourishment in Tamil. Traditional devotions and 
                                     scriptural insights for Tamil-speaking believers.
                                 </p>
-                                <button class="btn btn-app text-white" disabled>
+                                <p>Gladys Sugandhi Hazlitt</p>
+                                <a href="அனுதின-மன்னா/" class="btn btn-app text-white">
                                     <i class="bi bi-book me-2"></i>Read Devotions
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
