@@ -115,38 +115,61 @@ function saveLinkInfo($key_verse, $title, $language, $filename, $brand = '3-minu
         return false;
     }
     
-    $links_dir = __DIR__ . '/../links';
-    
-    // Create links directory if it doesn't exist
-    if (!file_exists($links_dir)) {
-        mkdir($links_dir, 0755, true);
+    // Parse the verse reference to get chapter info
+    // Format: bookNo_chapter:verse or bookNo_chapter:verse-endVerse
+    $parts = explode('_', $key_verse);
+    if (count($parts) !== 2) {
+        return false;
     }
     
-    $link_file = $links_dir . '/' . $key_verse . '.json';
+    $bookNo = $parts[0];
+    $chapterVerse = explode(':', $parts[1]);
+    if (count($chapterVerse) !== 2) {
+        return false;
+    }
     
-    // Load existing links or create new array
-    $links = [];
-    if (file_exists($link_file)) {
-        $existing = json_decode(file_get_contents($link_file), true);
+    $chapter = $chapterVerse[0];
+    $chapterRef = $bookNo . '_' . $chapter;
+    
+    $links_base_dir = __DIR__ . '/../links';
+    $links_dir = $links_base_dir . '/' . $language;
+    $verses_dir = $links_dir . '/verses';
+    $chapters_dir = $links_dir . '/chapters';
+    
+    // Create directories if they don't exist
+    if (!file_exists($verses_dir)) {
+        mkdir($verses_dir, 0755, true);
+    }
+    if (!file_exists($chapters_dir)) {
+        mkdir($chapters_dir, 0755, true);
+    }
+    
+    // Verse-level link file (without language attribute)
+    $verse_file = $verses_dir . '/' . $key_verse . '.json';
+    
+    // Load existing verse links or create new array
+    $verse_links = [];
+    if (file_exists($verse_file)) {
+        $existing = json_decode(file_get_contents($verse_file), true);
         if (is_array($existing)) {
-            $links = $existing;
+            $verse_links = $existing;
         }
     }
     
-    // Create new link entry
-    $new_link = [
+    // Create new verse link entry (without language attribute)
+    $file_path = '/' . $brand . '/meditations/' . $language . '/' . $filename;
+    $new_verse_link = [
         'brand' => $brand,
         'title' => $title,
-        'language' => $language,
-        'file' => '/3-minute-meditation/meditations/' . $language . '/' . $filename
+        'file' => $file_path
     ];
     
     // Check if this file already exists (check by file path only)
     $link_exists = false;
-    foreach ($links as $index => $link) {
-        if ($link['file'] === $new_link['file']) {
-            // Update existing link (title and language may have changed)
-            $links[$index] = $new_link;
+    foreach ($verse_links as $index => $link) {
+        if ($link['file'] === $new_verse_link['file']) {
+            // Update existing link (title may have changed)
+            $verse_links[$index] = $new_verse_link;
             $link_exists = true;
             break;
         }
@@ -154,11 +177,132 @@ function saveLinkInfo($key_verse, $title, $language, $filename, $brand = '3-minu
     
     // Add new link if it doesn't exist
     if (!$link_exists) {
-        $links[] = $new_link;
+        $verse_links[] = $new_verse_link;
     }
     
-    // Save to file
-    file_put_contents($link_file, json_encode($links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    // Save verse-level file
+    file_put_contents($verse_file, json_encode($verse_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    
+    // Chapter-level link file
+    $chapter_file = $chapters_dir . '/' . $chapterRef . '.json';
+    
+    // Load existing chapter links or create new array
+    $chapter_links = [];
+    if (file_exists($chapter_file)) {
+        $existing = json_decode(file_get_contents($chapter_file), true);
+        if (is_array($existing)) {
+            $chapter_links = $existing;
+        }
+    }
+    
+    // Create new chapter link entry
+    $new_chapter_link = [
+        'brand' => $brand,
+        'title' => $title,
+        'verse' => $key_verse,
+        'file' => $file_path
+    ];
+    
+    // Check if this file already exists (check by file path only)
+    $chapter_link_exists = false;
+    foreach ($chapter_links as $index => $link) {
+        if ($link['file'] === $new_chapter_link['file']) {
+            // Update existing link (title or verse may have changed)
+            $chapter_links[$index] = $new_chapter_link;
+            $chapter_link_exists = true;
+            break;
+        }
+    }
+    
+    // Add new link if it doesn't exist
+    if (!$chapter_link_exists) {
+        $chapter_links[] = $new_chapter_link;
+    }
+    
+    // Sort chapter links by verse reference
+    usort($chapter_links, function($a, $b) {
+        return strcmp($a['verse'], $b['verse']);
+    });
+    
+    // Save chapter-level file
+    file_put_contents($chapter_file, json_encode($chapter_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    
+    return true;
+}
+
+// Delete link information from verse-level and chapter-level indexes
+function deleteLinkInfo($key_verse, $language, $filename, $brand = '3-minute-meditation') {
+    if (empty($key_verse) || empty($language) || empty($filename)) {
+        return false;
+    }
+    
+    // Parse the verse reference to get chapter info
+    $parts = explode('_', $key_verse);
+    if (count($parts) !== 2) {
+        return false;
+    }
+    
+    $bookNo = $parts[0];
+    $chapterVerse = explode(':', $parts[1]);
+    if (count($chapterVerse) !== 2) {
+        return false;
+    }
+    
+    $chapter = $chapterVerse[0];
+    $chapterRef = $bookNo . '_' . $chapter;
+    
+    $links_base_dir = __DIR__ . '/../links';
+    $links_dir = $links_base_dir . '/' . $language;
+    $verses_dir = $links_dir . '/verses';
+    $chapters_dir = $links_dir . '/chapters';
+    
+    $file_path = '/' . $brand . '/meditations/' . $language . '/' . $filename;
+    
+    // Delete from verse-level file
+    $verse_file = $verses_dir . '/' . $key_verse . '.json';
+    if (file_exists($verse_file)) {
+        $verse_links = json_decode(file_get_contents($verse_file), true);
+        if (is_array($verse_links)) {
+            // Remove the link matching this file
+            $verse_links = array_filter($verse_links, function($link) use ($file_path) {
+                return $link['file'] !== $file_path;
+            });
+            
+            // Re-index array
+            $verse_links = array_values($verse_links);
+            
+            if (empty($verse_links)) {
+                // Delete the file if no links remain
+                unlink($verse_file);
+            } else {
+                // Save updated links
+                file_put_contents($verse_file, json_encode($verse_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            }
+        }
+    }
+    
+    // Delete from chapter-level file
+    $chapter_file = $chapters_dir . '/' . $chapterRef . '.json';
+    if (file_exists($chapter_file)) {
+        $chapter_links = json_decode(file_get_contents($chapter_file), true);
+        if (is_array($chapter_links)) {
+            // Remove the link matching this file
+            $chapter_links = array_filter($chapter_links, function($link) use ($file_path) {
+                return $link['file'] !== $file_path;
+            });
+            
+            // Re-index array
+            $chapter_links = array_values($chapter_links);
+            
+            if (empty($chapter_links)) {
+                // Delete the file if no links remain
+                unlink($chapter_file);
+            } else {
+                // Save updated links
+                file_put_contents($chapter_file, json_encode($chapter_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+            }
+        }
+    }
     
     return true;
 }
@@ -332,9 +476,21 @@ if ($is_logged_in || true) {
     if ($action === 'delete') {
         $filename = $_GET['filename'];
         $language = $_GET['lang'] ?? $selectedLanguage;
-        if (file_exists("meditations/{$language}/{$filename}")) {
-            unlink("meditations/{$language}/{$filename}");
+        $file = "meditations/{$language}/{$filename}";
+        
+        if (file_exists($file)) {
+            // Read meditation data to get key verse before deleting
+            $meditation_data = json_decode(file_get_contents($file), true);
+            
+            // Delete the meditation file
+            unlink($file);
             updateAllMeditationsFile($language);
+            
+            // Delete link information if key verse exists
+            if (!empty($meditation_data['key_verse'])) {
+                deleteLinkInfo($meditation_data['key_verse'], $language, $filename, '3-minute-meditation');
+            }
+            
             $success_message = "Meditation deleted successfully!";
         }
     }
