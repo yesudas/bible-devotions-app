@@ -132,6 +132,9 @@ $version = "2025.10.1";
                                     Quick daily spiritual meditations designed to fit into your busy schedule. 
                                     Perfect for morning devotions or moments of reflection.
                                 </p>
+                                <p>
+                                    Supported in தமிழ் and English
+                                </p>
                                 <p>Pr. Maria Joseph</p>
                                 <a href="3-minute-meditation/" class="btn btn-app text-white">
                                     <i class="bi bi-play-circle me-2"></i>Start Meditating
