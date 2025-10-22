@@ -9,7 +9,7 @@ session_start();
 $version = "2025.10.7";
 
 
-$languages = ["தமிழ்"];
+$languages = ["தமிழ்", "English"];
 
 // Language selection for admin (defaults to first language)
 $selectedLanguage = $_GET['lang'] ?? $_SESSION['admin_selected_language'] ?? $languages[0];
@@ -109,7 +109,7 @@ function getNextFilename($language) {
 }
 
 // Save link information to links folder
-function saveLinkInfo($key_verse, $title, $language, $filename, $brand = 'அனுதின-மன்னா') {
+function saveLinkInfo($key_verse, $title, $language, $filename, $brand = 'faiths-check-book') {
     if (empty($key_verse)) {
         return false;
     }
@@ -230,7 +230,7 @@ function saveLinkInfo($key_verse, $title, $language, $filename, $brand = 'அன
 }
 
 // Delete link information from verse-level and chapter-level indexes
-function deleteLinkInfo($key_verse, $language, $filename, $brand = 'அனுதின-மன்னா') {
+function deleteLinkInfo($key_verse, $language, $filename, $brand = 'faiths-check-book') {
     if (empty($key_verse) || empty($language) || empty($filename)) {
         return false;
     }
@@ -360,16 +360,23 @@ if ($is_logged_in || true) {
             ];
         }
         
+        // Create meditations directory if it doesn't exist
+        $meditation_dir = "meditations/{$language}";
+        if (!file_exists($meditation_dir)) {
+            mkdir($meditation_dir, 0755, true);
+        }
+        
         file_put_contents("meditations/{$language}/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         updateAllMeditationsFile($language);
         
-        // Save link information - brand is 'அனுதின-மன்னா' for this admin panel
-        saveLinkInfo($_POST['key_verse'], $_POST['title'], $language, $filename, 'அனுதின-மன்னா');
+        // Save link information - brand is 'faiths-check-book' for this admin panel
+        saveLinkInfo($_POST['key_verse'], $_POST['title'], $language, $filename, 'faiths-check-book');
         
         $success_message = "Meditation added successfully!";
         
         // Check if "Save & Add" was clicked
         if (isset($_POST['save_and_add']) && $_POST['save_and_add'] == '1') {
+            // Set flag to reopen modal and preserve date and key_verse
             $open_add_modal = true;
             $preserved_date = $_POST['date'];
             $preserved_key_verse = $_POST['key_verse'];
@@ -429,11 +436,17 @@ if ($is_logged_in || true) {
             ];
         }
         
+        // Create meditations directory if it doesn't exist
+        $meditation_dir = "meditations/{$language}";
+        if (!file_exists($meditation_dir)) {
+            mkdir($meditation_dir, 0755, true);
+        }
+        
         file_put_contents("meditations/{$language}/{$filename}", json_encode($meditation, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
         updateAllMeditationsFile($language);
         
-        // Save link information - brand is 'அனுதின-மன்னா' for this admin panel
-        saveLinkInfo($_POST['key_verse'], $_POST['title'], $language, $filename, 'அனுதின-மன்னா');
+        // Save link information - brand is 'faiths-check-book' for this admin panel
+        saveLinkInfo($_POST['key_verse'], $_POST['title'], $language, $filename, 'faiths-check-book');
         
         $success_message = "Meditation updated successfully!";
     }
@@ -454,7 +467,7 @@ if ($is_logged_in || true) {
             
             // Delete link information if key verse exists
             if (!empty($meditation_data['key_verse'])) {
-                deleteLinkInfo($meditation_data['key_verse'], $language, $filename, 'அனுதின-மன்னா');
+                deleteLinkInfo($meditation_data['key_verse'], $language, $filename, 'faiths-check-book');
             }
             
             $success_message = "Meditation deleted successfully!";
@@ -485,7 +498,7 @@ if ($is_logged_in || true) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Panel - அனுதின மன்னா</title>
+    <title>Admin Panel - Faith's Check Book</title>
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -502,7 +515,7 @@ if ($is_logged_in || true) {
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Admin - அனுதின மன்னா">
+    <meta name="apple-mobile-web-app-title" content="Admin - Faith's Check Book">
 
     <!-- Google Analytics -->
     <?php include '../google-analytics.php'; ?>
@@ -513,7 +526,7 @@ if ($is_logged_in || true) {
     <nav class="navbar navbar-expand-lg navbar-dark admin-navbar">
         <div class="container">
             <a class="navbar-brand fw-bold" href="../index.php">
-                <i class="bi bi-shield-lock me-2"></i>Admin Panel - அனுதின மன்னா
+                <i class="bi bi-shield-lock me-2"></i>Admin Panel - Faith's Check Book
             </a>
             
             <?php if ($is_logged_in): ?>
@@ -894,7 +907,7 @@ if ($is_logged_in || true) {
                                     </div>
                                 </div>
                                 
-                                <!-- Quote Section - Hidden for அனுதின-மன்னா -->
+                                <!-- Quote Section - Hidden for faiths-check-book -->
                                 <div style="display: none;">
                                     <div class="row">
                                         <div class="col-md-3">
@@ -914,7 +927,7 @@ if ($is_logged_in || true) {
                                     </div>
                                 </div>
                                 
-                                <!-- Recommended Book Section - Hidden for அனுதின-மன்னா -->
+                                <!-- Recommended Book Section - Hidden for faiths-check-book -->
                                 <div style="display: none;">
                                     <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book me-2"></i>Recommended Book</h6>
                                 <div class="row">
@@ -965,43 +978,47 @@ if ($is_logged_in || true) {
                                 </div>
                                 </div><!-- End of Hidden Recommended Book Section -->
                                 
-                                <!-- Song Section (Optional) -->
-                                <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-music-note me-2"></i>Song (Optional)</h6>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="admin-form-group">
-                                            <label for="song_label" class="admin-form-label">Song Label</label>
-                                            <input type="text" class="admin-form-control" id="song_label" name="song_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['song']['label'] ?? '') : ''; ?>">
+                                <!-- Song Section (Optional) - Hidden for faiths-check-book -->
+                                <div style="display: none;">
+                                    <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-music-note me-2"></i>Song (Optional)</h6>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="admin-form-group">
+                                                <label for="song_label" class="admin-form-label">Song Label</label>
+                                                <input type="text" class="admin-form-control" id="song_label" name="song_label" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['song']['label'] ?? '') : ''; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="admin-form-group">
+                                                <label for="song_text" class="admin-form-label">Song Text</label>
+                                                <textarea class="admin-form-control" id="song_text" name="song_text" rows="3"><?php echo $edit_meditation ? htmlspecialchars($edit_meditation['song']['text'] ?? '') : ''; ?></textarea>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-9">
-                                        <div class="admin-form-group">
-                                            <label for="song_text" class="admin-form-label">Song Text</label>
-                                            <textarea class="admin-form-control" id="song_text" name="song_text" rows="3"><?php echo $edit_meditation ? htmlspecialchars($edit_meditation['song']['text'] ?? '') : ''; ?></textarea>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div><!-- End of Hidden Song Section -->
                                 
-                                <!-- Prayer Section -->
-                                <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-heart me-2"></i>Prayer</h6>
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <div class="admin-form-group">
-                                            <label for="prayer_label" class="admin-form-label">Prayer Label</label>
-                                            <input type="text" class="admin-form-control" id="prayer_label" name="prayer_label" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['prayer']['label']) : ''; ?>">
+                                <!-- Prayer Section - Hidden for faiths-check-book -->
+                                <div style="display: none;">
+                                    <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-heart me-2"></i>Prayer</h6>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <div class="admin-form-group">
+                                                <label for="prayer_label" class="admin-form-label">Prayer Label</label>
+                                                <input type="text" class="admin-form-control" id="prayer_label" name="prayer_label" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['prayer']['label']) : ''; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="admin-form-group">
+                                                <label for="prayer_text" class="admin-form-label">Prayer Text *</label>
+                                                <textarea class="admin-form-control" id="prayer_text" name="prayer_text" rows="3"><?php echo $edit_meditation ? htmlspecialchars($edit_meditation['prayer']['text']) : ''; ?></textarea>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-9">
-                                        <div class="admin-form-group">
-                                            <label for="prayer_text" class="admin-form-label">Prayer Text *</label>
-                                            <textarea class="admin-form-control" id="prayer_text" name="prayer_text" rows="3" required><?php echo $edit_meditation ? htmlspecialchars($edit_meditation['prayer']['text']) : ''; ?></textarea>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div><!-- End of Hidden Prayer Section -->
                                 
-                                <!-- Conclusion Section - Hidden for அனுதின-மன்னா -->
+                                <!-- Conclusion Section - Hidden for faiths-check-book -->
                                 <div style="display: none;">
                                     <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-star me-2"></i>Conclusion</h6>
                                     <div class="row">
@@ -1034,47 +1051,52 @@ if ($is_logged_in || true) {
                                 </div>
                                 
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-md-12">
                                         <div class="admin-form-group">
                                             <label for="author_name" class="admin-form-label">Author Name *</label>
                                             <input type="text" class="admin-form-control" id="author_name" name="author_name" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['author']) : 'கிளாடிஸ் சுகந்தி ஹாசிலிட்'; ?>" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="admin-form-group">
-                                            <label for="author_whatsapp" class="admin-form-label">WhatsApp Number</label>
-                                            <input type="text" class="admin-form-control" id="author_whatsapp" name="author_whatsapp" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['whatsapp']) : '919901470809'; ?>">
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['author']) : 'Charles H. Spurgeon'; ?>" required>
                                         </div>
                                     </div>
                                 </div>
                                 
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="admin-form-group">
-                                            <label for="author_mobile" class="admin-form-label">Mobile Number</label>
-                                            <input type="text" class="admin-form-control" id="author_mobile" name="author_mobile" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['mobile']) : ''; ?>">
+                                <!-- Author Contact Fields - Hidden for faiths-check-book -->
+                                <div style="display: none;">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="admin-form-group">
+                                                <label for="author_whatsapp" class="admin-form-label">WhatsApp Number</label>
+                                                <input type="text" class="admin-form-control" id="author_whatsapp" name="author_whatsapp" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['whatsapp']) : ''; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="admin-form-group">
+                                                <label for="author_mobile" class="admin-form-label">Mobile Number</label>
+                                                <input type="text" class="admin-form-control" id="author_mobile" name="author_mobile" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['mobile']) : ''; ?>">
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="admin-form-group">
-                                            <label for="author_email" class="admin-form-label">Email Address</label>
-                                            <input type="email" class="admin-form-control" id="author_email" name="author_email" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['email']) : ''; ?>">
+                                    
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="admin-form-group">
+                                                <label for="author_email" class="admin-form-label">Email Address</label>
+                                                <input type="email" class="admin-form-control" id="author_email" name="author_email" 
+                                                       value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['author']['email']) : ''; ?>">
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div><!-- End of Hidden Author Contact Fields -->
                                 
                             </div>
                             
                             <div class="modal-footer">
                                 <button type="button" class="btn admin-btn-secondary" data-bs-dismiss="modal">Cancel</button>
                                 <?php if (!$edit_meditation): ?>
-                                <button type="submit" name="save_and_add" value="1" class="btn admin-btn-success">
-                                    <i class="bi bi-plus-circle me-1"></i>
-                                    Save & Add
+                                <button type="submit" class="btn admin-btn-success" name="save_and_add" value="1">
+                                    <i class="bi bi-plus-circle me-1"></i>Save & Add
                                 </button>
                                 <?php endif; ?>
                                 <button type="submit" class="btn admin-btn-primary">

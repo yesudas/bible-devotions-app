@@ -121,7 +121,7 @@ $version = "2025.10.1";
                 <div class="row g-4 mb-5">
                     
                     <!-- 3-Minute Meditation App -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="card app-card h-100">
                             <div class="card-body text-center p-4">
                                 <div class="app-icon mb-3">
@@ -144,7 +144,7 @@ $version = "2025.10.1";
                     </div>
 
                     <!-- Tamil Daily Manna App -->
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="card app-card h-100">
                             <div class="card-body text-center p-4">
                                 <div class="app-icon mb-3">
@@ -158,6 +158,29 @@ $version = "2025.10.1";
                                 <p>Gladys Sugandhi Hazlitt</p>
                                 <a href="அனுதின-மன்னா/" class="btn btn-app text-white">
                                     <i class="bi bi-book me-2"></i>Read Devotions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Faith's Check Book App -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card app-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="app-icon mb-3">
+                                    <i class="bi bi-journal-check"></i>
+                                </div>
+                                <h4 class="card-title mb-3">Faith's Check Book</h4>
+                                <p class="card-text text-muted mb-4">
+                                    Daily devotions on faith from God's Word by the Prince of Preachers. 
+                                    Timeless devotions to strengthen your faith journey.
+                                </p>
+                                <p>
+                                    Supported in தமிழ் and English.
+                                </p>
+                                <p>Charles H. Spurgeon</p>
+                                <a href="faiths-check-book/" class="btn btn-app text-white">
+                                    <i class="bi bi-book-half me-2"></i>Check your Faith!
                                 </a>
                             </div>
                         </div>

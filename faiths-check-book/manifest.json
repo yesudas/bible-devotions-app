@@ -1,0 +1,22 @@
+{
+  "name": "Faith's Check Book",
+  "short_name": "Faith's Check Book",
+  "description": "Faith's Check Book - Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey, from www.wordofgod.in",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3",
+  "icons": [
+    {
+      "src": "../pwa/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "../pwa/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

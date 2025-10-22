@@ -1,9 +1,6 @@
 <?php
 // counter.php
 
-$additionalFolders = ['3-minute-meditation', 'அனுதின-மன்னா', 'faiths-check-book'];
-$consolidationDay = 'Friday';
-
 // List of common bot keywords in User-Agent
 $botKeywords = [
     'bot', 'crawl', 'slurp', 'spider', 'mediapartners', 'curl', 'python', 'wget', 'baiduspider', 'bingpreview', 'facebookexternalhit', 'pingdom'
@@ -36,23 +33,6 @@ if (!$isBot) {
     $fp = fopen($counterFile, "c+"); // c+ = read/write, create if not exists
 
     if ($fp && flock($fp, LOCK_EX)) { // lock file exclusively
-        // Check if consolidation should happen
-        $shouldConsolidate = false;
-        $currentDayOfWeek = date('l'); // Get current day name (e.g., 'Friday')
-        
-        if ($currentDayOfWeek === $consolidationDay) {
-            // Get file modification time
-            clearstatcache(true, $counterFile);
-            $lastModified = file_exists($counterFile) ? filemtime($counterFile) : 0;
-            $lastModifiedDay = date('l', $lastModified);
-            
-            // Consolidate only if file was NOT modified on the same consolidation day
-            // This ensures consolidation happens only once per week
-            if ($lastModifiedDay !== $consolidationDay) {
-                $shouldConsolidate = true;
-            }
-        }
-        
         // Read current count - read entire file content
         rewind($fp); // Make sure we're at the beginning
         $currentContent = fread($fp, 1024); // Read up to 1024 bytes (more than enough for a counter)
@@ -61,25 +41,6 @@ if (!$isBot) {
         // If file was empty or invalid, start from 0
         if ($count < 0) {
             $count = 0;
-        }
-        
-        // Perform consolidation if needed
-        if ($shouldConsolidate) {
-            $consolidatedCount = 0;
-            
-            foreach ($additionalFolders as $folder) {
-                $subCounterFile = __DIR__ . '/' . $folder . '/counter.txt';
-                if (file_exists($subCounterFile)) {
-                    $subCount = (int)trim(file_get_contents($subCounterFile));
-                    $consolidatedCount += $subCount;
-                    
-                    // Reset the subfolder counter to 0 after consolidation
-                    file_put_contents($subCounterFile, "0");
-                }
-            }
-            
-            // Add consolidated counts to main counter
-            $count += $consolidatedCount;
         }
     
         // Increment

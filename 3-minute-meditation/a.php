@@ -25,8 +25,7 @@ $_SESSION['admin_selected_language'] = $selectedLanguage;
 
 // Admin credentials
 $admin_users = [
-    'mariajoseph' => 'maria83231',
-    'yesudas' => 'yesu32425'
+    'demo123' => 'demo123'
 ];
 
 // Handle login
@@ -388,6 +387,14 @@ if ($is_logged_in || true) {
         saveLinkInfo($_POST['key_verse'], $_POST['title'], $language, $filename, '3-minute-meditation');
         
         $success_message = "Meditation added successfully!";
+        
+        // Check if "Save & Add" was clicked
+        if (isset($_POST['save_and_add']) && $_POST['save_and_add'] == '1') {
+            // Set flag to reopen modal and preserve date and key_verse
+            $open_add_modal = true;
+            $preserved_date = $_POST['date'];
+            $preserved_key_verse = $_POST['key_verse'];
+        }
     }
     
     // Edit meditation
@@ -827,7 +834,7 @@ if ($is_logged_in || true) {
                                         <div class="admin-form-group">
                                             <label for="date" class="admin-form-label">Date *</label>
                                             <input type="date" class="admin-form-control" id="date" name="date" 
-                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['date']) : date('Y-m-d'); ?>" required>
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['date']) : (isset($preserved_date) ? htmlspecialchars($preserved_date) : date('Y-m-d')); ?>" required>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -855,7 +862,7 @@ if ($is_logged_in || true) {
                                 <div class="admin-form-group">
                                     <label class="admin-form-label">Key Verse Reference *</label>
                                     <input type="hidden" id="key_verse" name="key_verse" 
-                                           value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['key_verse']) : ''; ?>" required>
+                                           value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['key_verse']) : (isset($preserved_key_verse) ? htmlspecialchars($preserved_key_verse) : ''); ?>" required>
                                     <div class="row g-2">
                                         <div class="col-md-4">
                                             <select class="admin-form-control" id="verse_book" required>
@@ -1098,6 +1105,11 @@ if ($is_logged_in || true) {
                             
                             <div class="modal-footer">
                                 <button type="button" class="btn admin-btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <?php if (!$edit_meditation): ?>
+                                <button type="submit" class="btn admin-btn-success" name="save_and_add" value="1">
+                                    <i class="bi bi-plus-circle me-1"></i>Save & Add
+                                </button>
+                                <?php endif; ?>
                                 <button type="submit" class="btn admin-btn-primary">
                                     <i class="bi bi-check-circle me-1"></i>
                                     <?php echo $edit_meditation ? 'Update' : 'Save'; ?>
@@ -1362,6 +1374,12 @@ if ($is_logged_in || true) {
             // Open modal for editing
             var editModal = new bootstrap.Modal(modalElement);
             editModal.show();
+            <?php endif; ?>
+            
+            <?php if (isset($open_add_modal) && $open_add_modal): ?>
+            // Reopen modal for "Save & Add" functionality
+            var addModal = new bootstrap.Modal(modalElement);
+            addModal.show();
             <?php endif; ?>
             
             // Filter functionality

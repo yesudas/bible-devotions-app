@@ -18,7 +18,7 @@ include '../detect-app.php';
 
 $version = "2025.10.1";
 
-$languages = ["தமிழ்"];
+$languages = ["தமிழ்", "English"];
 
 // Language selection logic
 $selectedLanguage = $_GET['lang'] ?? $_SESSION['selected_language'] ?? $languages[0];
@@ -198,7 +198,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title><?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> அனுதின மன்னா - WordOfGod.in</title>
+    <title><?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Faith's Check Book - WordOfGod.in</title>
     
     <!-- SEO Meta Tags -->
     <meta name="description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections. 3-minute daily devotions for spiritual growth.">
@@ -207,14 +207,14 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> அனுதின மன்னா - Daily Christian Devotions - WordOfGod.in">
+    <meta property="og:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Faith's Check Book - Daily Christian Devotions - WordOfGod.in">
     <meta property="og:description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> அனுதின மன்னா - Daily Christian Devotions - WordOfGod.in">
+    <meta name="twitter:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Faith's Check Book - Daily Christian Devotions - WordOfGod.in">
     <meta name="twitter:description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
@@ -228,7 +228,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="அனுதின மன்னா">
+    <meta name="apple-mobile-web-app-title" content="Faith's Check Book">
 
     <!-- Google Analytics -->
     <?php include '../google-analytics.php'; ?>
@@ -239,7 +239,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <!-- Site Header - Common for all pages -->
     <div class="site-header">
         <div class="container">
-            <h1><i class="fas fa-book-open"></i> அனுதின மன்னா</h1>
+            <h1><i class="fas fa-book-open"></i> Faith's Check Book</h1>
             <p class="site-tagline">Daily Christian Devotions for Spiritual Growth</p>
             
             <!-- Mode Selector & Zoom Controls -->
@@ -390,17 +390,19 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                         </div>
                         <?php endif; ?>
                     
-                        <?php if (!empty($meditation['song'])): ?>
+                        <?php if (!empty($meditation['song']) && !empty($meditation['song']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-music"></i> <?php echo $meditation['song']['label'] ?? 'Song'; ?></h2>
                             <p><?php echo nl2br(htmlspecialchars($meditation['song']['text'])); ?></p>
                         </div>
                         <?php endif; ?>
                     
+                        <?php if (!empty($meditation['prayer']) && !empty($meditation['prayer']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-praying-hands"></i> <?php echo $meditation['prayer']['label'] ?? 'Prayer'; ?></h2>
                             <p><?php echo nl2br(htmlspecialchars($meditation['prayer']['text'])); ?></p>
                         </div>
+                        <?php endif; ?>
                     
                         <?php if (!empty($meditation['conclusion'])): ?>
                         <div class="section">
@@ -417,7 +419,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                             <?php if (!empty($meditation['author']['whatsapp'])): ?>
                                 <p class="mb-1">
                                     <i class="fab fa-whatsapp me-2 text-success"></i>
-                                    <a href="https://wa.me/<?php echo preg_replace('/[^0-9]/', '', $meditation['author']['whatsapp']); ?>?text=அனுதின-மன்னா" 
+                                    <a href="https://wa.me/<?php echo preg_replace('/[^0-9]/', '', $meditation['author']['whatsapp']); ?>?text=Faiths-Check-Book" 
                                        target="_blank" class="text-decoration-none">
                                         <?php echo htmlspecialchars($meditation['author']['whatsapp']); ?>
                                     </a>
@@ -494,11 +496,11 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p class="mb-1">
                     <i class="fas fa-envelope me-2"></i>
-                    <a href="mailto:simonhm@gmail.com" class="footer-link">simonhm@gmail.com</a>
+                    <a href="mailto:wordofgod@wordofgod.in" class="footer-link">wordofgod@wordofgod.in</a>
                 </p>
                 <p class="mb-0">
                     <i class="fas fa-phone me-2"></i>
-                    <a href="https://wa.me/919901470809?text=அனுதின-மன்னா-App" class="footer-link">+91 9901470809</a>
+                    <a href="https://wa.me/917676505599?text=Faiths-Check-Book-App" class="footer-link">+91 7676505599</a>
                 </p>
             </div>
             
