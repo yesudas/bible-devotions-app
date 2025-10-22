@@ -1,5 +1,6 @@
 <?php
 
+include 'counter.php';
 include 'detect-app.php';
 
 $version = "2025.10.1";
@@ -189,6 +190,9 @@ $version = "2025.10.1";
                         </p>
                         <p class="mb-0">
                             <small>"Freely you have received; freely give." - Matthew 10:8. Word of God Team. Made with <i class="bi bi-heart-fill text-danger"></i> for the Kingdom of God.</small>
+                        </p>
+                        <p class="mb-0">
+                            <i class="bi bi-emoji-heart-eyes me-1"></i>Visitors: <?= $visitors2 ?>
                         </p>
                     </div>
                 </div>
