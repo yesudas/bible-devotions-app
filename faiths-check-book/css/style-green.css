@@ -1,0 +1,373 @@
+/* Faith's Check Book - Green Theme Overrides */
+
+/* Body Background - Green Theme */
+body {
+    background: linear-gradient(135deg, #4eb487 0%, #40916c 100%);
+    min-height: 100vh;
+}
+
+/* Site Header - Green Theme */
+.site-header {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    color: white;
+    padding: 30px 0 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+/* Site Footer - Green Theme */
+.site-footer {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Devotion Container - Green Accents */
+.devotion-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(45, 106, 79, 0.15);
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+
+/* Devotion Header - Green Theme */
+.devotion-header {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    border-bottom: none;
+}
+
+.devotion-header h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Section Headings - Green Theme */
+.section h2 {
+    color: #2d6a4f;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-left: 4px solid #52b788;
+    padding-left: 15px;
+}
+
+.section h2 i {
+    color: #52b788;
+    margin-right: 10px;
+}
+
+/* Navigation Buttons - Green Theme */
+.nav-btn {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 10px rgba(45, 106, 79, 0.3);
+}
+
+.nav-btn:hover {
+    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(45, 106, 79, 0.4);
+}
+
+.nav-btn:disabled {
+    background: linear-gradient(135deg, #95d5b2 0%, #b7e4c7 100%);
+    opacity: 0.6;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Verse Reference - Green Theme */
+.verse-reference {
+    background: linear-gradient(135deg, #d8f3dc 0%, #b7e4c7 100%);
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-style: italic;
+    color: #1b4332;
+    border-left: 5px solid #52b788;
+    display: block;
+    margin: 15px 0;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(45, 106, 79, 0.1);
+}
+
+/* Mode Selector - Green Theme */
+.mode-selector {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.mode-btn {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    border: 2px solid transparent;
+}
+
+.mode-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.mode-btn.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #2d6a4f;
+    font-weight: 600;
+    border-color: white;
+}
+
+/* Language Selector - Green Theme */
+.lang-btn {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.dropdown-menu {
+    background: #f1faee;
+    border: 2px solid #52b788;
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    color: #1b4332;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background: #d8f3dc;
+    color: #1b4332;
+}
+
+.dropdown-item.active {
+    background: #52b788;
+    color: white;
+}
+
+/* Zoom Controls - Green Theme */
+.zoom-btn {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.zoom-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Meditation Item (View All) - Green Theme */
+.meditation-item {
+    background: linear-gradient(135deg, #f1faee 0%, #d8f3dc 100%);
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #52b788;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(45, 106, 79, 0.1);
+}
+
+.meditation-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(45, 106, 79, 0.2);
+    border-left-color: #2d6a4f;
+}
+
+.meditation-item a {
+    color: #1b4332;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.meditation-item a:hover {
+    color: #2d6a4f;
+}
+
+/* Devotion Counter - Green Theme */
+.devotion-counter {
+    background: linear-gradient(135deg, #52b788 0%, #40916c 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(45, 106, 79, 0.3);
+}
+
+/* Alert Boxes - Green Theme */
+.alert-warning {
+    background: #fff3cd;
+    border-left: 5px solid #52b788;
+    color: #1b4332;
+}
+
+/* Hamburger Menu - Green Theme */
+.hamburger-menu {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hamburger-menu:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Admin Panel - Green Theme */
+.admin-header {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.admin-btn-primary {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%);
+    border: none;
+    color: white;
+}
+
+.admin-btn-primary:hover {
+    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%);
+}
+
+.admin-btn-success {
+    background: linear-gradient(135deg, #52b788 0%, #40916c 100%);
+    border: none;
+    color: white;
+}
+
+.admin-btn-success:hover {
+    background: linear-gradient(135deg, #40916c 0%, #2d6a4f 100%);
+}
+
+.admin-badge-scheduled {
+    background: #52b788;
+}
+
+.admin-stats .stat-card {
+    border-left: 4px solid #52b788;
+}
+
+/* Links and Accents - Green Theme */
+a {
+    color: #2d6a4f;
+}
+
+a:hover {
+    color: #1b4332;
+}
+
+/* Blockquotes - Green Theme */
+blockquote {
+    border-left: 5px solid #52b788;
+    background: #f1faee;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Copy Button - Green Theme */
+.copy-btn {
+    background: #52b788;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+    background: #40916c;
+}
+
+.copy-btn.copied {
+    background: #2d6a4f;
+}
+
+/* Navigation Center Copy Controls - Green Theme */
+.navigation .navigation-center .copy-btn {
+    background: linear-gradient(135deg, #2d6a4f 0%, #40916c 100%) !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(45, 106, 79, 0.3);
+}
+
+.navigation .navigation-center .copy-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #1b4332 0%, #2d6a4f 100%) !important;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(45, 106, 79, 0.4);
+}
+
+.navigation .navigation-center .copy-btn:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+/* Header Copy Controls - Green Theme */
+.header-controls .copy-btn,
+.copy-controls .copy-btn {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: white !important;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.header-controls .copy-btn:hover:not(:disabled),
+.copy-controls .copy-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.35) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
