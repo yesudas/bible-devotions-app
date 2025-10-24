@@ -28,6 +28,14 @@ if (!in_array($selectedLanguage, $languages)) {
     $selectedLanguage = $languages[0];
 }
 
+// Check if language has changed and reset pagination if needed
+if (isset($_SESSION['selected_language']) && $_SESSION['selected_language'] !== $selectedLanguage) {
+    // Language changed - reset pagination
+    unset($_SESSION['current_meditation_index']);
+    unset($_SESSION['random_sequence']);
+    unset($_SESSION['random_index']);
+}
+
 // Store in session for persistence
 $_SESSION['selected_language'] = $selectedLanguage;
 
@@ -111,7 +119,14 @@ function getCurrentMeditationIndex($mode, $action, $index, $language) {
     }
     
     if ($mode === 'random') {
-        if (!isset($_SESSION['random_sequence'])) {
+        if (!isset($_SESSION['random_sequence']) || !isset($_SESSION['random_index'])) {
+            $_SESSION['random_sequence'] = range(0, $total - 1);
+            shuffle($_SESSION['random_sequence']);
+            $_SESSION['random_index'] = 0;
+        }
+        
+        // Validate that random sequence is valid for current language
+        if (count($_SESSION['random_sequence']) !== $total) {
             $_SESSION['random_sequence'] = range(0, $total - 1);
             shuffle($_SESSION['random_sequence']);
             $_SESSION['random_index'] = 0;
@@ -120,10 +135,16 @@ function getCurrentMeditationIndex($mode, $action, $index, $language) {
         // If a specific index is requested, find its position in the random sequence
         if ($index !== null) {
             $targetIndex = (int)$index;
-            $position = array_search($targetIndex, $_SESSION['random_sequence']);
-            if ($position !== false) {
-                $_SESSION['random_index'] = $position;
-                return $targetIndex;
+            // Validate the target index exists in current language
+            if ($targetIndex >= 0 && $targetIndex < $total) {
+                $position = array_search($targetIndex, $_SESSION['random_sequence']);
+                if ($position !== false) {
+                    $_SESSION['random_index'] = $position;
+                    return $targetIndex;
+                }
+            } else {
+                // Index out of bounds, reset to first
+                $_SESSION['random_index'] = 0;
             }
         }
         
@@ -143,11 +164,20 @@ function getCurrentMeditationIndex($mode, $action, $index, $language) {
             if ($targetIndex >= 0 && $targetIndex < $total) {
                 $_SESSION['current_meditation_index'] = $targetIndex;
                 return $targetIndex;
+            } else {
+                // Index out of bounds, reset to first
+                $_SESSION['current_meditation_index'] = 0;
+                return 0;
             }
         }
         
         if (!isset($_SESSION['current_meditation_index'])) {
             $_SESSION['current_meditation_index'] = 0; // Start with latest (first in array)
+        } else {
+            // Validate current index is within bounds for current language
+            if ($_SESSION['current_meditation_index'] >= $total) {
+                $_SESSION['current_meditation_index'] = 0;
+            }
         }
         
         // Handle legacy action parameters (for backward compatibility)
