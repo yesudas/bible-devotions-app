@@ -6,8 +6,7 @@ session_set_cookie_params(1800);
 
 session_start();
 
-$version = "2025.10.7";
-
+$version = "2025.10.2";
 
 $languages = ["தமிழ்"];
 
