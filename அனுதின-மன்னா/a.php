@@ -495,10 +495,11 @@ if ($is_logged_in || true) {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <!-- Custom CSS -->
     <link href="../css/style.css?v=<?php echo $version; ?>" rel="stylesheet">
+    <link href="css/style-blue.css?v=<?php echo $version; ?>" rel="stylesheet">
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest-a.json?v=<?php echo $version; ?>">
-    <meta name="theme-color" content="#9657deff">
+    <meta name="theme-color" content="#1e3a8a">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">

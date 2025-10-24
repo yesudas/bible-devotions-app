@@ -251,10 +251,11 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="../css/style.css?v=<?php echo $version; ?>" rel="stylesheet">
+    <link href="css/style-blue.css?v=<?php echo $version; ?>" rel="stylesheet">
 
     <!-- PWA Manifest -->
     <link rel="manifest" href="manifest.json?v=<?php echo $version; ?>">
-    <meta name="theme-color" content="#9657deff">
+    <meta name="theme-color" content="#1e3a8a">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
