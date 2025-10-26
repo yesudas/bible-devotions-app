@@ -71,6 +71,30 @@ function getAppName($language) {
     return "அனுதின மன்னா"; // Default fallback
 }
 
+// Create SEO-friendly URL slug from title
+function createSlug($title) {
+    // Replace spaces with hyphens
+    $slug = str_replace(' ', '-', $title);
+    
+    // Remove only punctuation and special symbols, keep all letters (including Tamil) and numbers
+    // This preserves Tamil vowel signs and other diacritics
+    $slug = preg_replace('/[^\p{L}\p{M}\p{N}\-]/u', '', $slug);
+    
+    // Replace multiple consecutive hyphens with single hyphen
+    $slug = preg_replace('/-+/', '-', $slug);
+    
+    // Remove leading/trailing hyphens
+    $slug = trim($slug, '-');
+    
+    // Limit length to 100 characters
+    if (mb_strlen($slug) > 100) {
+        $slug = mb_substr($slug, 0, 100);
+        $slug = preg_replace('/-[^-]*$/', '', $slug); // Remove partial word at end
+    }
+    
+    return $slug;
+}
+
 $appName = getAppName($selectedLanguage);
 
 // Initialize or get current meditation number
@@ -254,6 +278,23 @@ if ($currentIndex !== null && isset($allMeditations[$currentIndex])) {
 
 // If viewing all meditations
 $viewAll = ($_GET['view'] ?? '') === 'all';
+
+// Redirect to add query params and title slug if missing (for proper sharing and SEO)
+if (!$viewAll && $meditation && $currentIndex !== null) {
+    $hasQueryParams = isset($_GET['mode']) && isset($_GET['index']) && isset($_GET['lang']);
+    $titleSlug = createSlug($meditation['title']);
+    $currentSlug = $_GET['title'] ?? '';
+    
+    // Redirect if missing params or slug doesn't match
+    if (!$hasQueryParams || $currentSlug !== $titleSlug) {
+        $newUrl = "?mode=" . urlencode($mode) . 
+                  "&index=" . $currentIndex . 
+                  "&lang=" . urlencode($selectedLanguage) . 
+                  "&title=" . urlencode($titleSlug);
+        header("Location: " . $newUrl, true, 302);
+        exit;
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -398,7 +439,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                                     <h5><?php echo htmlspecialchars($med['title']); ?></h5>
                                     <p class="text-muted mb-0"><?php echo htmlspecialchars($med['date']); ?></p>
                                 </div>
-                                <a href="?mode=<?php echo $mode; ?>&index=<?php echo $idx; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" class="btn btn-sm nav-btn">
+                                <a href="?mode=<?php echo $mode; ?>&index=<?php echo $idx; ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode(createSlug($med['title'])); ?>" class="btn btn-sm nav-btn">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -515,8 +556,14 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                             $nextIndex = ($mode === 'random') ? 
                                 ($_SESSION['random_index'] < $total - 1 ? $_SESSION['random_sequence'][$_SESSION['random_index'] + 1] : $_SESSION['random_sequence'][0]) :
                                 min($currentIndex + 1, $total - 1);
+                            
+                            // Get title slugs for prev/next
+                            $prevMed = isset($allMeditations[$prevIndex]) ? loadMeditationByFilename($allMeditations[$prevIndex]['filename'], $selectedLanguage) : null;
+                            $nextMed = isset($allMeditations[$nextIndex]) ? loadMeditationByFilename($allMeditations[$nextIndex]['filename'], $selectedLanguage) : null;
+                            $prevSlug = $prevMed ? createSlug($prevMed['title']) : '';
+                            $nextSlug = $nextMed ? createSlug($nextMed['title']) : '';
                         ?>
-                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $prevIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
+                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $prevIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode($prevSlug); ?>" 
                            class="nav-btn <?php echo ($mode === 'latest' && $currentIndex <= 0) ? 'disabled' : ''; ?>">
                             <i class="fas fa-chevron-left"></i> Previous
                         </a>
@@ -530,7 +577,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                             </a>
                         </div>
                         
-                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $nextIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>" 
+                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $nextIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode($nextSlug); ?>" 
                            class="nav-btn <?php echo ($mode === 'latest' && $currentIndex >= $total - 1) ? 'disabled' : ''; ?>">
                             Next <i class="fas fa-chevron-right"></i>
                         </a>
