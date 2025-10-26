@@ -18,7 +18,7 @@ include '../detect-app.php';
 
 $version = "2025.10.4";
 
-$languages = ["தமிழ்", "English", "తెలుగు", "ಕನ್ನಡ", "മലയാളം"];
+$languages = ["தமிழ்", "English", "తెలుగు", "ಕನ್ನಡ", "മലയാളം", "हिन्दी"];
 
 // Language selection logic
 $selectedLanguage = $_GET['lang'] ?? $_SESSION['selected_language'] ?? $languages[0];

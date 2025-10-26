@@ -8,7 +8,7 @@ session_start();
 
 $version = "2025.10.3";
 
-$languages = ["தமிழ்", "English", "తెలుగు", "ಕನ್ನಡ", "മലയാളം"];
+$languages = ["தமிழ்", "English", "తెలుగు", "ಕನ್ನಡ", "മലയാളം", "हिन्दी"];
 
 // Language selection for admin (defaults to first language)
 $selectedLanguage = $_GET['lang'] ?? $_SESSION['admin_selected_language'] ?? $languages[0];
