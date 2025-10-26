@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "36_3:12",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "A Trustworthy Name",
+                "filename": "161.json"
+            }
+        ]
+    },
+    {
+        "verse": "36_3:13",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "A Shepherd Secures Them",
+                "filename": "162.json"
+            }
+        ]
+    },
+    {
+        "verse": "36_3:15",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "He Routs Our Enemy",
+                "filename": "211.json"
+            }
+        ]
+    },
+    {
+        "verse": "36_3:17",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "The Reason for Singing",
+                "filename": "263.json"
+            }
+        ]
+    },
+    {
+        "verse": "36_3:19",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Word to Him Who Halts",
+                "filename": "198.json"
+            }
+        ]
+    }
+]

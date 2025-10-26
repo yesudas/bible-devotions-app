@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "33_7:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "God Always Hears",
+                "filename": "31.json"
+            }
+        ]
+    },
+    {
+        "verse": "33_7:8",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Victory in Reverses",
+                "filename": "125.json"
+            }
+        ]
+    },
+    {
+        "verse": "33_7:19",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "From Anger to Love",
+                "filename": "355.json"
+            }
+        ]
+    }
+]

@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "வேரோடே பிடுங்கப்படும்",
         "verse": "40_15:13",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/7.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "வேரோடே பிடுங்கப்படும்",
+                "filename": "7.json"
+            }
+        ]
     }
 ]

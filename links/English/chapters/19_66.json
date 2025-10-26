@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "Clearing Before Hearing",
         "verse": "19_66:18",
-        "file": "\/3-minute-meditation\/meditations\/English\/6.json"
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "Clearing Before Hearing",
+                "filename": "6.json"
+            }
+        ]
     }
 ]

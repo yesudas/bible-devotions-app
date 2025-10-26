@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "கொஞ்சத்தில் உண்மை",
         "verse": "40_25:21",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/27.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கொஞ்சத்தில் உண்மை",
+                "filename": "27.json"
+            }
+        ]
     }
 ]

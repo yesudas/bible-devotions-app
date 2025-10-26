@@ -3,6 +3,7 @@
 
 const labelTranslations = {
     'English': {
+        'app_name': '3-Minute Meditation',
         'memory_verse_label': 'Memory Verse',
         'devotion_label': 'Insight / Reflection',
         'quote_label': "Today's Quote",
@@ -13,6 +14,7 @@ const labelTranslations = {
         'author_label': 'Author'
     },
     'தமிழ்': {
+        'app_name': '3 நிமிட தியானம்',
         'memory_verse_label': 'மனப்பாட வசனம்',
         'devotion_label': 'தியானம்',
         'quote_label': 'பிரபல மேற்கோள்',

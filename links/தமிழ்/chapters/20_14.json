@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "அழியாத ராஜ்ஜியம்",
         "verse": "20_14:13",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/62.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "அழியாத ராஜ்ஜியம்",
+                "filename": "62.json"
+            }
+        ]
     }
 ]

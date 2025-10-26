@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "பிளவுண்ட மலை",
+        "verse": "2_33:14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "உன்போக்கிலெல்லாம் இளைப்பாறுதல்",
+                "filename": "331.json"
+            }
+        ]
+    },
+    {
         "verse": "2_33:22",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/9.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "பிளவுண்ட மலை",
+                "filename": "9.json"
+            }
+        ]
     }
 ]

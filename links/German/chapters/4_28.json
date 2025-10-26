@@ -1,0 +1,72 @@
+[
+    {
+        "verse": "4_28:1",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Blessing in the City",
+                "filename": "37.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_28:3",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Blessed in the Field",
+                "filename": "44.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_28:5",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Our Substance Blessed",
+                "filename": "68.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_28:6",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Coming In; Going Out",
+                "filename": "254.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_28:10",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Without Fear of Man",
+                "filename": "98.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_28:12",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "God’s Treasury",
+                "filename": "146.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_28:13",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Lead the Way",
+                "filename": "88.json"
+            }
+        ]
+    }
+]

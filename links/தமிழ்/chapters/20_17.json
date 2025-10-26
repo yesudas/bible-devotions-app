@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "அவதூறு பேச வேண்டாம்",
         "verse": "20_17:15",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/60.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "அவதூறு பேச வேண்டாம்",
+                "filename": "60.json"
+            }
+        ]
     }
 ]

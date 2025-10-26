@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "24_31:12",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "ஏராளமான உணவு",
+                "filename": "242.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "திருப்தியடைந்த ஆன்மாக்கள்",
+                "filename": "317.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:34",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "நெருங்கிய கூட்டுறவு",
+                "filename": "102.json"
+            },
+            {
+                "brand": "faiths-check-book",
+                "title": "அவர் இனி நினைப்பதில்லை.",
+                "filename": "103.json"
+            }
+        ]
+    }
+]

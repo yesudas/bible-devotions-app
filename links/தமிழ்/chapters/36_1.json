@@ -1,14 +1,17 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "கர்த்தருடைய பெரிய நாள்",
         "verse": "36_1:14",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/55.json"
-    },
-    {
-        "brand": "3-minute-meditation",
-        "title": "கர்த்தருடைய பெரிய நாள்",
-        "verse": "36_1:14",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/56.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கர்த்தருடைய பெரிய நாள்",
+                "filename": "55.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கர்த்தருடைய பெரிய நாள்",
+                "filename": "56.json"
+            }
+        ]
     }
 ]

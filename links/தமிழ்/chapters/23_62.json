@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "தேவனுடைய கரத்தில்",
         "verse": "23_62:3",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/40.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "தேவனுடைய கரத்தில்",
+                "filename": "40.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_62:4",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "ஒருபோதும் தனிமையாய் இருப்பதில்லை",
+                "filename": "282.json"
+            }
+        ]
     }
 ]

@@ -16,9 +16,9 @@ if (isset($_GET['reset'])) {
 include 'counter.php';
 include '../detect-app.php';
 
-$version = "2025.10.1";
+$version = "2025.10.4";
 
-$languages = ["தமிழ்", "English"];
+$languages = ["தமிழ்", "English", "German"];
 
 // Language selection logic
 $selectedLanguage = $_GET['lang'] ?? $_SESSION['selected_language'] ?? $languages[0];
@@ -38,6 +38,40 @@ if (isset($_SESSION['selected_language']) && $_SESSION['selected_language'] !== 
 
 // Store in session for persistence
 $_SESSION['selected_language'] = $selectedLanguage;
+
+// Load app name from translations.js
+function getAppName($language) {
+    $translationsFile = __DIR__ . '/js/translations.js';
+    if (file_exists($translationsFile)) {
+        $content = file_get_contents($translationsFile);
+        // Extract the translations object
+        if (preg_match('/const\s+labelTranslations\s*=\s*({[\s\S]*?});/m', $content, $matches)) {
+            // Convert JS object to JSON-parseable format
+            $jsObject = $matches[1];
+            
+            // More careful conversion: replace single quotes around keys and values, but not apostrophes in content
+            // First, protect apostrophes inside strings by temporarily replacing them
+            $jsObject = preg_replace("/(\w)'(\w)/", "$1<<<APOSTROPHE>>>$2", $jsObject);
+            
+            // Now replace single quotes with double quotes
+            $jsObject = str_replace("'", '"', $jsObject);
+            
+            // Restore apostrophes
+            $jsObject = str_replace('<<<APOSTROPHE>>>', "'", $jsObject);
+            
+            // Remove trailing commas before closing braces/brackets
+            $jsObject = preg_replace('/,(\s*[}\]])/m', '$1', $jsObject);
+            
+            $translations = json_decode($jsObject, true);
+            if ($translations && isset($translations[$language]['app_name'])) {
+                return $translations[$language]['app_name'];
+            }
+        }
+    }
+    return "Faith's Check Book"; // Default fallback
+}
+
+$appName = getAppName($selectedLanguage);
 
 // Initialize or get current meditation number
 $mode = $_GET['mode'] ?? 'random';
@@ -228,24 +262,24 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title><?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Faith's Check Book - WordOfGod.in</title>
+    <title><?php echo $meditation ? htmlspecialchars($meditation['title']) . ' - ' : ''; ?><?php echo htmlspecialchars($appName); ?> - WordOfGod.in</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections. 3-minute daily devotions for spiritual growth.">
-    <meta name="keywords" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> , meditation, christian, bible, devotion, prayer, spiritual, faith, daily, WordOfGod.in, WordOfGod">
+    <meta name="description" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ' - ' : ''; ?><?php echo htmlspecialchars($appName); ?> - Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections. Daily devotions for spiritual growth.">
+    <meta name="keywords" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ', ' : ''; ?><?php echo htmlspecialchars($appName); ?>, meditation, christian, bible, devotion, prayer, spiritual, faith, daily, WordOfGod.in, WordOfGod">
     <meta name="author" content="Word of God Team">
     <meta name="robots" content="index, follow">
     
     <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Faith's Check Book - Daily Christian Devotions - WordOfGod.in">
-    <meta property="og:description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
+    <meta property="og:title" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ' - ' : ''; ?><?php echo htmlspecialchars($appName); ?> - Daily Christian Devotions - WordOfGod.in">
+    <meta property="og:description" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ' - ' : ''; ?><?php echo htmlspecialchars($appName); ?> - Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Faith's Check Book - Daily Christian Devotions - WordOfGod.in">
-    <meta name="twitter:description" content="<?php echo $meditation ? $meditation['title'] . ' - ' : ''; ?> Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
+    <meta name="twitter:title" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ' - ' : ''; ?><?php echo htmlspecialchars($appName); ?> - Daily Christian Devotions - WordOfGod.in">
+    <meta name="twitter:description" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ' - ' : ''; ?><?php echo htmlspecialchars($appName); ?> - Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -259,7 +293,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Faith's Check Book">
+    <meta name="apple-mobile-web-app-title" content="<?php echo htmlspecialchars($appName); ?>">
 
     <!-- Google Analytics -->
     <?php include '../google-analytics.php'; ?>
@@ -270,7 +304,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
     <!-- Site Header - Common for all pages -->
     <div class="site-header">
         <div class="container">
-            <h1><i class="fas fa-book-open"></i> Faith's Check Book</h1>
+            <h1><i class="fas fa-book-open"></i> <?php echo htmlspecialchars($appName); ?></h1>
             <p class="site-tagline">Daily Christian Devotions for Spiritual Growth</p>
             
             <!-- Mode Selector & Zoom Controls -->
@@ -387,17 +421,19 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                         <h2><?php echo htmlspecialchars($meditation['title']); ?></h2>
                     </div>
                     <div class="devotion-content fade-in">
+                        <?php if (!empty($meditation['memory_verse']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-book"></i> <?php echo $meditation['memory_verse']['label'] ?? 'Memory Verse'; ?></h2>
                             <span class="verse-reference"><?php echo htmlspecialchars($meditation['memory_verse']['text']); ?></span>
                         </div>
+                        <?php endif; ?>
                     
                         <div class="section">
                             <h2><i class="fas fa-heart"></i> <?php echo $meditation['devotion']['label'] ?? 'Insight & Reflection'; ?></h2>
                             <p><?php echo nl2br(htmlspecialchars($meditation['devotion']['text'])); ?></p>
                         </div>
                     
-                        <?php if (!empty($meditation['quote'])): ?>
+                        <?php if (!empty($meditation['quote']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-quote-right"></i> <?php echo $meditation['quote']['label'] ?? "Today's Quote"; ?></h2>
                             <p><?php echo htmlspecialchars($meditation['quote']['text']); ?></p>
@@ -435,7 +471,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                         </div>
                         <?php endif; ?>
                     
-                        <?php if (!empty($meditation['conclusion'])): ?>
+                        <?php if (!empty($meditation['conclusion']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-star"></i> <?php echo $meditation['conclusion']['label'] ?? 'A Word to You'; ?></h2>
                             <?php foreach ($meditation['conclusion']['text'] as $word): ?>
@@ -444,6 +480,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                         </div>
                         <?php endif; ?>
                     
+                        <?php if (!empty($meditation['author']['author'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-user"></i> <?php echo $meditation['author']['label'] ?? 'Author'; ?></h2>
                             <p class="mb-2"><strong><?php echo htmlspecialchars($meditation['author']['author']); ?></strong></p>
@@ -466,6 +503,7 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
                                 </p>
                             <?php endif; ?>
                         </div>
+                        <?php endif; ?>
                     </div>
                     
                     <div class="navigation">

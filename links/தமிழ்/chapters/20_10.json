@@ -1,8 +1,42 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "வேதனை இல்லாத ஐசுவரியம்",
+        "verse": "20_10:9",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "சரியாக நடப்பதற்கு ஏற்ற பாங்கு",
+                "filename": "335.json"
+            }
+        ]
+    },
+    {
         "verse": "20_10:22",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/28.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "வேதனை இல்லாத ஐசுவரியம்",
+                "filename": "28.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_10:24",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "நீதிமான் விரும்புகிற காரியம் கொடுக்கப்படும்.",
+                "filename": "106.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_10:27",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "அவர் நம்மோடும் நாம் அவரோடும்",
+                "filename": "174.json"
+            }
+        ]
     }
 ]

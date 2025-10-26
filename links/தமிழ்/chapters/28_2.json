@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "28_2:14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "வனாந்தரத்தில் ஆன்மீகக் கூட்டுறவு",
+                "filename": "200.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:16-17",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "பெயர் மாற்றம்",
+                "filename": "208.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:18",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "அயர்ந்து இளைப்பாறுதல்",
+                "filename": "4.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:19-20",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "நிலையான வாக்குறுதி",
+                "filename": "204.json"
+            }
+        ]
+    }
+]

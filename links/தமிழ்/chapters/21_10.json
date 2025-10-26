@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "அடைப்பைப் பிடுங்காதே!",
         "verse": "21_10:8",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/8.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "அடைப்பைப் பிடுங்காதே!",
+                "filename": "8.json"
+            }
+        ]
     }
 ]

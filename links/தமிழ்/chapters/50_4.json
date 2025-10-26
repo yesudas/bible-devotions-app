@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "50_4:6-7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "விண்ணப்பம், ஸ்தோத்திரம், துதி",
+                "filename": "90.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_4:9",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "பிறருக்கு ஓர் எடுத்துக்காட்டு",
+                "filename": "76.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_4:19",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "வரம் பெற்ற செல்வம்",
+                "filename": "319.json"
+            }
+        ]
+    }
+]

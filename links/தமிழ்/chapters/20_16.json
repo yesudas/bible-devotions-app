@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "விழுதலுக்கு முன்னானது மனமேட்டிமை",
+        "verse": "20_16:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "எதிரிகள் சமாதானமாவார்கள்",
+                "filename": "108.json"
+            }
+        ]
+    },
+    {
         "verse": "20_16:18",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/38.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "விழுதலுக்கு முன்னானது மனமேட்டிமை",
+                "filename": "38.json"
+            }
+        ]
     }
 ]

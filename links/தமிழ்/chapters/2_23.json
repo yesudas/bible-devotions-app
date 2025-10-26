@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "2_23:22",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "கடவுள் நம் நண்பர்",
+                "filename": "344.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_23:25",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "சாதாரணமானவை ஆசீர்வதிக்கப்படும்",
+                "filename": "147.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_23:28",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "கடவுளின் குளவிகள்",
+                "filename": "95.json"
+            }
+        ]
+    }
+]

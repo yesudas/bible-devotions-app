@@ -1,8 +1,12 @@
 [
     {
-        "brand": "faiths-check-book",
-        "title": "திருமறையின் முதல் வாக்குறுதி",
         "verse": "1_3:15",
-        "file": "\/faiths-check-book\/meditations\/தமிழ்\/1.json"
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "திருமறையின் முதல் வாக்குறுதி",
+                "filename": "1.json"
+            }
+        ]
     }
 ]

@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "விசுவாசத்தில் உறுதியாயிருங்கள்",
+        "verse": "60_5:6",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "அடங்கியிரு, உயர்த்தப்படு",
+                "filename": "210.json"
+            }
+        ]
+    },
+    {
         "verse": "60_5:8-9",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/50.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "விசுவாசத்தில் உறுதியாயிருங்கள்",
+                "filename": "50.json"
+            }
+        ]
     }
 ]

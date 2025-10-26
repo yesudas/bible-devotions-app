@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "சந்திரன் இரத்தமாக மாறும்",
         "verse": "1_1:14",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/32.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "சந்திரன் இரத்தமாக மாறும்",
+                "filename": "32.json"
+            }
+        ]
     }
 ]

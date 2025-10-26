@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "மன்னிப்பு தரும் சுகம்",
         "verse": "41_11:25",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/58.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "மன்னிப்பு தரும் சுகம்",
+                "filename": "58.json"
+            }
+        ]
     }
 ]

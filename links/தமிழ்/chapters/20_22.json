@@ -1,20 +1,27 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "கலங்கி தவிக்காதே",
         "verse": "20_22:19",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/21.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கலங்கி தவிக்காதே",
+                "filename": "21.json"
+            }
+        ]
     },
     {
-        "brand": "3-minute-meditation",
-        "title": "வேலையில் ஜாக்கிரதையாயிருப்பவன்",
         "verse": "20_22:29",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/17.json"
-    },
-    {
-        "brand": "3-minute-meditation",
-        "title": "வேலையில் ஜாக்கிரதையாயிருப்பவன்",
-        "verse": "20_22:29",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/18.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "வேலையில் ஜாக்கிரதையாயிருப்பவன்",
+                "filename": "17.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "வேலையில் ஜாக்கிரதையாயிருப்பவன்",
+                "filename": "18.json"
+            }
+        ]
     }
 ]

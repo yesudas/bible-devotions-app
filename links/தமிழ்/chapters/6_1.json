@@ -1,8 +1,27 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "இயேசு அற்புதமானவரே",
         "verse": "6_1:5",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/63.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "இயேசு அற்புதமானவரே",
+                "filename": "63.json"
+            },
+            {
+                "brand": "faiths-check-book",
+                "title": "ஒருபோதும் உன்னை விட்டு விலகமாட்டார்",
+                "filename": "109.json"
+            }
+        ]
+    },
+    {
+        "verse": "6_1:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "வாழ்வில் வளம் பெறுவதற்கான வழிகள்",
+                "filename": "220.json"
+            }
+        ]
     }
 ]

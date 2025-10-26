@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "துதிப்போம் அல்லேலூயா பாடி",
         "verse": "46_3:16",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/41.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "துதிப்போம் அல்லேலூயா பாடி",
+                "filename": "41.json"
+            }
+        ]
     }
 ]

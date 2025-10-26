@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "இருளிலும் வெளிச்சம்",
         "verse": "19_17:3",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/47.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "இருளிலும் வெளிச்சம்",
+                "filename": "47.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_17:15",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "ஆண்டவரின் அழகை பிரதிபலிப்பவர்கள்",
+                "filename": "277.json"
+            }
+        ]
     }
 ]

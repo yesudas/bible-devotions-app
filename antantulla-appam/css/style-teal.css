@@ -1,0 +1,373 @@
+/* Antantulla Appam - Teal/Turquoise Theme Overrides */
+
+/* Body Background - Teal Theme */
+body {
+    background: linear-gradient(135deg, #14b8a6 0%, #5eead4 100%);
+    min-height: 100vh;
+}
+
+/* Site Header - Teal Theme */
+.site-header {
+    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+    color: white;
+    padding: 30px 0 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+/* Site Footer - Teal Theme */
+.site-footer {
+    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+    color: white;
+    padding: 30px 0;
+    margin-top: 40px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Devotion Container - Teal Accents */
+.devotion-container {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(15, 118, 110, 0.15);
+    padding: 30px;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+
+/* Devotion Header - Teal Theme */
+.devotion-header {
+    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+    color: white;
+    padding: 30px 40px;
+    text-align: center;
+    border-bottom: none;
+}
+
+.devotion-header h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Section Headings - Teal Theme */
+.section h2 {
+    color: #0f766e;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    border-left: 4px solid #5eead4;
+    padding-left: 15px;
+}
+
+.section h2 i {
+    color: #5eead4;
+    margin-right: 10px;
+}
+
+/* Navigation Buttons - Teal Theme */
+.nav-btn {
+    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 10px rgba(15, 118, 110, 0.3);
+}
+
+.nav-btn:hover {
+    background: linear-gradient(135deg, #0d5f57 0%, #0f766e 100%);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(15, 118, 110, 0.4);
+}
+
+.nav-btn:disabled {
+    background: linear-gradient(135deg, #99f6e4 0%, #ccfbf1 100%);
+    opacity: 0.6;
+    cursor: not-allowed;
+    box-shadow: none;
+}
+
+/* Verse Reference - Teal Theme */
+.verse-reference {
+    background: linear-gradient(135deg, #ccfbf1 0%, #99f6e4 100%);
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-style: italic;
+    color: #0d5f57;
+    border-left: 5px solid #5eead4;
+    display: block;
+    margin: 15px 0;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 8px rgba(15, 118, 110, 0.1);
+}
+
+/* Mode Selector - Green Theme */
+.mode-selector {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.mode-btn {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    border: 2px solid transparent;
+}
+
+.mode-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.mode-btn.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #0f766e;
+    font-weight: 600;
+    border-color: white;
+}
+
+/* Language Selector - Teal Theme */
+.lang-btn {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.dropdown-menu {
+    background: #f0fdfa;
+    border: 2px solid #5eead4;
+    border-radius: 10px;
+}
+
+.dropdown-item {
+    color: #0d5f57;
+    padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+    background: #ccfbf1;
+    color: #0d5f57;
+}
+
+.dropdown-item.active {
+    background: #5eead4;
+    color: white;
+}
+
+/* Zoom Controls - Green Theme */
+.zoom-btn {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.zoom-btn:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Meditation Item (View All) - Teal Theme */
+.meditation-item {
+    background: linear-gradient(135deg, #f0fdfa 0%, #ccfbf1 100%);
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #5eead4;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(15, 118, 110, 0.1);
+}
+
+.meditation-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(15, 118, 110, 0.2);
+    border-left-color: #0f766e;
+}
+
+.meditation-item a {
+    color: #0d5f57;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.meditation-item a:hover {
+    color: #0f766e;
+}
+
+/* Devotion Counter - Teal Theme */
+.devotion-counter {
+    background: linear-gradient(135deg, #5eead4 0%, #14b8a6 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(15, 118, 110, 0.3);
+}
+
+/* Alert Boxes - Teal Theme */
+.alert-warning {
+    background: #fef3c7;
+    border-left: 5px solid #5eead4;
+    color: #0d5f57;
+}
+
+/* Hamburger Menu - Green Theme */
+.hamburger-menu {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hamburger-menu:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Admin Panel - Teal Theme */
+.admin-header {
+    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.admin-btn-primary {
+    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%);
+    border: none;
+    color: white;
+}
+
+.admin-btn-primary:hover {
+    background: linear-gradient(135deg, #0d5f57 0%, #0f766e 100%);
+}
+
+.admin-btn-success {
+    background: linear-gradient(135deg, #5eead4 0%, #14b8a6 100%);
+    border: none;
+    color: white;
+}
+
+.admin-btn-success:hover {
+    background: linear-gradient(135deg, #14b8a6 0%, #0f766e 100%);
+}
+
+.admin-badge-scheduled {
+    background: #5eead4;
+}
+
+.admin-stats .stat-card {
+    border-left: 4px solid #5eead4;
+}
+
+/* Links and Accents - Teal Theme */
+a {
+    color: #0f766e;
+}
+
+a:hover {
+    color: #0d5f57;
+}
+
+/* Blockquotes - Teal Theme */
+blockquote {
+    border-left: 5px solid #5eead4;
+    background: #f0fdfa;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Copy Button - Teal Theme */
+.copy-btn {
+    background: #5eead4;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+    background: #14b8a6;
+}
+
+.copy-btn.copied {
+    background: #0f766e;
+}
+
+/* Navigation Center Copy Controls - Teal Theme */
+.navigation .navigation-center .copy-btn {
+    background: linear-gradient(135deg, #0f766e 0%, #14b8a6 100%) !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(15, 118, 110, 0.3);
+}
+
+.navigation .navigation-center .copy-btn:hover:not(:disabled) {
+    background: linear-gradient(135deg, #0d5f57 0%, #0f766e 100%) !important;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(15, 118, 110, 0.4);
+}
+
+.navigation .navigation-center .copy-btn:active:not(:disabled) {
+    transform: scale(0.95);
+}
+
+/* Header Copy Controls - Green Theme */
+.header-controls .copy-btn,
+.copy-controls .copy-btn {
+    background: rgba(255, 255, 255, 0.25) !important;
+    color: white !important;
+    border: 2px solid rgba(255, 255, 255, 0.3) !important;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.header-controls .copy-btn:hover:not(:disabled),
+.copy-controls .copy-btn:hover:not(:disabled) {
+    background: rgba(255, 255, 255, 0.35) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    color: white !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

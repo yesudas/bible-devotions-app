@@ -3,23 +3,25 @@
 
 const labelTranslations = {
     'English': {
-        'memory_verse_label': "Today's Verse",
-        'devotion_label': 'Insight / Reflection',
+        'app_name': 'Daily Dose Devotion',
+        'memory_verse_label': "Today's Dose",
+        'devotion_label': 'Devotion',
         'quote_label': "Today's Quote",
         'song_label': 'Song',
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
-        'conclusion_label': 'A Word to You',
+        'conclusion_label': 'Conclusion',
         'author_label': 'Author'
     },
     'தமிழ்': {
-        'memory_verse_label': 'இன்றைய வசனம்',
+        'app_name': 'அனுதின மன்னா',
+        'memory_verse_label': 'இன்றைய மன்னா',
         'devotion_label': 'தியானம்',
         'quote_label': 'பிரபல மேற்கோள்',
         'song_label': 'பாடல்',
         'prayer_label': 'ஜெபம்',
         'book_label': 'பரிந்துரைக்கப்படும் புத்தகம்',
-        'conclusion_label': 'உங்களுக்கு ஒரு வார்த்தை',
+        'conclusion_label': 'முடிவுரை',
         'author_label': 'ஆசிரியர்'
     }
 };

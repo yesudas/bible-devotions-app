@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "குறுகிய வட்டம் வேண்டாம்",
+        "verse": "23_46:4",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "அவர் பரம வீட்டுக்கு நம்மைச் சுமந்து செல்வார்",
+                "filename": "363.json"
+            }
+        ]
+    },
+    {
         "verse": "23_46:11",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/45.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "குறுகிய வட்டம் வேண்டாம்",
+                "filename": "45.json"
+            }
+        ]
     }
 ]

@@ -1,8 +1,42 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "காலைதோறும் புதிய கிருபை",
+        "verse": "40_6:3-4",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "இரகசியமாகத் தருமம் செய்தல்",
+                "filename": "62.json"
+            }
+        ]
+    },
+    {
         "verse": "40_6:11",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/12.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "காலைதோறும் புதிய கிருபை",
+                "filename": "12.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_6:30",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "பரம முன்னேற்பாடு",
+                "filename": "80.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_6:33",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "முதலாவது கடவுள் பின் மற்றவை",
+                "filename": "299.json"
+            }
+        ]
     }
 ]

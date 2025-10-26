@@ -6,10 +6,9 @@ session_set_cookie_params(1800);
 
 session_start();
 
-$version = "2025.10.7";
+$version = "2025.10.3";
 
-
-$languages = ["தமிழ்", "English"];
+$languages = ["தமிழ்", "English", "German"];
 
 // Language selection for admin (defaults to first language)
 $selectedLanguage = $_GET['lang'] ?? $_SESSION['admin_selected_language'] ?? $languages[0];

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "20_10:9",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "True Walking Posture",
+                "filename": "335.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_10:24",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Desires of Righteous Granted",
+                "filename": "106.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_10:27",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "He with Us; We with Him",
+                "filename": "174.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_33:10",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "கடவுளே செய்வார்",
+                "filename": "170.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_33:16",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "அரண்களாகிய உயர்ந்த இடங்கள்",
+                "filename": "339.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_33:21",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "படகுகள் ஓடாத விசாலமான நதிகள்",
+                "filename": "266.json"
+            }
+        ]
+    }
+]

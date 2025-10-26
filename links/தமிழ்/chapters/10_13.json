@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "பரிசுத்த வாழ்க்கை",
         "verse": "10_13:15",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/53.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "பரிசுத்த வாழ்க்கை",
+                "filename": "53.json"
+            }
+        ]
     }
 ]

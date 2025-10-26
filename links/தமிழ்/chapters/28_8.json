@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "வாசிக்க சிறந்த புஸ்தகம் வேதம்",
         "verse": "28_8:12",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/10.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "வாசிக்க சிறந்த புஸ்தகம் வேதம்",
+                "filename": "10.json"
+            }
+        ]
     }
 ]

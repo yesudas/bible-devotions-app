@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "கிறிஸ்துவின் மாதிரி",
         "verse": "43_13:15",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/39.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கிறிஸ்துவின் மாதிரி",
+                "filename": "39.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_13:21-27",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "]பூரண அழகுள்ளவர்",
+                "filename": "82.json"
+            }
+        ]
     }
 ]

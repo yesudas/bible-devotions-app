@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "24_31:12",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Plentiful Refreshment",
+                "filename": "242.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Sanctified Souls Are Satisfied",
+                "filename": "317.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:34",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Close Fellowship",
+                "filename": "102.json"
+            },
+            {
+                "brand": "faiths-check-book",
+                "title": "He Remembers No More",
+                "filename": "103.json"
+            }
+        ]
+    }
+]

@@ -1,14 +1,52 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "காணிக்கை செலுத்துவதின் நோக்கம்",
-        "verse": "40_5:23-24",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/61.json"
+        "verse": "40_5:3",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "ஆவியில் எளிமை",
+                "filename": "46.json"
+            }
+        ]
     },
     {
-        "brand": "3-minute-meditation",
-        "title": "ஆவியில் எளிமை",
-        "verse": "40_5:3",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/46.json"
+        "verse": "40_5:4",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "துயரப்படுகிறவருக்கு ஆறுதல் அளிக்கப்படும்",
+                "filename": "197.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "பிறருக்குக் கொடு! பெற்றுக்கொள்",
+                "filename": "137.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:8",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "இதய சுத்தமும் வாழ்க்கையும்",
+                "filename": "8.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:23-24",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "காணிக்கை செலுத்துவதின் நோக்கம்",
+                "filename": "61.json"
+            }
+        ]
     }
 ]

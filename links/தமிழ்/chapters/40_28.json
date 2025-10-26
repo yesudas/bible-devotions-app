@@ -1,14 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "ஆத்துமாக்களை மீட்டெடுப்போம்",
-        "verse": "40_28:20",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/52.json"
+        "verse": "40_28:6",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "மரணமே உன் கூர் எங்கே?",
+                "filename": "42.json"
+            }
+        ]
     },
     {
-        "brand": "3-minute-meditation",
-        "title": "மரணமே உன் கூர் எங்கே?",
-        "verse": "40_28:6",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/42.json"
+        "verse": "40_28:20",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "ஆத்துமாக்களை மீட்டெடுப்போம்",
+                "filename": "52.json"
+            }
+        ]
     }
 ]

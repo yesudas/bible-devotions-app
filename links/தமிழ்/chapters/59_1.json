@@ -1,14 +1,47 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "கேட்கிறதற்கு தீவிரமாயிருப்போம்",
-        "verse": "59_1:19",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/14.json"
+        "verse": "59_1:5",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "வேண்டிக்கொண்டால் ஞானம் பெறுவோம்",
+                "filename": "160.json"
+            }
+        ]
     },
     {
-        "brand": "3-minute-meditation",
-        "title": "கேட்கிறதற்கு தீவிரமாயிருப்போம்",
+        "verse": "59_1:7",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "சந்தேகப்படாமல் கேட்போம்",
+                "filename": "76.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:12",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "கடவுள் ஏற்றுக் கொண்டதற்கு அடையாளம்",
+                "filename": "258.json"
+            }
+        ]
+    },
+    {
         "verse": "59_1:19",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/15.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கேட்கிறதற்கு தீவிரமாயிருப்போம்",
+                "filename": "14.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கேட்கிறதற்கு தீவிரமாயிருப்போம்",
+                "filename": "15.json"
+            }
+        ]
     }
 ]

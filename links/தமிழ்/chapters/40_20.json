@@ -1,8 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "ஊழியம் செய் — உரிமை கோராதே",
+        "verse": "40_20:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "உதவி தேவை",
+                "filename": "129.json"
+            }
+        ]
+    },
+    {
         "verse": "40_20:28",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/3.json"
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "ஊழியம் செய் — உரிமை கோராதே",
+                "filename": "3.json"
+            }
+        ]
     }
 ]

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "40_6:3-4",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Giving Without a Whisper",
+                "filename": "62.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_6:30",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Divine Provision",
+                "filename": "80.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_6:33",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "God First, Then Extras",
+                "filename": "299.json"
+            }
+        ]
+    }
+]

@@ -1,8 +1,52 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "ஆதியில் கொண்ட அன்பு",
         "verse": "66_2:5",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/65.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "ஆதியில் கொண்ட அன்பு",
+                "filename": "65.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_2:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "ஜெயங்கொள்ளுகிறவன்",
+                "filename": "20.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_2:11",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "மரணத்தைக் குறித்து அச்சமில்லை",
+                "filename": "114.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_2:17",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "மேற்கொள்பவரின் பரிசு",
+                "filename": "121.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_2:28",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "பகல் சமீபமாயிற்று",
+                "filename": "134.json"
+            }
+        ]
     }
 ]

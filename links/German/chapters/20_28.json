@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "20_28:10",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "No Need to Stint",
+                "filename": "138.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_28:13",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Uncover and Confess Sin",
+                "filename": "229.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_28:14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Fear Has Its Place",
+                "filename": "253.json"
+            }
+        ]
+    }
+]

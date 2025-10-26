@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "NOW OR NEVER - THE CALL TO RETURN",
         "verse": "58_3:15",
-        "file": "\/3-minute-meditation\/meditations\/English\/7.json"
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "NOW OR NEVER - THE CALL TO RETURN",
+                "filename": "7.json"
+            }
+        ]
     }
 ]

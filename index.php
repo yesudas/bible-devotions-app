@@ -186,6 +186,29 @@ $version = "2025.10.1";
                         </div>
                     </div>
 
+                    <!-- Antantulla Appam App -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card app-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="app-icon mb-3">
+                                    <i class="bi bi-stars"></i>
+                                </div>
+                                <h4 class="card-title mb-3">Antantulla Appam</h4>
+                                <p class="card-text text-muted mb-4">
+                                    Deep spiritual insights and biblical meditations to nourish your soul. 
+                                    Discover God's purpose for your life through daily devotions.
+                                </p>
+                                <p>
+                                    Supported in தமிழ், English, తెలుగు, and ಕನ್ನಡ.
+                                </p>
+                                <p>Sam Jebadurai</p>
+                                <a href="antantulla-appam/" class="btn btn-app text-white">
+                                    <i class="bi bi-star-fill me-2"></i>Explore Devotions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <!-- Features Section -->

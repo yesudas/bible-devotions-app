@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "4_33:12",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Complete Safety",
+                "filename": "262.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_33:18",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Going Out with Joy",
+                "filename": "72.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_33:25",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Heavy-Duty Shoes",
+                "filename": "201.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_33:28",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Dwelling Safely Apart",
+                "filename": "164.json"
+            },
+            {
+                "brand": "faiths-check-book",
+                "title": "The Dew of Heaven",
+                "filename": "257.json"
+            }
+        ]
+    }
+]

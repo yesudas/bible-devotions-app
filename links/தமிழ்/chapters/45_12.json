@@ -1,14 +1,22 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "வண்ணத்துப்பூச்சியா? பச்சோந்தியா?",
         "verse": "45_12:2",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/24.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "வண்ணத்துப்பூச்சியா? பச்சோந்தியா?",
+                "filename": "24.json"
+            }
+        ]
     },
     {
-        "brand": "3-minute-meditation",
-        "title": "மிஞ்சி எண்ண வேண்டாம்",
         "verse": "45_12:3",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/16.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "மிஞ்சி எண்ண வேண்டாம்",
+                "filename": "16.json"
+            }
+        ]
     }
 ]

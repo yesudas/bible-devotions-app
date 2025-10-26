@@ -1,14 +1,37 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "பாலைவனம் வந்தால் என்ன",
-        "verse": "23_44:19",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/35.json"
+        "verse": "23_44:3",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "நம் பிள்ளைகள் எங்கே இருக்கிறார்கள்?",
+                "filename": "42.json"
+            }
+        ]
     },
     {
-        "brand": "3-minute-meditation",
-        "title": "பாலைவனம் வந்தால் என்ன",
         "verse": "23_44:19",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/36.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "பாலைவனம் வந்தால் என்ன",
+                "filename": "35.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "பாலைவனம் வந்தால் என்ன",
+                "filename": "36.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_44:21",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "மறக்கப்படவில்லை",
+                "filename": "96.json"
+            }
+        ]
     }
 ]

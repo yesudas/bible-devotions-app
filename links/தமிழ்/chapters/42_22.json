@@ -1,8 +1,12 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "புதிதான கட்டளை",
         "verse": "42_22:14-16",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/44.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "புதிதான கட்டளை",
+                "filename": "44.json"
+            }
+        ]
     }
 ]

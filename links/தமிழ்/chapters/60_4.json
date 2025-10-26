@@ -1,14 +1,17 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "ஜெபம் செய்திடுவோம்",
         "verse": "60_4:7",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/30.json"
-    },
-    {
-        "brand": "3-minute-meditation",
-        "title": "ஜெபம் செய்திடுவோம்",
-        "verse": "60_4:7",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/31.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "ஜெபம் செய்திடுவோம்",
+                "filename": "30.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "ஜெபம் செய்திடுவோம்",
+                "filename": "31.json"
+            }
+        ]
     }
 ]

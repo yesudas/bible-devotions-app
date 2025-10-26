@@ -1,20 +1,27 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "சிற்பங்கள்",
+        "verse": "62_5:7",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "திரித்துவ தேவன் பாகம் - 1",
+                "filename": "48.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "திரித்துவ தேவன் பாகம் - 2",
+                "filename": "49.json"
+            }
+        ]
+    },
+    {
         "verse": "62_5:21",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/54.json"
-    },
-    {
-        "brand": "3-minute-meditation",
-        "title": "திரித்துவ தேவன் பாகம் - 1",
-        "verse": "62_5:7",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/48.json"
-    },
-    {
-        "brand": "3-minute-meditation",
-        "title": "திரித்துவ தேவன் பாகம் - 2",
-        "verse": "62_5:7",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/49.json"
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "சிற்பங்கள்",
+                "filename": "54.json"
+            }
+        ]
     }
 ]
