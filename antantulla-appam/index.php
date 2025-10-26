@@ -167,9 +167,20 @@ function getTotalMeditations($language) {
     return count(getAllMeditations($language));
 }
 
+// Find meditation index by uniqueid
+function findMeditationIndexByUniqueId($uniqueid, $allMeditations) {
+    foreach ($allMeditations as $index => $meditation) {
+        if ($meditation['uniqueid'] === $uniqueid) {
+            return $index;
+        }
+    }
+    return null;
+}
+
 // Get current meditation based on mode
-function getCurrentMeditationIndex($mode, $action, $index, $language) {
-    $total = getTotalMeditations($language);
+function getCurrentMeditationIndex($mode, $action, $uniqueid, $language) {
+    $allMeditations = getAllMeditations($language);
+    $total = count($allMeditations);
     
     // If no meditations exist, return null
     if ($total === 0) {
@@ -190,20 +201,18 @@ function getCurrentMeditationIndex($mode, $action, $index, $language) {
             $_SESSION['random_index'] = 0;
         }
         
-        // If a specific index is requested, find its position in the random sequence
-        if ($index !== null) {
-            $targetIndex = (int)$index;
-            // Validate the target index exists in current language
-            if ($targetIndex >= 0 && $targetIndex < $total) {
+        // If a specific uniqueid is requested, find its position in the random sequence
+        if ($uniqueid !== null) {
+            $targetIndex = findMeditationIndexByUniqueId($uniqueid, $allMeditations);
+            if ($targetIndex !== null) {
                 $position = array_search($targetIndex, $_SESSION['random_sequence']);
                 if ($position !== false) {
                     $_SESSION['random_index'] = $position;
                     return $targetIndex;
                 }
-            } else {
-                // Index out of bounds, reset to first
-                $_SESSION['random_index'] = 0;
             }
+            // If uniqueid not found, reset to first
+            $_SESSION['random_index'] = 0;
         }
         
         // Handle legacy action parameters (for backward compatibility)
@@ -216,17 +225,15 @@ function getCurrentMeditationIndex($mode, $action, $index, $language) {
         return $_SESSION['random_sequence'][$_SESSION['random_index']];
     } else {
         // Latest mode
-        if ($index !== null) {
-            $targetIndex = (int)$index;
-            // Validate the index is within range
-            if ($targetIndex >= 0 && $targetIndex < $total) {
+        if ($uniqueid !== null) {
+            $targetIndex = findMeditationIndexByUniqueId($uniqueid, $allMeditations);
+            if ($targetIndex !== null) {
                 $_SESSION['current_meditation_index'] = $targetIndex;
                 return $targetIndex;
-            } else {
-                // Index out of bounds, reset to first
-                $_SESSION['current_meditation_index'] = 0;
-                return 0;
             }
+            // If uniqueid not found, reset to first
+            $_SESSION['current_meditation_index'] = 0;
+            return 0;
         }
         
         if (!isset($_SESSION['current_meditation_index'])) {
@@ -264,12 +271,12 @@ checkAndActivateScheduledMeditations($selectedLanguage);
 // Initialize or get current meditation number
 $mode = $_GET['mode'] ?? 'random';
 $action = $_GET['action'] ?? '';
-$index = $_GET['index'] ?? null;
+$uniqueid = $_GET['id'] ?? null;
 
 // Get all meditations and current meditation
 $allMeditations = getAllMeditations($selectedLanguage);
 $total = count($allMeditations);
-$currentIndex = getCurrentMeditationIndex($mode, $action, $index, $selectedLanguage);
+$currentIndex = getCurrentMeditationIndex($mode, $action, $uniqueid, $selectedLanguage);
 $meditation = null;
 
 if ($currentIndex !== null && isset($allMeditations[$currentIndex])) {
@@ -281,14 +288,15 @@ $viewAll = ($_GET['view'] ?? '') === 'all';
 
 // Redirect to add query params and title slug if missing (for proper sharing and SEO)
 if (!$viewAll && $meditation && $currentIndex !== null) {
-    $hasQueryParams = isset($_GET['mode']) && isset($_GET['index']) && isset($_GET['lang']);
+    $hasQueryParams = isset($_GET['mode']) && isset($_GET['id']) && isset($_GET['lang']);
     $titleSlug = createSlug($meditation['title']);
     $currentSlug = $_GET['title'] ?? '';
+    $currentUniqueId = $allMeditations[$currentIndex]['uniqueid'];
     
     // Redirect if missing params or slug doesn't match
     if (!$hasQueryParams || $currentSlug !== $titleSlug) {
         $newUrl = "?mode=" . urlencode($mode) . 
-                  "&index=" . $currentIndex . 
+                  "&id=" . urlencode($currentUniqueId) . 
                   "&lang=" . urlencode($selectedLanguage) . 
                   "&title=" . urlencode($titleSlug);
         header("Location: " . $newUrl, true, 302);
@@ -439,7 +447,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                                     <h5><?php echo htmlspecialchars($med['title']); ?></h5>
                                     <p class="text-muted mb-0"><?php echo htmlspecialchars($med['date']); ?></p>
                                 </div>
-                                <a href="?mode=<?php echo $mode; ?>&index=<?php echo $idx; ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode(createSlug($med['title'])); ?>" class="btn btn-sm nav-btn">
+                                <a href="?mode=<?php echo $mode; ?>&id=<?php echo urlencode($med['uniqueid']); ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode(createSlug($med['title'])); ?>" class="btn btn-sm nav-btn">
                                     <i class="fas fa-arrow-right"></i>
                                 </a>
                             </div>
@@ -557,13 +565,15 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                                 ($_SESSION['random_index'] < $total - 1 ? $_SESSION['random_sequence'][$_SESSION['random_index'] + 1] : $_SESSION['random_sequence'][0]) :
                                 min($currentIndex + 1, $total - 1);
                             
-                            // Get title slugs for prev/next
+                            // Get uniqueids and title slugs for prev/next
+                            $prevUniqueId = $allMeditations[$prevIndex]['uniqueid'];
+                            $nextUniqueId = $allMeditations[$nextIndex]['uniqueid'];
                             $prevMed = isset($allMeditations[$prevIndex]) ? loadMeditationByFilename($allMeditations[$prevIndex]['filename'], $selectedLanguage) : null;
                             $nextMed = isset($allMeditations[$nextIndex]) ? loadMeditationByFilename($allMeditations[$nextIndex]['filename'], $selectedLanguage) : null;
                             $prevSlug = $prevMed ? createSlug($prevMed['title']) : '';
                             $nextSlug = $nextMed ? createSlug($nextMed['title']) : '';
                         ?>
-                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $prevIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode($prevSlug); ?>" 
+                        <a href="?mode=<?php echo $mode; ?>&id=<?php echo urlencode($prevUniqueId); ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode($prevSlug); ?>" 
                            class="nav-btn <?php echo ($mode === 'latest' && $currentIndex <= 0) ? 'disabled' : ''; ?>">
                             <i class="fas fa-chevron-left"></i> Previous
                         </a>
@@ -577,7 +587,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                             </a>
                         </div>
                         
-                        <a href="?mode=<?php echo $mode; ?>&index=<?php echo $nextIndex; ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode($nextSlug); ?>" 
+                        <a href="?mode=<?php echo $mode; ?>&id=<?php echo urlencode($nextUniqueId); ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode($nextSlug); ?>" 
                            class="nav-btn <?php echo ($mode === 'latest' && $currentIndex >= $total - 1) ? 'disabled' : ''; ?>">
                             Next <i class="fas fa-chevron-right"></i>
                         </a>
