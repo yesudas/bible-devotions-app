@@ -1,11 +1,391 @@
 [
     {
+        "verse": "43_1:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வார்த்தை",
+                "filename": "1213.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அந்த ‘வார்த்தை’",
+                "filename": "4343.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆதியிலே இருந்த வார்த்தை!",
+                "filename": "4344.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆத்துமா வாழ்கிறதுபோல",
+                "filename": "160.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பிரியமானவனே!",
+                "filename": "916.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அமிழ்ந்துபோகின்ற அர்த்தம்",
+                "filename": "3599.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீ கிறிஸ்துவுக்குச் சாட்சியா?",
+                "filename": "4345.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவனோடு ஐக்கியம்",
+                "filename": "458.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவ பிரசன்னமும், ஒருமனப்பாடும்!",
+                "filename": "818.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஐக்கியத்தைப் பலப்படுத்திச் செல்ல…",
+                "filename": "2827.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜீவ ஒளி!",
+                "filename": "985.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது நிறைவான சந்தோஷம்",
+                "filename": "3862.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிறைவான சந்தோஷம் …",
+                "filename": "5048.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருளிலிருந்து ஒளிக்கு…",
+                "filename": "4397.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாவமன்னிப்பு!",
+                "filename": "1650.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுத்திகரிக்கும் இயேசுவின் இரத்தம்",
+                "filename": "1919.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுத்திகரிக்கும் இரத்தம்",
+                "filename": "3111.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "செய்வதை அறியாதிருக்கிறார்கள்",
+                "filename": "3868.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஐக்கியத்தில் தாழ்மை!",
+                "filename": "42.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கொடிய பாவம்",
+                "filename": "3147.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பூமியதிர்ச்சி!",
+                "filename": "4623.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மெய்யான ஒளி!",
+                "filename": "3563.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அறிக்கையிடு",
+                "filename": "3853.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இனிமையான இரவு!",
+                "filename": "5067.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மே 03 சனிக்கிழமை 2025 பிள்ளைகளாகும் அதிகாரம்!",
+                "filename": "122.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவனுடைய பிள்ளைகள் யார்?",
+                "filename": "367.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மெய்யான ஒளி!",
+                "filename": "1040.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மேலான கிறிஸ்துமஸ் பரிசு",
+                "filename": "1402.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "புது வாழ்வு!",
+                "filename": "3564.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நித்திய பிதா",
+                "filename": "3613.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் தேவனுடைய பிள்ளை!",
+                "filename": "3643.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவையானது ஒன்றே!",
+                "filename": "4313.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தந்தை மகன் உறவு!",
+                "filename": "4661.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வார்த்தை மாம்சமானார்!",
+                "filename": "249.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யோவானின் சாட்சி",
+                "filename": "4231.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கடவுள் மனிதனானார்!",
+                "filename": "4342.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆவியிலே இணைந்திரு!",
+                "filename": "4691.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்து, தேவனுடைய குமாரன்!",
+                "filename": "564.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிறப்பும் இரண்டாம் வருகையும்",
+                "filename": "672.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "துதிக்குப் பாத்திரர் ஒருவரே!",
+                "filename": "686.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யோவானைப்போல …",
+                "filename": "1036.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிருபையின்மேல் கிருபை!",
+                "filename": "4339.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிபூரணம்!",
+                "filename": "4340.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிருபையும் சத்தியமும்!",
+                "filename": "4338.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆட்டுக்குட்டியானவர்!",
+                "filename": "432.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவ ஆட்டுக்குட்டி!",
+                "filename": "1041.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இவர் யார்?",
+                "filename": "4204.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:39",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதற்கு முதலிடம்!",
+                "filename": "1461.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதற்கு முதலிடம்?",
+                "filename": "3164.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தங்கியிரு!",
+                "filename": "4202.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதலிடம் யாருக்கு?",
+                "filename": "812.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:41",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அந்திரேயாக்கள் எழும்பட்டும்!",
+                "filename": "4201.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:47",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாம் யார்?",
+                "filename": "4255.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:48",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்னைக் காண்கிறவர்!",
+                "filename": "1034.json"
+            }
+        ]
+    },
+    {
         "verse": "43_1:51",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "பரலோகத்திற்கு செல்லும் படிகள்",
                 "filename": "177.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "வானத்தின் தூதர்கள்!",
+                "filename": "344.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவதூதர்கள் ஏறுகிறதை!",
+                "filename": "356.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இணைப்பு ஏணி!",
+                "filename": "1459.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இணைப்பு ஏணி",
+                "filename": "3102.json"
             }
         ]
     }

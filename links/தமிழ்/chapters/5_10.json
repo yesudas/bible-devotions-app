@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "5_10:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கீழ்ப்படிதலைத்தவிர!",
+                "filename": "1017.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னிடம் கேட்பது ஒன்றுதான்!",
+                "filename": "1606.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கடினமாயினும் கர்த்தர் நடத்துவார்!",
+                "filename": "361.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_10:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பட்சபாதம் வேண்டாம்!",
+                "filename": "3449.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_10:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அந்நியன் மேல்!",
+                "filename": "493.json"
+            }
+        ]
+    }
+]

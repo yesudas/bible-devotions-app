@@ -1,11 +1,41 @@
 [
     {
+        "verse": "19_18:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "O Lord, My Strength !",
+                "filename": "176.json"
+            }
+        ]
+    },
+    {
         "verse": "19_18:28",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "The Divine Light in Darkness",
                 "filename": "271.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_18:32",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "GIRDING WITH STRENGTH !",
+                "filename": "1092.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_18:35",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Three Gifts!",
+                "filename": "32.json"
             }
         ]
     }

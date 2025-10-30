@@ -1,11 +1,161 @@
 [
     {
+        "verse": "40_4:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வெற்றியின் இடம்!",
+                "filename": "878.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வனாந்தரம்!",
+                "filename": "1325.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆத்தும பசி!",
+                "filename": "1328.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அரங்கேற்றமா? ஆதாரமா?",
+                "filename": "4061.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சோதிக்கப்பட்ட ஆசான்!",
+                "filename": "620.json"
+            }
+        ]
+    },
+    {
         "verse": "40_4:4",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "தேவனின் வார்த்தையே தேவையான உணவு",
                 "filename": "186.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன் தேவனை பரீட்சை பாராதே!",
+                "filename": "1327.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரீட்சை பாராதிருப்பாயாக!",
+                "filename": "2425.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரீட்சை பார்த்தல்",
+                "filename": "4199.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குறுக்குவழி",
+                "filename": "2424.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒரே தேவனை ஆராதித்தல்",
+                "filename": "3768.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கிறிஸ்துவின் வாழ்க்கையில்!",
+                "filename": "501.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆயத்தப்படுத்தல்",
+                "filename": "1385.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒளி பிரகாசிக்கட்டும்!",
+                "filename": "2145.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒளிவட்டம் தெரியுமா?",
+                "filename": "3185.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒளிவட்டம் தெரியுமா?",
+                "filename": "807.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசு அழைக்கிறார்!",
+                "filename": "3905.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் பின்னே வாருங்கள் …",
+                "filename": "4982.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வலை வீசுவோம்!",
+                "filename": "5004.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_4:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வரங்களை நாடுங்கள்!",
+                "filename": "174.json"
             }
         ]
     }

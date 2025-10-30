@@ -1,0 +1,77 @@
+[
+    {
+        "verse": "1_2:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ದೇವರು ಅವನ ಕೆಲಸವನ್ನು ಕೊನೆಗೊಳಿಸಿದನು!",
+                "filename": "247.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಾಲ್ಕು ನದಿಮುಖಗಳು!",
+                "filename": "987.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಸಮೃದ್ಧಗೊಳಿಸುವ ನದಿ!",
+                "filename": "994.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:11-12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಚಿನ್ನದ ನಾಡು!",
+                "filename": "984.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಪೀಶೋನ್ ನದಿ!",
+                "filename": "985.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಗಿಹೋನ್ ನದಿ!",
+                "filename": "993.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಇರಿಸಿಕೊಳ್ಳಲು!",
+                "filename": "1081.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹೆಸರಿಗೆ !",
+                "filename": "1080.json"
+            }
+        ]
+    }
+]

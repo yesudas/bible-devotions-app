@@ -1,11 +1,76 @@
 [
     {
+        "verse": "40_5:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "FIVE THOUSAND ON THE MOUNTAIN !",
+                "filename": "1036.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "WENT UP ON THE MOUNTAIN !",
+                "filename": "1037.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "POOR IN SPIRIT !",
+                "filename": "1114.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "POOR IN SPIRIT !",
+                "filename": "532.json"
+            }
+        ]
+    },
+    {
         "verse": "40_5:4",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "The Mourner Comforted",
                 "filename": "197.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THEY SHALL BE COMFORTED !",
+                "filename": "530.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THOSE WHO MOURN !",
+                "filename": "531.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE MEEK !",
+                "filename": "529.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THEY SHALL BE FILLED !",
+                "filename": "527.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THOSE WHO HUNGER AND THIRST FOR RIGHTEOUSNESS !",
+                "filename": "528.json"
             }
         ]
     },
@@ -16,6 +81,11 @@
                 "brand": "faiths-check-book",
                 "title": "We Receive as We Give",
                 "filename": "137.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THE MERCIFUL !",
+                "filename": "526.json"
             }
         ]
     },
@@ -26,6 +96,96 @@
                 "brand": "faiths-check-book",
                 "title": "Purity of Heart and Life",
                 "filename": "8.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THEY SHALL SEE GOD !",
+                "filename": "524.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THE PURE IN HEART !",
+                "filename": "525.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "PEACEMAKER !",
+                "filename": "1119.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THE PEACEMAKERS !",
+                "filename": "523.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HEAVENLY BLESSING !",
+                "filename": "520.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "FOR RIGHTEOUSNESS’ SAKE !",
+                "filename": "521.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THOSE WHO ARE PERSECUTED !",
+                "filename": "522.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "WHEN THEY PERSECUTE!",
+                "filename": "519.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Salt Without Flavour!",
+                "filename": "70.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "You Are The Salt!",
+                "filename": "71.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "FORGIVENESS FROM OTHERS !",
+                "filename": "850.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_5:48",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "PERFECT !",
+                "filename": "688.json"
             }
         ]
     }

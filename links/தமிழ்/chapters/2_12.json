@@ -1,11 +1,126 @@
 [
     {
+        "verse": "2_12:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரத்தம் ஜெயம்!",
+                "filename": "95.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "புளிப்பில்லாத அப்பம்",
+                "filename": "1427.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தீவிரமாய் புசிக்கக்கடவீர்கள்!",
+                "filename": "57.json"
+            }
+        ]
+    },
+    {
         "verse": "2_12:13",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "நீதிக்குத் தகுதி உள்ளவர்கள்",
                 "filename": "36.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆத்தும காப்புறுதி",
+                "filename": "3670.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆயத்தத்தின் முன்!",
+                "filename": "4468.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆத்தும காப்புறுதி!",
+                "filename": "4924.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆத்தும காப்புறுதி",
+                "filename": "78.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிசுத்த இரத்தம்!",
+                "filename": "755.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிசுத்த இரத்தம்!",
+                "filename": "856.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:25",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆராதிப்பதன் முக்கியம்",
+                "filename": "3765.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:31",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "செவிகொடுத்தல்!",
+                "filename": "94.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:33",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வேண்டப்படாதவர்கள்!",
+                "filename": "93.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:39",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அழைத்தவர் நடத்துவார்!",
+                "filename": "4467.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_12:43",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்பம் மாத்திரமே!",
+                "filename": "92.json"
             }
         ]
     }

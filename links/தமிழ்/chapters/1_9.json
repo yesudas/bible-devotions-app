@@ -8,5 +8,50 @@
                 "filename": "11.json"
             }
         ]
+    },
+    {
+        "verse": "1_9:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனின் உடன்படிக்கை!",
+                "filename": "1174.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_9:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நோவாவின் வீழ்ச்சி",
+                "filename": "1173.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜாக்கிரதையாயிரு! தவறாதே!",
+                "filename": "4787.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_9:23",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மூடும் வஸ்திரம்!",
+                "filename": "111.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_9:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விழித்தபோது",
+                "filename": "614.json"
+            }
+        ]
     }
 ]

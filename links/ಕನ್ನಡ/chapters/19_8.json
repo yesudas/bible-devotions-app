@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "19_8:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಅತ್ಯುತ್ತಮ ಹೆಸರು!",
+                "filename": "1156.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_8:4-5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕಿರೀಟವಾಗಿ ಇಟ್ಟಿ!",
+                "filename": "1065.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_8:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ವೈಭವದ ಕಿರೀಟಧಾರಣೆ!",
+                "filename": "114.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಂಬಿಕೆಯುಳ್ಳವರ ಅಧಿಕಾರ!",
+                "filename": "128.json"
+            }
+        ]
+    }
+]

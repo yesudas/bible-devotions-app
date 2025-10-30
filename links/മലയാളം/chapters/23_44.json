@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_44:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അലരി ചെടി",
+                "filename": "940.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_44:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഒരിക്കലും മറക്കുകയില്ല",
+                "filename": "1213.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_44:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "സൈറസ്!",
+                "filename": "274.json"
+            }
+        ]
+    }
+]

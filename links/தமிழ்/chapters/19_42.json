@@ -1,0 +1,62 @@
+[
+    {
+        "verse": "19_42:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தாகத்தோடு கதறும் மான்!",
+                "filename": "1072.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_42:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வனாந்தர வாழ்விலும் தேவபிரசன்னம்!",
+                "filename": "1744.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உடைந்துபோனாலும் காத்திரு!",
+                "filename": "3521.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_42:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனோடு தனித்திரு!",
+                "filename": "3557.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_42:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்கு ஏன் துக்கம்!",
+                "filename": "1066.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்கு ஏன் துக்கம்?",
+                "filename": "1936.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_42:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஏன் கலங்குகிறாய், தியங்குகிறாய்?",
+                "filename": "524.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,96 @@
 [
     {
+        "verse": "1_17:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "எனக்கு முன்பாக!",
+                "filename": "34.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தம்மை வெளிப்படுத்தும் வார்த்தை",
+                "filename": "1204.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடைய வல்லமையின் பரிபூரணம்!",
+                "filename": "1347.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சர்வவல்லமையுள்ள தேவன்!",
+                "filename": "1465.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சர்வ வல்ல தேவன்",
+                "filename": "3168.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்வின் மையக்கரு!",
+                "filename": "4763.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சர்வவல்ல தேவன்!",
+                "filename": "816.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுழல் ராட்டினத்திலிருந்து வெளியேறு!",
+                "filename": "1346.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெயர் மாற்றம்",
+                "filename": "4636.json"
+            }
+        ]
+    },
+    {
         "verse": "1_17:7",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "பிள்ளைகளோடும் உடன்படிக்கை",
                 "filename": "214.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனோடு உடன்படிக்கை!",
+                "filename": "4318.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாசத்தின் பொருள்",
+                "filename": "1345.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உடனடியான கீழ்ப்படிதல்",
+                "filename": "1344.json"
             }
         ]
     }

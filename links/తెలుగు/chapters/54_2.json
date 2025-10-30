@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "54_2:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "రక్షింపబడవలెను!",
+                "filename": "206.json"
+            }
+        ]
+    },
+    {
+        "verse": "54_2:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఉపయోగకరమైన పాత్ర!.",
+                "filename": "277.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ఘనతనిమిత్తమైన పాత్ర!",
+                "filename": "356.json"
+            }
+        ]
+    }
+]

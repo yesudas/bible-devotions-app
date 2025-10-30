@@ -1,11 +1,116 @@
 [
     {
+        "verse": "40_10:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வரம் பெற்ற பன்னிருவர்!",
+                "filename": "1038.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆடுகளை அனுப்புகிறேன்!",
+                "filename": "1064.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "முடிவு பரியந்தம்!",
+                "filename": "215.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிலுவை தந்த மீட்பு",
+                "filename": "4211.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:30",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தலை முடியுமா!",
+                "filename": "2493.json"
+            }
+        ]
+    },
+    {
         "verse": "40_10:32",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஒருபோதும் வெட்கமடைய மாட்டோம்",
                 "filename": "288.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:36",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்ன எதிர்ப்பு வந்தாலும்…",
+                "filename": "3653.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:38",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பின்பற்றாதவன்!",
+                "filename": "1121.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிலுவை சுமப்பாயா?",
+                "filename": "4969.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:39",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இழப்பவனே பெற்றுக்கொள்வான்!",
+                "filename": "1986.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்மை அர்ப்பணிப்போமா?",
+                "filename": "2720.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இழப்பவனே பெற்றுக்கொள்வான்!",
+                "filename": "5268.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:41",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பலன் உண்டு!",
+                "filename": "4900.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பலன் உண்டு!",
+                "filename": "823.json"
             }
         ]
     },

@@ -1,11 +1,36 @@
 [
     {
+        "verse": "23_43:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ONE WHO BELONGS TO THE LORD !",
+                "filename": "1136.json"
+            }
+        ]
+    },
+    {
         "verse": "23_43:2",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "“Through,” Not Engulfed",
                 "filename": "340.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "When You Pass Through the Waters!",
+                "filename": "38.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_43:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "WILDERNESS AND WAY !",
+                "filename": "826.json"
             }
         ]
     }

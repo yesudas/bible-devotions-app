@@ -1,0 +1,72 @@
+[
+    {
+        "verse": "42_17:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதலிடத்தைக் கொடு!",
+                "filename": "1383.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றி செலுத்து!",
+                "filename": "2351.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_17:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றியுள்ளவனாயிரு!",
+                "filename": "2873.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_17:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றி மறவாதே!",
+                "filename": "141.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றியறியாதவர்கள்",
+                "filename": "2637.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றி மறவாதே!",
+                "filename": "4160.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருவித மக்கள்!",
+                "filename": "4651.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_17:32",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அறியப்படாத லோத்தின் மனைவி!",
+                "filename": "328.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_17:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இரண்டு பேரில்!",
+                "filename": "508.json"
+            }
+        ]
+    }
+]

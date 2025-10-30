@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "45_12:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "క్రొత్త మనస్సు!",
+                "filename": "1132.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "నూతనపరచు తలంపు!",
+                "filename": "553.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "కొత్త మనస్సు!",
+                "filename": "821.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_12:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రార్థనయందు పట్టుదల!",
+                "filename": "56.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_12:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మేలుచేత జెయించవలెను!",
+                "filename": "199.json"
+            }
+        ]
+    }
+]

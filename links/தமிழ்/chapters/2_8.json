@@ -1,11 +1,71 @@
 [
     {
+        "verse": "2_8:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தவளைக் குவியல்கள்!",
+                "filename": "107.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_8:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடைய விரல்!",
+                "filename": "106.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_8:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அந்த விரல்!",
+                "filename": "386.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனின்றி நம்மால் கூடுமா?",
+                "filename": "4647.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விரல்",
+                "filename": "5160.json"
+            }
+        ]
+    },
+    {
         "verse": "2_8:23",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "வித்தியாசத்தை நிலைநிறுத்து",
                 "filename": "303.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_8:25",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒப்படைத்தல்!",
+                "filename": "105.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_8:32",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நேர்மையற்ற நடத்தை",
+                "filename": "104.json"
             }
         ]
     }

@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "27_2:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாதுகாப்பு யார் கையில்?",
+                "filename": "398.json"
+            }
+        ]
+    },
+    {
+        "verse": "27_2:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எல்லாவற்றுக்கும் ஒரு முடிவு உண்டு!",
+                "filename": "433.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தள்ளப்பட்ட ராஜா",
+                "filename": "442.json"
+            }
+        ]
+    },
+    {
+        "verse": "27_2:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அழிவை விரும்பாத ஆண்டவர்!",
+                "filename": "705.json"
+            }
+        ]
+    },
+    {
+        "verse": "27_2:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அந்தக்கல்!",
+                "filename": "505.json"
+            }
+        ]
+    }
+]

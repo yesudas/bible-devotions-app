@@ -1,5 +1,85 @@
 [
     {
+        "verse": "43_1:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "As Your Soul Prospers !",
+                "filename": "156.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "BELOVED !",
+                "filename": "912.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "FELLOWSHIP WITH GOD !",
+                "filename": "450.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Unity and God’s Presence!",
+                "filename": "47.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "GOD’S PRESENCE AND ONENESS OF MIND !",
+                "filename": "813.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:4-5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "LIGHT OF LIFE !",
+                "filename": "981.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "The Right To Become Children!",
+                "filename": "120.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "WHO ARE THE CHILDREN OF GOD?",
+                "filename": "360.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE WORD BECAME FLESH !",
+                "filename": "245.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_1:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HE IS AS A LAMB !",
+                "filename": "424.json"
+            }
+        ]
+    },
+    {
         "verse": "43_1:50",
         "meditations": [
             {
@@ -16,6 +96,16 @@
                 "brand": "faiths-check-book",
                 "title": "A Staircase to Heaven",
                 "filename": "177.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ANGELS OF HEAVEN !",
+                "filename": "338.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ANGELS ASCENDING !",
+                "filename": "348.json"
             }
         ]
     }

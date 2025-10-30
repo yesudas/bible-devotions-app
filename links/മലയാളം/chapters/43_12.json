@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "43_12:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വിത്ത് വിതയ്ക്കുക!",
+                "filename": "201.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_12:26",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "കർത്താവിനെ സേവിക്കുക!",
+                "filename": "229.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "മാറ്റമില്ലാത്ത സാന്നിധ്യം!",
+                "filename": "91.json"
+            }
+        ]
+    }
+]

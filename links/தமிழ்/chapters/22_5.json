@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "22_5:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விழித்திருந்தது",
+                "filename": "618.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_5:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கண்ணீர் நதி!",
+                "filename": "1019.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_5:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசுவின் அழகு என்னில்!",
+                "filename": "1406.json"
+            }
+        ]
+    }
+]

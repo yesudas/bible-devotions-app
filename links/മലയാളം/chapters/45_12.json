@@ -1,0 +1,57 @@
+[
+    {
+        "verse": "45_12:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പുതിയ മനസ്സ്",
+                "filename": "1146.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "മനസ്സ് പുതുപ്പിക്കൽ",
+                "filename": "532.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "പുതിയ മനസ്സ്",
+                "filename": "803.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_12:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഉപദ്രവത്തിൽ ആശ്വാസം",
+                "filename": "1009.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "മൂന്ന് ആലോചനകൾ",
+                "filename": "1193.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_12:12-13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പ്രാർത്ഥനയിൽ സ്ഥിരതയുള്ളവരായിരിക്കുക !",
+                "filename": "65.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_12:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "തിന്മയെ നന്മകൊണ്ട് മറികടക്കുക!",
+                "filename": "225.json"
+            }
+        ]
+    }
+]

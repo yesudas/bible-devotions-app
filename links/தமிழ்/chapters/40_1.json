@@ -1,11 +1,86 @@
 [
     {
+        "verse": "40_1:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ராஜாதி ராஜாவாகிய கிறிஸ்து!",
+                "filename": "567.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_1:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் சித்தமல்ல, உம் சித்தமே!",
+                "filename": "2864.json"
+            }
+        ]
+    },
+    {
         "verse": "40_1:21",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஒவ்வொரு பாவத்திலிருந்தும்",
                 "filename": "294.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவரே இயேசு!",
+                "filename": "2499.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உண்மையான கொண்டாட்டம்",
+                "filename": "3602.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_1:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இம்மானுவேல்!",
+                "filename": "2150.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இம்மானுவேல்",
+                "filename": "3597.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இம்மானுவேல்",
+                "filename": "5053.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_1:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அர்ப்பணி! பணிசெய்!",
+                "filename": "2132.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யோசேப்பின் உதாரணம்",
+                "filename": "327.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யோசேப்பின் உதாரணம்",
+                "filename": "3981.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சரியானதை சரியாகச் செய்!",
+                "filename": "673.json"
             }
         ]
     }

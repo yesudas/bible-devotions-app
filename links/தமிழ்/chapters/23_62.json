@@ -1,5 +1,15 @@
 [
     {
+        "verse": "23_62:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாசிகளாகிய நீங்கள் யார்!",
+                "filename": "549.json"
+            }
+        ]
+    },
+    {
         "verse": "23_62:3",
         "meditations": [
             {
@@ -16,6 +26,36 @@
                 "brand": "faiths-check-book",
                 "title": "ஒருபோதும் தனிமையாய் இருப்பதில்லை",
                 "filename": "282.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_62:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மகிழ்ச்சியாயிருப்பார்!",
+                "filename": "73.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_62:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கட்டளையின்படியே வாழுவோமாக!",
+                "filename": "1918.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சந்தோஷம்!",
+                "filename": "1954.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அடக்கி வைக்காதே!",
+                "filename": "2041.json"
             }
         ]
     }

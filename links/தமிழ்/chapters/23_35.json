@@ -1,11 +1,61 @@
 [
     {
+        "verse": "23_35:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன் நம்பிக்கையை சரிசெய்!",
+                "filename": "5040.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_35:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திடநம்பிக்கை உண்டு!",
+                "filename": "4684.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_35:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கண்கள் திறக்கப்படும்!",
+                "filename": "376.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_35:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "துள்ளிக் குதிக்கும் மான்!",
+                "filename": "1075.json"
+            }
+        ]
+    },
+    {
         "verse": "23_35:8",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அரசரின் நெடுங்சாலை",
                 "filename": "92.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_35:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தூர நோக்குடன் ஓடு!",
+                "filename": "5039.json"
             }
         ]
     }

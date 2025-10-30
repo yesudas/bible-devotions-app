@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "2_9:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வித்தியாசம் காணப்படும்!",
+                "filename": "103.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_9:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சூளையின் சாம்பல்!",
+                "filename": "102.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_9:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எச்சரிக்கை: ஆபத்து வர உள்ளது!",
+                "filename": "101.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_9:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கவசத்தில் விரிசல்!",
+                "filename": "100.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_9:35",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொருத்தனை மீறல்!",
+                "filename": "99.json"
+            }
+        ]
+    }
+]

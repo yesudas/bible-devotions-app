@@ -8,5 +8,25 @@
                 "filename": "193.json"
             }
         ]
+    },
+    {
+        "verse": "43_11:35",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "TEARS THAT POURED OUT !",
+                "filename": "506.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_11:43",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "LIFE THAT WAS LOST !",
+                "filename": "576.json"
+            }
+        ]
     }
 ]

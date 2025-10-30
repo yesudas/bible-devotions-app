@@ -1,11 +1,36 @@
 [
     {
+        "verse": "23_61:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "துதியின் உடை!",
+                "filename": "1234.json"
+            }
+        ]
+    },
+    {
         "verse": "23_61:6",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "பிரித்து வைக்கப்பட்டவர்கள்",
                 "filename": "56.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆசாரியர்களே எழுந்திருங்கள்!",
+                "filename": "4689.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_61:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பூரிப்பாய் மகிழுகிறேன்!",
+                "filename": "74.json"
             }
         ]
     }

@@ -1,5 +1,30 @@
 [
     {
+        "verse": "19_110:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சத்துருக்களிலிருந்து இளைப்பாறுதல்!",
+                "filename": "744.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எத்தனையாவது பிறந்தநாள்?",
+                "filename": "1426.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_110:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தீர்க்கதரிசன சங்கீதம்",
+                "filename": "1420.json"
+            }
+        ]
+    },
+    {
         "verse": "19_110:3",
         "meditations": [
             {

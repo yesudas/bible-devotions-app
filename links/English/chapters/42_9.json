@@ -1,11 +1,31 @@
 [
     {
+        "verse": "42_9:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Authority Over Sickness!",
+                "filename": "115.json"
+            }
+        ]
+    },
+    {
         "verse": "42_9:23",
         "meditations": [
             {
                 "brand": "3-minute-meditation",
                 "title": "TAKE - AND YOU WILL BE TAKEN",
                 "filename": "8.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_9:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "PRAYER THAT PLEASES GOD !",
+                "filename": "918.json"
             }
         ]
     }

@@ -8,6 +8,7 @@
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/good-news-collections/" target="_blank"><i class="bi bi-box-seam me-2"></i>Good News Collections</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/bibledictionary/" target="_blank"><i class="bi bi-collection me-2"></i>Bible Dictionaries</a></li>
+                            <li><a class="dropdown-item" href="https://wordofgod.in/bible-concordance/" target="_blank"><i class="bi bi-search me-2"></i>Bible Concordances</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/bible-wallpapers/" target="_blank"><i class="bi bi-card-image me-2"></i>Bible Wallpapers</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/bible-app-modules/" target="_blank"><i class="bi bi-phone me-2"></i>Bible App Modules</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/" target="_blank"><i class="bi bi-gift me-2"></i>Free Christian Resources</a></li>

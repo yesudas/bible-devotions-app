@@ -1,11 +1,36 @@
 [
     {
+        "verse": "19_50:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பூரண அழகு!",
+                "filename": "687.json"
+            }
+        ]
+    },
+    {
         "verse": "19_50:15",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "வேண்டுகோளும் விடுதலையும்",
                 "filename": "213.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்தவ வாழ்வின் அடிப்படை",
+                "filename": "3551.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_50:23",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஸ்தோத்திர பலியிடுகிறவன்!",
+                "filename": "1116.json"
             }
         ]
     }

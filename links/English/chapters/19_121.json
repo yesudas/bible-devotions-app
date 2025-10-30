@@ -1,11 +1,101 @@
 [
     {
+        "verse": "19_121:1-2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Lift Up Your Eyes !",
+                "filename": "183.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_121:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "EYES TO THE HILLS !",
+                "filename": "611.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_121:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HILL – FROM WHERE MY HELP COMES !",
+                "filename": "1029.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THE CREATOR !",
+                "filename": "358.json"
+            }
+        ]
+    },
+    {
         "verse": "19_121:3",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Walk Without Stumbling",
                 "filename": "315.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THE LORD PROTECTS YOU !",
+                "filename": "356.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "HE WILL NOT ALLOW YOUR FOOT TO BE MOVED !",
+                "filename": "357.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_121:3-4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "God who does not sleep !",
+                "filename": "126.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_121:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE LORD WHO PROTECTS ISRAEL !",
+                "filename": "354.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இஸ்ரவேலைக் காக்கிறவர்!",
+                "filename": "355.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_121:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "From All Evil !",
+                "filename": "174.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_121:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "GOING OUT AND COMING IN !",
+                "filename": "831.json"
             }
         ]
     }

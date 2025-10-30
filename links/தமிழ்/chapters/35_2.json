@@ -1,11 +1,36 @@
 [
     {
+        "verse": "35_2:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜெபத்திலே காத்திருங்கள்!",
+                "filename": "272.json"
+            }
+        ]
+    },
+    {
         "verse": "35_2:3",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஆண்டவரின் நேரத்தில்",
                 "filename": "308.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாமதித்தாலும் காத்திரு",
+                "filename": "1756.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாமதித்தாலும் காத்திரு",
+                "filename": "2703.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாமதித்தாலும் காத்திரு!",
+                "filename": "3707.json"
             }
         ]
     }

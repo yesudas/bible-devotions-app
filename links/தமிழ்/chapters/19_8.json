@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "19_8:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மேன்மையான நாமம்!",
+                "filename": "1197.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "EXCELLENT NAME !",
+                "filename": "1198.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிறுதுளியே!",
+                "filename": "1727.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிறுதுளியே!",
+                "filename": "2012.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_8:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "முடிசூட்டி!",
+                "filename": "1096.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_8:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "முடிசூட்டினார்!",
+                "filename": "108.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாசியின் அதிகாரங்கள்!",
+                "filename": "123.json"
+            }
+        ]
+    }
+]

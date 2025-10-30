@@ -1,0 +1,87 @@
+[
+    {
+        "verse": "19_90:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காலங்களும் முடிவுகளும்",
+                "filename": "3829.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_90:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவருடைய வேளை",
+                "filename": "2092.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவரது வேளை",
+                "filename": "4010.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_90:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நாட்களை எண்ணும் அறிவு!",
+                "filename": "1182.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞான இருதயம்!",
+                "filename": "666.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஏன் தொல்லை?",
+                "filename": "3830.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஞான இருதயம்",
+                "filename": "3831.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_90:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்வை வாழுவோம்!",
+                "filename": "3846.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திடப்படுத்தும் வசனம்!",
+                "filename": "4654.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_90:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்துபோன மகிழ்ச்சி",
+                "filename": "596.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்தபோன வருஷங்கள்",
+                "filename": "601.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய மகிழ்ச்சி!",
+                "filename": "951.json"
+            }
+        ]
+    }
+]

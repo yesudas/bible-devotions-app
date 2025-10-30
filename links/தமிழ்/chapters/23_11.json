@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_11:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கிறிஸ்துமஸ் மரம்",
+                "filename": "608.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "துளிர் எழும்பும்!",
+                "filename": "1770.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "துளிர் எழும்பும்!",
+                "filename": "4702.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_11:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "உகந்த வாசனை!",
+                "filename": "85.json"
+            }
+        ]
+    }
+]

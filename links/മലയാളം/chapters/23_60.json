@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "23_60:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഇരുട്ടിലെ ആശ്വാസം",
+                "filename": "1010.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_60:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നഷ്ടപ്പെട്ട സമാധാനം!",
+                "filename": "468.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "അവസാനിക്കും!",
+                "filename": "826.json"
+            }
+        ]
+    }
+]

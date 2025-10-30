@@ -6,6 +6,61 @@
                 "brand": "faiths-check-book",
                 "title": "இளைப்பாறுதல் ஒரு நன்கொடை",
                 "filename": "14.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தர் தரும் இளைப்பாறுதல்!",
+                "filename": "732.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவின் இளைப்பாறுதல்",
+                "filename": "2155.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இளைப்பாறுதல் தருகிறவர்",
+                "filename": "2270.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இளைப்பாறுதல் அளிப்பவர்",
+                "filename": "987.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_11:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கற்றுக்கொள்வதினால் இளைப்பாறுதல்!",
+                "filename": "746.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "மனத்தாழ்மையினால் இளைப்பாறுதல்!",
+                "filename": "749.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "சாந்தத்தினால் இளைப்பாறுதல்!",
+                "filename": "750.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இளைப்பாறுதலின் வழி!",
+                "filename": "752.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆண்டவர் அருளும் நுகம்",
+                "filename": "2229.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசுவைப் பின்பற்றி நட!",
+                "filename": "817.json"
             }
         ]
     }

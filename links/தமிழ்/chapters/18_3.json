@@ -1,11 +1,51 @@
 [
     {
+        "verse": "18_3:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காதுள்ளவன் கேட்கக்கடவன்!",
+                "filename": "3688.json"
+            }
+        ]
+    },
+    {
         "verse": "18_3:16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அவர் அன்பு அவர் குமாரன்",
                 "filename": "188.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் கெட்டுப்போகாமல்",
+                "filename": "2043.json"
+            }
+        ]
+    },
+    {
+        "verse": "18_3:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்த இளைப்பாறுதல்!",
+                "filename": "739.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவ அன்பில் நிலைத்திரு!",
+                "filename": "3899.json"
+            }
+        ]
+    },
+    {
+        "verse": "18_3:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அர்ப்பணமுள்ள பணி",
+                "filename": "2620.json"
             }
         ]
     }

@@ -547,11 +547,21 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                                 </p>
                             <?php endif; ?>
                             <?php if (!empty($meditation['author']['email'])): ?>
-                                <p class="mb-0">
+                                <p class="mb-1">
                                     <i class="fas fa-envelope me-2 text-primary"></i>
                                     <a href="mailto:<?php echo htmlspecialchars($meditation['author']['email']); ?>" 
                                        class="text-decoration-none">
                                         <?php echo htmlspecialchars($meditation['author']['email']); ?>
+                                    </a>
+                                </p>
+                            <?php endif; ?>
+                            <?php if (!empty($meditation['author']['website'])): ?>
+                                <p class="mb-0">
+                                    <i class="fas fa-globe me-2 text-info"></i>
+                                    <a href="<?php echo htmlspecialchars($meditation['author']['website']); ?>" 
+                                       target="_blank" 
+                                       class="text-decoration-none">
+                                        <?php echo htmlspecialchars($meditation['author']['website']); ?>
                                     </a>
                                 </p>
                             <?php endif; ?>

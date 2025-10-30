@@ -1,11 +1,31 @@
 [
     {
+        "verse": "23_62:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "WHO ARE YOU AS BELIEVERS ?",
+                "filename": "540.json"
+            }
+        ]
+    },
+    {
         "verse": "23_62:4",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Never Alone",
                 "filename": "282.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_62:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "He Will Rejoice Over You!",
+                "filename": "74.json"
             }
         ]
     }

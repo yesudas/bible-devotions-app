@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "19_46:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "തൽക്ഷണ സഹായകൻ !",
+                "filename": "348.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_46:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവം മദ്ധ്യേ ഉണ്ട്!",
+                "filename": "861.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_46:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നിശ്ചലമായിരിക്കുക !",
+                "filename": "179.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവസാന്നിധ്യവും അവന്റെ വചനത്തെക്കുറിച്ചുള്ള ധ്യാനവും!",
+                "filename": "48.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "അവന്റെ സാന്നിധ്യവും വചനത്തെക്കുറിച്ചുള്ള ധ്യാനവും!",
+                "filename": "52.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവത്തിന്റെ സാന്നിധ്യവും അവന്റെ വചനത്തിന്റെ ധ്യാനവും!",
+                "filename": "694.json"
+            }
+        ]
+    }
+]

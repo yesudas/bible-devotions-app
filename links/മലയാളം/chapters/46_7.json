@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "46_7:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "സമ്പൂർണ്ണ വിശുദ്ധി",
+                "filename": "1134.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "തികഞ്ഞവരാകുക!",
+                "filename": "664.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "വിശുദ്ധിയിൽ പൂർണത!",
+                "filename": "666.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_7:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "സമാധാനത്തിലേക്ക് വിളിക്കുക!",
+                "filename": "599.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_7:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "തുടരാൻ വിളിക്കുക!",
+                "filename": "594.json"
+            }
+        ]
+    }
+]

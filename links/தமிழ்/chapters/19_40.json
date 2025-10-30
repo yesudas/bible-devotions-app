@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "19_40:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய பாட்டு!",
+                "filename": "953.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "துதித்துப் பாடு",
+                "filename": "3755.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_40:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பிரியமானதை",
+                "filename": "934.json"
+            }
+        ]
+    }
+]

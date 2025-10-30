@@ -1,11 +1,56 @@
 [
     {
+        "verse": "23_42:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அழைப்பை உணர்ந்திருக்கிறேனா?",
+                "filename": "2044.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ராஜாதி ராஜா, ஒரு தாசனா?",
+                "filename": "3234.json"
+            }
+        ]
+    },
+    {
         "verse": "23_42:3",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "நெரிந்ததும் புகைகிறதும்",
                 "filename": "252.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிமிர்த்தி ஒளிகொடுப்பார்!",
+                "filename": "1757.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனதுருக்கத்துடன்…",
+                "filename": "3233.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_42:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீதி நிலைக்கும்!",
+                "filename": "3232.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_42:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "குருடருடைய கண்கள்!",
+                "filename": "625.json"
             }
         ]
     },

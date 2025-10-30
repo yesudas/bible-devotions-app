@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "12_6:3-4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಾನು ಬರ್ತೀನಿ!",
+                "filename": "80.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_6:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬಿದ್ದ ಕೊಡಲಿ!",
+                "filename": "1176.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_6:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬೆಂಕಿಯ ಕುದುರೆಗಳು!",
+                "filename": "1035.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ದೇವರು ದೇವದೂತನಿಗೆ ಆಜ್ಞಾಪಿಸುತ್ತಾನೆ!",
+                "filename": "336.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕರ್ತನು ಎಲೀಷನ ಸೇವಕನ ಕಣ್ಣುಗಳನ್ನು ತೆರೆದನು!",
+                "filename": "360.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಉರಿಯುತ್ತಿರುವ ಕುದುರೆಗಳು!",
+                "filename": "46.json"
+            }
+        ]
+    }
+]

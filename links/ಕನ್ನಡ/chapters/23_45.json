@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_45:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಪ್ರಕೃತಿಯ ಮೇಲೆ ಅಧಿಕಾರ!",
+                "filename": "122.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಾಚಿಕೆ ಇಲ್ಲ!",
+                "filename": "160.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ವಿಮೋಚನೇಯ ಪರ್ವತ!",
+                "filename": "998.json"
+            }
+        ]
+    }
+]

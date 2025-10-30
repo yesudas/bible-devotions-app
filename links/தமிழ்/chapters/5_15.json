@@ -1,5 +1,35 @@
 [
     {
+        "verse": "5_15:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கடன்கொடு, உதவிசெய்.",
+                "filename": "1015.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_15:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னிடத்திலும் குறையுண்டு",
+                "filename": "2345.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_15:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "2024 நினைவுகூரவேண்டும்!",
+                "filename": "253.json"
+            }
+        ]
+    },
+    {
         "verse": "5_15:18",
         "meditations": [
             {

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "1_45:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ക്ഷമിക്കുക, നിങ്ങളുടെ ഏറ്റവും മികച്ചത് നൽകുക!",
+                "filename": "723.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ക്ഷമയും അനുകമ്പയും!",
+                "filename": "725.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പുതിയ വസ്ത്രം!",
+                "filename": "822.json"
+            }
+        ]
+    }
+]

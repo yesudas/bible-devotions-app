@@ -1,11 +1,61 @@
 [
     {
+        "verse": "23_51:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எந்தக் குழியிலிருந்து?",
+                "filename": "2038.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_51:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மகா சமுத்திரம் பிளந்தது!",
+                "filename": "2037.json"
+            }
+        ]
+    },
+    {
         "verse": "23_51:12-13",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "மக்களைமக்களாகவும் கடவுளைக் கடவுளாகவும் கருதுதல்",
                 "filename": "354.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_51:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாறும் சிறையிருப்பு",
+                "filename": "1834.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_51:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீ யாருக்குப் பயப்படுகிறாய்?",
+                "filename": "2069.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_51:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தத்தளிப்பின் பாத்திரமா!",
+                "filename": "3060.json"
             }
         ]
     }

@@ -1,11 +1,56 @@
 [
     {
+        "verse": "29_2:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உபவாச ஜெபம்",
+                "filename": "3385.json"
+            }
+        ]
+    },
+    {
+        "verse": "29_2:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நிந்தையும், ஆசீர்வாதமும்!",
+                "filename": "839.json"
+            }
+        ]
+    },
+    {
         "verse": "29_2:25",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "இழப்புகள் சரி செய்யப்படும்",
                 "filename": "139.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்துபோன விளைவு",
+                "filename": "589.json"
+            }
+        ]
+    },
+    {
+        "verse": "29_2:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெட்கப்பட விடாத தேவன்!",
+                "filename": "992.json"
+            }
+        ]
+    },
+    {
+        "verse": "29_2:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தரிசனம் பெற்ற ஐநூறுபேர்!",
+                "filename": "1040.json"
             }
         ]
     },

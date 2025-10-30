@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "1_8:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "MOUNT ARARAT !",
+                "filename": "1050.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_8:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "DOVE THAT RESIDED !",
+                "filename": "1079.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_8:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "A Sweet-Smelling Aroma!",
+                "filename": "91.json"
+            }
+        ]
+    }
+]

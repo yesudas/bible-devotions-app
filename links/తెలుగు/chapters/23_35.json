@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_35:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "కన్నులు తెరవబడును!",
+                "filename": "322.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_35:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "చంగున గంతులువేయు లేడి&#8230;!",
+                "filename": "936.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_35:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "పారిపోవును!",
+                "filename": "1100.json"
+            }
+        ]
+    }
+]

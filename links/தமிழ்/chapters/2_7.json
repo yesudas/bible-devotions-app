@@ -1,11 +1,51 @@
 [
     {
+        "verse": "2_7:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சாக்குப்போக்கு வேண்டாம்!",
+                "filename": "61.json"
+            }
+        ]
+    },
+    {
         "verse": "2_7:5",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "கடவுளின் விரோதிகள் தலை வணங்கிப் பணிவார்கள்",
                 "filename": "21.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_7:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வயோதிபம் ஒரு தடையல்ல!",
+                "filename": "110.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_7:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாபெரும் எத்தன்!",
+                "filename": "109.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_7:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாற்றமெடுக்கும் பாவம்!",
+                "filename": "108.json"
             }
         ]
     }

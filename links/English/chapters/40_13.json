@@ -8,5 +8,25 @@
                 "filename": "168.json"
             }
         ]
+    },
+    {
+        "verse": "40_13:29-30",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "LET THEM GROW !",
+                "filename": "391.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_13:54-57",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "MARVELOUS QUESTIONS !",
+                "filename": "690.json"
+            }
+        ]
     }
 ]

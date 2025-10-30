@@ -1,11 +1,61 @@
 [
     {
+        "verse": "40_13:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வேதவசனமே விதை!",
+                "filename": "4402.json"
+            }
+        ]
+    },
+    {
         "verse": "40_13:12",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "விசுவாசிப்பவனாயும் உள்ளவனாயும் இரு",
                 "filename": "168.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_13:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திடமுடன் நிற்க…",
+                "filename": "3848.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_13:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வளர விடுங்கள்!",
+                "filename": "397.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_13:54-57",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆச்சரியமான கேள்விகள்!",
+                "filename": "694.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_13:58",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவிசுவாசம் ஒரு தடைக்கல்!",
+                "filename": "220.json"
             }
         ]
     }

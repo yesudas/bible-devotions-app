@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "1_19:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "துரிதப்படுத்தினார்கள்!",
+                "filename": "33.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_19:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மலைக்கு ஓடிப்போ!",
+                "filename": "1055.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திரும்பிப் பாராதே!",
+                "filename": "3652.json"
+            }
+        ]
+    }
+]

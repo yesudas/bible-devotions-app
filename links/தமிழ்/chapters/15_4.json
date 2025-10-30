@@ -1,0 +1,87 @@
+[
+    {
+        "verse": "15_4:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சத்துருக்கள் கேள்விப்படுவார்கள்",
+                "filename": "1132.json"
+            }
+        ]
+    },
+    {
+        "verse": "15_4:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எச்சரிக்கை!",
+                "filename": "1131.json"
+            }
+        ]
+    },
+    {
+        "verse": "15_4:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாங்களே கட்டுவோம்!",
+                "filename": "1130.json"
+            }
+        ]
+    },
+    {
+        "verse": "15_4:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனுவின் நகலாவது!",
+                "filename": "1128.json"
+            }
+        ]
+    },
+    {
+        "verse": "15_4:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வருமானத்திற்கு நஷ்டம்",
+                "filename": "1127.json"
+            }
+        ]
+    },
+    {
+        "verse": "15_4:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தந்திரமான பரிவு",
+                "filename": "1126.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தகுந்த பாத்திரம்",
+                "filename": "3052.json"
+            }
+        ]
+    },
+    {
+        "verse": "15_4:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எழுதிவைப்போம்!",
+                "filename": "1125.json"
+            }
+        ]
+    },
+    {
+        "verse": "15_4:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எழுதியவை வீண்போகாது!",
+                "filename": "1124.json"
+            }
+        ]
+    }
+]

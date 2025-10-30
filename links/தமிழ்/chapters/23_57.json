@@ -1,11 +1,46 @@
 [
     {
+        "verse": "23_57:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "படுக்கைகளில் இளைப்பாறுதல்!",
+                "filename": "729.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_57:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்குள்ளுமா?",
+                "filename": "2009.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிசுத்தர் என்பது அவர் நாமம்",
+                "filename": "2010.json"
+            }
+        ]
+    },
+    {
         "verse": "23_57:16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "வேதனை தருபவை முடிவடையும்",
                 "filename": "310.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_57:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கலக்கமும், பாவமும்!",
+                "filename": "522.json"
             }
         ]
     }

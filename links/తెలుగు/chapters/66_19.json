@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "66_19:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆనందించుడి!",
+                "filename": "163.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_19:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "\"పెండ్లి కుమార్తెయొక్క ప్రకాశము !\"",
+                "filename": "787.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "పెండ్లి కుమార్తెయొక్క ప్రకాశము !",
+                "filename": "788.json"
+            }
+        ]
+    }
+]

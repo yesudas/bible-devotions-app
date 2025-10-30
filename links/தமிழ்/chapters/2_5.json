@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "2_5:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அறியாமையின் விலை!",
+                "filename": "117.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_5:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நேரமில்லை!",
+                "filename": "116.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_5:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்க்கை இலகுவானதல்ல!",
+                "filename": "115.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_5:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சந்தேக இருள்!",
+                "filename": "114.json"
+            }
+        ]
+    }
+]

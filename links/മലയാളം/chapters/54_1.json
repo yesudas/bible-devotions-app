@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "54_1:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആത്മാവിനാൽ സുഖപ്പെടുത്തൽ !",
+                "filename": "657.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ശക്തിയും സ്നേഹവും!",
+                "filename": "713.json"
+            }
+        ]
+    },
+    {
+        "verse": "54_1:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവസാന്നിധ്യം!",
+                "filename": "53.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "12_10:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசேஷ ஜனங்கள்!",
+                "filename": "185.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_10:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தர் என்னில் மகிமைப்படுவாரா?",
+                "filename": "1541.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_10:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பின்வாங்குதல்",
+                "filename": "2117.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பின்வாங்குதல்!",
+                "filename": "4431.json"
+            }
+        ]
+    }
+]

@@ -8,5 +8,30 @@
                 "filename": "328.json"
             }
         ]
+    },
+    {
+        "verse": "19_103:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Through Prayer !",
+                "filename": "173.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "HE IS AS A FATHER !",
+                "filename": "429.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_103:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "DO WHAT PLEASES THE LORD !",
+                "filename": "928.json"
+            }
+        ]
     }
 ]

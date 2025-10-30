@@ -11,6 +11,41 @@
                 "brand": "faiths-check-book",
                 "title": "யார், எப்போது, எப்படி இரட்சிப்பது?",
                 "filename": "194.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன்மீது நம்பிக்கை",
+                "filename": "2557.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_2:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சகோதரனிடத்தில்!",
+                "filename": "486.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_2:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பாடுபட அழைப்பு",
+                "filename": "716.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_2:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பாவத்திலிருந்து ஜெயம்!",
+                "filename": "896.json"
             }
         ]
     }

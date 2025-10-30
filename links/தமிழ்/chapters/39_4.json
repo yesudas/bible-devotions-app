@@ -11,6 +11,21 @@
                 "brand": "faiths-check-book",
                 "title": "வளருங்கள்",
                 "filename": "33.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆரோக்கியம்!",
+                "filename": "175.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நித்திய நம்பிக்கை!",
+                "filename": "4939.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீதியின் சூரியன்",
+                "filename": "763.json"
             }
         ]
     }

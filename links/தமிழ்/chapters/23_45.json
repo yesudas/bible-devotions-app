@@ -6,6 +6,76 @@
                 "brand": "faiths-check-book",
                 "title": "நாம் சந்தேகப்பட வேண்டியதில்லை",
                 "filename": "141.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன் செவ்வைப்படுத்துவார்!",
+                "filename": "3206.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெயர் ஒன்று, அர்ப்பணிப்பு வேறு!",
+                "filename": "711.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் அவரை அறியாதிருந்தும்…",
+                "filename": "1502.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இயற்கையின்மேல் அதிகாரம்!",
+                "filename": "116.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "13 – கட்டளையிடுங்கள்!",
+                "filename": "1226.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வெட்கப்படுவதில்லை!",
+                "filename": "155.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனை சேவிப்பது விருதா!",
+                "filename": "765.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இரட்சிப்பு வரும் பர்வதம்!",
+                "filename": "1029.json"
             }
         ]
     }

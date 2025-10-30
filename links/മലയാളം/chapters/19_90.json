@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "19_90:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ജ്ഞാനമുള്ളൊരു ഹൃദയം",
+                "filename": "554.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_90:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നഷ്ടപ്പെട്ട സന്തോഷം",
+                "filename": "492.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "നഷ്ടപ്പെട്ട വർഷങ്ങൾ !",
+                "filename": "497.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "നഷ്ടപ്പെട്ട വർഷങ്ങൾ !",
+                "filename": "498.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "പുതിയ സന്തോഷം!",
+                "filename": "812.json"
+            }
+        ]
+    }
+]

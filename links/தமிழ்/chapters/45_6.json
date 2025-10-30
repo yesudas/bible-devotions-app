@@ -1,11 +1,126 @@
 [
     {
+        "verse": "45_6:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய ஜீவன்!",
+                "filename": "939.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அடக்கம்பண்ணப்பட்டவர்கள்!",
+                "filename": "4988.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_6:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிலுவையின் வெற்றி",
+                "filename": "2766.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவுடனேகூட…",
+                "filename": "932.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_6:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பதிலாளரா? பிரதிநிதியா?",
+                "filename": "1666.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது நல்லடக்கம்",
+                "filename": "2721.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_6:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவுக்கு ஒரு பரிசு",
+                "filename": "1408.json"
+            }
+        ]
+    },
+    {
         "verse": "45_6:14",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஆண்டவரின் சுதந்தரமான மக்கள்",
                 "filename": "316.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "மேற்கொள்ளமாட்டாது!",
+                "filename": "1193.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பூரண வெற்றி!",
+                "filename": "877.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_6:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தீர்மானமும் முடிவும்",
+                "filename": "449.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் யாருக்கு அடிமை!",
+                "filename": "509.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_6:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கொடிய பாவங்கள்",
+                "filename": "5135.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_6:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எழுந்து போராடு!",
+                "filename": "4685.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_6:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கொல்லும் கொடிய பாவங்கள்!",
+                "filename": "4861.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிருபைவரம்!",
+                "filename": "494.json"
             }
         ]
     }

@@ -1,0 +1,57 @@
+[
+    {
+        "verse": "9_16:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆச்சரியமான அபிஷேகம்!",
+                "filename": "695.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_16:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உள்ளத்தை அறிந்திருக்கிறவர்",
+                "filename": "2537.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருதயத்துக்கேற்ற தாவீது",
+                "filename": "2818.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளித்தோற்றமா? இருதயமா?",
+                "filename": "2933.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_16:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறுத்திருத்தல் நல்லது!",
+                "filename": "2183.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வேலி!",
+                "filename": "2927.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_16:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அடுத்த ராஜா ஆயத்தமாகிறான்!",
+                "filename": "2932.json"
+            }
+        ]
+    }
+]

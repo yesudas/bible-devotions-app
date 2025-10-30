@@ -8,5 +8,35 @@
                 "filename": "270.json"
             }
         ]
+    },
+    {
+        "verse": "4_23:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொய்யுரையாத வார்த்தை!",
+                "filename": "1197.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாக்குத்தத்தத்தைப் பெற்றும்",
+                "filename": "1825.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாக்குமாறாத தேவன்!",
+                "filename": "248.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_23:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கெம்பீரியுங்கள்!",
+                "filename": "209.json"
+            }
+        ]
     }
 ]

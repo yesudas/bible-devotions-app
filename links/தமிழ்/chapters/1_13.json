@@ -1,11 +1,86 @@
 [
     {
+        "verse": "1_13:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆசீர்வாதமான வாக்குத்தத்தங்கள்!",
+                "filename": "1359.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_13:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யாரோ நம்மைக் கவனிக்கிறார்கள்!",
+                "filename": "1358.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_13:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விட்டுக்கொடுக்கும் மனப்பான்மை",
+                "filename": "4784.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_13:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்கு உரிமைகள் உண்டு!",
+                "filename": "1357.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆபிராமும் லோத்துவும்",
+                "filename": "194.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_13:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆக்கமும் அழிவும்!",
+                "filename": "1523.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_13:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிவரும் குணாதிசயம்!",
+                "filename": "1522.json"
+            }
+        ]
+    },
+    {
         "verse": "1_13:14-16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "கர்த்தர் கொடுப்பதில் மகிழ்ச்சி அடைகிறார்",
                 "filename": "43.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_13:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வீடு என்ற ஒரு இடம்",
+                "filename": "1356.json"
             }
         ]
     }

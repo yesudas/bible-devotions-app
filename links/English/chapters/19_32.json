@@ -1,11 +1,61 @@
 [
     {
+        "verse": "19_32:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HAS YOUR SIN BEEN COVERED ?",
+                "filename": "845.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_32:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE LORD DOES NOT IMPUTE INIQUITY !",
+                "filename": "844.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_32:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "WHEN YOU FORGIVE !",
+                "filename": "846.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_32:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "FORGIVING YOURSELF !",
+                "filename": "849.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "FORGIVER OF INIQUITY !",
+                "filename": "860.json"
+            }
+        ]
+    },
+    {
         "verse": "19_32:10",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Mercy to the Undeserving",
                 "filename": "45.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "MERCY TO THOSE WHO TRUST !",
+                "filename": "950.json"
             }
         ]
     }

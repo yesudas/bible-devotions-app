@@ -1,11 +1,286 @@
 [
     {
+        "verse": "45_8:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியின் பிரமாணம்!",
+                "filename": "759.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியானவரிலே சார்ந்துகொள்ளுங்கள்!",
+                "filename": "763.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "போர்க்களமா? சமாதான வாழ்வா?",
+                "filename": "1265.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியின் சிந்தை!",
+                "filename": "758.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதல் சத்துரு!",
+                "filename": "511.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியினாலே நடத்தப்படுங்கள்!",
+                "filename": "775.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் யார்?",
+                "filename": "688.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அப்பா பிதாவே!",
+                "filename": "684.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாசக் கண்கள்",
+                "filename": "622.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளின் பின் ஆசீர்வாதம்!",
+                "filename": "848.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமக்கு ஒரு நம்பிக்கை உண்டு!",
+                "filename": "14.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமக்கு ஒரு நம்பிக்கை உண்டு!",
+                "filename": "2101.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமக்காக வேண்டிக்கொள்கிறவர்!",
+                "filename": "3492.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமக்காக வேண்டுதல் செய்பவர்!",
+                "filename": "749.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமக்காக வேண்டுதல் செய்பவர்!",
+                "filename": "850.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முற்றுமுழுவதுமாக அறிந்தவர்!",
+                "filename": "882.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தனிமையும் நன்மை தானா!",
+                "filename": "1270.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இதில் என்ன நன்மை?",
+                "filename": "138.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யாவும் நன்மைக்கே",
+                "filename": "2107.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்பிக்கையோடு முன்செல்…",
+                "filename": "2835.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இதில் என்ன நன்மை?",
+                "filename": "4157.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யாவும் நன்மைக்கே!",
+                "filename": "4421.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சகலமும் நன்மைக்கே . . .",
+                "filename": "590.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மறைக்கப்படுகின்ற உண்மைகள்!",
+                "filename": "964.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:29",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்வின் ஒரே நோக்கம்!",
+                "filename": "26.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அனுபவம் என்ற பாடத்திட்டம்",
+                "filename": "2971.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்வின் ஒரே நோக்கம்",
+                "filename": "5174.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நம் பட்சத்தில்!",
+                "filename": "496.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவே நம்பிக்கை",
+                "filename": "1382.json"
+            }
+        ]
+    },
+    {
         "verse": "45_8:32",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அவர் இலவசமாகக் கொடுக்கிறார்",
                 "filename": "34.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "சம்பூரணமாய் கொடுத்த குமாரன்!",
+                "filename": "679.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் துரோகியாக இருந்தபோதும்…",
+                "filename": "3249.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:33",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "எதிர்ப்பில் ஆறுதல்!",
+                "filename": "1166.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வலது பாரிசத்தில்!",
+                "filename": "503.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜெயித்தெழுந்தார்!",
+                "filename": "868.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:35",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உபத்திரவத்தால் பிரிக்கமுடியாது",
+                "filename": "4058.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:36",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அன்பினாலே ஜெயம்!",
+                "filename": "904.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்ன வந்தாலும்…",
+                "filename": "4635.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:37",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜெயம் நமதே!",
+                "filename": "1490.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முற்றும் ஜெயங்கொள்ளுகிறவர்கள்!",
+                "filename": "292.json"
             }
         ]
     }

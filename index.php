@@ -12,7 +12,32 @@ $version = "2025.10.1";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bible Devotions App - Word of God Team</title>
+    <title>Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in - Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections. Daily devotions for spiritual growth.">
+    <meta name="keywords" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ', ' : ''; ?><?php echo htmlspecialchars($appName); ?>, meditation, christian, bible, devotion, prayer, spiritual, faith, daily, WordOfGod.in, WordOfGod">
+    <meta name="author" content="Word of God Team">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in - Daily Christian Devotions - WordOfGod.in">
+    <meta property="og:description" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in - Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="<?php echo $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in - Daily Christian Devotions - WordOfGod.in">
+    <meta name="twitter:description" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in - Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections - WordOfGod.in">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json?v=<?php echo $version; ?>">
+    <meta name="theme-color" content="#667eea">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in">
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -102,6 +127,10 @@ $version = "2025.10.1";
             font-weight: bold;
         }
     </style>
+
+    <!-- Google Analytics -->
+    <?php include 'google-analytics.php'; ?>
+
 </head>
 <body>
     <div class="container-fluid min-vh-100 d-flex flex-column justify-content-center py-5">
@@ -204,6 +233,29 @@ $version = "2025.10.1";
                                 <p>Sam Jebadurai</p>
                                 <a href="antantulla-appam/" class="btn btn-app text-white">
                                     <i class="bi bi-star-fill me-2"></i>Explore Devotions
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sathiya Vasanam App -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card app-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="app-icon mb-3">
+                                    <i class="bi bi-brightness-high"></i>
+                                </div>
+                                <h4 class="card-title mb-3">சத்திய வசனம்</h4>
+                                <p class="card-text text-muted mb-4">
+                                    Daily devotions with Scripture reading, memory verses, and practical reflections. 
+                                    Start each day with God's truth and fresh insights for your spiritual journey.
+                                </p>
+                                <p>
+                                    Supported in தமிழ்.
+                                </p>
+                                <p>Sathiya Vasanam</p>
+                                <a href="சத்திய-வசனம்/" class="btn btn-app text-white">
+                                    <i class="bi bi-book-fill me-2"></i>Read Today's Word
                                 </a>
                             </div>
                         </div>

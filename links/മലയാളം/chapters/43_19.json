@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "43_19:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വായ തുറക്കാത്ത കുഞ്ഞാട്!",
+                "filename": "1068.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:30",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അത് പൂർത്തിയായി!",
+                "filename": "219.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഒഴിച്ച രക്തവും വെള്ളവും!",
+                "filename": "418.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "കർത്താവിന്റെ ഭാഗത്തുനിന്നുള്ള രക്തം!",
+                "filename": "735.json"
+            }
+        ]
+    }
+]

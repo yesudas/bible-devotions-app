@@ -1,11 +1,201 @@
 [
     {
+        "verse": "43_14:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கலக்கத்தில் ஆறுதல்!",
+                "filename": "1170.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இருதயம் கலங்காதிருப்பதாக!",
+                "filename": "519.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாச நங்கூரம்!",
+                "filename": "566.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கலக்கம் ஏன்?",
+                "filename": "1668.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்றைக்கும் கைவிடாத கர்த்தர்!",
+                "filename": "2073.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கைவிடாத கர்த்தர்",
+                "filename": "3991.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மகிழ்ச்சி கீதம் பாடலாமே!",
+                "filename": "5032.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நித்தியத்தை நினையுங்கள்!",
+                "filename": "194.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீ இதை அறியாயா?",
+                "filename": "4324.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரண்டாம் வருகை",
+                "filename": "2095.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமக்கு ஒரு நிச்சயம் உண்டு!",
+                "filename": "3922.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரண்டாம் வருகை",
+                "filename": "4013.json"
+            }
+        ]
+    },
+    {
         "verse": "43_14:6",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "இவரே வழி",
                 "filename": "26.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "உங்களுக்கு அதிகாரங்கள்!",
+                "filename": "112.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கேட்டுப் பெற்றுக்கொள்ளுவோம்!",
+                "filename": "980.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": ".ஆவியானவரின் ஆறுதல்!",
+                "filename": "1147.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியானவரின் அடையாளங்கள்!",
+                "filename": "768.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்னுள்ளே வாழும் தேவன்!",
+                "filename": "553.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் உம்மை நேசிக்கிறேன்!",
+                "filename": "286.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அன்பினால் கூடும்!",
+                "filename": "3476.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் இன்னமும் குழந்தையா?",
+                "filename": "3593.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:27",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உலகத்தால் குழப்பங்கள்",
+                "filename": "3445.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உள்ளத்தின் அமைதி",
+                "filename": "3742.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மெய் சமாதானம்!",
+                "filename": "4894.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எங்கே சமாதானம்?",
+                "filename": "5052.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்னுடைய சமாதானம்!",
+                "filename": "699.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:30",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சாத்தானின் பிடியிலிருந்து மீட்கும் பொருளாக…",
+                "filename": "936.json"
             }
         ]
     }

@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "20_10:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നിഷ്കളങ്കത",
+                "filename": "1119.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "സത്യസന്ധത (സമഗ്രത)",
+                "filename": "350.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_10:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആഗ്രഹം!",
+                "filename": "141.json"
+            }
+        ]
+    }
+]

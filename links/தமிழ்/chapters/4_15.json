@@ -8,5 +8,25 @@
                 "filename": "302.json"
             }
         ]
+    },
+    {
+        "verse": "4_15:39",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருதயத்தில் தேவவார்த்தை!",
+                "filename": "780.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_15:40",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது நினைவூட்டி",
+                "filename": "3817.json"
+            }
+        ]
     }
 ]

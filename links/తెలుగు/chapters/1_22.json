@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "1_22:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మోరియా కొండ!\"",
+                "filename": "918.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_22:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "విశ్వాసపు మాట!",
+                "filename": "495.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_22:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "యెహోవా యీరే!",
+                "filename": "392.json"
+            }
+        ]
+    }
+]

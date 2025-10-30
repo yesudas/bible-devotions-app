@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "9_18:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நல்ல உறவுகள்",
+                "filename": "2801.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_18:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவலத்திலும் வெளிப்பட்ட அன்பு",
+                "filename": "2928.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_18:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தாவீதும், பதினாயிரமும்!",
+                "filename": "840.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_18:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறாமையின் அகோரம்",
+                "filename": "2535.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதிரியின் பயம்",
+                "filename": "2930.json"
+            }
+        ]
+    }
+]

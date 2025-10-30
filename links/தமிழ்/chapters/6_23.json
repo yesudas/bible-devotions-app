@@ -1,11 +1,41 @@
 [
     {
+        "verse": "6_23:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கடத்தி விடு",
+                "filename": "4171.json"
+            }
+        ]
+    },
+    {
+        "verse": "6_23:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அடிச்சுவடுகளை அலட்சியம் செய்யாதே!",
+                "filename": "1020.json"
+            }
+        ]
+    },
+    {
         "verse": "6_23:10",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஒருவரே பெரும்பான்மையானவர்",
                 "filename": "145.json"
+            }
+        ]
+    },
+    {
+        "verse": "6_23:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வார்த்தைக்குக் கீழ்ப்படிந்திருப்போம்!",
+                "filename": "998.json"
             }
         ]
     }

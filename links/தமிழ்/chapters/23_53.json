@@ -1,11 +1,106 @@
 [
     {
+        "verse": "23_53:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசு எனக்கு யார்?",
+                "filename": "2035.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_53:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளுக்கு முடிவுண்டு!",
+                "filename": "825.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_53:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "துக்கங்கள்",
+                "filename": "197.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "துக்கங்களைச் சுமந்தார்!",
+                "filename": "810.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்முடைய பாடுகளை ஏற்றுக்கொண்டார்!",
+                "filename": "1297.json"
+            }
+        ]
+    },
+    {
         "verse": "23_53:5",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "குணமாக்கும் தேவன்",
                 "filename": "25.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கிறிஸ்துவின் தழும்புகள்!",
+                "filename": "176.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆக்கினைக்குட்பட்டார்!",
+                "filename": "4989.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_53:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கீழ்ப்படியாமை கீழாக்கும்",
+                "filename": "1924.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மேய்ப்பரும் அவரே, பலிஆடும் அவரே!",
+                "filename": "2034.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்காக என் மேய்ப்பரா?",
+                "filename": "3630.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாவ பலியானார்!",
+                "filename": "3869.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_53:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வாயைத் திறவாத ஆடு!",
+                "filename": "1066.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இந்த அன்புக்கீடாய்…",
+                "filename": "2033.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உபத்திரவத்தில் அமைதி",
+                "filename": "3315.json"
             }
         ]
     },
@@ -16,6 +111,16 @@
                 "brand": "faiths-check-book",
                 "title": "கிறிஸ்துவும் அவர் பிள்ளைகளும்",
                 "filename": "18.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_53:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பாவத்தை சுமந்தார்!",
+                "filename": "811.json"
             }
         ]
     }

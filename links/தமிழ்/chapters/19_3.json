@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "19_3:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனிடமிருந்து…",
+                "filename": "5211.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_3:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விழித்துக்கொண்டேன்",
+                "filename": "615.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_3:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளிலும் நம்பிக்கை!",
+                "filename": "3343.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரட்சிப்பு கர்த்தருக்கே உரியது!",
+                "filename": "3435.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மெய்யான இரட்சிப்பு!",
+                "filename": "5210.json"
+            }
+        ]
+    }
+]

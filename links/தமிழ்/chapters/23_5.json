@@ -1,0 +1,102 @@
+[
+    {
+        "verse": "23_5:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "செழிப்பான மேட்டிலே!",
+                "filename": "238.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "திராட்சத்தோட்டம்!",
+                "filename": "239.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_5:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நற்குல திராட்சச்செடி!",
+                "filename": "1090.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கோபுரத்தைக் கட்டி!",
+                "filename": "1091.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "காத்திருந்தார்!",
+                "filename": "232.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆலையை உண்டுபண்ணி!",
+                "filename": "233.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கோபுரத்தைக் கட்டி!",
+                "filename": "234.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "நற்குல திராட்சச்செடிகளை நட்டு!",
+                "filename": "235.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கற்களைப் பொறுக்கி!",
+                "filename": "236.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "வேலியடைத்தார்!",
+                "filename": "237.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_5:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கசப்பான கனிகளா?",
+                "filename": "231.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_5:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இப்போது என்ன செய்வது?",
+                "filename": "227.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_5:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஏன் இந்த இழிநிலை?",
+                "filename": "4106.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_5:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வார்த்தையைவிட்டு விலகினால்!",
+                "filename": "2520.json"
+            }
+        ]
+    }
+]

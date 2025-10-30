@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "42_5:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మనుష్యులను పట్టుదువు!",
+                "filename": "1178.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_5:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువు యొక్క శక్తి!",
+                "filename": "1158.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువు యొక్క శక్తి!",
+                "filename": "132.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "శక్తిగల దేవుడు!",
+                "filename": "845.json"
+            }
+        ]
+    }
+]

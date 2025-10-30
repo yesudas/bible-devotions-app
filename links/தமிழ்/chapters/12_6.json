@@ -1,11 +1,76 @@
 [
     {
+        "verse": "12_6:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நான் வருகிறேன்!",
+                "filename": "77.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_6:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பணிதீர்க்கப்படவேண்டியதன் அவசியம்!",
+                "filename": "3517.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளின் வழி",
+                "filename": "4769.json"
+            }
+        ]
+    },
+    {
         "verse": "12_6:16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "பெரும்பான்மையோர் யார் பக்கம்",
                 "filename": "230.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயப்படாதே!",
+                "filename": "1800.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிறுத்திவைக்கப்பட்டுள்ள சேனை!",
+                "filename": "991.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_6:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அக்கினி மயமான குதிரைகள்!",
+                "filename": "1069.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவ தூதனுக்குக் கட்டளையிடுவார்!",
+                "filename": "347.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "வேலைக்காரனின் கண்களைத் திறந்தார்!",
+                "filename": "370.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "அக்கினிமயமான குதிரைகள்!",
+                "filename": "41.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "அக்கினிமயமான குதிரைகள்!",
+                "filename": "42.json"
             }
         ]
     }

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "66_22:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನದಿಯ ಮೂಲ!",
+                "filename": "986.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಪ್ರವಾದನೆಯ ಮಾತುಗಳನ್ನು ಪಾಲಿಸು!",
+                "filename": "208.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬಾಯಾರಿದವನು!",
+                "filename": "1102.json"
+            }
+        ]
+    }
+]

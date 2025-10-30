@@ -1,11 +1,51 @@
 [
     {
+        "verse": "45_10:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இருதயத்தின் விருப்பம்!",
+                "filename": "148.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_10:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெறுப்பு, வாஞ்சை, வைராக்கியம்",
+                "filename": "824.json"
+            }
+        ]
+    },
+    {
         "verse": "45_10:9",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "வாயினால் அறிக்கையிடுதல், இருதயத்தில் விசுவாசித்தல்",
                 "filename": "19.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_10:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரட்சிப்பு",
+                "filename": "3447.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_10:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அனுப்பப்படாவிட்டால் எப்படி…?",
+                "filename": "4491.json"
             }
         ]
     }

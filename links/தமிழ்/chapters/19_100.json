@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "19_100:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பாடலும், தேவபிரசன்னமும்!",
+                "filename": "52.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இன்று துதிசெய்தாயா?",
+                "filename": "3754.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிறைவு தரும் தேவசந்நிதி!",
+                "filename": "5043.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_100:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மேய்ச்சலின் ஆடுகள்!",
+                "filename": "1068.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_100:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "துதியோடும், புகழ்ச்சியோடும்!",
+                "filename": "838.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,116 @@
 [
     {
+        "verse": "40_27:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனுஷரிடமல்ல, இயேசுவிடம்…",
+                "filename": "2764.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "லௌகிக துக்கம்!",
+                "filename": "4557.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:29",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்காகவா முள்முடி!",
+                "filename": "2383.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:32",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிலுவை சுமப்பாயா?",
+                "filename": "577.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:43",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்பிக்கையாயிருந்தானே!",
+                "filename": "656.json"
+            }
+        ]
+    },
+    {
         "verse": "40_27:45-49",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "ஏலி! ஏலி! லாமா சபக்தானி",
                 "filename": "70.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:45",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மரண இருளிலும்!",
+                "filename": "3811.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:46",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": ". கைவிடுதலில் ஆறுதல்!",
+                "filename": "1162.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:50",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திரைச்சீலை கிழிந்தது!",
+                "filename": "3503.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:61",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருளுக்குள் வெளிச்சம்!",
+                "filename": "2767.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:63",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அலைமோதும் சிந்தனைகள்",
+                "filename": "4210.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_27:66",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்பிக்கை அழிந்தாலும்…",
+                "filename": "4946.json"
             }
         ]
     }

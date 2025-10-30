@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "23_45:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നിരപ്പാക്കും",
+                "filename": "1253.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പ്രകൃതിയുടെ മേൽ അധികാരം!",
+                "filename": "108.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഒരിക്കലും ലജ്ജിക്കരുത്!",
+                "filename": "142.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "രക്ഷ കിട്ടുന്ന പർവ്വതം",
+                "filename": "888.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,291 @@
 [
     {
+        "verse": "1_1:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "முதலாம் நாள்!",
+                "filename": "478.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆதியிலே தேவன்!",
+                "filename": "479.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "சிருஷ்டிக்கிறவர்!",
+                "filename": "480.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அசைவாடும் ஆவியானவர்",
+                "filename": "477.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வெளிச்சம் உண்டாகக்கடவது!",
+                "filename": "475.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "வெளிச்சம்!",
+                "filename": "476.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆதியிலே வார்த்தை!",
+                "filename": "1212.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருளின் மத்தியிலும்…",
+                "filename": "2522.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வெளிச்சத்தையும், இருளையும்!",
+                "filename": "473.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "வெளிச்சம் நல்லது!",
+                "filename": "474.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆட்டுக்குட்டியானவரே விளக்கு!",
+                "filename": "3187.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆகாய விரிவு!",
+                "filename": "471.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இரண்டாம் நாள்!",
+                "filename": "472.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பிரிவுண்டாக்கினார்!",
+                "filename": "470.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மூன்றாம் நாள்!",
+                "filename": "468.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஓரிடத்தில் சேரவும்!",
+                "filename": "469.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கனியும், விதையும்!",
+                "filename": "466.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "புல் பூண்டு!",
+                "filename": "467.json"
+            }
+        ]
+    },
+    {
         "verse": "1_1:14",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "சந்திரன் இரத்தமாக மாறும்",
                 "filename": "32.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "அடையாளங்கள்",
+                "filename": "464.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "நான்காம் நாள்!",
+                "filename": "465.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஐந்தாம் நாள்",
+                "filename": "463.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "திரளான மச்சங்கள்",
+                "filename": "462.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆறாம் நாள்",
+                "filename": "461.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:26",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவ சாயலின்படி….!",
+                "filename": "1110.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "தமது சாயலில்",
+                "filename": "459.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆளக்கடவர்கள்",
+                "filename": "460.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முழு மனதுடன்…",
+                "filename": "1463.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் பெறுமதிப்பு!",
+                "filename": "1464.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவதிட்டம்",
+                "filename": "3166.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் பெறுமதிப்பு",
+                "filename": "3167.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவதிட்டம்!",
+                "filename": "814.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது பெறுமதிப்பு என்ன?",
+                "filename": "815.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:27",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவருடைய சாயலில் …",
+                "filename": "1673.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உள்ளத்தின் வெற்றிடம்",
+                "filename": "4042.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனிதனுடன் முதல் வார்த்தை",
+                "filename": "1210.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாம் சம்பாதிக்காத இன்னொரு ஆண்டு!",
+                "filename": "1394.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆளுமையின் முழுமை தேவனுடையது",
+                "filename": "2944.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பிரதான சிருஷ்ப்பு",
+                "filename": "457.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சாயங்காலமும்,விடியற்காலமும்",
+                "filename": "455.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "மிகவும் நன்றாயிருந்தது",
+                "filename": "456.json"
             }
         ]
     }

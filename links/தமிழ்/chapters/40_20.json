@@ -10,12 +10,67 @@
         ]
     },
     {
+        "verse": "40_20:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எஜமானரின் விருப்பம்",
+                "filename": "2719.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_20:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுயநல ஜெபங்கள் வேண்டாம்!",
+                "filename": "2415.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_20:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பதவியும் பெருமையும்",
+                "filename": "1696.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதன்மையான இடம்!",
+                "filename": "321.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதன்மையான இடம்",
+                "filename": "3975.json"
+            }
+        ]
+    },
+    {
         "verse": "40_20:28",
         "meditations": [
             {
                 "brand": "3-minute-meditation",
                 "title": "ஊழியம் செய் — உரிமை கோராதே",
                 "filename": "3.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மரிப்பதற்கென்றே பிறந்தவர்!",
+                "filename": "2133.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_20:33",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் கண்களைத் திறவும்!",
+                "filename": "3793.json"
             }
         ]
     }

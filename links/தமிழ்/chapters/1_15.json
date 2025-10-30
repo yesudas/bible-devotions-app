@@ -1,0 +1,67 @@
+[
+    {
+        "verse": "1_15:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கேடகமும், பெலனும்!",
+                "filename": "835.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயப்படாதே!",
+                "filename": "1353.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_15:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஏக்கத்தின் வெளிப்பாடு!",
+                "filename": "4827.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_15:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் ஆச்சரியப்படுகிறேன்!",
+                "filename": "1352.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_15:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன் நம்பிக்கை யாரில்?",
+                "filename": "4782.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_15:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாம் ஜெயங்கொள்வோம்!",
+                "filename": "1351.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_15:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடைய பொறுமை",
+                "filename": "1350.json"
+            }
+        ]
+    }
+]

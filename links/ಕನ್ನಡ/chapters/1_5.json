@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "1_5:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕುಟುಂಬ ಮನುಷ್ಯ!",
+                "filename": "271.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ದೇವರೊಂದಿಗೆ ನಡೆದ ಹನೋಕನು!",
+                "filename": "273.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_5:23",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "365 ವರ್ಷ ಬದುಕಿದ ಹನೋಕನು!",
+                "filename": "272.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_5:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹನೋಕ!",
+                "filename": "24.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹನೋಕನನ್ನು ಯಾರು ತೆಗೆದುಕೊಂಡರು !",
+                "filename": "270.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ದೇವರೊಂದಿಗೆ ನಡೆಯುವುದು ಹೇಗೆ?",
+                "filename": "274.json"
+            }
+        ]
+    }
+]

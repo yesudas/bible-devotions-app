@@ -1,5 +1,50 @@
 [
     {
+        "verse": "43_14:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "COMFORT IN TROUBLE !",
+                "filename": "1164.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ANCHOR OF FAITH !",
+                "filename": "557.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:1-2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "LET NOT YOUR HEART BE TROUBLED !",
+                "filename": "510.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Think Of Eternity !",
+                "filename": "190.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "You Have Authority!",
+                "filename": "110.json"
+            }
+        ]
+    },
+    {
         "verse": "43_14:13",
         "meditations": [
             {
@@ -16,6 +61,21 @@
                 "brand": "faiths-check-book",
                 "title": "The Name to Use",
                 "filename": "318.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_14:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "COMFORT OF THE HOLY SPIRIT !",
+                "filename": "1144.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Signs Of The Spirit !",
+                "filename": "764.json"
             }
         ]
     },

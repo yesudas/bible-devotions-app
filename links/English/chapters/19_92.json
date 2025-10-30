@@ -1,11 +1,36 @@
 [
     {
+        "verse": "19_92:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "DEEP MIND !",
+                "filename": "631.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_92:10-11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "FRESH OIL !",
+                "filename": "946.json"
+            }
+        ]
+    },
+    {
         "verse": "19_92:12",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Like Palm and Cedar",
                 "filename": "261.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "MOUNT LEBANON !",
+                "filename": "1044.json"
             }
         ]
     }

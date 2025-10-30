@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "22_2:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "സുഗന്ധമുള്ള പൂക്കൾ!",
+                "filename": "83.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_2:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "മുള്ളുകൾക്കിടയിലെ താമരപ്പൂവ്!",
+                "filename": "82.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_2:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "മധുരമുള്ള പഴം!",
+                "filename": "198.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_2:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ചെറുകുറുക്കന്മാർ !",
+                "filename": "918.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,51 @@
 [
     {
+        "verse": "43_3:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Born Of The Spirit !",
+                "filename": "772.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_3:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "SATAN – THE ENEMY OF PRAISE !",
+                "filename": "1208.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_3:14-15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "AS LIFTED UP !",
+                "filename": "497.json"
+            }
+        ]
+    },
+    {
         "verse": "43_3:16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "His Love; His Gift; His Son",
                 "filename": "188.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_3:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "CHRIST IN US !",
+                "filename": "402.json"
             }
         ]
     }

@@ -1,11 +1,61 @@
 [
     {
+        "verse": "23_58:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உகந்த உபவாசம்!",
+                "filename": "1706.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_58:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உகந்த உபவாசம்!",
+                "filename": "1110.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_58:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருளில் வெளிச்சம்",
+                "filename": "3598.json"
+            }
+        ]
+    },
+    {
         "verse": "23_58:11",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "நித்தமும் வழி நடத்துவார்",
                 "filename": "51.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "வற்றாத நீருற்று!",
+                "filename": "1003.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அப்பொழுது…",
+                "filename": "1500.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_58:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஓய்வுநாள்",
+                "filename": "1702.json"
             }
         ]
     }

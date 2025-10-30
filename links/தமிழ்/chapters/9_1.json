@@ -1,0 +1,67 @@
+[
+    {
+        "verse": "9_1:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காயப்படுத்தும் வார்த்தைகள்",
+                "filename": "1677.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_1:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மன அழுத்தங்கள்",
+                "filename": "3440.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_1:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அன்னாளின் அர்ப்பணிப்பு",
+                "filename": "2444.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_1:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தரையே நாடியவள்!",
+                "filename": "4735.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_1:27",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சாமுவேல்!",
+                "filename": "7.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உண்மையான ஜெபம்",
+                "filename": "2552.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_1:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கனம்பண்ணும் வாழ்க்கை!",
+                "filename": "759.json"
+            }
+        ]
+    }
+]

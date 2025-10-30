@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "20_21:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கீழ்ப்படிதலே பிரியம்!",
+                "filename": "925.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தருக்குப் பிரியமானது",
+                "filename": "3020.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_21:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொய் நாவு",
+                "filename": "4867.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_21:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சீட்டு மடியிலே!",
+                "filename": "1085.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": ".தோல்வியில் ஆறுதல்!",
+                "filename": "1157.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜெயத்தை எதிர்பாருங்கள்!",
+                "filename": "879.json"
+            }
+        ]
+    }
+]

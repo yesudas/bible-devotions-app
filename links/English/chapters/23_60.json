@@ -1,5 +1,30 @@
 [
     {
+        "verse": "23_60:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "COMFORT IN DARKNESS !",
+                "filename": "1159.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_60:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "PEACE THAT WAS LOST !",
+                "filename": "561.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "MOURNING SHALL END !",
+                "filename": "961.json"
+            }
+        ]
+    },
+    {
         "verse": "23_60:22",
         "meditations": [
             {

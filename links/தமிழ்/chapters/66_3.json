@@ -1,11 +1,76 @@
 [
     {
+        "verse": "66_3:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாய்மாலம் எடுபடாது!",
+                "filename": "2052.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உயிர் இருந்தும்…",
+                "filename": "1893.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆனாலும்…",
+                "filename": "1892.json"
+            }
+        ]
+    },
+    {
         "verse": "66_3:5",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "முற்றிலும் தூய்மை",
                 "filename": "206.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜீவ புஸ்தகம்",
+                "filename": "1891.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பிலதெல்பியா!",
+                "filename": "396.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பூட்டுகிறவர், திறக்கிறவர்!",
+                "filename": "425.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பரிசுத்தமுள்ளவர்!",
+                "filename": "448.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திறவுகோல்",
+                "filename": "2050.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன் எனக்கு யார்?",
+                "filename": "2051.json"
             }
         ]
     },
@@ -16,6 +81,141 @@
                 "brand": "faiths-check-book",
                 "title": "ஐக்கியத்திற்குத் திறந்த வாசல்",
                 "filename": "284.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கீழ்ப்படிதலைத் தவிர வேறென்ன?",
+                "filename": "1890.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாமே சாட்சிகள்!",
+                "filename": "1889.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்குள்ளதை …",
+                "filename": "1888.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய நாமம்!",
+                "filename": "938.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குளிரா? அனலா? வெதுவெதுப்பா?",
+                "filename": "1886.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அனலா? குளிரா?",
+                "filename": "2049.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கண்களுக்குக் கலிக்கம்!",
+                "filename": "629.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கண்களுக்குப் பார்வை!",
+                "filename": "630.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எது முக்கியம்?",
+                "filename": "1885.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எச்சரித்த பிறகுமா!",
+                "filename": "5200.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாசற்படியிலே",
+                "filename": "1887.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தட்டும் சத்தம் கேட்கிறதா?",
+                "filename": "2048.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆதிக்கமல்ல, அன்புறவே!",
+                "filename": "4668.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சத்தம் கேட்கிறதா?",
+                "filename": "5059.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உண்மையான ஆராதனை!",
+                "filename": "5240.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உண்மையான ஆராதனை!",
+                "filename": "528.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாம் ஜெயங்கொண்டவர்கள்!",
+                "filename": "189.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜெயங்கொள்ளுகிறவன்!",
+                "filename": "513.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜெயங்கொண்டவர்களாக…!",
+                "filename": "548.json"
             }
         ]
     }

@@ -1,0 +1,67 @@
+[
+    {
+        "verse": "2_19:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னத பெலன்!",
+                "filename": "1100.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தடைகள் இல்லை",
+                "filename": "3289.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_19:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிருபையின் அழைப்பு",
+                "filename": "1944.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது தீர்மானம் என்ன?",
+                "filename": "1976.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நானும் என் பொறுப்பும்",
+                "filename": "2673.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது தீர்மானம் என்ன?",
+                "filename": "5258.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_19:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கார்மேகத்தில்!",
+                "filename": "1191.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சந்தேகத்திற்கு இடமில்லை",
+                "filename": "3288.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_19:10-11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம் கூடவே இருப்பவர்!",
+                "filename": "3287.json"
+            }
+        ]
+    }
+]

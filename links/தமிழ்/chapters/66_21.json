@@ -1,5 +1,15 @@
 [
     {
+        "verse": "66_21:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடைய வாசஸ்தலம்",
+                "filename": "3373.json"
+            }
+        ]
+    },
+    {
         "verse": "66_21:4",
         "meditations": [
             {
@@ -16,6 +26,46 @@
                 "brand": "faiths-check-book",
                 "title": "பழமையானது ஒன்றுமில்லை",
                 "filename": "348.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிதாக்குவார்!",
+                "filename": "942.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_21:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தாகமா ?",
+                "filename": "1012.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாகமும் பசியும்",
+                "filename": "295.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_21:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எங்கே நிற்கிறோம்?",
+                "filename": "835.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_21:27",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜீவபுஸ்தகம்",
+                "filename": "3374.json"
             }
         ]
     }

@@ -1,11 +1,131 @@
 [
     {
+        "verse": "42_18:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சோாந்துபோகாமல் ஜெபி!",
+                "filename": "2393.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தொடர்ந்து ஜெபி!",
+                "filename": "1247.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிறையிருப்பிலும்…",
+                "filename": "3915.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாசத்தை விட்டுவிடாதே!",
+                "filename": "587.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒப்பீடு: ஒரு தவறான கணிப்பீடு!",
+                "filename": "1098.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தசமபாகம் ஊடகமல்ல!",
+                "filename": "2428.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாழ்மையுள்ளவனுக்கே கிருபை!",
+                "filename": "325.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாழ்மையுள்ளவனுக்கே கிருபை",
+                "filename": "3979.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வேண்டாத ஒப்பீடு!",
+                "filename": "1841.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வேண்டாத ஒப்பீடு!",
+                "filename": "4911.json"
+            }
+        ]
+    },
+    {
         "verse": "42_18:14",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "மெய்யான தாழ்மையான பரிசு",
                 "filename": "312.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யார் நீதிமான்?",
+                "filename": "1371.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருமனம் வேண்டாம்!",
+                "filename": "2197.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரலோகையும் கைநெகிழும் பேராசை!",
+                "filename": "5120.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தடையாகும் ஐசுவரியம்!",
+                "filename": "5209.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_18:30",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இம்மையும், மறுமையும்!",
+                "filename": "829.json"
             }
         ]
     }

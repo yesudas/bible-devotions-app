@@ -10,12 +10,27 @@
         ]
     },
     {
+        "verse": "26_34:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மேய்ப்பனானவர்!",
+                "filename": "436.json"
+            }
+        ]
+    },
+    {
         "verse": "26_34:15",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "உணவும் இளைப்பாறுதலும்",
                 "filename": "238.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் கிறிஸ்துவின் மந்தையில் ஒரு ஆடு",
+                "filename": "3632.json"
             }
         ]
     },

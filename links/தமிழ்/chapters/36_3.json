@@ -26,6 +26,11 @@
                 "brand": "faiths-check-book",
                 "title": "நம் பகைவரை அவர் நிலைகுலையச் செய்கிறார்",
                 "filename": "211.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இனித் தீங்கு நேரிடாது!",
+                "filename": "5041.json"
             }
         ]
     },
@@ -36,6 +41,11 @@
                 "brand": "faiths-check-book",
                 "title": "பாடுவதற்கான காரணம்",
                 "filename": "263.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மகிழ்ச்சியின் ஊற்று!",
+                "filename": "5042.json"
             }
         ]
     },
@@ -46,6 +56,21 @@
                 "brand": "faiths-check-book",
                 "title": "நொண்டியானவனுக்கு ஒரு வார்த்தை",
                 "filename": "198.json"
+            }
+        ]
+    },
+    {
+        "verse": "36_3:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கீர்த்தியும், புகழ்ச்சியுமான மேன்மை!",
+                "filename": "1185.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கீர்த்தியும், புகழ்ச்சியும்!",
+                "filename": "833.json"
             }
         ]
     }

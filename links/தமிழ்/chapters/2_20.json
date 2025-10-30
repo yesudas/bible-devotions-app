@@ -1,5 +1,270 @@
 [
     {
+        "verse": "2_20:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பேசுகின்ற வார்த்தை!",
+                "filename": "1199.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அறிமுகம்!",
+                "filename": "1601.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் தேவனாகிய கர்த்தாவே!",
+                "filename": "3004.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:2-3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுக்கு முன்னுரிமை!",
+                "filename": "3286.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதலாம் கற்பனை!",
+                "filename": "1600.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன் ஒருவர் மாத்திரமே",
+                "filename": "3155.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரண்டாம் கற்பனை!",
+                "filename": "1599.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனையன்றி …",
+                "filename": "352.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தலைமுறைதோறும்…",
+                "filename": "1597.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எரிச்சலுள்ள தேவன்!",
+                "filename": "1598.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆசீர்வதிக்கும் தேவன்!",
+                "filename": "1942.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தண்டனைக்குரியது!",
+                "filename": "1594.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மூன்றாம் கற்பனை!",
+                "filename": "1595.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மூன்றாம் கற்பனை!",
+                "filename": "1979.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மூன்றாம் கற்பனை!",
+                "filename": "5261.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனருளிய ஓய்வு!",
+                "filename": "1593.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆறுநாளும்…",
+                "filename": "1586.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சரீர ஓய்வு!",
+                "filename": "1585.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யாவற்றுக்கும் ஓய்வு!",
+                "filename": "1588.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன் ஓய்ந்திருந்தார்!",
+                "filename": "1592.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இது நியாயம்!",
+                "filename": "1878.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உயிர் தந்தவர்கள்",
+                "filename": "1879.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கீழ்ப்படிதலும் கனம் பண்ணுதலும்",
+                "filename": "1880.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரத்த சம்பந்த உறவு",
+                "filename": "2802.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திருக்குள்ள இருதயம்",
+                "filename": "1872.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெறுமதிப்பு வாய்ந்த உயிர்!",
+                "filename": "1873.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உயிரின் மதிப்பு!",
+                "filename": "3285.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன் வெறுக்கிறார்!",
+                "filename": "1869.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தூய்மை கெடாத மஞ்சம்!",
+                "filename": "3284.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தவறான வழி தவறுதான்!",
+                "filename": "1862.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தவறான வழி பாவமே!",
+                "filename": "5188.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொய்ச்சாட்சி சொல்லாதே!",
+                "filename": "1858.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுத்த இருதயம்",
+                "filename": "1855.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_20:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மகா பரிசுத்த தேவன்",
+                "filename": "3370.json"
+            }
+        ]
+    },
+    {
         "verse": "2_20:24",
         "meditations": [
             {

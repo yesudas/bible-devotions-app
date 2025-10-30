@@ -1,0 +1,102 @@
+[
+    {
+        "verse": "42_12:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பொறுப்பெடுக்கிறவர்!",
+                "filename": "442.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயப்படாதிருங்கள்!",
+                "filename": "293.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_12:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஐசுவரிய மயக்கம்!",
+                "filename": "4400.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜீவனில்லாப் பேராசை!",
+                "filename": "5125.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_12:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நித்திய நோக்கம்",
+                "filename": "3823.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_12:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனை மறந்த மதிகேடன்",
+                "filename": "265.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_12:30",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குழந்தையைப்போல் நம்புவோம்!",
+                "filename": "2390.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_12:34",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மணல் வீடு!",
+                "filename": "2141.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_12:37",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விழித்திருக்கிறவன் பாக்கியவான்",
+                "filename": "2494.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_12:49",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தரின் விருப்பம்!",
+                "filename": "147.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பரிசுத்த ஆவியானவராகிய அக்கினி!",
+                "filename": "44.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியானவரின் அக்கினி!",
+                "filename": "764.json"
+            }
+        ]
+    }
+]

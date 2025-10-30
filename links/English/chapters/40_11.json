@@ -6,6 +6,41 @@
                 "brand": "faiths-check-book",
                 "title": "Rest Is a Gift",
                 "filename": "14.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THE REST OF THE LORD !",
+                "filename": "728.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "REST !",
+                "filename": "749.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_11:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "REST IN LEARNING !",
+                "filename": "742.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "REST IN HUMILITY !",
+                "filename": "745.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "REST IN GENTLENESS !",
+                "filename": "746.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "HOW TO FIND REST ?",
+                "filename": "748.json"
             }
         ]
     }

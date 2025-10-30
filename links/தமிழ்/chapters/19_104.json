@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "19_104:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "புகலிடம்!",
+                "filename": "4541.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_104:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவகரத்தில்…",
+                "filename": "1726.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவகரத்தில்…",
+                "filename": "2006.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_104:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தியான நேரம்!",
+                "filename": "50.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "தியானிக்கும் தியானம்!",
+                "filename": "75.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தியானம் ஒரு அந்தரங்க உறவு!",
+                "filename": "4657.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,81 @@
 [
     {
+        "verse": "59_4:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யுத்தங்களும் சண்டைகளும்",
+                "filename": "1086.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்வினால் ஆராதிப்போம்!",
+                "filename": "3150.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_4:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வார்த்தை நம்மை ஆளட்டும்!",
+                "filename": "514.json"
+            }
+        ]
+    },
+    {
         "verse": "59_4:6",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "தாழ்மை உள்ளவர்களுக்குக் கிருபை",
                 "filename": "82.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாழ்மையின் பரிசு இரக்கம்!",
+                "filename": "4405.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெருமை பேசும் நாவு!",
+                "filename": "4865.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பட்டுச்செட்டிப் பெருமை",
+                "filename": "5134.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_4:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவனுக்கு கீழ்ப்படி &#8230;!",
+                "filename": "1100.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கீழ்ப்படிதலினால் ஜெயம்!",
+                "filename": "887.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கோழையா? வீரனா?",
+                "filename": "2280.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிசாசுக்கு எதிர்த்து நில்",
+                "filename": "4267.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதிர்த்து நில்!",
+                "filename": "5173.json"
             }
         ]
     },
@@ -16,6 +86,81 @@
                 "brand": "faiths-check-book",
                 "title": "தேவனிடத்தில் சேருதல்",
                 "filename": "87.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "சேருங்கள்!",
+                "filename": "203.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பரிசுத்த சிந்தை!",
+                "filename": "660.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜெபி! தொடர்ந்து ஜெபி!",
+                "filename": "371.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜெபி! தொடர்ந்து ஜெபி!",
+                "filename": "5146.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_4:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெருமையா? தாழ்மையா?",
+                "filename": "2099.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "…மிஞ்சி எண்ணாதிருங்கள்.",
+                "filename": "3497.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாழ்மை!",
+                "filename": "4413.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தருக்கு முன்பாக தாழ்மைப்படு!",
+                "filename": "49.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_4:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் இல்லை! அவள்!",
+                "filename": "2798.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_4:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கடின உழைப்பும் கருகிப்போகும்!",
+                "filename": "5.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_4:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாவத்தைக் கண்டும் மௌனம் ஏன்?",
+                "filename": "3274.json"
             }
         ]
     }

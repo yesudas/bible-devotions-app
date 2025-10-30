@@ -10,6 +10,36 @@
         ]
     },
     {
+        "verse": "23_44:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அலரிச் செடி!",
+                "filename": "1089.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_44:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவரை அறிந்திருக்கிறேனா?",
+                "filename": "2066.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_44:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீதான் சாட்சி!",
+                "filename": "5214.json"
+            }
+        ]
+    },
+    {
         "verse": "23_44:19",
         "meditations": [
             {
@@ -31,6 +61,26 @@
                 "brand": "faiths-check-book",
                 "title": "மறக்கப்படவில்லை",
                 "filename": "96.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மறவாத கர்த்தர்!",
+                "filename": "702.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_44:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனைத்தவிர வேறு யார்?",
+                "filename": "2067.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் உருவாக்கப்பட்டவன்!",
+                "filename": "3645.json"
             }
         ]
     }

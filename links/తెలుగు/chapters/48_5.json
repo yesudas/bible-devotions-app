@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "48_5:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "స్వాతంత్ర్యమునందు!",
+                "filename": "443.json"
+            }
+        ]
+    },
+    {
+        "verse": "48_5:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "రెండు యుద్ధరంగములు!",
+                "filename": "221.json"
+            }
+        ]
+    },
+    {
+        "verse": "48_5:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "సమాధానమగు ఫలము!",
+                "filename": "1227.json"
+            }
+        ]
+    },
+    {
+        "verse": "48_5:23",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆశ నిగ్రహము!",
+                "filename": "1093.json"
+            }
+        ]
+    }
+]

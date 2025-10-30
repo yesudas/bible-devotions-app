@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "19_50:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പൂർണ്ണ സൗന്ദര്യം",
+                "filename": "1138.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "തികഞ്ഞ സൗന്ദര്യം",
+                "filename": "572.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_50:23",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "സ്തോത്രയാഗം അർപ്പിക്കുന്നവൻ",
+                "filename": "966.json"
+            }
+        ]
+    }
+]

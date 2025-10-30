@@ -6,6 +6,41 @@
                 "brand": "faiths-check-book",
                 "title": "Prayer, Thanksgiving, Praise",
                 "filename": "90.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Do Not Be Anxious !",
+                "filename": "206.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "MIND OF PRAYER !",
+                "filename": "640.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_4:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Let Your Requests Be Made Known To God !",
+                "filename": "194.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_4:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "GUARDING MIND !",
+                "filename": "646.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "GUARDING MIND !",
+                "filename": "647.json"
             }
         ]
     },
@@ -20,12 +55,37 @@
         ]
     },
     {
+        "verse": "50_4:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "COMPLAINING – THE ENEMY OF PRAISE !",
+                "filename": "1210.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Be Content !",
+                "filename": "186.json"
+            }
+        ]
+    },
+    {
         "verse": "50_4:19",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Limitless Riches",
                 "filename": "319.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "COMFORT IN LACK !",
+                "filename": "1163.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Abundant blessing !",
+                "filename": "139.json"
             }
         ]
     }

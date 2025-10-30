@@ -3,5 +3,25 @@
         "brand": "faiths-check-book",
         "title": "இளைப்பாறுதல் ஒரு நன்கொடை",
         "filename": "14.json"
+    },
+    {
+        "brand": "antantulla-appam",
+        "title": "கர்த்தர் தரும் இளைப்பாறுதல்!",
+        "filename": "732.json"
+    },
+    {
+        "brand": "சத்திய-வசனம்",
+        "title": "கிறிஸ்துவின் இளைப்பாறுதல்",
+        "filename": "2155.json"
+    },
+    {
+        "brand": "சத்திய-வசனம்",
+        "title": "இளைப்பாறுதல் தருகிறவர்",
+        "filename": "2270.json"
+    },
+    {
+        "brand": "சத்திய-வசனம்",
+        "title": "இளைப்பாறுதல் அளிப்பவர்",
+        "filename": "987.json"
     }
 ]

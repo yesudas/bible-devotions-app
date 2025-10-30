@@ -7,6 +7,10 @@
                     <i class="bi bi-collection me-1"></i>Bible Dictionaries
                 </a>
                 <span class="footer-separator">|</span>
+                <a href="https://wordofgod.in/bible-concordance/" target="_blank" class="footer-link">
+                    <i class="bi bi-search me-1"></i>Bible Concordances
+                </a>
+                <span class="footer-separator">|</span>
                 <a href="https://wordofgod.in/bible-wallpapers/" target="_blank" class="footer-link">
                     <i class="bi bi-card-image me-1"></i>Bible Wallpapers
                 </a>

@@ -1,11 +1,56 @@
 [
     {
+        "verse": "43_19:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சிரசிலிருந்து சிந்தின இரத்தம்!",
+                "filename": "873.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எது ஆசீர்வாதம்?",
+                "filename": "39.json"
+            }
+        ]
+    },
+    {
         "verse": "43_19:16-18",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "இயேசுகிறிஸ்துவின் சிலுவை பாதையும் பாடுகளும்",
                 "filename": "43.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வாயைத் திறக்காத ஆட்டுக்குட்டி!",
+                "filename": "1220.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசு சுமந்த சிலுவை!",
+                "filename": "3537.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:25",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒரு தாய் தாங்கிய சிலுவை!",
+                "filename": "927.json"
             }
         ]
     },
@@ -20,6 +65,21 @@
         ]
     },
     {
+        "verse": "43_19:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஏதாவது செய்!",
+                "filename": "1875.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னைப் புரிந்துகொண்டவர்",
+                "filename": "592.json"
+            }
+        ]
+    },
+    {
         "verse": "43_19:28-29",
         "meditations": [
             {
@@ -30,12 +90,92 @@
         ]
     },
     {
+        "verse": "43_19:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாகமாயிருக்கிறோமா?",
+                "filename": "1121.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாகமாயிருக்கிறேன்!",
+                "filename": "3118.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாகமாயிருக்கிறோமா?",
+                "filename": "4908.json"
+            }
+        ]
+    },
+    {
         "verse": "43_19:30",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "முடிந்தது",
                 "filename": "72.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "முடிந்தது!",
+                "filename": "243.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெரிய வெள்ளி",
+                "filename": "2026.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முடிந்தது!",
+                "filename": "3866.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஊற்றப்பட்ட இரத்தமும், தண்ணீரும்!",
+                "filename": "514.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "விலாவிலிருந்து சிந்தின இரத்தம்!",
+                "filename": "871.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விலாவிலே குத்தப்பட்டார்!",
+                "filename": "1298.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:39",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிக்கொதேமுவை மாற்றிய சிலுவை",
+                "filename": "929.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_19:41",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கல்லறையைச் சுற்றி ஒரு பூந்தோட்டம்",
+                "filename": "1570.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கல்லறையைச் சுற்றி ஒரு பூந்தோட்டம்",
+                "filename": "5091.json"
             }
         ]
     }

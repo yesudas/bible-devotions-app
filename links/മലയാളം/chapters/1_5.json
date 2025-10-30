@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "1_5:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "എനോക്ക് – ഒരു കുടുംബനാഥൻ !",
+                "filename": "256.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവത്തോടൊപ്പം നടന്ന എനോക്ക്",
+                "filename": "258.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_5:23",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "365 വർഷം ജീവിച്ച എനോക്ക്!",
+                "filename": "257.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_5:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഹാനോക്ക്!",
+                "filename": "22.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ഹാനോക്ക് എടുക്കപ്പെട്ടു !",
+                "filename": "255.json"
+            }
+        ]
+    }
+]

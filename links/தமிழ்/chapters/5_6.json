@@ -1,0 +1,72 @@
+[
+    {
+        "verse": "5_6:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உங்கள் நன்மைக்காகவே!",
+                "filename": "1604.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_6:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தரிடத்தில்!",
+                "filename": "490.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முழுமையான அன்பு!",
+                "filename": "615.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_6:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மறவாதே!",
+                "filename": "1022.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மறவாதபடிக்கு எச்சரிக்கையாயிரு!",
+                "filename": "1107.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆண்டவரை மறவாதே!",
+                "filename": "1379.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனை மறத்தல்!",
+                "filename": "614.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_6:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜீவனத்தின் பெருமை!",
+                "filename": "4607.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_6:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாசி, பரிட்சிக்காதே!",
+                "filename": "4609.json"
+            }
+        ]
+    }
+]

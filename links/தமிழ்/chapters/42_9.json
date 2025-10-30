@@ -1,11 +1,71 @@
 [
     {
+        "verse": "42_9:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நோய்களின்மேல் அதிகாரம்!",
+                "filename": "117.json"
+            }
+        ]
+    },
+    {
         "verse": "42_9:23",
         "meditations": [
             {
                 "brand": "3-minute-meditation",
                 "title": "ஒப்புக்கொடுத்தால் – எடுத்துக்கொள்ளப்படுவோம்",
                 "filename": "2.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசுவின் பின்னே…",
+                "filename": "2127.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_9:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இழந்ததைத் தருகிறவர்!",
+                "filename": "995.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_9:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜெபத்தினால் பிரியம்!",
+                "filename": "922.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_9:33",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மலை உச்சியும், அடிவாரமும்",
+                "filename": "3908.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_9:62",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பின்னிட்டுப் பாராதே",
+                "filename": "2868.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பின்னிட்டுப் பாராதே!",
+                "filename": "4297.json"
             }
         ]
     }

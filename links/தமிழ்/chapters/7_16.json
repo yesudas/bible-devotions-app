@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "7_16:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பலமுள்ள தோள்",
+                "filename": "814.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_16:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சிம்சோன்!",
+                "filename": "13.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்துபோன ஆவிக்குரிய பெலன்",
+                "filename": "575.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_16:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெலனற்ற சிம்சோன்",
+                "filename": "2819.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_16:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்துபோன பெலன்",
+                "filename": "597.json"
+            }
+        ]
+    }
+]

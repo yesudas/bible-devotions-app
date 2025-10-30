@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "45_5:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവത്തോടൊപ്പം",
+                "filename": "1271.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_5:5-6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പകർന്നു കിട്ടിയ സ്നേഹം !",
+                "filename": "420.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_5:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആത്മാവിനാൽ ദൈവസ്നേഹം!",
+                "filename": "649.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "പുതിയ സ്നേഹം!",
+                "filename": "797.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "42_2:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "భూమిమీద సమాధానము!",
+                "filename": "1231.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "మనుష్యులపై ఇష్టము!,",
+                "filename": "850.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "భూమిమీద సమాధానము!",
+                "filename": "851.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_2:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "తలంపు",
+                "filename": "569.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_2:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "క్రీస్తుయొక్క ఔన్నత్యము!",
+                "filename": "523.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_2:52",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "వర్ధిల్లుడి!",
+                "filename": "349.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,61 @@
 [
     {
+        "verse": "28_14:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கோமேருக்கும் நம்பிக்கை உண்டு!",
+                "filename": "3860.json"
+            }
+        ]
+    },
+    {
         "verse": "28_14:3",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "திக்கற்றவர்களின் ஆதரவாளர்கள்",
                 "filename": "66.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_14:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிபந்தனையற்ற மாறாத அன்பு",
+                "filename": "2645.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாறாத தேவ அன்பு",
+                "filename": "2666.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_14:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடைய பனித்துளிகள்!",
+                "filename": "1512.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னத பனி!",
+                "filename": "3558.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_14:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தீர்மானம் என்ன?",
+                "filename": "2672.json"
             }
         ]
     }

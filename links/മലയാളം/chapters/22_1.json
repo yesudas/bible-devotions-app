@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "22_1:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നിങ്ങളുടെ പേര് പുരട്ടിയ തൈലം പോലെ !",
+                "filename": "421.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "സുഗന്ധതൈലങ്ങൾ!",
+                "filename": "84.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_1:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അവൻ്റെ സ്നേഹം മറക്കരുത്!",
+                "filename": "426.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_1:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വ്യക്തിപരമായ പ്രാർത്ഥന ജീവിതം!",
+                "filename": "1246.json"
+            }
+        ]
+    }
+]

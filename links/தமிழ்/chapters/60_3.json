@@ -8,5 +8,30 @@
                 "filename": "13.json"
             }
         ]
+    },
+    {
+        "verse": "60_3:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தருடைய வருகைக்காக காத்திருங்கள்!",
+                "filename": "267.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தருடைய வருகைக்காக காத்திருங்கள்!",
+                "filename": "268.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_3:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசுவின் அடிச்சுவடுகள்",
+                "filename": "1920.json"
+            }
+        ]
     }
 ]

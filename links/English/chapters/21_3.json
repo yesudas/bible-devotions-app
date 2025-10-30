@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "21_3:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THERE IS A TIME !",
+                "filename": "406.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "UNWEARIED MIND !",
+                "filename": "630.json"
+            }
+        ]
+    },
+    {
+        "verse": "21_3:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "COMFORT IN LAMENTATION !",
+                "filename": "1147.json"
+            }
+        ]
+    }
+]

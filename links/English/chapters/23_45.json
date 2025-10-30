@@ -10,12 +10,37 @@
         ]
     },
     {
+        "verse": "23_45:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Authority Over Nature!",
+                "filename": "114.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_45:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "The Blood Of Christ !",
+                "filename": "152.json"
+            }
+        ]
+    },
+    {
         "verse": "23_45:22",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "The Outward, Upward Look",
                 "filename": "325.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "MOUNT OF REDEMPTION !",
+                "filename": "1025.json"
             }
         ]
     }

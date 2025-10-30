@@ -1,0 +1,62 @@
+[
+    {
+        "verse": "2_34:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சீனாய் மலை!",
+                "filename": "1052.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விடியற்காலத்தில் ஆயத்தமாகு!",
+                "filename": "906.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_34:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுதந்திரமாக ஏற்றுக்கொள்ளும்!",
+                "filename": "4810.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_34:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அற்புதங்களில் பெரியவர்",
+                "filename": "987.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_34:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவ கட்டளையின் இருப்பிடம்!",
+                "filename": "234.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாற்பது நாட்கள்!",
+                "filename": "235.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவகட்டளையின் இருப்பிடம்",
+                "filename": "4246.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாற்பது நாட்கள்",
+                "filename": "4247.json"
+            }
+        ]
+    }
+]

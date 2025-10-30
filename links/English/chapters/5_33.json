@@ -6,6 +6,11 @@
                 "brand": "faiths-check-book",
                 "title": "Complete Safety",
                 "filename": "262.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ONE WHO DWELLS !",
+                "filename": "1141.json"
             }
         ]
     },
@@ -16,6 +21,16 @@
                 "brand": "faiths-check-book",
                 "title": "Precious Things",
                 "filename": "357.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_33:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "IN THE BUSH !",
+                "filename": "501.json"
             }
         ]
     },
@@ -36,6 +51,16 @@
                 "brand": "faiths-check-book",
                 "title": "Heavy-Duty Shoes",
                 "filename": "201.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_33:27",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ETERNAL GOD !",
+                "filename": "977.json"
             }
         ]
     },

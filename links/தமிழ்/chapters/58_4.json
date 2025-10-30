@@ -8,5 +8,75 @@
                 "filename": "272.json"
             }
         ]
+    },
+    {
+        "verse": "58_4:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கிரியைகளை முடித்து இளைப்பாறுதல்!",
+                "filename": "733.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நித்திய இளைப்பாறுதல்!",
+                "filename": "1589.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_4:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஊடுருவும் வார்த்தை",
+                "filename": "2244.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_4:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாச அறிக்கை!",
+                "filename": "568.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_4:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யார் குற்றப்படுத்த முடியும்?",
+                "filename": "1491.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிசுத்தர் பாவியாக்கப்பட்டார்!",
+                "filename": "1671.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_4:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தைரியமாய்ச் செல்லலாம்",
+                "filename": "2394.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தைரியமாய் சேருவோம்!",
+                "filename": "492.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தைரியமாகவே சேருவோம்!",
+                "filename": "918.json"
+            }
+        ]
     }
 ]

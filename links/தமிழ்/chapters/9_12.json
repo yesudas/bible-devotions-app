@@ -1,11 +1,61 @@
 [
     {
+        "verse": "9_12:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சாட்சியின் வாழ்வு",
+                "filename": "2541.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_12:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாவத்தைக் கண்டிக்கப் பயம்",
+                "filename": "1813.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_12:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மறைவான பாவங்கள்",
+                "filename": "2558.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_12:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீங்களும் உங்கள் ராஜாவும்!",
+                "filename": "447.json"
+            }
+        ]
+    },
+    {
         "verse": "9_12:22",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "எப்போதும் கூடவே இருக்கிறார்",
                 "filename": "166.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_12:25",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இதுவே தருணம்!",
+                "filename": "2935.json"
             }
         ]
     }

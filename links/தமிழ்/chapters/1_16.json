@@ -1,0 +1,127 @@
+[
+    {
+        "verse": "1_16:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுக்கு முன்னாக ஓடுதல்",
+                "filename": "1349.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுயபுத்தி",
+                "filename": "878.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_16:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அடிமை அடிமையே!",
+                "filename": "1446.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அடிமை அடிமையே!",
+                "filename": "4734.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆலோசனை கேட்பதில் ஜாக்கிரதை",
+                "filename": "4781.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_16:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறுப்பில் இருப்பவர் யார்?",
+                "filename": "1348.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_16:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தூதனானவர்!",
+                "filename": "346.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_16:7-8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது அடையாளம்",
+                "filename": "124.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விலகி ஓடாதே!",
+                "filename": "4140.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_16:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கடினமான பாதை!",
+                "filename": "879.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_16:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இஸ்மவேல்!",
+                "filename": "312.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வனாந்தரத்தில் அங்கலாய்ப்பு கேட்கப்பட்டது!",
+                "filename": "1321.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அங்கலாய்ப்பைக் கேட்பவர்!",
+                "filename": "4826.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_16:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்னைக் காண்கிறவர்",
+                "filename": "2112.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எல்ரோகி",
+                "filename": "2194.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எல்ரோயீ",
+                "filename": "3213.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்னைக் காண்கிறார்!",
+                "filename": "4426.json"
+            }
+        ]
+    }
+]

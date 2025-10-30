@@ -1,0 +1,57 @@
+[
+    {
+        "verse": "45_2:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தன்னிலை மறக்கலாமா?",
+                "filename": "2165.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குறை கூறுதல்",
+                "filename": "4591.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனக்கடினமும் குணப்படாத இருதயமும்",
+                "filename": "831.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_2:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறுமை",
+                "filename": "2681.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறுமை",
+                "filename": "3685.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_2:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நன்மை செய்யுங்கள்!",
+                "filename": "196.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_2:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆலயம் கள்வர் குகையல்ல…",
+                "filename": "1860.json"
+            }
+        ]
+    }
+]

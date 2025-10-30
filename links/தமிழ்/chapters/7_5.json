@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "7_5:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தெபொராளின் பாட்டு!",
+                "filename": "291.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_5:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பாராக்!",
+                "filename": "306.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "விழி, விழி, தெபோராளே",
+                "filename": "612.json"
+            }
+        ]
+    }
+]

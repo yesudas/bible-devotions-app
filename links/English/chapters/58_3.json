@@ -1,11 +1,31 @@
 [
     {
+        "verse": "58_3:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Moses!",
+                "filename": "11.json"
+            }
+        ]
+    },
+    {
         "verse": "58_3:15",
         "meditations": [
             {
                 "brand": "3-minute-meditation",
                 "title": "NOW OR NEVER - THE CALL TO RETURN",
                 "filename": "7.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_3:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "REST IN OBEDIENCE !",
+                "filename": "732.json"
             }
         ]
     }

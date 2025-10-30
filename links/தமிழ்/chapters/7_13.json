@@ -1,11 +1,56 @@
 [
     {
+        "verse": "7_13:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அறியப்படாத சிம்சோனின் தாய்!",
+                "filename": "326.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_13:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனோவாவின் மனைவி!",
+                "filename": "1454.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனோவாவின் மனைவி",
+                "filename": "4742.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_13:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிள்ளைகளுக்கான ஜெபம்",
+                "filename": "4308.json"
+            }
+        ]
+    },
+    {
         "verse": "7_13:23",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "பலி ஏற்றுக்கொள்ளப்பட்டது",
                 "filename": "269.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_13:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியானவரின் ஏவுதல்கள்!",
+                "filename": "767.json"
             }
         ]
     }

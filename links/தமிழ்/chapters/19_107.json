@@ -8,5 +8,25 @@
                 "filename": "324.json"
             }
         ]
+    },
+    {
+        "verse": "19_107:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வசனத்தை அனுப்புவார்!",
+                "filename": "177.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_107:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆழத்தில் அதிசயங்கள்!",
+                "filename": "105.json"
+            }
+        ]
     }
 ]

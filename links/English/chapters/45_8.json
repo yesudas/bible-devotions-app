@@ -1,11 +1,116 @@
 [
     {
+        "verse": "45_8:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Law Of The Spirit !",
+                "filename": "755.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Rely On The Spirit !",
+                "filename": "759.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:6-7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HIDDEN THOUGHT !",
+                "filename": "641.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Spiritual Mind !",
+                "filename": "754.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Be Led By The Spirit !",
+                "filename": "771.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "EYES OF FAITH !",
+                "filename": "612.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "IF GOD IS FOR US !",
+                "filename": "487.json"
+            }
+        ]
+    },
+    {
         "verse": "45_8:32",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "He Freely Gives",
                 "filename": "34.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "SON WHO GIVES ABUNDANTLY !",
+                "filename": "675.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:33",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "COMFORT IN ACCUSATION !",
+                "filename": "1160.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "AT THE RIGHT HAND !",
+                "filename": "494.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "VICTORIOIUS RESURRECTION !",
+                "filename": "863.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_8:35",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "VICTORY THROUGH LOVE !",
+                "filename": "899.json"
             }
         ]
     }

@@ -1,11 +1,81 @@
 [
     {
+        "verse": "41_11:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவிழ்க்கப்பட்ட கழுதை",
+                "filename": "2387.json"
+            }
+        ]
+    },
+    {
+        "verse": "41_11:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பவனி வரும் ராஜா",
+                "filename": "2388.json"
+            }
+        ]
+    },
+    {
+        "verse": "41_11:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஓசன்னா பாடுவோம்!",
+                "filename": "1674.json"
+            }
+        ]
+    },
+    {
+        "verse": "41_11:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இலைகளுள்ள அத்திமரம்!",
+                "filename": "228.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இலைகள்தானா?",
+                "filename": "401.json"
+            }
+        ]
+    },
+    {
+        "verse": "41_11:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாச ஜெபம்!",
+                "filename": "563.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாச ஜெபம்",
+                "filename": "2410.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜெபத்திற்குப் பதில்",
+                "filename": "3259.json"
+            }
+        ]
+    },
+    {
         "verse": "41_11:25",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "மன்னிப்பு தரும் சுகம்",
                 "filename": "58.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் பாவம் மன்னிக்கப்படும்படி…",
+                "filename": "2963.json"
             }
         ]
     }

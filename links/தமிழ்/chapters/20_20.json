@@ -1,11 +1,51 @@
 [
     {
+        "verse": "20_20:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மதுபானம் அமளிபண்ணும்!",
+                "filename": "100.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_20:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாசம்!",
+                "filename": "1950.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உண்மையுள்ளவன்",
+                "filename": "3021.json"
+            }
+        ]
+    },
+    {
         "verse": "20_20:7",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "பிள்ளைகளுக்கு எதை விட்டுப்போவது ?",
                 "filename": "116.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயப்படும் சிறுவர்கள்!",
+                "filename": "1792.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_20:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "காதும், கண்ணும்",
+                "filename": "620.json"
             }
         ]
     },
@@ -16,6 +56,21 @@
                 "brand": "faiths-check-book",
                 "title": "மன்னித்து மறந்து விடு",
                 "filename": "120.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "காத்திருக்கிறவர்களுக்கு இரட்சிப்பு!",
+                "filename": "264.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_20:25",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொருத்தனை செய்தால்…",
+                "filename": "2332.json"
             }
         ]
     }

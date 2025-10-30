@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "1_26:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் கண்களைத் திறந்தருளும்!",
+                "filename": "955.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_26:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "துரவுகளை மறுபடி…!",
+                "filename": "1111.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்துபோன துரவுகள்",
+                "filename": "577.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_26:30",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எது உங்கள் தெரிந்தெடுப்பு?",
+                "filename": "424.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எது உங்கள் தெரிந்தெடுப்பு?",
+                "filename": "5167.json"
+            }
+        ]
+    }
+]

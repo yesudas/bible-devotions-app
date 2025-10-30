@@ -1,8 +1,102 @@
 [
     {
-        "brand": "3-minute-meditation",
-        "title": "யேசுவின் வரலாறு – (His-Story) History of Jesus",
         "verse": "40_16:15",
-        "file": "\/3-minute-meditation\/meditations\/தமிழ்\/6.json"
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "யேசுவின் வரலாறு – (His-Story) History of Jesus",
+                "filename": "6.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் வாழ்வில் என் இயேசு",
+                "filename": "2218.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_16:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்து எனக்கு யார்?",
+                "filename": "943.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_16:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மேற்கொள்ளுவதில்லை!",
+                "filename": "1192.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_16:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விடுதலையாக்கும் அதிகாரம்!",
+                "filename": "118.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பலவானைக் கட்டும் அதிகாரம்!",
+                "filename": "119.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பலவானைக் கட்டும் அதிகாரம்!",
+                "filename": "120.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_16:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுபட்டு மரிப்பதற்கென்றே பிறந்தவர்",
+                "filename": "3231.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகள் அவசியந்தானா?!",
+                "filename": "942.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_16:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவபெலனை நாடுவோம்!",
+                "filename": "4276.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_16:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சிலுவையை எடுத்துக் கொண்டு!",
+                "filename": "137.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறவுகளா?",
+                "filename": "3541.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறவுகளா?",
+                "filename": "5193.json"
+            }
+        ]
     }
 ]

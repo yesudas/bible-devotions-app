@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "1_40:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மன்னிப்பும், தேவனைப்பற்றிய உணர்வும்!",
+                "filename": "858.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_40:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடைய பார்வை",
+                "filename": "1221.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடைய பார்வை!",
+                "filename": "4507.json"
+            }
+        ]
+    }
+]

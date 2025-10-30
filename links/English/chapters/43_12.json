@@ -1,11 +1,36 @@
 [
     {
+        "verse": "43_12:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "The Fragrance Of Perfume!",
+                "filename": "84.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_12:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Sow The Seeds !",
+                "filename": "219.json"
+            }
+        ]
+    },
+    {
         "verse": "43_12:26",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Following Leads to Honor",
                 "filename": "342.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "The Unchanging Presence!",
+                "filename": "95.json"
             }
         ]
     },

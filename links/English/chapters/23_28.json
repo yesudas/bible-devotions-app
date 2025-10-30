@@ -1,11 +1,36 @@
 [
     {
+        "verse": "23_28:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "The Spirit Will Speak !",
+                "filename": "757.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_28:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Resting In The Spirit !",
+                "filename": "768.json"
+            }
+        ]
+    },
+    {
         "verse": "23_28:16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Know How to Wait",
                 "filename": "333.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ONE WHO BELIEVES !",
+                "filename": "1126.json"
             }
         ]
     }

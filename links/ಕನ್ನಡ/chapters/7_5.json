@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "7_5:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ದೆಬೋರಳ ಹಾಡು!",
+                "filename": "278.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_5:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬರಾಕನು!",
+                "filename": "290.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಎಚ್ಚರವಾಗು, ದೆಬೋರಳೇ, ಎಚ್ಚರವಾಗು!",
+                "filename": "600.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,31 @@
 [
     {
+        "verse": "20_8:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அகந்தை",
+                "filename": "4643.json"
+            }
+        ]
+    },
+    {
         "verse": "20_8:17",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அன்பு கூரு, ஞானத்தைத் தேடு",
                 "filename": "236.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அதிகாலையில்…",
+                "filename": "1122.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அதிகாலையில்…",
+                "filename": "4907.json"
             }
         ]
     }

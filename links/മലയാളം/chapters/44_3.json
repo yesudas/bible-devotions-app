@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "44_3:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഉയർത്തി!",
+                "filename": "126.json"
+            }
+        ]
+    },
+    {
+        "verse": "44_3:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവത്തിന്റെ നാമം !",
+                "filename": "1304.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "യേശുവിൻ നാമം!",
+                "filename": "836.json"
+            }
+        ]
+    }
+]

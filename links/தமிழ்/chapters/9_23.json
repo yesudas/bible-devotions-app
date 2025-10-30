@@ -1,5 +1,35 @@
 [
     {
+        "verse": "9_23:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தாவீதின் பாட்டு!",
+                "filename": "289.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கடைசி வார்த்தைகள்!",
+                "filename": "2925.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_23:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவ ஆலோசனை",
+                "filename": "2395.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆலோசனைக் கர்த்தர்!",
+                "filename": "2530.json"
+            }
+        ]
+    },
+    {
         "verse": "9_23:5",
         "meditations": [
             {

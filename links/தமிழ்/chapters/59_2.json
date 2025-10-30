@@ -1,0 +1,72 @@
+[
+    {
+        "verse": "59_2:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாசத்தில் ஐசுவரியம்!",
+                "filename": "553.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_2:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பிறரிடத்தில்!",
+                "filename": "489.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எல்லோரையும் ஒன்றுபோல…",
+                "filename": "3137.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கரிசனை காட்டுங்கள்!",
+                "filename": "3157.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_2:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிரியையுடன் கூடிய விசுவாசம்",
+                "filename": "3403.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_2:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிரியையில் வெளிப்படும் விசுவாசம்",
+                "filename": "2607.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாசமும் கிரியையும்!",
+                "filename": "4373.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_2:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனுஷ ஆவி",
+                "filename": "2589.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனுஷ ஆவி",
+                "filename": "4355.json"
+            }
+        ]
+    }
+]

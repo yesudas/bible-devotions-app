@@ -1,5 +1,35 @@
 [
     {
+        "verse": "40_24:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "MOUNT OF OLIVES !",
+                "filename": "1039.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_24:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "END OF THE AGE !",
+                "filename": "491.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_24:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ONE WHO ENDURES !",
+                "filename": "1125.json"
+            }
+        ]
+    },
+    {
         "verse": "40_24:22",
         "meditations": [
             {
@@ -16,6 +46,11 @@
                 "brand": "3-minute-meditation",
                 "title": "Eager for the Wrong Arrival?",
                 "filename": "11.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "The Son of Man is coming !",
+                "filename": "130.json"
             }
         ]
     }

@@ -1,11 +1,61 @@
 [
     {
+        "verse": "24_31:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "திரும்பக் கட்டுவிக்கும் கர்த்தர்!",
+                "filename": "1114.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்துபோன வாழ்க்கை",
+                "filename": "576.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மறுபடியும்…",
+                "filename": "3904.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வழிநடத்துவார்!",
+                "filename": "248.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "அழுகையும், களிப்பும்!",
+                "filename": "830.json"
+            }
+        ]
+    },
+    {
         "verse": "24_31:12",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஏராளமான உணவு",
                 "filename": "242.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தோட்டம்!",
+                "filename": "777.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": ".சஞ்சலத்தில் ஆறுதல்!",
+                "filename": "1153.json"
             }
         ]
     },
@@ -16,6 +66,26 @@
                 "brand": "faiths-check-book",
                 "title": "திருப்தியடைந்த ஆன்மாக்கள்",
                 "filename": "317.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பூரண நிரப்புதல்!",
+                "filename": "691.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "आत्मा में पूर्णता!",
+                "filename": "788.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆத்துமாவில் சம்பூரணம்!",
+                "filename": "789.json"
             }
         ]
     },

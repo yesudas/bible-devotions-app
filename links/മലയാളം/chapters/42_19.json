@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "42_19:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "കർത്താവ് എങ്ങനെ ഉള്ളവൻ?",
+                "filename": "1162.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_19:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "കൃപയുടെ വിളി !",
+                "filename": "584.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "കൃപയുടെ വിളി!",
+                "filename": "795.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_19:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "രക്ഷയുടെ വിളി !",
+                "filename": "583.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_19:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അത് നഷ്ടപ്പെട്ടു!",
+                "filename": "489.json"
+            }
+        ]
+    }
+]

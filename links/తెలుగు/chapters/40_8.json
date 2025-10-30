@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "40_8:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "నాకు ఇష్టమే శుద్ధుడవుకమ్ము!",
+                "filename": "135.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_8:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "తెలియజేయబడని శతాధిపతి!",
+                "filename": "270.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_8:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "కలవరమును వ్యాధియును!",
+                "filename": "453.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "రోగములను భరించెను",
+                "filename": "699.json"
+            }
+        ]
+    }
+]

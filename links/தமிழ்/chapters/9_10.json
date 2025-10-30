@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "9_10:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆச்சரியமானவன்!",
+                "filename": "1132.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆச்சரியமான புதிய மனிதன்!",
+                "filename": "696.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய இருதயம்!",
+                "filename": "958.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_10:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறுப்பேற்பதற்குப் பயம்!",
+                "filename": "1814.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயம் ஒரு தடைக்கல்",
+                "filename": "2543.json"
+            }
+        ]
+    }
+]

@@ -1,11 +1,46 @@
 [
     {
+        "verse": "9_7:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அகற்றப்படவேண்டியவை",
+                "filename": "2546.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_7:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்காக யாவையும்…",
+                "filename": "2939.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_7:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சத்தியமுள்ளவர்!",
+                "filename": "445.json"
+            }
+        ]
+    },
+    {
         "verse": "9_7:29",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அவர் வாக்குறுதியைக் குறித்து மன்றாடுதல்",
                 "filename": "296.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தரின் ஆசீர்வாதம்",
+                "filename": "3436.json"
             }
         ]
     }

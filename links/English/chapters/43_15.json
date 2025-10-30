@@ -6,6 +6,31 @@
                 "brand": "faiths-check-book",
                 "title": "Pruning for Fruit-Bearing",
                 "filename": "222.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Prune !",
+                "filename": "217.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_15:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Abide !",
+                "filename": "212.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_15:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "You Are The Branches !",
+                "filename": "224.json"
             }
         ]
     },
@@ -31,6 +56,26 @@
                 "brand": "faiths-check-book",
                 "title": "Abiding in Obedience, in Love",
                 "filename": "245.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_15:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "PRESENCE OF GOD AND JOY !",
+                "filename": "837.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_15:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Bear Fruit !",
+                "filename": "223.json"
             }
         ]
     }

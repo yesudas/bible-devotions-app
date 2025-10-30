@@ -8,5 +8,50 @@
                 "filename": "194.json"
             }
         ]
+    },
+    {
+        "verse": "61_2:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "LOVE YOUR BROTHER !",
+                "filename": "477.json"
+            }
+        ]
+    },
+    {
+        "verse": "61_2:20-21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "CALL TO SUFFER !",
+                "filename": "712.json"
+            }
+        ]
+    },
+    {
+        "verse": "61_2:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "PIG !",
+                "filename": "1052.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "VICTORY OVER SIN !",
+                "filename": "891.json"
+            }
+        ]
+    },
+    {
+        "verse": "61_2:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "BLOOD DUE TO SCOURGING !",
+                "filename": "869.json"
+            }
+        ]
     }
 ]

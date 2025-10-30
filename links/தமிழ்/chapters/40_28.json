@@ -1,11 +1,96 @@
 [
     {
+        "verse": "40_28:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இனியும் பயம் எதற்கு?",
+                "filename": "3114.json"
+            }
+        ]
+    },
+    {
         "verse": "40_28:6",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "மரணமே உன் கூர் எங்கே?",
                 "filename": "42.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உயிர்த்தெழுதல் தரும் நம்பிக்கை",
+                "filename": "2377.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாம் சொன்னபடியே …",
+                "filename": "2378.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாம் சொன்னபடியே…",
+                "filename": "3113.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_28:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மறைப்பேனா? அறிவிப்பேனா?",
+                "filename": "3079.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_28:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்கா! என்னையா!!",
+                "filename": "3078.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_28:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அதிகாரமுள்ளவர்!",
+                "filename": "124.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "சுகமளிக்கும் அதிகாரம்!",
+                "filename": "333.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கனப்படுத்தவேண்டிய கடைசி வார்த்தை",
+                "filename": "2366.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_28:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சீஷராக்குதல்!",
+                "filename": "4499.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிரதான கட்டளை!",
+                "filename": "4500.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "புறப்பட்டுப் போ!",
+                "filename": "4502.json"
             }
         ]
     },
@@ -16,6 +101,16 @@
                 "brand": "அனுதின-மன்னா",
                 "title": "ஆத்துமாக்களை மீட்டெடுப்போம்",
                 "filename": "52.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஏழு சபைகள்!",
+                "filename": "1902.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தர் உயிர்த்தெழுந்தார்!",
+                "filename": "575.json"
             }
         ]
     }

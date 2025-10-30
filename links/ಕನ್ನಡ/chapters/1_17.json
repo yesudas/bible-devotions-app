@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "1_17:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನನ್ನ ಮುಂದೆ!",
+                "filename": "38.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಅಬ್ರಹಾಂ!",
+                "filename": "23.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಇಸಾಕನು!",
+                "filename": "297.json"
+            }
+        ]
+    }
+]

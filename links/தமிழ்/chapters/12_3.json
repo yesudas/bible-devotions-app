@@ -1,5 +1,45 @@
 [
     {
+        "verse": "12_3:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விரும்புகிறதைக் கேள்!",
+                "filename": "153.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_3:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஞானமுள்ள இருதயம்!",
+                "filename": "5006.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_3:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய ஞானம்!",
+                "filename": "957.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்ன வேண்டும்?",
+                "filename": "1543.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதலாவதாகத் தேடுவது",
+                "filename": "3220.json"
+            }
+        ]
+    },
+    {
         "verse": "12_3:16-17",
         "meditations": [
             {

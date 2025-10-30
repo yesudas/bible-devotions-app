@@ -1,11 +1,41 @@
 [
     {
+        "verse": "20_10:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நீதியான உழைப்பு!",
+                "filename": "4838.json"
+            }
+        ]
+    },
+    {
         "verse": "20_10:9",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "சரியாக நடப்பதற்கு ஏற்ற பாங்கு",
                 "filename": "335.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_10:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அதிக பேச்சு ஆபத்து!",
+                "filename": "2800.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உதடுகளை அடக்கு",
+                "filename": "3031.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உதடுகளை அடக்கு!",
+                "filename": "4880.json"
             }
         ]
     },
@@ -26,6 +56,21 @@
                 "brand": "faiths-check-book",
                 "title": "நீதிமான் விரும்புகிற காரியம் கொடுக்கப்படும்.",
                 "filename": "106.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "விரும்பும் காரியம்!",
+                "filename": "154.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_10:25",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நித்திய அஸ்திபாரம்!",
+                "filename": "4762.json"
             }
         ]
     },

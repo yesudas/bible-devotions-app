@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "22_2:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Fragrant Flowers!",
+                "filename": "86.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_2:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Sweet Fruit !",
+                "filename": "216.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_2:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "DOVE THAT DWELLS IN THE SECRET PLACE !",
+                "filename": "1076.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "DOVE IN THE CLEFTS OF THE ROCK !",
+                "filename": "1077.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_2:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "LITTLE FOXES !",
+                "filename": "1053.json"
+            }
+        ]
+    }
+]

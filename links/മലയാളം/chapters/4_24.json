@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "4_24:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ചന്ദനത്തിന്റെ സുഗന്ധം!",
+                "filename": "86.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ചന്ദന വൃക്ഷം!",
+                "filename": "866.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "നദികളെ പോലെയുള്ളവർ!",
+                "filename": "867.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_24:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വെള്ളം ധാരാളം !",
+                "filename": "865.json"
+            }
+        ]
+    }
+]

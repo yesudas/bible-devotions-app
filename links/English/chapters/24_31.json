@@ -1,5 +1,45 @@
 [
     {
+        "verse": "24_31:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE LORD WHO REBUILDS !",
+                "filename": "1111.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "LIFE THAT WAS LOST !",
+                "filename": "567.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HE WILL LEAD !",
+                "filename": "244.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "WEEPING AND JOY !",
+                "filename": "825.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE LORD WHO RESCUES !",
+                "filename": "399.json"
+            }
+        ]
+    },
+    {
         "verse": "24_31:12",
         "meditations": [
             {
@@ -10,12 +50,37 @@
         ]
     },
     {
+        "verse": "24_31:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "COMFORT IN GRIEF !",
+                "filename": "1149.json"
+            }
+        ]
+    },
+    {
         "verse": "24_31:14",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "Sanctified Souls Are Satisfied",
                 "filename": "317.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_31:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "PERFECT REPLENISHMENT !",
+                "filename": "687.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "PERFECTION IN SOUL!",
+                "filename": "784.json"
             }
         ]
     },

@@ -1,7 +1,7 @@
 <?php
 // counter.php
 
-$additionalFolders = ['3-minute-meditation', 'அனுதின-மன்னா', 'faiths-check-book', 'antantulla-appam'];
+$additionalFolders = ['3-minute-meditation', 'அனுதின-மன்னா', 'faiths-check-book', 'antantulla-appam', 'சத்திய-வசனம்'];
 $consolidationDay = 'Friday';
 
 // List of common bot keywords in User-Agent

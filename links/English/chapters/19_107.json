@@ -8,5 +8,25 @@
                 "filename": "324.json"
             }
         ]
+    },
+    {
+        "verse": "19_107:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "He Will Send His Word !",
+                "filename": "172.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_107:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Wonders In The Deep!",
+                "filename": "103.json"
+            }
+        ]
     }
 ]

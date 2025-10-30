@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "20_6:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எறும்பிடம் கற்றுக்கொள்!",
+                "filename": "4839.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_6:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மேட்டிமை",
+                "filename": "4233.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இந்த ஏழும் வேண்டாம்!",
+                "filename": "4386.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_6:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கனம்பண்ணு!",
+                "filename": "120.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கனம்பண்ணு!",
+                "filename": "740.json"
+            }
+        ]
+    }
+]

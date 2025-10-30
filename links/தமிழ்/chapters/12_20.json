@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "12_20:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்நாட்களில்…",
+                "filename": "3824.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_20:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மரணபயம்!",
+                "filename": "1815.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_20:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்மை மறவாத தேவன்!",
+                "filename": "217.json"
+            }
+        ]
+    }
+]

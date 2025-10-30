@@ -1,11 +1,121 @@
 [
     {
+        "verse": "1_32:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யாக்கோபுக்கு ஏன் இந்தப் பயம்?",
+                "filename": "2483.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "யோர்தான் நதி!",
+                "filename": "1020.json"
+            }
+        ]
+    },
+    {
         "verse": "1_32:12",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "கடவுளுக்கு அவர் வாக்குறுதியை நினைவூட்டு",
                 "filename": "149.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "யாக்கோபின் வெகுமதி!",
+                "filename": "146.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "யாப்போக்கு ஆறு!",
+                "filename": "1013.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவனோடு போராடுகிறவன்!",
+                "filename": "1124.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தனிமையிலும் ஆசீர்வாதம்",
+                "filename": "136.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கண்ணோட்டம் மாறட்டும்!",
+                "filename": "362.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தனிமையிலும் ஆசீர்வாதம்",
+                "filename": "4155.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தரையே சார்ந்து நில்!",
+                "filename": "2282.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாசத்துடன் தொடர்ந்து செல்!",
+                "filename": "3404.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "போராடி ஜெபிக்கும் ஜெபம்!",
+                "filename": "4822.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:27",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன் பெயர் என்ன?",
+                "filename": "953.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "யாக்கோபு!",
+                "filename": "19.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆச்சரியமான போராட்டம்!",
+                "filename": "693.json"
             }
         ]
     }

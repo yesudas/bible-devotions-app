@@ -1,11 +1,36 @@
 [
     {
+        "verse": "28_2:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சோரஸ்திரீ",
+                "filename": "2665.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சோரஸ்திரீ",
+                "filename": "2660.json"
+            }
+        ]
+    },
+    {
         "verse": "28_2:14",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "வனாந்தரத்தில் ஆன்மீகக் கூட்டுறவு",
                 "filename": "200.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்பிக்கையின் வாசல்",
+                "filename": "2664.json"
             }
         ]
     },
@@ -36,6 +61,16 @@
                 "brand": "faiths-check-book",
                 "title": "நிலையான வாக்குறுதி",
                 "filename": "204.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நித்திய உறவு",
+                "filename": "2804.json"
             }
         ]
     }

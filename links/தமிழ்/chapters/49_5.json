@@ -1,11 +1,231 @@
 [
     {
+        "verse": "49_5:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிரியமான பிள்ளைகள்!",
+                "filename": "690.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அன்பின் வாசனை!",
+                "filename": "82.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "அன்பின் வாசனை!",
+                "filename": "83.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உகந்த காணிக்கை!",
+                "filename": "4963.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வீண்பேச்சு வேண்டாம்!",
+                "filename": "1234.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வீண்பேச்சு வேண்டாம்!",
+                "filename": "4524.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பேச்சா? மவுனமா?",
+                "filename": "4745.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தகாத பேச்சுக்கள்!",
+                "filename": "4885.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருளுக்குட்படாமல்….!",
+                "filename": "1457.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருளுக்குட்படாமல்…",
+                "filename": "3189.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருளுக்குட்படாமல்…",
+                "filename": "809.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிச்சம் வீசுவோம்!",
+                "filename": "1064.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காலத்தைப் பயன்படுத்து!",
+                "filename": "1386.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிச்சம் வீசுவோம்!",
+                "filename": "1934.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிச்சமாயிருக்கிறீர்கள்…",
+                "filename": "1991.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிச்சமாயிருக்கிறீர்கள்…",
+                "filename": "3190.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் வெளிச்சத்தின் பிள்ளையா?",
+                "filename": "3414.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எழுந்து ஒளிவீசு!",
+                "filename": "3844.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிச்சம் பிரகாசிக்கட்டும்!",
+                "filename": "4300.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிச்சமாயிருக்கிறீர்கள்…",
+                "filename": "5273.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிச்சமாயிருக்கிறீர்கள்!",
+                "filename": "810.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காலத்தை ஆதாயப்படுத்துங்கள்!",
+                "filename": "4460.json"
+            }
+        ]
+    },
+    {
         "verse": "49_5:18-21",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "பாடுவேன் பரவசமாகுவேன்",
                 "filename": "33.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆவியினால் நிறைந்து …",
+                "filename": "1956.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஸ்தோத்திரியுங்கள்!",
+                "filename": "847.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றியுள்ளவர்களாய் இருங்கள்!",
+                "filename": "3555.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கரும்புள்ளிகள்!",
+                "filename": "4543.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றியுள்ளவர்களாய் இருங்கள்!",
+                "filename": "5168.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சபையில்!",
+                "filename": "484.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "மனைவியினிடத்தில்!",
+                "filename": "487.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:27",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கறைதிரை வேண்டாம்",
+                "filename": "412.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:30",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன் சரீரத்தை பரிசுத்தம் பண்ணு!",
+                "filename": "1313.json"
+            }
+        ]
+    },
+    {
+        "verse": "49_5:33",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறவுகளில் தாழ்மை!",
+                "filename": "44.json"
             }
         ]
     }

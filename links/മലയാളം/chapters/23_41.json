@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_41:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഞാൻ നിങ്ങളോടൊപ്പമുണ്ട്!",
+                "filename": "127.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_41:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഞാൻ നിങ്ങളെ സഹായിക്കും!",
+                "filename": "28.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ഞാൻ നിങ്ങളെ സഹായിക്കും !",
+                "filename": "349.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "വഴി കാട്ടിയ കരങ്ങൾ!!",
+                "filename": "677.json"
+            }
+        ]
+    }
+]

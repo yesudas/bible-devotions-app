@@ -1,5 +1,60 @@
 [
     {
+        "verse": "12_11:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வழுவிப்போன இருதயம்",
+                "filename": "2116.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வழுவிப்போன இருதயம்!",
+                "filename": "4430.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_11:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முடிவு முக்கியம்!",
+                "filename": "1540.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_11:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "எழும்பிப் பிரகாசித்த யெரொபெயாம்!",
+                "filename": "911.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_11:32",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யூதா ராஜ்யம்!",
+                "filename": "426.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_11:38",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யெரொபெயாம்",
+                "filename": "432.json"
+            }
+        ]
+    },
+    {
         "verse": "12_11:39",
         "meditations": [
             {

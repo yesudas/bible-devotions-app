@@ -1,5 +1,15 @@
 [
     {
+        "verse": "9_2:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அன்னாளின் பாட்டு!",
+                "filename": "290.json"
+            }
+        ]
+    },
+    {
         "verse": "9_2:7",
         "meditations": [
             {
@@ -20,12 +30,37 @@
         ]
     },
     {
+        "verse": "9_2:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வேகமாய் தீவிரிக்கும் மான்!",
+                "filename": "1073.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_2:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாவத்தின் அகோரம்",
+                "filename": "2551.json"
+            }
+        ]
+    },
+    {
         "verse": "9_2:30",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "கடவுளைக் கனம் பண்ணு",
                 "filename": "64.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கனப்படுத்தும் கர்த்தர்!",
+                "filename": "1849.json"
             }
         ]
     }

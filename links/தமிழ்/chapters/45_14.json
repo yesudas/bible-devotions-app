@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "45_14:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தீர்ப்புப்பெற்றவர் தீர்ப்பளிப்பார்!",
+                "filename": "4926.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_14:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்வுக்கும் ஒரு கணக்கெடுப்பு!",
+                "filename": "20.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_14:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியினாலே சந்தோஷம்!",
+                "filename": "778.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஊழியம் செய்கிறதினால் பிரியம்!",
+                "filename": "918.json"
+            }
+        ]
+    }
+]

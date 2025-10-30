@@ -1,0 +1,92 @@
+[
+    {
+        "verse": "1_45:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பழிவாங்குதல் உறவைக் கெடுக்கும்!",
+                "filename": "2790.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நானே முதலில் உடைக்கப்பட…",
+                "filename": "3530.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிநேக குணம்",
+                "filename": "2955.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்றியால் உறவுகள் கட்டப்படட்டும்!",
+                "filename": "2789.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறுமையோடு சகித்தல்",
+                "filename": "3133.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவதிட்டம்",
+                "filename": "520.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவ திட்டம்!",
+                "filename": "5232.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மன்னித்து, சிறந்ததைக் கொடுங்கள்!",
+                "filename": "857.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மிகச் சிறந்ததை…",
+                "filename": "2954.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மன்னித்து, மனதுருகுங்கள்!",
+                "filename": "859.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_45:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய வஸ்திரம்!",
+                "filename": "961.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "46_2:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನೀವು ಕ್ಷಮಿಸುವಿರಾ?",
+                "filename": "841.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_2:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಜ್ಞಾನದ ಪರಿಮಳ!",
+                "filename": "1136.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಜ್ಞಾನದ ಪರಿಮಳ!",
+                "filename": "86.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_2:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಆತ್ಮಿಕ ಮನುಷ್ಯ!",
+                "filename": "742.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "வெற்றி வாசனை!",
+                "filename": "84.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ವಿಜಯದ ಪರಿಮಳ!",
+                "filename": "85.json"
+            }
+        ]
+    }
+]

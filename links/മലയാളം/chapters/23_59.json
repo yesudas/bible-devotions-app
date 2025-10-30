@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_59:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പ്രാർത്ഥനയ്ക്ക് ഉത്തരമില്ലേ?",
+                "filename": "64.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_59:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആത്മാവിന്റെ ശക്തി!",
+                "filename": "647.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_59:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആത്മാവിലൂടെ വിജയം!",
+                "filename": "765.json"
+            }
+        ]
+    }
+]

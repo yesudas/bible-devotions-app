@@ -1,11 +1,86 @@
 [
     {
+        "verse": "66_22:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "உற்பத்தி ஸ்தானம்!",
+                "filename": "1016.json"
+            }
+        ]
+    },
+    {
         "verse": "66_22:4",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அவர் சேவை, அவர் சமூகம், அவர் நாமம்",
                 "filename": "301.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கைக்கொள்ளுங்கள்!",
+                "filename": "204.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஒன்றேயொன்றுதான்…",
+                "filename": "3950.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெளிப்படுத்தப்பட்டாயிற்று!",
+                "filename": "1913.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பலனும் வருகிறது!",
+                "filename": "3951.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அவரே நித்தியர்!",
+                "filename": "568.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தாகமாயிருக்கிறவன்!",
+                "filename": "1141.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சேர்த்துக்கொள்ள வருகிறார்!",
+                "filename": "3952.json"
             }
         ]
     }

@@ -1,5 +1,15 @@
 [
     {
+        "verse": "58_13:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எல்லைக் காவல்",
+                "filename": "1867.json"
+            }
+        ]
+    },
+    {
         "verse": "58_13:5",
         "meditations": [
             {
@@ -21,6 +31,51 @@
                 "brand": "faiths-check-book",
                 "title": "கடவுளுக்குப் பயப்படுங்கள்",
                 "filename": "131.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_13:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஸ்திரப்படுங்கள்!",
+                "filename": "184.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_13:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நகரவாசலுக்குப் புறம்பே…",
+                "filename": "1567.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ராஜ விசுவாசம்",
+                "filename": "3355.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_13:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "உதடுகளின் கனி!",
+                "filename": "220.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_13:21",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மெய்யான ஆசீர்வாதம்!",
+                "filename": "3582.json"
             }
         ]
     }

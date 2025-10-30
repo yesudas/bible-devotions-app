@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "40_2:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆయన ఎక్కడ?",
+                "filename": "849.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_2:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మూడవ కానుక తెల్లని బోళము!",
+                "filename": "524.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "రెండవ కానుక సాంబ్రాణి!",
+                "filename": "525.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "మొదటి కానుక బంగారము!",
+                "filename": "526.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "క్రిస్మస్ కానుక!",
+                "filename": "527.json"
+            }
+        ]
+    }
+]

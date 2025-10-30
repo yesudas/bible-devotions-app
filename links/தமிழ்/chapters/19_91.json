@@ -1,5 +1,30 @@
 [
     {
+        "verse": "19_91:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் நம்பியிருக்கிறவர்!",
+                "filename": "1186.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் நம்பியிருக்கிறவர்!",
+                "filename": "1999.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் நம்பியிருக்கிறவர்!",
+                "filename": "5281.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தரையே நோக்குவோம்!",
+                "filename": "827.json"
+            }
+        ]
+    },
+    {
         "verse": "19_91:4",
         "meditations": [
             {
@@ -10,12 +35,117 @@
         ]
     },
     {
+        "verse": "19_91:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரவிலும் பகலிலும்",
+                "filename": "1185.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரவிலும் பகலிலும்",
+                "filename": "1998.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரவிலும் பகலிலும்",
+                "filename": "5280.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_91:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தரின் பாதுகாப்பு!",
+                "filename": "179.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_91:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆயிரமும், பதினாயிரமும்!",
+                "filename": "827.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_91:9-10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனே அடைக்கலம்",
+                "filename": "4289.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_91:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவதூதர்கள் இருக்கிறார்கள்!",
+                "filename": "359.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_91:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவதூதர்களின் பணி!",
+                "filename": "354.json"
+            }
+        ]
+    },
+    {
         "verse": "19_91:14",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "கடவுளின் உயர்வான இடங்கள்",
                 "filename": "136.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனே என் வாஞ்சை!",
+                "filename": "1184.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனே என் வாஞ்சை!",
+                "filename": "1997.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாக்குமாறாத தேவன்!",
+                "filename": "3221.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனே என் வாஞ்சை!",
+                "filename": "5279.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசு என்னும் நாமம்!",
+                "filename": "678.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_91:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தப்புவிக்கின்ற தேவன்!",
+                "filename": "989.json"
             }
         ]
     }

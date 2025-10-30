@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "46_1:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വിശുദ്ധിയിലേക്ക് വിളിക്കുക!",
+                "filename": "600.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_1:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആശ്വസിപ്പിക്കാ നുള്ള കഴിവ്!",
+                "filename": "354.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_1:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "കൂട്ടായ്മയ്ക്കായ് വിളിക്കുക!",
+                "filename": "596.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "വിശ്വസ്തന്റെ വിളി!",
+                "filename": "602.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_1:26-27",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വിളി !",
+                "filename": "601.json"
+            }
+        ]
+    }
+]

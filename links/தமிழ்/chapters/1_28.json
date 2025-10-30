@@ -18,5 +18,25 @@
                 "filename": "30.json"
             }
         ]
+    },
+    {
+        "verse": "1_28:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விழித்தபோது அறியாதிருந்தான்",
+                "filename": "613.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_28:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொருத்தனை ஜெபம்!",
+                "filename": "4823.json"
+            }
+        ]
     }
 ]

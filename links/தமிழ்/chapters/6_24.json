@@ -1,11 +1,101 @@
 [
     {
+        "verse": "6_24:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆசீர்வதிக்கிறவர்!",
+                "filename": "441.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விற்பனைக்கு அல்ல",
+                "filename": "4170.json"
+            }
+        ]
+    },
+    {
         "verse": "6_24:15",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "யாரைச் சேவிப்பீர்கள்?",
                 "filename": "81.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "குடும்பம் என்னும் யுத்தக்களம்!",
+                "filename": "276.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்ப ஜெபம்!",
+                "filename": "1975.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்பத் தலைவனே!",
+                "filename": "239.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்ப ஜெபம்",
+                "filename": "3455.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்ப ஆராதனை",
+                "filename": "3741.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிரிவினைகள் ஏன்?",
+                "filename": "402.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தெரிவு உங்களுடையதே!",
+                "filename": "4169.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்ப ஜெபம்!",
+                "filename": "4897.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்ப ஜெபம்!",
+                "filename": "5257.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்பத் தலைவனே!",
+                "filename": "739.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குடும்ப ஜெபம்",
+                "filename": "820.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இன்றைக்கே…",
+                "filename": "974.json"
+            }
+        ]
+    },
+    {
+        "verse": "6_24:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இப்போதே திரும்புவோம்!",
+                "filename": "1596.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உணர்வுள்ள இருதயம்!",
+                "filename": "201.json"
             }
         ]
     }

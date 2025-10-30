@@ -1,0 +1,67 @@
+[
+    {
+        "verse": "40_3:7-8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாரம்பரியப் பெருமை",
+                "filename": "5131.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_3:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மனம் திரும்புதலாகிய கனி!",
+                "filename": "221.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறவில் பெலப்படு!",
+                "filename": "3895.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_3:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எச்சரிப்பை அசட்டைபண்ணாதே!",
+                "filename": "3482.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_3:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தங்கும் புறா!",
+                "filename": "1082.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞானஸ்நானத்தினால் பிரியம்!",
+                "filename": "923.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_3:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நேசக்குமாரனானவர்!",
+                "filename": "433.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அற்புதமா! அங்கீகாரமா!",
+                "filename": "1713.json"
+            }
+        ]
+    }
+]

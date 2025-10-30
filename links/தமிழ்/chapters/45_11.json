@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "45_11:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவுக்குள் வேர்கொண்டு…",
+                "filename": "715.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_11:33",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞான வரம்!",
+                "filename": "667.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "துதிக்குப் பாத்திரர்!",
+                "filename": "2061.json"
+            }
+        ]
+    }
+]

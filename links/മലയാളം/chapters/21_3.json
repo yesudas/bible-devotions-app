@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "21_3:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "എല്ലാറ്റിനും ഓരോ സമയമുണ്ട്",
+                "filename": "368.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ക്ഷീണമില്ലാത്ത മനസ്സ്!",
+                "filename": "530.json"
+            }
+        ]
+    },
+    {
+        "verse": "21_3:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ലാപത്തിൽ ആശ്വാസം",
+                "filename": "997.json"
+            }
+        ]
+    }
+]

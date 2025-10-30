@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "1_8:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "అరారాతు కొండ!",
+                "filename": "920.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_8:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "నివాసము చేయుచున్న పావురము&#8230;!",
+                "filename": "943.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_8:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఇంపైన సువాసన!",
+                "filename": "67.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_8:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "వెదకాలమును, కోతకాలమును!",
+                "filename": "1206.json"
+            }
+        ]
+    }
+]

@@ -6,6 +6,11 @@
                 "brand": "faiths-check-book",
                 "title": "God Always Hears",
                 "filename": "31.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "I WILL LOOK TO THE LORD !",
+                "filename": "1023.json"
             }
         ]
     },
@@ -16,6 +21,16 @@
                 "brand": "faiths-check-book",
                 "title": "Victory in Reverses",
                 "filename": "125.json"
+            }
+        ]
+    },
+    {
+        "verse": "33_7:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HE WILL SHOW YOU WONDERS !",
+                "filename": "243.json"
             }
         ]
     },

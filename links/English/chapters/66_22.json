@@ -8,5 +8,25 @@
                 "filename": "301.json"
             }
         ]
+    },
+    {
+        "verse": "66_22:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Keep The Words Of Prophecy !",
+                "filename": "200.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_22:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ONE WHO IS THIRSTY !",
+                "filename": "1139.json"
+            }
+        ]
     }
 ]

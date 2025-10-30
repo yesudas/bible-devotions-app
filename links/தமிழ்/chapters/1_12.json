@@ -1,0 +1,117 @@
+[
+    {
+        "verse": "1_12:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அழைக்கின்ற வார்த்தை",
+                "filename": "1205.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாபெரும் அழைப்பு!",
+                "filename": "1363.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:1-4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இதோ, நான் இருக்கிறேன்!",
+                "filename": "2943.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆசீர்வாதமாய் இருப்பாய்!",
+                "filename": "2104.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆசீர்வாதமாய் இருப்பாய்!",
+                "filename": "4418.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பூமியின் வம்சங்கள்",
+                "filename": "453.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கீழ்ப்படிதல்",
+                "filename": "4786.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முற்றாகக் கீழ்ப்படி!",
+                "filename": "1362.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன் அர்ப்பணிப்பை உறுதிசெய்!",
+                "filename": "1361.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பஞ்சத்திற்குப் பயந்த ஆபிராம்",
+                "filename": "2486.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனா? சூழ்நிலையா?",
+                "filename": "4564.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொய் உதவி செய்யுமா?",
+                "filename": "1360.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_12:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உயிருக்குப் பயந்த ஆபிராம்",
+                "filename": "2485.json"
+            }
+        ]
+    }
+]

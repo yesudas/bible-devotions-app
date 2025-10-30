@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "66_1:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬಹಿರಂಗಪಡಿಸುವವ!",
+                "filename": "135.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_1:4-5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಚೊಚ್ಚಲ ಮಗು!",
+                "filename": "441.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_1:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಸರ್ವಶಕ್ತ!",
+                "filename": "419.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಆರಂಭ ಮತ್ತು ಅಂತ್ಯ!",
+                "filename": "420.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_1:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಮೊದಲನೇಯವನು ಮತ್ತು ಕೊನೆಯವನು!",
+                "filename": "422.json"
+            }
+        ]
+    }
+]

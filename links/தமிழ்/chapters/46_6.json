@@ -1,11 +1,96 @@
 [
     {
+        "verse": "46_6:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அநியாயத்தைச் சகித்தல்!",
+                "filename": "254.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_6:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் கிறிஸ்தவன்!",
+                "filename": "4617.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_6:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறவுகளைத் திருடாதே!",
+                "filename": "1859.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உடைக்கப்படுதலின் ஆனந்தம்!",
+                "filename": "896.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_6:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நவீன சோதனை",
+                "filename": "4606.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_6:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அந்நிய நுகம்",
+                "filename": "3678.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அந்நிய நுகம்!",
+                "filename": "86.json"
+            }
+        ]
+    },
+    {
         "verse": "46_6:16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அது ஓர் ஓப்பந்தம் ஆகிறது",
                 "filename": "119.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவாலயம்",
+                "filename": "2599.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விக்கிரகத்தை உண்டுபண்ணாதீர்கள்!",
+                "filename": "3496.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன் தங்கும் ஆலயம்!",
+                "filename": "4365.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_6:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வேசித்தனம் வேண்டவே வேண்டாம்",
+                "filename": "4855.json"
             }
         ]
     },
@@ -16,6 +101,21 @@
                 "brand": "அனுதின-மன்னா",
                 "title": "சரீரமாகிய ஆலயம்",
                 "filename": "79.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_6:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆவியானவர் தங்கி வாழும் ஆலயம்",
+                "filename": "3622.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சரீரமாகிய ஆலயம்!",
+                "filename": "4977.json"
             }
         ]
     }

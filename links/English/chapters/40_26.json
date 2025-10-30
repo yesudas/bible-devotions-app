@@ -1,11 +1,31 @@
 [
     {
+        "verse": "40_26:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "FORGIVER OF SIN !",
+                "filename": "861.json"
+            }
+        ]
+    },
+    {
         "verse": "40_26:33",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "God Only, You Can Trust",
                 "filename": "360.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_26:37",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "DISTRESS OF LORD JESUS !",
+                "filename": "509.json"
             }
         ]
     },

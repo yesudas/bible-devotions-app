@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "19_4:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕೋಪ!",
+                "filename": "78.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_4:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹೇರಳವಾದ ಒಳ್ಳೆಯತನ!",
+                "filename": "663.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_4:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹೊಸ ಸಂತೋಷ!",
+                "filename": "929.json"
+            }
+        ]
+    }
+]

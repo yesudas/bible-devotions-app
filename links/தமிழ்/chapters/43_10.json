@@ -1,11 +1,96 @@
 [
     {
+        "verse": "43_10:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜீவன் உண்டாகும்படி…!",
+                "filename": "1105.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜீவனும், பரிபூரணமும்!",
+                "filename": "165.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பரிபூரண ஜீவன்!",
+                "filename": "684.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது மேய்ப்பன் யார்?",
+                "filename": "5237.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நமது மேய்ப்பன் யார்?",
+                "filename": "525.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_10:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசுவின் மந்தை!",
+                "filename": "1047.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நல்ல மேய்ப்பர்!",
+                "filename": "1067.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மேய்ப்பனும் அவனுடைய மந்தையும்",
+                "filename": "2786.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நல்ல மேய்ப்பன்!",
+                "filename": "4380.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_10:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நல்ல மேய்ப்பன்",
+                "filename": "4222.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_10:16",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சபையின் தவறுகள்!",
+                "filename": "4490.json"
+            }
+        ]
+    },
+    {
         "verse": "43_10:17-18",
         "meditations": [
             {
                 "brand": "அனுதின-மன்னா",
                 "title": "இயேசுகிறிஸ்துவின் அன்பு",
                 "filename": "66.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_10:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மந்தையின் ஆடுகள்!",
+                "filename": "1256.json"
             }
         ]
     }

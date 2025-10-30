@@ -1,0 +1,67 @@
+[
+    {
+        "verse": "4_11:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முறையிடுதல்!",
+                "filename": "4462.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_11:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆசைக்கா தீனி?",
+                "filename": "4848.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_11:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாங்கமுடியாதபோது!",
+                "filename": "873.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_11:23",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தரிடம் மாத்திரமே…",
+                "filename": "1111.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_11:29",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதற்காக வைராக்கியம்?",
+                "filename": "4196.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_11:33",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இச்சையடக்கம்",
+                "filename": "1481.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இச்சையடக்கம்!",
+                "filename": "1948.json"
+            }
+        ]
+    }
+]

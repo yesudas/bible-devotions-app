@@ -6,6 +6,26 @@
                 "brand": "faiths-check-book",
                 "title": "அடங்கியிரு, உயர்த்தப்படு",
                 "filename": "210.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கைக்குள் அடங்கியிருங்கள்!",
+                "filename": "205.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பலத்த கரத்தினுள் அடங்கியிரு",
+                "filename": "3397.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_5:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கவலைப்படாதே!",
+                "filename": "3329.json"
             }
         ]
     },
@@ -16,6 +36,16 @@
                 "brand": "அனுதின-மன்னா",
                 "title": "விசுவாசத்தில் உறுதியாயிருங்கள்",
                 "filename": "50.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_5:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "நித்திய மகிமைக்கு அழைப்பு",
+                "filename": "717.json"
             }
         ]
     }

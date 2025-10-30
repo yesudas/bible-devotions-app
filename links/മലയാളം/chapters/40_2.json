@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "40_2:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അവൻ എവിടെ?",
+                "filename": "837.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_2:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "മൂന്നാമത്തെ വഴിപാട്: മൂർ !",
+                "filename": "501.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "രണ്ടാമത്തെ വഴിപാട്: കുന്തുരുക്കം !",
+                "filename": "502.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ആദ്യ ഓഫർ: സ്വർണ്ണം!",
+                "filename": "503.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ക്രിസ്മസ് ഓഫർ!",
+                "filename": "504.json"
+            }
+        ]
+    }
+]

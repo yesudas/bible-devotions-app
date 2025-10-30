@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "19_65:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പ്രാർത്ഥിക്കുന്നവനും പ്രാർത്ഥന കേൾക്കുന്നവനും!",
+                "filename": "66.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రార్ధించువారును, ప్రార్ధనను ఆలకించువాడును!",
+                "filename": "67.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_65:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നന്മയാൽ സംതൃപ്തരായി!",
+                "filename": "99.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_65:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവീക നദി!",
+                "filename": "881.json"
+            }
+        ]
+    }
+]

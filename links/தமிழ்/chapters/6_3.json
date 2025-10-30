@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "6_3:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காலதாமதம் வேண்டாம்!",
+                "filename": "4186.json"
+            }
+        ]
+    },
+    {
+        "verse": "6_3:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அற்புதங்கள்",
+                "filename": "602.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிசுத்தம் பண்ணிக்கொள்ளுங்கள்!",
+                "filename": "787.json"
+            }
+        ]
+    },
+    {
+        "verse": "6_3:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனால் உயர்த்தப்படு!",
+                "filename": "4185.json"
+            }
+        ]
+    },
+    {
+        "verse": "6_3:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாதங்கள் தண்ணீரில் பட்டதும்…",
+                "filename": "4184.json"
+            }
+        ]
+    }
+]

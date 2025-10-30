@@ -1,11 +1,56 @@
 [
     {
+        "verse": "59_1:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவ பிரசன்னமும், பாடுகளும்!",
+                "filename": "819.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிறைவுள்ளவராகும்படி…",
+                "filename": "940.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாசத்தின் பரீட்சை!",
+                "filename": "551.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "திடீர் விருந்தாளி",
+                "filename": "3320.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "குறைவையும் நிறைவாக்குகிறவர்!",
+                "filename": "978.json"
+            }
+        ]
+    },
+    {
         "verse": "59_1:5",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "வேண்டிக்கொண்டால் ஞானம் பெறுவோம்",
                 "filename": "160.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "சம்பூரணமான ஞானம்!",
+                "filename": "675.json"
             }
         ]
     },
@@ -20,12 +65,137 @@
         ]
     },
     {
+        "verse": "59_1:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இருமனம்!",
+                "filename": "93.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தெரிவுசெய்வதில் உதவாத இருமனம்",
+                "filename": "515.json"
+            }
+        ]
+    },
+    {
         "verse": "59_1:12",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "கடவுள் ஏற்றுக் கொண்டதற்கு அடையாளம்",
                 "filename": "258.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளே நம்மை உருவாக்கும்!",
+                "filename": "3877.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "செல்வ வறுமையும், வறுமைச் செல்வமும்",
+                "filename": "4055.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சோதனையை மேற்கொள்வோம்!",
+                "filename": "912.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னை நீயே ஆராய்ந்து பார்!",
+                "filename": "1231.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னை நீயே ஆராய்ந்து பார்!",
+                "filename": "4517.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுய இச்சை",
+                "filename": "1075.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆசை, இச்சை, மரணம்!",
+                "filename": "350.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பனி உருண்டை!",
+                "filename": "617.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விளையாடவேண்டாம்!",
+                "filename": "1074.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கொல்லும் பாவம்",
+                "filename": "1232.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இச்சையும் பாவமும்",
+                "filename": "204.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இச்சிக்கப்படக்கூடாத சகோதர உறவு",
+                "filename": "2794.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கொல்லும் பாவம்!",
+                "filename": "4518.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வரங்களில் பூரணம்!",
+                "filename": "792.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "நன்மையான ஈவு!",
+                "filename": "984.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாரபட்சமற்றவர்!",
+                "filename": "5009.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்மைகளின் ஊற்று!",
+                "filename": "5010.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நன்மையான ஈவும் பூரணமான வரமும்",
+                "filename": "665.json"
             }
         ]
     },
@@ -41,6 +211,66 @@
                 "brand": "அனுதின-மன்னா",
                 "title": "கேட்கிறதற்கு தீவிரமாயிருப்போம்",
                 "filename": "15.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வார்த்தையில் கவனம்",
+                "filename": "4574.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாமதமாக…",
+                "filename": "4869.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கேள், பேசு, கோபியாதே!",
+                "filename": "5105.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாற்றத்தின் தோற்றங்கள்",
+                "filename": "1641.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வார்த்தைக்குக் கீழ்ப்படி!",
+                "filename": "4624.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனைக் கேள், பிறரைக் கேட்பாய்!",
+                "filename": "944.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:26",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவபக்தியும், நாவடக்கமும்!",
+                "filename": "817.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாவும் வஞ்சிக்கும்!",
+                "filename": "4620.json"
+            }
+        ]
+    },
+    {
+        "verse": "59_1:27",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனைப் பிரியப்படுத்து!",
+                "filename": "2226.json"
             }
         ]
     }

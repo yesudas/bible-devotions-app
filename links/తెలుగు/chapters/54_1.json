@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "54_1:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "పరిశుద్ధాత్మ వలన స్వస్థత!",
+                "filename": "280.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆత్మవలన స్వస్థత",
+                "filename": "673.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "బలమును ప్రేమయు!",
+                "filename": "733.json"
+            }
+        ]
+    },
+    {
+        "verse": "54_1:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "దైవ ప్రసన్నత!",
+                "filename": "45.json"
+            }
+        ]
+    }
+]

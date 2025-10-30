@@ -6,6 +6,21 @@
                 "brand": "faiths-check-book",
                 "title": "Rest in All Thy Goings",
                 "filename": "331.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "REST IN THE PRESENCE OF GOD !",
+                "filename": "747.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_33:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Desire for glory !",
+                "filename": "148.json"
             }
         ]
     }

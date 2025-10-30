@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "42_8:24-25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വിശ്വാസവും ഭയവും!",
+                "filename": "442.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_8:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നിങ്ങളുടെ വിശ്വാസം എവിടെയാണ്?",
+                "filename": "458.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_8:35",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നഷ്ടപ്പെട്ടുപോയ മനസ്സ്",
+                "filename": "479.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "66_20:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மரணத்தின்மேல் அதிகாரம்!",
+                "filename": "115.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_20:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெள்ளைச் சிங்காசனம்",
+                "filename": "2022.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வெள்ளைச் சிங்காசனம்",
+                "filename": "3987.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_20:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்க்கைச் சரித்திரம்",
+                "filename": "4799.json"
+            }
+        ]
+    }
+]

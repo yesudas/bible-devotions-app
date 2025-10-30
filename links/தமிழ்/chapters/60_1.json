@@ -1,11 +1,106 @@
 [
     {
+        "verse": "60_1:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கிருபையுள்ளவர்!",
+                "filename": "447.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_1:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளிலும் பரமனை நோக்கி…",
+                "filename": "2572.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகள் ஏன்?",
+                "filename": "3332.json"
+            }
+        ]
+    },
+    {
         "verse": "60_1:8",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "வாழ்க்கையைப்போலவே கனியும் இருக்கும்",
                 "filename": "148.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_1:10",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உங்கள் கண்கள்…",
+                "filename": "3548.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_1:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வருகையின் காலம்!",
+                "filename": "2143.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசுவைச் சந்திக்க ஆயத்தமா?",
+                "filename": "556.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_1:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பரிசுத்தரின் அழைப்பு",
+                "filename": "722.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_1:19",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மீட்கப்பட்டாயிற்று!",
+                "filename": "3245.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மேய்யப்பன் ஆட்டுக்குட்டியாவதா!",
+                "filename": "3246.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவுக்குள்ளான இரத்த சம்பந்தம்",
+                "filename": "3247.json"
+            }
+        ]
+    },
+    {
+        "verse": "60_1:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசு என்னும் இரட்சகர்",
+                "filename": "3243.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உலகம் தோன்றும் முன்னே!",
+                "filename": "680.json"
             }
         ]
     },

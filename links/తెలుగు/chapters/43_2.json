@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "43_2:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "వివాహము!",
+                "filename": "1096.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_2:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "క్రొత్త ఆజ్ఞ!",
+                "filename": "1138.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_2:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మూడు శోధనలు!",
+                "filename": "1170.json"
+            }
+        ]
+    }
+]

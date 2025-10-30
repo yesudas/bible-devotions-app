@@ -1,5 +1,30 @@
 [
     {
+        "verse": "44_13:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மிஷனரி இயக்கம்!",
+                "filename": "4496.json"
+            }
+        ]
+    },
+    {
+        "verse": "44_13:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இருதயத்திற்கு ஏற்றவன்!",
+                "filename": "1130.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவசித்தம் செய்வதே…",
+                "filename": "2920.json"
+            }
+        ]
+    },
+    {
         "verse": "44_13:34",
         "meditations": [
             {

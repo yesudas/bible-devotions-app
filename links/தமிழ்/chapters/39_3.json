@@ -1,11 +1,66 @@
 [
     {
+        "verse": "39_3:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என்னைப் புடமிடும்!",
+                "filename": "4956.json"
+            }
+        ]
+    },
+    {
+        "verse": "39_3:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாற்றங்கள்",
+                "filename": "4955.json"
+            }
+        ]
+    },
+    {
+        "verse": "39_3:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனந்திரும்பு!",
+                "filename": "4954.json"
+            }
+        ]
+    },
+    {
+        "verse": "39_3:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தசமபாகம்",
+                "filename": "4953.json"
+            }
+        ]
+    },
+    {
         "verse": "39_3:10",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஆசீர்வாதத்தைப் பெறுவதற்கான தகுதி",
                 "filename": "115.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நிறைவாக ஆசீர்வதிக்கிறார்!",
+                "filename": "986.json"
+            }
+        ]
+    },
+    {
+        "verse": "39_3:13",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பேச்சு கவனம்!",
+                "filename": "4951.json"
             }
         ]
     },
@@ -16,6 +71,11 @@
                 "brand": "faiths-check-book",
                 "title": "மதிப்பு மிக்கது",
                 "filename": "156.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆத்துமாவின் பெறுமதி",
+                "filename": "2265.json"
             }
         ]
     }

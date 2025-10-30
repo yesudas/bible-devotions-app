@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_43:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువునకు సొంతమైన వాడు",
+                "filename": "992.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_43:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "నదులలో బడి వెళ్లుచున్నప్పుడు!",
+                "filename": "878.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_43:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "త్రోవలును, నదులును!",
+                "filename": "1203.json"
+            }
+        ]
+    }
+]

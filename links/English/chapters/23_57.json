@@ -1,11 +1,31 @@
 [
     {
+        "verse": "23_57:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "REST IN BEDS !",
+                "filename": "725.json"
+            }
+        ]
+    },
+    {
         "verse": "23_57:16",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "What Is Painful Will End",
                 "filename": "310.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_57:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "DISTRESS AND SIN !",
+                "filename": "513.json"
             }
         ]
     }

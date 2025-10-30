@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "26_47:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അറയോളം വെള്ളത്തിന്റെ അനുഭവം!",
+                "filename": "858.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "മുട്ടോളം ആയ അനുഭവം!",
+                "filename": "859.json"
+            }
+        ]
+    },
+    {
+        "verse": "26_47:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നീന്തൽ ആഴ അനുഭവം!",
+                "filename": "857.json"
+            }
+        ]
+    }
+]

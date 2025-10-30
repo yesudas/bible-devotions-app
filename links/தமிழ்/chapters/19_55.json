@@ -1,5 +1,25 @@
 [
     {
+        "verse": "19_55:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வேகமாய் பறக்கும் புறா!",
+                "filename": "1077.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_55:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஜெபவீரன் தானியேல்",
+                "filename": "2740.json"
+            }
+        ]
+    },
+    {
         "verse": "19_55:16",
         "meditations": [
             {
@@ -10,12 +30,37 @@
         ]
     },
     {
+        "verse": "19_55:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தியானம்",
+                "filename": "3878.json"
+            }
+        ]
+    },
+    {
         "verse": "19_55:22",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "அவர்மேல் வைக்கப்படும் பாரங்கள்",
                 "filename": "196.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாரமின்றி முன் செல்ல…",
+                "filename": "2855.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேறுதலடையும் நேரம்",
+                "filename": "4669.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தர்மீது விட்டெறிந்துவிடு!",
+                "filename": "5030.json"
             }
         ]
     }

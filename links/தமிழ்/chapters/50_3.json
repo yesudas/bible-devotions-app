@@ -8,5 +8,230 @@
                 "filename": "104.json"
             }
         ]
+    },
+    {
+        "verse": "50_3:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஆவிக்குரிய ஞானம்",
+                "filename": "17.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எனக்கு லாபமானது எது?",
+                "filename": "1781.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பவுலின் தீர்க்கமான தெரிந்தெடுப்பு!",
+                "filename": "183.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம்மைவிட்டு எடுபடாத ஒன்று!",
+                "filename": "7.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_3:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அறிகிற அறிவுக்காக!",
+                "filename": "1180.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "அறிவின் மேன்மை!",
+                "filename": "1184.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இன்னுமொரு கணக்கு!",
+                "filename": "4708.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளினூடே தேவனை அறிதல்",
+                "filename": "890.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_3:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தகுதியாகும்படி..!",
+                "filename": "1101.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மரணமும் உயிர்த்தெழுதலும்!",
+                "filename": "1653.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவின் மரணம்!",
+                "filename": "1779.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எப்படியாயினும்…",
+                "filename": "1780.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எல்லாமே குப்பை",
+                "filename": "2352.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_3:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "லாபத்தை நஷ்டமாக்குவதா?",
+                "filename": "2435.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உயிர்த்தெழுந்த கிறிஸ்து!",
+                "filename": "3116.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெருமை கொள்ளாதே!",
+                "filename": "3747.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாம் போட்ட வேலி!",
+                "filename": "5222.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_3:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆசையாய்த் தொடருகிறவன்!",
+                "filename": "1131.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முன்னானவைகளை நோக்கி…",
+                "filename": "1731.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவ கரமும் என் கரமும்",
+                "filename": "2137.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவசித்தம் எதுவோ",
+                "filename": "2233.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இயேசுவைப்போல மாறவேண்டும்!",
+                "filename": "296.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வாழ்வு முடிவதற்கு முன்…",
+                "filename": "3828.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முன்னானவைகளை நோக்கி…",
+                "filename": "3918.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இலக்கு ஒன்றே!",
+                "filename": "585.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_3:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "முன்னானவைகளை நாடி!",
+                "filename": "1086.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "உங்கள் வாழ்க்கையின் நோக்கம் என்ன?",
+                "filename": "260.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "நீங்கலாக்கி விடுவிப்பார்!",
+                "filename": "405.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "முன்னானவைகள்",
+                "filename": "406.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தடைகளையும் மீறி",
+                "filename": "2232.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_3:13-14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதுவரினும் முன்செல்வேன்!",
+                "filename": "1730.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பெற்றுக்கொள்ளத்தக்கதாய் முன்செல்…",
+                "filename": "2833.json"
+            }
+        ]
+    },
+    {
+        "verse": "50_3:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இலக்கை நோக்கி!",
+                "filename": "246.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அழைப்பிற்கு உண்மையாயிரு!",
+                "filename": "1672.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இலக்கை அடைவேன்!",
+                "filename": "2983.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இலக்கை நோக்கித் தொடருகிறேன்!",
+                "filename": "38.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பின்னானவைகளை மறந்து…",
+                "filename": "910.json"
+            }
+        ]
     }
 ]

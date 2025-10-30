@@ -1,11 +1,121 @@
 [
     {
+        "verse": "9_17:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சவுலுக்குப் பயமா?",
+                "filename": "2479.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "யுத்தக்களங்கள்!",
+                "filename": "279.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "யுத்தக்களங்கள்",
+                "filename": "633.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொறுப்புடன் செயற்படு!",
+                "filename": "2531.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:34",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பெற்ற வெற்றியை அறிவியுங்கள்!",
+                "filename": "882.json"
+            }
+        ]
+    },
+    {
         "verse": "9_17:37",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "கடந்த நாட்களில் தப்புவிக்கப்பட்டவிதம் விசுவாசத்தைத் தோற்றுவிக்கிறது",
                 "filename": "53.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "பெறப்போகும் ஜெயம்!",
+                "filename": "901.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயத்தை மேற்கொண்டான்!",
+                "filename": "1801.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிரச்சனைக்குப் பயம்!",
+                "filename": "1812.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாவீதின் தைரியம்",
+                "filename": "2476.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அனுபவித்திருக்கிறாயா?",
+                "filename": "2536.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தராலே மாத்திரமே ஆகும்!",
+                "filename": "3392.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:45",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜெயம் தரும் நாமம்!",
+                "filename": "906.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவநாமம்",
+                "filename": "2193.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யுத்தவீரன்!",
+                "filename": "3409.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:46",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வெற்றிக்கான நாள்!",
+                "filename": "883.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "இஸ்ரவேலிலே தேவன் உண்டு!",
+                "filename": "885.json"
             }
         ]
     },
@@ -16,6 +126,46 @@
                 "brand": "faiths-check-book",
                 "title": "யாருடைய போர் ?",
                 "filename": "71.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "யுத்தம் கர்த்தருடையது!",
+                "filename": "886.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:49",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வெற்றியின் ஆயுதம்!",
+                "filename": "884.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:50",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதுவும் வீணுக்கல்ல!",
+                "filename": "2931.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விசுவாசத்தின் மேன்மை",
+                "filename": "3399.json"
+            }
+        ]
+    },
+    {
+        "verse": "9_17:58",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "எழுந்து பிரகாசித்த வாலிபன்!",
+                "filename": "912.json"
             }
         ]
     }

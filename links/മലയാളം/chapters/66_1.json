@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "66_1:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "വെളിപ്പെടുത്തുന്നവൻ!",
+                "filename": "121.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_1:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "സർവ്വശക്തനായ ദൈവം",
+                "filename": "377.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "തുടക്കവും അവസാനവും!",
+                "filename": "378.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ആൽഫയും ഒമേഗയും!",
+                "filename": "379.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_1:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആദ്യത്തേതും അവസാനത്തേതും",
+                "filename": "381.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "verse": "40_7:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അന്വേഷിക്കുക!",
+                "filename": "181.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ചോദിക്കൂ !",
+                "filename": "185.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_7:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നൽകുന്നു",
+                "filename": "1093.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "പരിശുദ്ധാത്മാവ് എന്ന ദാനം",
+                "filename": "843.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_7:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നിങ്ങൾ അറിയും!",
+                "filename": "355.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_7:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവഹിതം ചെയ്യുക!",
+                "filename": "232.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "പിതാവിന്റെ ഇഷ്ടപ്രകാരം",
+                "filename": "959.json"
+            }
+        ]
+    }
+]

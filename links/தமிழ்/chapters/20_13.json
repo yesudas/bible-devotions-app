@@ -6,6 +6,61 @@
                 "brand": "அனுதின-மன்னா",
                 "title": "ஞானமுள்ள மகன்",
                 "filename": "37.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "புத்திமதியும் கடிந்துகொள்ளுதலும்",
+                "filename": "3028.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_13:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வார்த்தையில் ஜாக்கிரதை!",
+                "filename": "2189.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_13:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சோம்பலை விட்டெழும்பு!",
+                "filename": "4646.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_13:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விரும்பினது வரும்போதோ!",
+                "filename": "149.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இளைத்துப்போனாயோ?",
+                "filename": "128.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காத்திரு!",
+                "filename": "392.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இளைத்துப் போனாயோ?",
+                "filename": "4145.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "காத்திரு!",
+                "filename": "742.json"
             }
         ]
     },
@@ -16,6 +71,36 @@
                 "brand": "faiths-check-book",
                 "title": "தூய அச்சம்",
                 "filename": "291.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_13:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞானிகளோடே!",
+                "filename": "663.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_13:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பிள்ளைகளிடத்தில்!",
+                "filename": "485.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_13:24",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிள்ளைகளைக் குறித்த நமது பொறுப்பு",
+                "filename": "3452.json"
             }
         ]
     }

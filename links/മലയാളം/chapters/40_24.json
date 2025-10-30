@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "40_24:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഒലിവുമല",
+                "filename": "903.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_24:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "യുഗാന്ത്യം!",
+                "filename": "406.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_24:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "സഹിച്ച് നിൽക്കുന്നവൻ",
+                "filename": "978.json"
+            }
+        ]
+    }
+]

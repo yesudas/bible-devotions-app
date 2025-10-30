@@ -1,5 +1,15 @@
 [
     {
+        "verse": "5_28:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "HIGH ABOVE !",
+                "filename": "1196.json"
+            }
+        ]
+    },
+    {
         "verse": "5_28:2-3",
         "meditations": [
             {
@@ -50,6 +60,16 @@
         ]
     },
     {
+        "verse": "5_28:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "EXCELLENCE OF HOLINESS !",
+                "filename": "1184.json"
+            }
+        ]
+    },
+    {
         "verse": "5_28:10",
         "meditations": [
             {
@@ -66,6 +86,11 @@
                 "brand": "faiths-check-book",
                 "title": "God’s Treasury",
                 "filename": "146.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "LENDING AND NOT BORROWING !",
+                "filename": "823.json"
             }
         ]
     },
@@ -76,6 +101,16 @@
                 "brand": "faiths-check-book",
                 "title": "Lead the Way",
                 "filename": "88.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "THE LORD WILL MAKE YOU THE HEAD !",
+                "filename": "408.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "EMINENCE THAT WAS LOST !",
+                "filename": "575.json"
             }
         ]
     }

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "4_22:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "TESTED AGAIN !",
+                "filename": "1096.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_22:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "BALAAM’S DONKEY !",
+                "filename": "1056.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_22:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE LORD OPENED THE EYES OF BALAAM !",
+                "filename": "365.json"
+            }
+        ]
+    }
+]

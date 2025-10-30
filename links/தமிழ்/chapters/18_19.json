@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "18_19:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரவில் தியானம்!",
+                "filename": "783.json"
+            }
+        ]
+    },
+    {
+        "verse": "18_19:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "யோபு!",
+                "filename": "1.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் கண்கள் அவரைக் காணும்!",
+                "filename": "1785.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யோபு",
+                "filename": "2584.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "யோபு",
+                "filename": "4350.json"
+            }
+        ]
+    },
+    {
+        "verse": "18_19:27",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தரை காண விருப்பம்!",
+                "filename": "150.json"
+            }
+        ]
+    }
+]

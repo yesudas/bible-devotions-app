@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "66_19:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "களிகூருங்கள்!",
+                "filename": "210.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_19:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மணவாட்டியின் பிரகாசம்!",
+                "filename": "909.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_19:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் அழைக்கப்பட்டவன்!",
+                "filename": "3640.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சத்திய வசனம்!",
+                "filename": "365.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நாம் அழைப்புப் பெற்றவர்கள்",
+                "filename": "4459.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சத்திய வசனம்",
+                "filename": "5140.json"
+            }
+        ]
+    }
+]

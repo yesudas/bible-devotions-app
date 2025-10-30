@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "23_8:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மகேர்-சாலால்-அஷ்-பாஸ்!",
+                "filename": "309.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_8:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேசங்களே! தீவுகளே!",
+                "filename": "4335.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_8:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சிறுபிள்ளைகள்",
+                "filename": "734.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_8:20",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இருள் சூழ்ந்துகொள்ளுமா?",
+                "filename": "2521.json"
+            }
+        ]
+    }
+]

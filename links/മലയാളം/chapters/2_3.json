@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "2_3:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "തീയിൽ നിന്നുള്ള വിളി !",
+                "filename": "589.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_3:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അറിയുന്നു",
+                "filename": "1080.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_3:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "“ഞാൻ നിങ്ങളെ അയയ്ക്കും!”",
+                "filename": "77.json"
+            }
+        ]
+    },
+    {
+        "verse": "2_3:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അവൻ വിജയം നൽകും!",
+                "filename": "1053.json"
+            }
+        ]
+    }
+]

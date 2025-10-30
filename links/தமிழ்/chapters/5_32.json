@@ -1,0 +1,62 @@
+[
+    {
+        "verse": "5_32:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தைரியமாய் முன்செல்லுவோம்!",
+                "filename": "1761.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_32:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன்னை ஆட்கொண்டவர் அவரல்லவா!",
+                "filename": "1006.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_32:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவன் நம்மை பயிற்றுவிக்கிறவர்!",
+                "filename": "1065.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கூடு கலையும்!",
+                "filename": "1935.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனுடனான உறவு",
+                "filename": "2279.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_32:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "உயர்ந்த ஸ்தானத்தில்!",
+                "filename": "507.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_32:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "உணரும் சிந்தை",
+                "filename": "647.json"
+            }
+        ]
+    }
+]

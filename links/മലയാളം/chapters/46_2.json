@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "46_2:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "മൂന്ന് തീരുമാനങ്ങൾ",
+                "filename": "1191.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_2:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നിങ്ങൾ ക്ഷമിക്കുമോ?",
+                "filename": "726.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_2:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "അറിവിന്റെ സുഗന്ധം!",
+                "filename": "79.json"
+            }
+        ]
+    },
+    {
+        "verse": "46_2:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ആത്മീയ മനുഷ്യൻ!",
+                "filename": "633.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "വിജയത്തിന്റെ സുഗന്ധം!",
+                "filename": "78.json"
+            }
+        ]
+    }
+]

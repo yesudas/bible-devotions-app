@@ -1,11 +1,41 @@
 [
     {
+        "verse": "26_37:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உலர்ந்தவை உயிர்பெறும்!",
+                "filename": "3195.json"
+            }
+        ]
+    },
+    {
+        "verse": "26_37:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "விசுவாச சேனைகள்!",
+                "filename": "562.json"
+            }
+        ]
+    },
+    {
         "verse": "26_37:13",
         "meditations": [
             {
                 "brand": "faiths-check-book",
                 "title": "ஆன்மாவின் மரணத்திலிருந்து",
                 "filename": "247.json"
+            }
+        ]
+    },
+    {
+        "verse": "26_37:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிசுத்தமில்லாதவர்கள்",
+                "filename": "2636.json"
             }
         ]
     }

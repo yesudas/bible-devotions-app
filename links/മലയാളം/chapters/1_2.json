@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "1_2:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ദൈവം അവൻ്റെ പ്രവൃത്തി അവസാനിപ്പിച്ചു!",
+                "filename": "220.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "നാലു നദികൾ !",
+                "filename": "878.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "സമൃദ്ധിയാക്കുന്ന നദി",
+                "filename": "884.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "പൊന്നുണ്ടു!",
+                "filename": "875.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "പീശോൻ !",
+                "filename": "876.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_2:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ഗീഹോൻ നദി",
+                "filename": "883.json"
+            }
+        ]
+    }
+]
