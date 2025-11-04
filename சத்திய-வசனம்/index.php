@@ -546,27 +546,22 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                                     </a>
                                 </p>
                             <?php endif; ?>
-                            <?php if (!empty($meditation['author']['email'])): ?>
+                            
                                 <p class="mb-1">
                                     <i class="fas fa-envelope me-2 text-primary"></i>
-                                    <a href="mailto:<?php echo htmlspecialchars($meditation['author']['email']); ?>" 
+                                    <a href="mailto:svmadurai@yahoo.co.in" 
                                        class="text-decoration-none">
-                                        <?php echo htmlspecialchars($meditation['author']['email']); ?>
+                                        svmadurai@yahoo.co.in
                                     </a>
                                 </p>
-                            <?php endif; ?>
-                            <!--
-                            <?php if (!empty($meditation['author']['website'])): ?>
+                            
                                 <p class="mb-0">
                                     <i class="fas fa-globe me-2 text-info"></i>
-                                    <a href="<?php echo htmlspecialchars($meditation['author']['website']); ?>" 
-                                       target="_blank" 
-                                       class="text-decoration-none">
-                                        <?php echo htmlspecialchars($meditation['author']['website']); ?>
+                                    <a href="https://sathiyavasanam.in/ target="_blank" class="text-decoration-none">
+                                        SathiyaVasanam.in
                                     </a>
                                 </p>
-                            <?php endif; ?>
-                            -->
+                            
                         </div>
                         <?php endif; ?>
                     </div>
@@ -638,14 +633,14 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p class="mb-1">
                     <i class="fas fa-globe me-2"></i>
-                    <a href="https://sathiyavasanam.in/" class="footer-link">sathiyavasanam.in/</a>
+                    <a href="https://sathiyavasanam.in/" target="_blank" class="footer-link">SathiyaVasanam.in</a>
                 </p>
-                <!--
+                
                 <p class="mb-0">
-                    <i class="fas fa-phone me-2"></i>
-                    <a href="https://wa.me/919901470809?text=சத்திய-வசனம்-App" class="footer-link">+91 9901470809</a>
+                    <i class="fas fa-envelope me-2"></i>
+                    <a href="mailto:svmadurai@yahoo.co.in" class="footer-link">svmadurai@yahoo.co.in</a>
                 </p>
-                -->
+                
             </div>
             
             <!-- Quick Links -->

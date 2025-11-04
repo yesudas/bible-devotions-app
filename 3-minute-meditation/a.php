@@ -78,6 +78,11 @@ function updateAllMeditationsFile($language) {
                 'date' => $data['date']
             ];
             
+            // Add key_verse if present in the meditation file
+            if (isset($data['key_verse']) && !empty($data['key_verse'])) {
+                $entry['key_verse'] = $data['key_verse'];
+            }
+            
             // Add scheduled attribute if present in the meditation file
             if (isset($data['scheduled']) && $data['scheduled'] === true) {
                 $entry['scheduled'] = true;
@@ -94,7 +99,7 @@ function updateAllMeditationsFile($language) {
         return strcmp($b['uniqueid'], $a['uniqueid']);
     });
     
-    file_put_contents("meditations/{$language}/all-meditations.json", json_encode($all_meditations, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    file_put_contents("meditations/{$language}/all-meditations.json", json_encode($all_meditations, JSON_UNESCAPED_UNICODE));
 }
 
 function getNextFilename($language) {
@@ -129,6 +134,11 @@ function saveLinkInfo($key_verse, $title, $language, $filename, $brand = '3-minu
     $chapter = $chapterVerse[0];
     $chapterRef = $bookNo . '_' . $chapter;
     
+    // Parse verse range
+    $verseParts = explode('-', $chapterVerse[1]);
+    $verseStart = (int)$verseParts[0];
+    $verseEnd = isset($verseParts[1]) ? (int)$verseParts[1] : $verseStart;
+    
     $links_base_dir = __DIR__ . '/../links';
     $links_dir = $links_base_dir . '/' . $language;
     $verses_dir = $links_dir . '/verses';
@@ -142,47 +152,51 @@ function saveLinkInfo($key_verse, $title, $language, $filename, $brand = '3-minu
         mkdir($chapters_dir, 0755, true);
     }
     
-    // Verse-level link file (without language attribute)
-    $verse_file = $verses_dir . '/' . $key_verse . '.json';
-    
-    // Load existing verse links or create new array
-    $verse_links = [];
-    if (file_exists($verse_file)) {
-        $existing = json_decode(file_get_contents($verse_file), true);
-        if (is_array($existing)) {
-            $verse_links = $existing;
+    // Create verse-level links for each verse in the range
+    for ($verse = $verseStart; $verse <= $verseEnd; $verse++) {
+        $individualVerseKey = "{$bookNo}_{$chapter}:{$verse}";
+        $verse_file = $verses_dir . '/' . sanitizeFilename($individualVerseKey) . '.json';
+        
+        // Load existing verse links or create new array
+        $verse_links = [];
+        if (file_exists($verse_file)) {
+            $existing = json_decode(file_get_contents($verse_file), true);
+            if (is_array($existing)) {
+                $verse_links = $existing;
+            }
         }
-    }
-    
-    // Create new verse link entry (without language attribute)
-    $file_path = '/' . $brand . '/meditations/' . $language . '/' . $filename;
-    $new_verse_link = [
-        'brand' => $brand,
-        'title' => $title,
-        'file' => $file_path
-    ];
-    
-    // Check if this file already exists (check by file path only)
-    $link_exists = false;
-    foreach ($verse_links as $index => $link) {
-        if ($link['file'] === $new_verse_link['file']) {
-            // Update existing link (title may have changed)
-            $verse_links[$index] = $new_verse_link;
-            $link_exists = true;
-            break;
+        
+        // Check if this meditation already exists for this verse
+        $link_exists = false;
+        foreach ($verse_links as $index => $link) {
+            if (isset($link['brand']) && isset($link['filename']) &&
+                $link['brand'] === $brand && $link['filename'] === $filename) {
+                // Update existing link (title may have changed)
+                $verse_links[$index] = [
+                    'brand' => $brand,
+                    'title' => $title,
+                    'filename' => $filename
+                ];
+                $link_exists = true;
+                break;
+            }
         }
+        
+        // Add new link if it doesn't exist
+        if (!$link_exists) {
+            $verse_links[] = [
+                'brand' => $brand,
+                'title' => $title,
+                'filename' => $filename
+            ];
+        }
+        
+        // Save verse-level file
+        file_put_contents($verse_file, json_encode($verse_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     }
     
-    // Add new link if it doesn't exist
-    if (!$link_exists) {
-        $verse_links[] = $new_verse_link;
-    }
-    
-    // Save verse-level file
-    file_put_contents($verse_file, json_encode($verse_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-    
-    // Chapter-level link file
-    $chapter_file = $chapters_dir . '/' . $chapterRef . '.json';
+    // Chapter-level link file - keep verse range intact (don't split)
+    $chapter_file = $chapters_dir . '/' . sanitizeFilename($chapterRef) . '.json';
     
     // Load existing chapter links or create new array
     $chapter_links = [];
@@ -193,33 +207,64 @@ function saveLinkInfo($key_verse, $title, $language, $filename, $brand = '3-minu
         }
     }
     
-    // Create new chapter link entry
-    $new_chapter_link = [
-        'brand' => $brand,
-        'title' => $title,
-        'verse' => $key_verse,
-        'file' => $file_path
-    ];
-    
-    // Check if this file already exists (check by file path only)
-    $chapter_link_exists = false;
-    foreach ($chapter_links as $index => $link) {
-        if ($link['file'] === $new_chapter_link['file']) {
-            // Update existing link (title or verse may have changed)
-            $chapter_links[$index] = $new_chapter_link;
-            $chapter_link_exists = true;
+    // Check if this verse (or verse range) already exists in chapter index
+    $verse_exists = false;
+    foreach ($chapter_links as &$link) {
+        if ($link['verse'] === $key_verse) {
+            // Initialize meditations array if it doesn't exist
+            if (!isset($link['meditations']) || !is_array($link['meditations'])) {
+                $link['meditations'] = [];
+            }
+            
+            // Check if this meditation already exists for this verse
+            $meditation_exists = false;
+            foreach ($link['meditations'] as $idx => $med) {
+                if ($med['brand'] === $brand && $med['filename'] === $filename) {
+                    // Update existing meditation (title may have changed)
+                    $link['meditations'][$idx] = [
+                        'brand' => $brand,
+                        'title' => $title,
+                        'filename' => $filename
+                    ];
+                    $meditation_exists = true;
+                    break;
+                }
+            }
+            // Add meditation if it doesn't exist for this verse
+            if (!$meditation_exists) {
+                $link['meditations'][] = [
+                    'brand' => $brand,
+                    'title' => $title,
+                    'filename' => $filename
+                ];
+            }
+            $verse_exists = true;
             break;
         }
     }
+    unset($link); // Break reference
     
-    // Add new link if it doesn't exist
-    if (!$chapter_link_exists) {
-        $chapter_links[] = $new_chapter_link;
+    // Add new verse entry if it doesn't exist (keeping the full verse range)
+    if (!$verse_exists) {
+        $chapter_links[] = [
+            'verse' => $key_verse,
+            'meditations' => [
+                [
+                    'brand' => $brand,
+                    'title' => $title,
+                    'filename' => $filename
+                ]
+            ]
+        ];
     }
     
-    // Sort chapter links by verse reference
+    // Sort chapter links by verse number
     usort($chapter_links, function($a, $b) {
-        return strcmp($a['verse'], $b['verse']);
+        preg_match('/:(\d+)/', $a['verse'], $matchA);
+        preg_match('/:(\d+)/', $b['verse'], $matchB);
+        $verseA = isset($matchA[1]) ? (int)$matchA[1] : 0;
+        $verseB = isset($matchB[1]) ? (int)$matchB[1] : 0;
+        return $verseA - $verseB;
     });
     
     // Save chapter-level file
@@ -249,45 +294,71 @@ function deleteLinkInfo($key_verse, $language, $filename, $brand = '3-minute-med
     $chapter = $chapterVerse[0];
     $chapterRef = $bookNo . '_' . $chapter;
     
+    // Parse verse range
+    $verseParts = explode('-', $chapterVerse[1]);
+    $verseStart = (int)$verseParts[0];
+    $verseEnd = isset($verseParts[1]) ? (int)$verseParts[1] : $verseStart;
+    
     $links_base_dir = __DIR__ . '/../links';
     $links_dir = $links_base_dir . '/' . $language;
     $verses_dir = $links_dir . '/verses';
     $chapters_dir = $links_dir . '/chapters';
     
-    $file_path = '/' . $brand . '/meditations/' . $language . '/' . $filename;
-    
-    // Delete from verse-level file
-    $verse_file = $verses_dir . '/' . $key_verse . '.json';
-    if (file_exists($verse_file)) {
-        $verse_links = json_decode(file_get_contents($verse_file), true);
-        if (is_array($verse_links)) {
-            // Remove the link matching this file
-            $verse_links = array_filter($verse_links, function($link) use ($file_path) {
-                return $link['file'] !== $file_path;
-            });
-            
-            // Re-index array
-            $verse_links = array_values($verse_links);
-            
-            if (empty($verse_links)) {
-                // Delete the file if no links remain
-                unlink($verse_file);
-            } else {
-                // Save updated links
-                file_put_contents($verse_file, json_encode($verse_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+    // Delete from each individual verse file in the range
+    for ($verse = $verseStart; $verse <= $verseEnd; $verse++) {
+        $individualVerseKey = "{$bookNo}_{$chapter}:{$verse}";
+        $verse_file = $verses_dir . '/' . sanitizeFilename($individualVerseKey) . '.json';
+        
+        if (file_exists($verse_file)) {
+            $verse_links = json_decode(file_get_contents($verse_file), true);
+            if (is_array($verse_links)) {
+                // Remove the link matching this brand and filename
+                $verse_links = array_filter($verse_links, function($link) use ($brand, $filename) {
+                    // Check if keys exist before comparing
+                    $linkBrand = $link['brand'] ?? '';
+                    $linkFilename = $link['filename'] ?? '';
+                    return !($linkBrand === $brand && $linkFilename === $filename);
+                });
+                
+                // Re-index array
+                $verse_links = array_values($verse_links);
+                
+                if (empty($verse_links)) {
+                    // Delete the file if no links remain
+                    unlink($verse_file);
+                } else {
+                    // Save updated links
+                    file_put_contents($verse_file, json_encode($verse_links, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+                }
             }
         }
     }
     
-    // Delete from chapter-level file
-    $chapter_file = $chapters_dir . '/' . $chapterRef . '.json';
+    // Delete from chapter-level file - match the full verse range, not individual verses
+    $chapter_file = $chapters_dir . '/' . sanitizeFilename($chapterRef) . '.json';
     if (file_exists($chapter_file)) {
         $chapter_links = json_decode(file_get_contents($chapter_file), true);
         if (is_array($chapter_links)) {
-            // Remove the link matching this file
-            $chapter_links = array_filter($chapter_links, function($link) use ($file_path) {
-                return $link['file'] !== $file_path;
-            });
+            // Remove the meditation from the verse range entry
+            foreach ($chapter_links as $idx => &$link) {
+                if ($link['verse'] === $key_verse && isset($link['meditations']) && is_array($link['meditations'])) {
+                    // Filter out the meditation matching this brand and filename
+                    $link['meditations'] = array_filter($link['meditations'], function($med) use ($brand, $filename) {
+                        // Check if keys exist before comparing
+                        $medBrand = $med['brand'] ?? '';
+                        $medFilename = $med['filename'] ?? '';
+                        return !($medBrand === $brand && $medFilename === $filename);
+                    });
+                    // Re-index array
+                    $link['meditations'] = array_values($link['meditations']);
+                    
+                    // If no meditations left for this verse range, remove the verse entry
+                    if (empty($link['meditations'])) {
+                        unset($chapter_links[$idx]);
+                    }
+                }
+            }
+            unset($link); // Break reference
             
             // Re-index array
             $chapter_links = array_values($chapter_links);
@@ -303,6 +374,14 @@ function deleteLinkInfo($key_verse, $language, $filename, $brand = '3-minute-med
     }
     
     return true;
+}
+
+/**
+ * Sanitize filename by replacing special characters with hyphens
+ */
+function sanitizeFilename($filename) {
+    $filename = str_replace(['/', '\\', ':', '*', '?', '"', '<', '>', '|'], '-', $filename);
+    return trim($filename);
 }
 
 // Handle CRUD operations

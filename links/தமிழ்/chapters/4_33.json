@@ -1,11 +1,31 @@
 [
     {
+        "verse": "4_33:1-49",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தேவனே நமக்கு அடைக்கலம்",
+                "filename": "206.json"
+            }
+        ]
+    },
+    {
         "verse": "4_33:37",
         "meditations": [
             {
                 "brand": "antantulla-appam",
                 "title": "ஓர் மலை!",
                 "filename": "1051.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_33:50-56",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தனித்துவமான வாழ்க்கைக்கு அழைப்பு",
+                "filename": "207.json"
             }
         ]
     },

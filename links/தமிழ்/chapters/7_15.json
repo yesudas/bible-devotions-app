@@ -1,5 +1,25 @@
 [
     {
+        "verse": "7_15:1-8",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "மெய்யான ஒப்புரவாகுதல்",
+                "filename": "492.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_15:9-13",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "ஆவிக்குரிய இருள்",
+                "filename": "493.json"
+            }
+        ]
+    },
+    {
         "verse": "7_15:13",
         "meditations": [
             {
@@ -10,12 +30,42 @@
         ]
     },
     {
+        "verse": "7_15:14",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "ஆவிக்குரிய விடுதலை",
+                "filename": "494.json"
+            }
+        ]
+    },
+    {
         "verse": "7_15:15",
         "meditations": [
             {
                 "brand": "antantulla-appam",
                 "title": "கழுதையின் பச்சை தாடையெலும்பு!",
                 "filename": "1061.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_15:15-17",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "சரியானதை செய்ய நாடுவோம்",
+                "filename": "495.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_15:18-20",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "நினைவுகூரும் இடம்",
+                "filename": "496.json"
             }
         ]
     }

@@ -1,5 +1,15 @@
 [
     {
+        "verse": "5_32:1-14",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "இஸ்ரயேல் என்னும் கர்த்தருடைய கண்மணி",
+                "filename": "275.json"
+            }
+        ]
+    },
+    {
         "verse": "5_32:6",
         "meditations": [
             {
@@ -50,12 +60,32 @@
         ]
     },
     {
+        "verse": "5_32:15-44",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "கிருபையும் இரக்கமுமுள்ள கன்மலை",
+                "filename": "276.json"
+            }
+        ]
+    },
+    {
         "verse": "5_32:28",
         "meditations": [
             {
                 "brand": "antantulla-appam",
                 "title": "உணரும் சிந்தை",
                 "filename": "647.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_32:45-52",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "கீழ்ப்படியாமையின் பாடம்",
+                "filename": "277.json"
             }
         ]
     }

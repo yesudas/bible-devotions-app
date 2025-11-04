@@ -1,0 +1,35 @@
+{
+    "uniqueid": "20251104141634_37e73621",
+    "date": "2025-11-04",
+    "title": "11",
+    "key_verse": "1_1:1",
+    "memory_verse": {
+        "label": "மனப்பாட வசனம்",
+        "text": "11"
+    },
+    "devotion": {
+        "label": "தியானம்",
+        "text": "1"
+    },
+    "quote": {
+        "label": "பிரபல மேற்கோள்",
+        "text": "1"
+    },
+    "prayer": {
+        "label": "ஜெபம்",
+        "text": "1"
+    },
+    "conclusion": {
+        "label": "உங்களுக்கு ஒரு வார்த்தை",
+        "text": [
+            "1"
+        ]
+    },
+    "author": {
+        "label": "ஆசிரியர்",
+        "author": "Pr. Maria Joseph",
+        "mobile": "",
+        "whatsapp": "919243183231",
+        "email": ""
+    }
+}

@@ -542,25 +542,22 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                                     </a>
                                 </p>
                             <?php endif; ?>
-                            <?php if (!empty($meditation['author']['email'])): ?>
+
                                 <p class="mb-1">
                                     <i class="fas fa-envelope me-2 text-primary"></i>
-                                    <a href="mailto:<?php echo htmlspecialchars($meditation['author']['email']); ?>" 
+                                    <a href="mailto:support@elimgrc.com" 
                                        class="text-decoration-none">
-                                        <?php echo htmlspecialchars($meditation['author']['email']); ?>
+                                        support@elimgrc.com
                                     </a>
                                 </p>
-                            <?php endif; ?>
-                            <?php if (!empty($meditation['author']['website'])): ?>
+                            
                                 <p class="mb-0">
                                     <i class="fas fa-globe me-2 text-info"></i>
-                                    <a href="<?php echo htmlspecialchars($meditation['author']['website']); ?>" 
-                                       target="_blank" 
-                                       class="text-decoration-none">
-                                        <?php echo htmlspecialchars($meditation['author']['website']); ?>
+                                    <a href="https://elimgrc.com/" target="_blank" class="text-decoration-none">
+                                        elimgrc.com
                                     </a>
                                 </p>
-                            <?php endif; ?>
+
                         </div>
                         <?php endif; ?>
                     </div>
@@ -632,11 +629,11 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p class="mb-1">
                     <i class="fas fa-globe me-2"></i>
-                    <a href="https://elimgrc.com/" class="footer-link">elimgrc.com//</a>
+                    <a href="https://elimgrc.com/" target="_blank" class="footer-link">elimgrc.com</a>
                 </p>
                 <p class="mb-0">
-                    <i class="fas fa-phone me-2"></i>
-                    <a href="https://wa.me/917676505599?text=antantulla-appam-App" class="footer-link">+91 7676505599</a>
+                    <i class="fas fa-envelope me-2"></i>
+                    <a href="mailto:support@elimgrc.com" class="footer-link">support@elimgrc.com</a>
                 </p>
             </div>
             

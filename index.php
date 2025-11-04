@@ -261,6 +261,29 @@ $version = "2025.10.1";
                         </div>
                     </div>
 
+                    <!-- Naalukoru Nalla Pangu App -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card app-card h-100">
+                            <div class="card-body text-center p-4">
+                                <div class="app-icon mb-3">
+                                    <i class="bi bi-calendar-day"></i>
+                                </div>
+                                <h4 class="card-title mb-3">நாளுக்கொரு நல்ல பங்கு</h4>
+                                <p class="card-text text-muted mb-4">
+                                    Daily spiritual portions from God's Word with deep insights and reflections. 
+                                    Experience God's goodness through daily meditations and biblical wisdom.
+                                </p>
+                                <p>
+                                    Supported in தமிழ்.
+                                </p>
+                                <p>போஸ் பொன்ராஜ்</p>
+                                <a href="நாளுக்கொரு-நல்ல-பங்கு/" class="btn btn-app text-white">
+                                    <i class="bi bi-gift me-2"></i>Get Today's Portion
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <!-- Features Section -->

@@ -3,6 +3,11 @@
         "verse": "1_1:1",
         "meditations": [
             {
+                "brand": "3-minute-meditation",
+                "title": "11",
+                "filename": "18.json"
+            },
+            {
                 "brand": "antantulla-appam",
                 "title": "முதலாம் நாள்!",
                 "filename": "478.json"
@@ -16,6 +21,21 @@
                 "brand": "antantulla-appam",
                 "title": "சிருஷ்டிக்கிறவர்!",
                 "filename": "480.json"
+            },
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "ஆதியிலே தேவன்",
+                "filename": "280.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:2-5",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "வெளிச்சம் உண்டாகக்கடவது",
+                "filename": "281.json"
             }
         ]
     },
@@ -90,6 +110,16 @@
         ]
     },
     {
+        "verse": "1_1:6-8",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "வானத்துக்குரியவர்கள்",
+                "filename": "282.json"
+            }
+        ]
+    },
+    {
         "verse": "1_1:7",
         "meditations": [
             {
@@ -111,6 +141,16 @@
                 "brand": "antantulla-appam",
                 "title": "ஓரிடத்தில் சேரவும்!",
                 "filename": "469.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:9-13",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "கனிதரும் வாழ்க்கை  ",
+                "filename": "283.json"
             }
         ]
     },
@@ -150,12 +190,32 @@
         ]
     },
     {
+        "verse": "1_1:14-19",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "ஒளிதரும் வாழ்க்கை",
+                "filename": "284.json"
+            }
+        ]
+    },
+    {
         "verse": "1_1:20",
         "meditations": [
             {
                 "brand": "antantulla-appam",
                 "title": "ஐந்தாம் நாள்",
                 "filename": "463.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:20-25",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "ஆளுகை செய்யும் வாழ்க்கை",
+                "filename": "285.json"
             }
         ]
     },
@@ -230,6 +290,16 @@
         ]
     },
     {
+        "verse": "1_1:26-28",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தேவசாயலைக் கொண்ட மனிதன்",
+                "filename": "286.json"
+            }
+        ]
+    },
+    {
         "verse": "1_1:27",
         "meditations": [
             {
@@ -271,6 +341,16 @@
                 "brand": "antantulla-appam",
                 "title": "பிரதான சிருஷ்ப்பு",
                 "filename": "457.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:29-31",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "மனிதரைப் பராமரிக்கும் தேவன்",
+                "filename": "287.json"
             }
         ]
     },

@@ -10,6 +10,26 @@
         ]
     },
     {
+        "verse": "1_26:1-22",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "கர்த்தரின் சித்தத்தில் இருத்தல்",
+                "filename": "335.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_26:12",
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "ஆசீர்வாதத்தின் திரள் பெருக்கம் ",
+                "filename": "13.json"
+            }
+        ]
+    },
+    {
         "verse": "1_26:18",
         "meditations": [
             {
@@ -21,6 +41,16 @@
                 "brand": "antantulla-appam",
                 "title": "இழந்துபோன துரவுகள்",
                 "filename": "577.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_26:23-35",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தொழுகையின் முக்கியத்துவம்",
+                "filename": "336.json"
             }
         ]
     },

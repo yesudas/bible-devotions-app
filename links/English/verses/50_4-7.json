@@ -1,5 +1,20 @@
 [
     {
+        "brand": "faiths-check-book",
+        "title": "Prayer, Thanksgiving, Praise",
+        "filename": "90.json"
+    },
+    {
+        "brand": "antantulla-appam",
+        "title": "Do Not Be Anxious !",
+        "filename": "206.json"
+    },
+    {
+        "brand": "antantulla-appam",
+        "title": "MIND OF PRAYER !",
+        "filename": "640.json"
+    },
+    {
         "brand": "antantulla-appam",
         "title": "GUARDING MIND !",
         "filename": "646.json"

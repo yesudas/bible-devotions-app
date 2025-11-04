@@ -69,7 +69,7 @@ body {
 /* Navigation Buttons - Blue Theme */
 .nav-btn {
     background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-    color: white;
+    color: white !important;
     padding: 12px 25px;
     border-radius: 25px;
     text-decoration: none;
@@ -81,11 +81,19 @@ body {
     box-shadow: 0 4px 10px rgba(30, 58, 138, 0.3);
 }
 
+.nav-btn i {
+    color: white !important;
+}
+
 .nav-btn:hover {
     background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%);
-    color: white;
+    color: white !important;
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(30, 58, 138, 0.4);
+}
+
+.nav-btn:hover i {
+    color: white !important;
 }
 
 .nav-btn:disabled {

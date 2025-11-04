@@ -13,6 +13,11 @@
         "verse": "23_41:10",
         "meditations": [
             {
+                "brand": "3-minute-meditation",
+                "title": "முன்னேற்றத்தை தடுக்கும் தயக்கம்",
+                "filename": "9.json"
+            },
+            {
                 "brand": "faiths-check-book",
                 "title": "மகிழ்ச்சியான பாதுகாப்பு",
                 "filename": "39.json"

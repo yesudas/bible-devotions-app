@@ -380,7 +380,7 @@ body {
 
 .nav-btn {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: white !important;
     border: none;
     padding: 12px 25px;
     border-radius: 25px;
@@ -393,11 +393,19 @@ body {
     text-decoration: none;
 }
 
+.nav-btn i {
+    color: white !important;
+}
+
 .nav-btn:hover {
-    color: white;
+    color: white !important;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
     text-decoration: none;
+}
+
+.nav-btn:hover i {
+    color: white !important;
 }
 
 .nav-btn:disabled {

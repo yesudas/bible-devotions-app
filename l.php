@@ -32,7 +32,8 @@ $devotionBrands = [
     'அனுதின-மன்னா',
     'faiths-check-book',
     'antantulla-appam',
-    'சத்திய-வசனம்'
+    'சத்திய-வசனம்',
+    'நாளுக்கொரு-நல்ல-பங்கு'
 ];
 
 $languages = ['தமிழ்', 'English', 'German', 'తెలుగు', 'ಕನ್ನಡ', 'മലയാളം'];
@@ -283,20 +284,40 @@ function saveLinkInfo($keyVerse, $title, $language, $filename, $brand, $linksDir
         mkdir($chaptersDir, 0755, true);
     }
     
-    // Save verse-level link
-    $verseLinkFile = $versesDir . '/' . sanitizeFilename($keyVerse) . '.json';
-    $verseLinks = [];
-    if (file_exists($verseLinkFile)) {
-        $verseLinks = json_decode(file_get_contents($verseLinkFile), true) ?: [];
+    // Save verse-level link(s)
+    // If verse range spans multiple verses, create separate links for each verse
+    $verseStartNum = (int)$verseStart;
+    $verseEndNum = (int)$verseEnd;
+    
+    for ($verse = $verseStartNum; $verse <= $verseEndNum; $verse++) {
+        $individualVerseKey = "{$book}_{$chapter}:{$verse}";
+        $verseLinkFile = $versesDir . '/' . sanitizeFilename($individualVerseKey) . '.json';
+        $verseLinks = [];
+        if (file_exists($verseLinkFile)) {
+            $verseLinks = json_decode(file_get_contents($verseLinkFile), true) ?: [];
+        }
+        
+        // Check if this meditation already exists for this verse
+        $meditationExists = false;
+        foreach ($verseLinks as $existingLink) {
+            if ($existingLink['brand'] === $brand && 
+                $existingLink['filename'] === $filename) {
+                $meditationExists = true;
+                break;
+            }
+        }
+        
+        // Only add if it doesn't already exist
+        if (!$meditationExists) {
+            $verseLinks[] = [
+                'brand' => $brand,
+                'title' => $title,
+                'filename' => $filename
+            ];
+            
+            file_put_contents($verseLinkFile, json_encode($verseLinks, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+        }
     }
-    
-    $verseLinks[] = [
-        'brand' => $brand,
-        'title' => $title,
-        'filename' => $filename
-    ];
-    
-    file_put_contents($verseLinkFile, json_encode($verseLinks, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     
     // Save chapter-level index
     $chapterKey = "{$book}_{$chapter}"; // e.g., "58_3"
