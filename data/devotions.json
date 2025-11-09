@@ -1,0 +1,310 @@
+{
+    "devotions": {
+        "English": {
+            "brands": [
+                {
+                    "name": "3-Minute Meditation",
+                    "appFolder": "3-minute-meditation",
+                    "labels": {
+                        "app_name": "3-Minute Meditation",
+                        "memory_verse_label": "Memory Verse",
+                        "devotion_label": "Insight \/ Reflection",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "A Word to You",
+                        "author_label": "Author"
+                    },
+                    "author": "Pr. Maria Joseph",
+                    "email": "mjosephnj@gmail.com",
+                    "phone": "+919243183231",
+                    "whatsapp": "919243183231",
+                    "website": "https:\/\/wordofgod.in"
+                },
+                {
+                    "name": "Daily Dose Devotion",
+                    "appFolder": "அனுதின-மன்னா",
+                    "labels": {
+                        "app_name": "Daily Dose Devotion",
+                        "memory_verse_label": "Today's Dose",
+                        "devotion_label": "Devotion",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "Conclusion",
+                        "author_label": "Author"
+                    },
+                    "author": "Gladys Sugandhi Hazlitt",
+                    "email": "simonhm@gmail.com",
+                    "phone": "+91919901470809",
+                    "whatsapp": "919901470809",
+                    "website": "https:\/\/wordofgod.in"
+                },
+                {
+                    "name": "Faiths Check Book",
+                    "appFolder": "faiths-check-book",
+                    "labels": {
+                        "app_name": "Faiths Check Book",
+                        "memory_verse_label": "Today's Verse",
+                        "devotion_label": "Devotion",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "Conclusion",
+                        "author_label": "Author"
+                    },
+                    "author": "Charles H. Spurgeon",
+                    "website": "https:\/\/wordofgod.in"
+                },
+                {
+                    "name": "Antantulla Appam",
+                    "appFolder": "antantulla-appam",
+                    "labels": {
+                        "app_name": "Antantulla Appam",
+                        "memory_verse_label": "Today's Bread",
+                        "devotion_label": "Devotion",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "Conclusion",
+                        "author_label": "Author"
+                    },
+                    "author": "Sam Jebadurai",
+                    "email": "support@elimgrc.com",
+                    "website": "https:\/\/elimgrc.com"
+                }
+            ]
+        },
+        "தமிழ்": {
+            "brands": [
+                {
+                    "name": "3 நிமிட தியானம்",
+                    "appFolder": "3-minute-meditation",
+                    "labels": {
+                        "app_name": "3 நிமிட தியானம்",
+                        "memory_verse_label": "மனப்பாட வசனம்",
+                        "devotion_label": "தியானம்",
+                        "quote_label": "பிரபல மேற்கோள்",
+                        "song_label": "பாடல்",
+                        "prayer_label": "ஜெபம்",
+                        "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
+                        "conclusion_label": "உங்களுக்கு ஒரு வார்த்தை",
+                        "author_label": "ஆசிரியர்"
+                    },
+                    "author": "Pr. Maria Joseph",
+                    "email": "mjosephnj@gmail.com",
+                    "phone": "+919243183231",
+                    "whatsapp": "919243183231",
+                    "website": "https:\/\/wordofgod.in"
+                },
+                {
+                    "name": "அனுதின மன்னா",
+                    "appFolder": "அனுதின-மன்னா",
+                    "labels": {
+                        "app_name": "அனுதின மன்னா",
+                        "memory_verse_label": "இன்றைய மன்னா",
+                        "devotion_label": "தியானம்",
+                        "quote_label": "பிரபல மேற்கோள்",
+                        "song_label": "பாடல்",
+                        "prayer_label": "ஜெபம்",
+                        "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
+                        "conclusion_label": "முடிவுரை",
+                        "author_label": "ஆசிரியர்"
+                    },
+                    "author": "Gladys Sugandhi Hazlitt",
+                    "email": "simonhm@gmail.com",
+                    "phone": "+91919901470809",
+                    "whatsapp": "919901470809",
+                    "website": "https:\/\/wordofgod.in"
+                },
+                {
+                    "name": "விசுவாச தின தியானம்",
+                    "appFolder": "faiths-check-book",
+                    "labels": {
+                        "app_name": "விசுவாச தின தியானம்",
+                        "memory_verse_label": "இன்றைய வசனம்",
+                        "devotion_label": "விசுவாச தியானம்",
+                        "quote_label": "பிரபல மேற்கோள்",
+                        "song_label": "பாடல்",
+                        "prayer_label": "ஜெபம்",
+                        "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
+                        "conclusion_label": "முடிவுரை",
+                        "author_label": "ஆசிரியர்"
+                    },
+                    "author": "Charles H. Spurgeon",
+                    "website": "https:\/\/wordofgod.in"
+                },
+                {
+                    "name": "அன்றன்றுள்ள அப்பம்",
+                    "appFolder": "antantulla-appam",
+                    "labels": {
+                        "app_name": "அன்றன்றுள்ள அப்பம்",
+                        "memory_verse_label": "இன்றைய அப்பம்",
+                        "devotion_label": "தியானம்",
+                        "quote_label": "பிரபல மேற்கோள்",
+                        "song_label": "பாடல்",
+                        "prayer_label": "ஜெபம்",
+                        "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
+                        "conclusion_label": "நினைவிற்கு",
+                        "author_label": "ஆசிரியர்"
+                    },
+                    "author": "Sam Jebadurai",
+                    "email": "support@elimgrc.com",
+                    "website": "https:\/\/elimgrc.com"
+                },
+                {
+                    "name": "சத்திய வசனம்",
+                    "appFolder": "சத்திய-வசனம்",
+                    "labels": {
+                        "app_name": "சத்திய வசனம்",
+                        "memory_verse_label": "இன்றைய வசனம்",
+                        "devotion_label": "இன்றைய தியானம்",
+                        "quote_label": "பிரபல மேற்கோள்",
+                        "song_label": "பாடல்",
+                        "prayer_label": "ஜெபம்",
+                        "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
+                        "conclusion_label": "முடிவுரை",
+                        "author_label": "ஆசிரியர்",
+                        "bible_reading_label": "இன்றைய வேத வாசிப்பு"
+                    },
+                    "author": "சத்திய வசனம்",
+                    "email": "svmadurai@yahoo.co.in",
+                    "website": "https:\/\/SathiyaVasanam.in"
+                },
+                {
+                    "name": "நாளுக்கொரு நல்ல பங்கு",
+                    "appFolder": "நாளுக்கொரு-நல்ல-பங்கு",
+                    "labels": {
+                        "app_name": "நாளுக்கொரு நல்ல பங்கு",
+                        "memory_verse_label": "இன்றைய பங்கு",
+                        "devotion_label": "தியானம்",
+                        "quote_label": "பிரபல மேற்கோள்",
+                        "song_label": "பாடல்",
+                        "prayer_label": "ஜெபம்",
+                        "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
+                        "conclusion_label": "முடிவுரை",
+                        "author_label": "ஆசிரியர்",
+                        "bible_reading_label": "இன்றைய வேதபகுதி"
+                    },
+                    "author": "போஸ் பொன்ராஜ்",
+                    "website": "https:\/\/www.tamilbible.org\/"
+                }
+            ]
+        },
+        "German": {
+            "brands": [
+                {
+                    "name": "Das Scheckbuch des Glaubens",
+                    "appFolder": "faiths-check-book",
+                    "labels": {
+                        "app_name": "Das Scheckbuch des Glaubens",
+                        "memory_verse_label": "Der heutige Vers",
+                        "devotion_label": "Die Andacht",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "Conclusion",
+                        "author_label": "Author"
+                    },
+                    "author": "Charles H. Spurgeon",
+                    "website": "https:\/\/wordofgod.in"
+                }
+            ]
+        },
+        "తెలుగు": {
+            "brands": [
+                {
+                    "name": "అనుదిన మన్నా",
+                    "appFolder": "antantulla-appam",
+                    "labels": {
+                        "app_name": "అనుదిన మన్నా",
+                        "memory_verse_label": "అనుదిన ధ్యానములు",
+                        "devotion_label": "ధ్యానములు",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "నేటి ధ్యానమునకై",
+                        "author_label": "రచయిత"
+                    },
+                    "author": "Sam Jebadurai",
+                    "email": "support@elimgrc.com",
+                    "website": "https:\/\/elimgrc.com"
+                }
+            ]
+        },
+        "ಕನ್ನಡ": {
+            "brands": [
+                {
+                    "name": "ಅನುದಿನ ಮನ್ನಾ",
+                    "appFolder": "antantulla-appam",
+                    "labels": {
+                        "app_name": "ಅನುದಿನ ಮನ್ನಾ",
+                        "memory_verse_label": "ಅನುದಿನ ಆಹಾರ",
+                        "devotion_label": "ಧ್ಯಾನ",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "ಹೆಚ್ಚಿನ ಧ್ಯಾನಕ್ಕಾಗಿ",
+                        "author_label": "ಲೇಖಕ"
+                    },
+                    "author": "Sam Jebadurai",
+                    "email": "support@elimgrc.com",
+                    "website": "https:\/\/elimgrc.com"
+                }
+            ]
+        },
+        "മലയാളം": {
+            "brands": [
+                {
+                    "name": "അനുദിന മന്നാ",
+                    "appFolder": "antantulla-appam",
+                    "labels": {
+                        "app_name": "അനുദിന മന്നാ",
+                        "memory_verse_label": "ഇന്നത്തെ അപ്പം",
+                        "devotion_label": "ധ്യാനം",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "കൂടുതൽ ധ്യാനത്തിനായി വാക്യം",
+                        "author_label": "സാം ജെബാദുരൈ"
+                    },
+                    "author": "Sam Jebadurai",
+                    "email": "support@elimgrc.com",
+                    "website": "https:\/\/elimgrc.com"
+                }
+            ]
+        },
+        "हिन्दी": {
+            "brands": [
+                {
+                    "name": "दैनिक ध्यान",
+                    "appFolder": "antantulla-appam",
+                    "labels": {
+                        "app_name": "दैनिक ध्यान",
+                        "memory_verse_label": "दिन का वचन",
+                        "devotion_label": "वचन पर मनन",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "मनन के लिए पद",
+                        "author_label": "लेखकलेखक का नाम"
+                    },
+                    "author": "Sam Jebadurai",
+                    "email": "support@elimgrc.com",
+                    "website": "https:\/\/elimgrc.com"
+                }
+            ]
+        }
+    },
+    "generatedAt": "2025-11-09 00:27:28",
+    "version": "1.0"
+}
