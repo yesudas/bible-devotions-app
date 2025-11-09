@@ -3,7 +3,15 @@
 include 'counter.php';
 include 'detect-app.php';
 
-$version = "2025.10.1";
+$version = "2025.11.9";
+
+// Load devotions data
+$devotionsData = [];
+$devotionsFile = __DIR__ . '/data/devotions.json';
+if (file_exists($devotionsFile)) {
+    $devotionsJson = file_get_contents($devotionsFile);
+    $devotionsData = json_decode($devotionsJson, true);
+}
 
 ?>
 
@@ -126,6 +134,69 @@ $version = "2025.10.1";
             font-size: 0.8rem;
             font-weight: bold;
         }
+        
+        .language-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border: none;
+            cursor: pointer;
+            padding: 2rem;
+        }
+        
+        .language-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            background: rgba(255, 255, 255, 1);
+        }
+        
+        .language-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .language-name {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .brand-count {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .contact-links a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.85rem;
+            margin: 0 0.3rem;
+        }
+        
+        .contact-links a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+        
+        .back-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            border-radius: 25px;
+            padding: 10px 25px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+            border-color: rgba(255, 255, 255, 0.5);
+            color: white;
+        }
+        
+        .section-hidden {
+            display: none;
+        }
     </style>
 
     <!-- Google Analytics -->
@@ -146,144 +217,97 @@ $version = "2025.10.1";
                     <p class="lead mb-4">Bible Devotions from various authors in various languages at one place with mobile friendly UX</p>
                 </div>
 
+                <!-- Language Selection Section -->
+                <div id="languageSection" class="mb-5">
+                    <div class="text-center text-white mb-4">
+                        <h2 class="fw-bold">Choose Your Language</h2>
+                        <p>Select a language to view available devotions</p>
+                    </div>
+                    <div class="row g-4">
+                        <?php if (!empty($devotionsData['devotions'])): ?>
+                            <?php foreach ($devotionsData['devotions'] as $language => $langData): ?>
+                                <?php $brandCount = count($langData['brands']); ?>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card language-card h-100" onclick="selectLanguage('<?= htmlspecialchars($language, ENT_QUOTES) ?>')">
+                                        <div class="card-body text-center">
+                                            <div class="language-icon">🌐</div>
+                                            <div class="language-name"><?= htmlspecialchars($language) ?></div>
+                                            <div class="brand-count"><?= $brandCount ?> devotion<?= $brandCount > 1 ? 's' : '' ?> available</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        <?php endif; ?>
+                    </div>
+                </div>
+
                 <!-- Apps Section -->
-                <div class="row g-4 mb-5">
-                    
-                    <!-- 3-Minute Meditation App -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card app-card h-100">
-                            <div class="card-body text-center p-4">
-                                <div class="app-icon mb-3">
-                                    <i class="bi bi-clock"></i>
-                                </div>
-                                <h4 class="card-title mb-3">3-Minute Meditation</h4>
-                                <p class="card-text text-muted mb-4">
-                                    Quick daily spiritual meditations designed to fit into your busy schedule. 
-                                    Perfect for morning devotions or moments of reflection.
-                                </p>
-                                <p>
-                                    Supported in தமிழ் and English
-                                </p>
-                                <p>Pr. Maria Joseph</p>
-                                <a href="3-minute-meditation/" class="btn btn-app text-white">
-                                    <i class="bi bi-play-circle me-2"></i>Start Meditating
-                                </a>
-                            </div>
-                        </div>
+                <div id="appsSection" class="section-hidden mb-5">
+                    <div class="text-center mb-4">
+                        <button class="btn back-btn" onclick="showLanguageSelection()">
+                            <i class="bi bi-arrow-left me-2"></i>Back to Languages
+                        </button>
                     </div>
-
-                    <!-- Tamil Daily Manna App -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card app-card h-100">
-                            <div class="card-body text-center p-4">
-                                <div class="app-icon mb-3">
-                                    <i class="bi bi-sunrise"></i>
+                    <div class="row g-4" id="appsContainer">
+                        <?php if (!empty($devotionsData['devotions'])): ?>
+                            <?php 
+                            foreach ($devotionsData['devotions'] as $language => $langData): 
+                                foreach ($langData['brands'] as $brand):
+                                    // Get icon from JSON, fallback to bi-book if not specified
+                                    $icon = !empty($brand['icon']) ? $brand['icon'] : 'bi-book';
+                                    // Remove 'bi ' prefix if present, as we add it in the template
+                                    $icon = str_replace('bi ', '', $icon);
+                                    $hasContact = !empty($brand['author']) || !empty($brand['email']) || !empty($brand['phone']) || !empty($brand['whatsapp']) || !empty($brand['website']);
+                            ?>
+                                <div class="col-md-6 col-lg-4 app-item" data-language="<?= htmlspecialchars($language, ENT_QUOTES) ?>">
+                                    <div class="card app-card h-100">
+                                        <div class="card-body text-center p-4">
+                                            <div class="app-icon mb-3">
+                                                <i class="bi <?= $icon ?>"></i>
+                                            </div>
+                                            <h4 class="card-title mb-3"><?= htmlspecialchars($brand['name']) ?></h4>
+                                            <p class="card-text text-muted mb-3">
+                                                <?= htmlspecialchars($brand['description']) ?>
+                                            </p>
+                                            <?php if (!empty($brand['author'])): ?>
+                                                <p class="mb-2"><strong><?= htmlspecialchars($brand['author']) ?></strong></p>
+                                            <?php endif; ?>
+                                            <?php if ($hasContact): ?>
+                                                <div class="contact-links mb-3">
+                                                    <?php if (!empty($brand['email'])): ?>
+                                                        <a href="mailto:<?= htmlspecialchars($brand['email']) ?>" title="Email">
+                                                            <i class="bi bi-envelope-fill"></i>
+                                                        </a>
+                                                    <?php endif; ?>
+                                                    <?php if (!empty($brand['phone'])): ?>
+                                                        <a href="tel:<?= htmlspecialchars($brand['phone']) ?>" title="Phone">
+                                                            <i class="bi bi-telephone-fill"></i>
+                                                        </a>
+                                                    <?php endif; ?>
+                                                    <?php if (!empty($brand['whatsapp'])): ?>
+                                                        <a href="https://wa.me/<?= htmlspecialchars($brand['whatsapp']) ?>" target="_blank" title="WhatsApp">
+                                                            <i class="bi bi-whatsapp"></i>
+                                                        </a>
+                                                    <?php endif; ?>
+                                                    <?php if (!empty($brand['website'])): ?>
+                                                        <a href="<?= htmlspecialchars($brand['website']) ?>" target="_blank" title="Website">
+                                                            <i class="bi bi-globe"></i>
+                                                        </a>
+                                                    <?php endif; ?>
+                                                </div>
+                                            <?php endif; ?>
+                                            <a href="<?= htmlspecialchars($brand['appFolder']) ?>/" class="btn btn-app text-white" data-app-link>
+                                                <i class="bi bi-play-circle me-2"></i><?= htmlspecialchars($brand['labels']['app_name'] ?? 'Open App') ?>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <h4 class="card-title mb-3">அனுதின மன்னா</h4>
-                                <p class="card-text text-muted mb-4">
-                                    Daily spiritual nourishment in Tamil. Traditional devotions and 
-                                    scriptural insights for Tamil-speaking believers.
-                                </p>
-                                <p>Gladys Sugandhi Hazlitt</p>
-                                <a href="அனுதின-மன்னா/" class="btn btn-app text-white">
-                                    <i class="bi bi-book me-2"></i>Read Devotions
-                                </a>
-                            </div>
-                        </div>
+                            <?php 
+                                endforeach;
+                            endforeach; 
+                            ?>
+                        <?php endif; ?>
                     </div>
-
-                    <!-- Faith's Check Book App -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card app-card h-100">
-                            <div class="card-body text-center p-4">
-                                <div class="app-icon mb-3">
-                                    <i class="bi bi-journal-check"></i>
-                                </div>
-                                <h4 class="card-title mb-3">Faith's Check Book</h4>
-                                <p class="card-text text-muted mb-4">
-                                    Daily devotions on faith from God's Word by the Prince of Preachers. 
-                                    Timeless devotions to strengthen your faith journey.
-                                </p>
-                                <p>
-                                    Supported in தமிழ் and English.
-                                </p>
-                                <p>Charles H. Spurgeon</p>
-                                <a href="faiths-check-book/" class="btn btn-app text-white">
-                                    <i class="bi bi-book-half me-2"></i>Check your Faith!
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Antantulla Appam App -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card app-card h-100">
-                            <div class="card-body text-center p-4">
-                                <div class="app-icon mb-3">
-                                    <i class="bi bi-stars"></i>
-                                </div>
-                                <h4 class="card-title mb-3">Antantulla Appam</h4>
-                                <p class="card-text text-muted mb-4">
-                                    Deep spiritual insights and biblical meditations to nourish your soul. 
-                                    Discover God's purpose for your life through daily devotions.
-                                </p>
-                                <p>
-                                    Supported in தமிழ், English, తెలుగు, and ಕನ್ನಡ.
-                                </p>
-                                <p>Sam Jebadurai</p>
-                                <a href="antantulla-appam/" class="btn btn-app text-white">
-                                    <i class="bi bi-star-fill me-2"></i>Explore Devotions
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Sathiya Vasanam App -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card app-card h-100">
-                            <div class="card-body text-center p-4">
-                                <div class="app-icon mb-3">
-                                    <i class="bi bi-brightness-high"></i>
-                                </div>
-                                <h4 class="card-title mb-3">சத்திய வசனம்</h4>
-                                <p class="card-text text-muted mb-4">
-                                    Daily devotions with Scripture reading, memory verses, and practical reflections. 
-                                    Start each day with God's truth and fresh insights for your spiritual journey.
-                                </p>
-                                <p>
-                                    Supported in தமிழ்.
-                                </p>
-                                <p>Sathiya Vasanam</p>
-                                <a href="சத்திய-வசனம்/" class="btn btn-app text-white">
-                                    <i class="bi bi-book-fill me-2"></i>Read Today's Word
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Naalukoru Nalla Pangu App -->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card app-card h-100">
-                            <div class="card-body text-center p-4">
-                                <div class="app-icon mb-3">
-                                    <i class="bi bi-calendar-day"></i>
-                                </div>
-                                <h4 class="card-title mb-3">நாளுக்கொரு நல்ல பங்கு</h4>
-                                <p class="card-text text-muted mb-4">
-                                    Daily spiritual portions from God's Word with deep insights and reflections. 
-                                    Experience God's goodness through daily meditations and biblical wisdom.
-                                </p>
-                                <p>
-                                    Supported in தமிழ்.
-                                </p>
-                                <p>போஸ் பொன்ராஜ்</p>
-                                <a href="நாளுக்கொரு-நல்ல-பங்கு/" class="btn btn-app text-white">
-                                    <i class="bi bi-gift me-2"></i>Get Today's Portion
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
 
                 <!-- Features Section -->
@@ -328,21 +352,77 @@ $version = "2025.10.1";
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- Optional: Add some interactive effects -->
     <script>
+        let selectedLanguage = localStorage.getItem('selectedLanguage');
+        
+        // Show language selection or apps based on stored preference
+        window.addEventListener('DOMContentLoaded', () => {
+            if (selectedLanguage) {
+                selectLanguage(selectedLanguage);
+            }
+        });
+        
+        function selectLanguage(language) {
+            selectedLanguage = language;
+            localStorage.setItem('selectedLanguage', language);
+            
+            // Hide language section
+            document.getElementById('languageSection').classList.add('section-hidden');
+            
+            // Show apps section
+            const appsSection = document.getElementById('appsSection');
+            appsSection.classList.remove('section-hidden');
+            
+            // Filter and show only apps for selected language
+            const appItems = document.querySelectorAll('.app-item');
+            appItems.forEach(item => {
+                if (item.dataset.language === language) {
+                    item.style.display = 'block';
+                    
+                    // Update app link to include language parameter
+                    const appLink = item.querySelector('a[data-app-link]');
+                    if (appLink) {
+                        const baseUrl = appLink.href.split('?')[0]; // Remove existing params
+                        appLink.href = baseUrl + '?lang=' + encodeURIComponent(language);
+                    }
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+            
+            // Scroll to apps section
+            appsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        function showLanguageSelection() {
+            localStorage.removeItem('selectedLanguage');
+            selectedLanguage = null;
+            
+            // Show language section
+            document.getElementById('languageSection').classList.remove('section-hidden');
+            
+            // Hide apps section
+            document.getElementById('appsSection').classList.add('section-hidden');
+            
+            // Scroll to language section
+            document.getElementById('languageSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
         // Add a subtle parallax effect on scroll
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
             const parallax = document.querySelector('.hero-section');
-            const speed = scrolled * 0.5;
-            parallax.style.transform = `translateY(${speed}px)`;
+            if (parallax) {
+                const speed = scrolled * 0.5;
+                parallax.style.transform = `translateY(${speed}px)`;
+            }
         });
 
         // Add click animation to app cards
         document.querySelectorAll('.app-card:not(.coming-soon)').forEach(card => {
             card.addEventListener('click', function(e) {
-                if (!e.target.closest('a')) {
-                    const link = this.querySelector('a');
+                if (!e.target.closest('a') && !e.target.closest('.contact-links')) {
+                    const link = this.querySelector('a.btn-app');
                     if (link) {
                         window.location.href = link.href;
                     }

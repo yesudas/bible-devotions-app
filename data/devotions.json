@@ -5,6 +5,8 @@
                 {
                     "name": "3-Minute Meditation",
                     "appFolder": "3-minute-meditation",
+                    "icon": "bi bi-clock",
+                    "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
                     "labels": {
                         "app_name": "3-Minute Meditation",
                         "memory_verse_label": "Memory Verse",
@@ -23,28 +25,10 @@
                     "website": "https:\/\/wordofgod.in"
                 },
                 {
-                    "name": "Daily Dose Devotion",
-                    "appFolder": "அனுதின-மன்னா",
-                    "labels": {
-                        "app_name": "Daily Dose Devotion",
-                        "memory_verse_label": "Today's Dose",
-                        "devotion_label": "Devotion",
-                        "quote_label": "Today's Quote",
-                        "song_label": "Song",
-                        "prayer_label": "Prayer",
-                        "book_label": "Recommended Book",
-                        "conclusion_label": "Conclusion",
-                        "author_label": "Author"
-                    },
-                    "author": "Gladys Sugandhi Hazlitt",
-                    "email": "simonhm@gmail.com",
-                    "phone": "+91919901470809",
-                    "whatsapp": "919901470809",
-                    "website": "https:\/\/wordofgod.in"
-                },
-                {
                     "name": "Faiths Check Book",
                     "appFolder": "faiths-check-book",
+                    "icon": "bi bi-journal-check",
+                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "labels": {
                         "app_name": "Faiths Check Book",
                         "memory_verse_label": "Today's Verse",
@@ -62,6 +46,8 @@
                 {
                     "name": "Antantulla Appam",
                     "appFolder": "antantulla-appam",
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "Antantulla Appam",
                         "memory_verse_label": "Today's Bread",
@@ -84,6 +70,8 @@
                 {
                     "name": "3 நிமிட தியானம்",
                     "appFolder": "3-minute-meditation",
+                    "icon": "bi bi-clock",
+                    "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
                     "labels": {
                         "app_name": "3 நிமிட தியானம்",
                         "memory_verse_label": "மனப்பாட வசனம்",
@@ -104,6 +92,8 @@
                 {
                     "name": "அனுதின மன்னா",
                     "appFolder": "அனுதின-மன்னா",
+                    "icon": "bi bi-book",
+                    "description": "Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.",
                     "labels": {
                         "app_name": "அனுதின மன்னா",
                         "memory_verse_label": "இன்றைய மன்னா",
@@ -124,6 +114,8 @@
                 {
                     "name": "விசுவாச தின தியானம்",
                     "appFolder": "faiths-check-book",
+                    "icon": "bi bi-journal-check",
+                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "labels": {
                         "app_name": "விசுவாச தின தியானம்",
                         "memory_verse_label": "இன்றைய வசனம்",
@@ -141,6 +133,8 @@
                 {
                     "name": "அன்றன்றுள்ள அப்பம்",
                     "appFolder": "antantulla-appam",
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "அன்றன்றுள்ள அப்பம்",
                         "memory_verse_label": "இன்றைய அப்பம்",
@@ -159,6 +153,8 @@
                 {
                     "name": "சத்திய வசனம்",
                     "appFolder": "சத்திய-வசனம்",
+                    "icon": "bi bi-brightness-high",
+                    "description": "Daily devotions with Scripture reading, memory verses, and practical reflections. Start each day with God's truth and fresh insights for your spiritual journey.",
                     "labels": {
                         "app_name": "சத்திய வசனம்",
                         "memory_verse_label": "இன்றைய வசனம்",
@@ -178,6 +174,8 @@
                 {
                     "name": "நாளுக்கொரு நல்ல பங்கு",
                     "appFolder": "நாளுக்கொரு-நல்ல-பங்கு",
+                    "icon": "bi bi-calendar-heart",
+                    "description": "Daily spiritual portions from God's Word with deep insights and reflections. Experience God's goodness through daily meditations and biblical wisdom.",
                     "labels": {
                         "app_name": "நாளுக்கொரு நல்ல பங்கு",
                         "memory_verse_label": "இன்றைய பங்கு",
@@ -200,6 +198,8 @@
                 {
                     "name": "Das Scheckbuch des Glaubens",
                     "appFolder": "faiths-check-book",
+                    "icon": "bi bi-journal-check",
+                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "labels": {
                         "app_name": "Das Scheckbuch des Glaubens",
                         "memory_verse_label": "Der heutige Vers",
@@ -221,6 +221,8 @@
                 {
                     "name": "అనుదిన మన్నా",
                     "appFolder": "antantulla-appam",
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "అనుదిన మన్నా",
                         "memory_verse_label": "అనుదిన ధ్యానములు",
@@ -243,6 +245,8 @@
                 {
                     "name": "ಅನುದಿನ ಮನ್ನಾ",
                     "appFolder": "antantulla-appam",
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "ಅನುದಿನ ಮನ್ನಾ",
                         "memory_verse_label": "ಅನುದಿನ ಆಹಾರ",
@@ -265,6 +269,8 @@
                 {
                     "name": "അനുദിന മന്നാ",
                     "appFolder": "antantulla-appam",
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "അനുദിന മന്നാ",
                         "memory_verse_label": "ഇന്നത്തെ അപ്പം",
@@ -287,6 +293,8 @@
                 {
                     "name": "दैनिक ध्यान",
                     "appFolder": "antantulla-appam",
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "दैनिक ध्यान",
                         "memory_verse_label": "दिन का वचन",

@@ -357,7 +357,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
     <!-- Site Header - Common for all pages -->
     <div class="site-header">
         <div class="container">
-            <h1><i class="fas fa-book-open"></i> <?php echo htmlspecialchars($appName); ?></h1>
+            <h1><i class="bi bi-brightness-high"></i> <?php echo htmlspecialchars($appName); ?></h1>
             <p class="site-tagline">Daily Christian Devotions for Spiritual Growth</p>
             
             <!-- Mode Selector & Zoom Controls -->
