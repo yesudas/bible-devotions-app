@@ -21,68 +21,411 @@ Bible Devotions App is a free, mobile-friendly platform that brings together spi
 - **📖 Rich Content**: Daily devotions, Bible verses, prayers, and spiritual insights
 - **🎨 Modern UX**: Beautiful, intuitive interface with accessibility features
 
-## 📚 Sub-Modules
+## 📚 Supported Devotion Brands
+
+The platform currently hosts **6 devotion brands** across **7 languages**, providing rich spiritual content from various authors and traditions.
 
 ### 1. 3-Minute Meditation
-
-**Status**: ✅ Live and Active
-
-Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection throughout the day.
-
-**Key Features**:
-- 📅 Daily devotional content with scheduling support
-- 🔀 Latest and Random reading modes
-- 🔎 Zoom controls (100% - 250%)
-- 📖 Complete Bible verse selector (66 books)
-- 🎯 Multi-section content structure:
-  - Memory Verse
-  - Insight & Reflection
-  - Today's Quote
-  - Recommended Book (with quotes)
-  - Prayer
-  - Song (optional)
-  - Author Information
-- 🔗 Cross-reference system by Bible verses
-- 🗂️ Advanced filtering (status, date, title)
-- 📱 PWA support with offline capability
-- 🔐 Secure admin panel for content management
-
-**Access**: [/3-minute-meditation/](3-minute-meditation/)  
-**Documentation**: [3-Minute Meditation README](3-minute-meditation/README.md)
-
----
+- **Languages**: English, தமிழ் (Tamil)
+- **Author**: Pr. Maria Joseph
+- **Icon**: 🕐 Clock
+- **Description**: Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.
+- **Contact**: mjosephnj@gmail.com | +91 9243183231
+- **Website**: [wordofgod.in](https://wordofgod.in)
 
 ### 2. அனுதின மன்னா (Daily Manna)
+- **Languages**: தமிழ் (Tamil)
+- **Author**: Gladys Sugandhi Hazlitt
+- **Icon**: � Book
+- **Description**: Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.
+- **Contact**: simonhm@gmail.com | +91 9901470809
+- **Website**: [wordofgod.in](https://wordofgod.in)
 
-**Status**: ✅ Live and Active
+### 3. Faith's Check Book
+- **Languages**: English, தமிழ் (Tamil), German
+- **Author**: Charles H. Spurgeon
+- **Icon**: � Journal Check
+- **Description**: Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.
+- **Website**: [wordofgod.in](https://wordofgod.in)
 
-Traditional Tamil devotions providing daily spiritual nourishment. Streamlined scriptural insights and reflections for Tamil-speaking believers.
+### 4. Antantulla Appam (அன்றன்றுள்ள அப்பம்)
+- **Languages**: English, தமிழ் (Tamil), తెలుగు (Telugu), ಕನ್ನಡ (Kannada), മലയാളം (Malayalam), हिन्दी (Hindi)
+- **Author**: Sam Jebadurai
+- **Icon**: ⭐ Stars
+- **Description**: Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.
+- **Contact**: support@elimgrc.com
+- **Website**: [elimgrc.com](https://elimgrc.com)
 
-**Key Features**:
-- 📅 Daily devotional content with scheduling support
-- 🔀 Latest and Random reading modes
-- 🔎 Zoom controls (100% - 250%)
-- 📖 Complete Bible verse selector (66 books)
-- 🎯 Streamlined content structure:
-  - Memory Verse
-  - Devotion
-  - Song (optional)
-  - Prayer
-  - Author Information
-- 🌐 Tamil-first with English support
-- 🔗 Cross-reference system by Bible verses
-- 🗂️ Advanced filtering (status, date, title)
-- 📱 PWA support with offline capability
-- 🔐 Secure admin panel for content management
+### 5. சத்திய வசனம் (Truth Word)
+- **Languages**: தமிழ் (Tamil)
+- **Author**: சத்திய வசனம்
+- **Icon**: ☀️ Brightness
+- **Description**: Daily devotions with Scripture reading, memory verses, and practical reflections. Start each day with God's truth and fresh insights for your spiritual journey.
+- **Contact**: svmadurai@yahoo.co.in
+- **Website**: [SathiyaVasanam.in](https://SathiyaVasanam.in)
 
-**Access**: [/அனுதின-மன்னா/](அனுதின-மன்னா/)  
-**Documentation**: [அனுதின மன்னா README](அனுதின-மன்னா/README.md)
+### 6. நாளுக்கொரு நல்ல பங்கு (A Good Portion Each Day)
+- **Languages**: தமிழ் (Tamil)
+- **Author**: போஸ் பொன்ராஜ்
+- **Icon**: 💖 Calendar Heart
+- **Description**: Daily spiritual portions from God's Word with deep insights and reflections. Experience God's goodness through daily meditations and biblical wisdom.
+- **Website**: [tamilbible.org](https://www.tamilbible.org/)
 
 ---
 
-## 🎯 Core Features
+## 🌐 Language Support
 
-### For Users
+The platform currently supports **7 languages**:
+
+1. **English** - 4 brands available
+2. **தமிழ் (Tamil)** - 6 brands available
+3. **German** - 1 brand available
+4. **తెలుగు (Telugu)** - 1 brand available
+5. **ಕನ್ನಡ (Kannada)** - 1 brand available
+6. **മലയാളം (Malayalam)** - 1 brand available
+7. **हिन्दी (Hindi)** - 1 brand available
+
+---
+
+## 🎯 Key Features
+
+### User-Facing Features
+
+#### 📖 Dynamic Language Selection
+- **Smart Landing Page**: Choose your language first, then see only relevant devotion apps
+- **Language Persistence**: Your language preference is remembered across visits
+- **Seamless Navigation**: Easy back-and-forth between language selection and apps
+- **URL Parameters**: Selected language is passed to apps for automatic language loading
+
+#### 📖 Reading Experience
+- **Multiple Reading Modes**: 
+  - Latest Mode: Read chronologically from newest to oldest
+  - Random Mode: Shuffle through meditations randomly
+  - View All: Browse complete meditation list with filtering
+- **Rich Content**: Well-structured devotions with multiple sections
+- **Navigation**: Easy Previous/Next buttons with progress indicators
+- **Responsive Design**: Works perfectly on any screen size
+
+#### 🎨 Accessibility & Customization
+- **Zoom Controls**: Adjust text size from 100% to 250%
+- **Keyboard Shortcuts**: Ctrl/Cmd + Plus/Minus for zoom
+- **Touch-Friendly**: Large buttons optimized for mobile
+- **High Contrast**: Clear, readable text and buttons
+- **Screen Reader Support**: Semantic HTML and ARIA labels
+
+#### 📱 Progressive Web App (PWA)
+- **Install as App**: Add to home screen on any device
+- **Offline Access**: Read devotions without internet
+- **Fast Loading**: Service worker caching
+- **App-Like Experience**: Full-screen mode
+- **Custom Icons**: Beautiful app icons and splash screens
+
+#### 🔗 Bible Verse Cross-References
+- **Smart Linking**: Click any Bible verse to see all related meditations
+- **Multi-Brand Support**: Find meditations across all apps referencing the same verse
+- **Chapter Views**: Browse all meditations for a specific Bible chapter
+- **Verse-Level Precision**: Individual verse or verse range support
+
+### Admin Features
+
+#### 🔐 Content Management System
+- **Secure Authentication**: Password-protected admin panel
+- **Multi-User Support**: Multiple admin accounts per brand
+- **Session Management**: Auto-logout after 30 minutes of inactivity
+- **Language Selection**: Manage content in multiple languages
+
+#### ✏️ Meditation Editor
+- **Rich Text Input**: Multi-section content structure
+- **Date Scheduling**: Schedule future publications
+- **Bible Verse Selector**: Cascading dropdowns for easy verse selection
+  - 66 books from Genesis to Revelation
+  - Chapter and verse selection
+  - Verse range support (e.g., John 3:16-17)
+- **Unique IDs**: Auto-generated identifiers
+- **Preview Mode**: Review before publishing
+
+#### 🗂️ Advanced Filtering & Search
+- **Status Filter**: Published / Scheduled
+- **Date Range**: Filter by publication date
+- **Language Filter**: Manage specific language content
+- **Title Search**: Quick find by meditation title
+- **Bulk Operations**: Efficient content management
+
+#### 🔗 Automatic Cross-Reference System
+- **Auto-Generation**: Links created automatically on save
+- **Verse-Level**: Individual verse links
+- **Chapter-Level**: Chapter index with all verses
+- **Deduplication**: Smart duplicate prevention
+- **JSON Storage**: Efficient file-based storage
+
+---
+
+## 🛠️ Utility Scripts
+
+The project includes three powerful utility scripts for managing the devotions platform. These scripts automate data aggregation, link generation, and index creation.
+
+### d.php - Devotions Data Generator
+
+**Purpose**: Generates a master JSON file (`data/devotions.json`) containing all devotion brands' metadata organized by language.
+
+**What It Does**:
+- Scans all devotion brand folders for `translations.js` files
+- Parses JavaScript object literals and converts to JSON
+- Extracts app names, labels, and UI text for all languages
+- Merges with brand metadata (author, contact info, icons, descriptions)
+- Creates a centralized data file for the main landing page
+
+**Usage**:
+```bash
+# Command line
+php d.php
+
+# Or via browser
+http://localhost:8000/d.php
+```
+
+**When to Run**:
+- After updating any `translations.js` file
+- After adding a new devotion brand
+- After modifying brand metadata (author, email, icon, description)
+- When adding new language translations
+
+**Output Structure**:
+```json
+{
+  "devotions": {
+    "English": {
+      "brands": [{
+        "name": "3-Minute Meditation",
+        "appFolder": "3-minute-meditation",
+        "icon": "bi bi-clock",
+        "description": "Quick daily spiritual meditations...",
+        "labels": { "app_name": "...", "memory_verse_label": "..." },
+        "author": "Pr. Maria Joseph",
+        "email": "mjosephnj@gmail.com",
+        "phone": "+919243183231",
+        "whatsapp": "919243183231",
+        "website": "https://wordofgod.in"
+      }]
+    },
+    "தமிழ்": { ... }
+  },
+  "generatedAt": "2025-11-15 10:30:45",
+  "version": "1.0"
+}
+```
+
+**Features**:
+- ✅ CLI and browser modes with formatted output
+- ✅ Handles apostrophes in translations (e.g., "Today's Quote")
+- ✅ Color-coded success/warning/error messages
+- ✅ File size and language summary statistics
+- ✅ Auto-creates `data/` directory if needed
+
+---
+
+### m.php - Meditation Index Generator
+
+**Purpose**: Scans all meditation JSON files and generates `all-meditations.json` index files for each language in each brand.
+
+**What It Does**:
+- Iterates through all devotion brands
+- Scans meditation folders for each language
+- Extracts key metadata from each meditation file
+- Filters meditations to include only those with `key_verse` field
+- Creates sorted indexes by publication date
+- Generates statistics and visual reports
+
+**Usage**:
+```bash
+# Via browser only (includes visual UI)
+http://localhost:8000/m.php
+```
+
+**When to Run**:
+- After adding new meditation content
+- After bulk importing meditations
+- When meditation files are corrupted or need validation
+- To regenerate indexes after data cleanup
+
+**Output Files**: 
+Creates `all-meditations.json` in each language folder:
+```
+3-minute-meditation/meditations/English/all-meditations.json
+3-minute-meditation/meditations/தமிழ்/all-meditations.json
+அனுதின-மன்னா/meditations/English/all-meditations.json
+... (for all brands and languages)
+```
+
+**Output Structure**:
+```json
+[
+  {
+    "uniqueid": "1",
+    "filename": "1.json",
+    "title": "The Power of Faith",
+    "date": "2025-01-01",
+    "key_verse": "43_3:16"
+  },
+  { ... }
+]
+```
+
+**Features**:
+- ✅ Beautiful browser UI with statistics dashboard
+- ✅ Color-coded success/warning/error messages
+- ✅ Filters out meditations without `key_verse`
+- ✅ Shows skipped meditation counts
+- ✅ Real-time progress reporting
+- ✅ Grid-based statistics display
+- ✅ Validates JSON integrity
+
+**Statistics Provided**:
+- Total apps processed
+- Total languages processed
+- Meditations included (with key_verse)
+- Meditations skipped (without key_verse)
+- Total files scanned
+
+---
+
+### l.php - Link Index Regenerator
+
+**Purpose**: Rebuilds the entire Bible verse cross-reference system from scratch by scanning all meditations and creating verse-level and chapter-level link indexes.
+
+**What It Does**:
+1. **Backs up** current links folder with timestamp
+2. **Clears** existing link indexes
+3. **Scans** all meditation files across all brands and languages
+4. **Generates** two types of indexes:
+   - **Verse-level**: Individual verse links (e.g., `verses/43_3-16.json`)
+   - **Chapter-level**: Chapter index with all verses (e.g., `chapters/43_3.json`)
+5. **Creates** directory structure: `links/{language}/verses/` and `links/{language}/chapters/`
+6. **Deletes** backup upon successful completion
+
+**Usage**:
+```bash
+# Command line
+php l.php
+
+# Or via browser
+http://localhost:8000/l.php
+```
+
+**When to Run**:
+- After bulk importing meditations
+- When link indexes are corrupted or inconsistent
+- After changing verse reference formats
+- When migrating to new link structure
+- To rebuild from scratch after data issues
+
+**Directory Structure Created**:
+```
+links/
+├── English/
+│   ├── verses/
+│   │   ├── 43_3-16.json    # Individual verse links
+│   │   ├── 43_3-17.json
+│   │   └── ...
+│   └── chapters/
+│       ├── 43_3.json        # Chapter index
+│       └── ...
+├── தமிழ்/
+│   ├── verses/
+│   └── chapters/
+└── ...
+```
+
+**Verse-Level Link Format**:
+```json
+[
+  {
+    "brand": "3-minute-meditation",
+    "title": "The Love of God",
+    "filename": "7.json"
+  },
+  { ... }
+]
+```
+
+**Chapter-Level Link Format**:
+```json
+[
+  {
+    "verse": "43_3:16",
+    "meditations": [
+      {
+        "brand": "3-minute-meditation",
+        "title": "The Love of God",
+        "filename": "7.json"
+      }
+    ]
+  },
+  {
+    "verse": "43_3:16-17",
+    "meditations": [ ... ]
+  }
+]
+```
+
+**Features**:
+- ✅ Automatic backup with timestamp
+- ✅ Safe deletion only after successful generation
+- ✅ Handles verse ranges (e.g., "58_3:15-20")
+- ✅ Deduplication - no duplicate meditation entries
+- ✅ Sorted chapter indexes by verse number
+- ✅ Comprehensive statistics by language and brand
+- ✅ Error tracking and reporting
+- ✅ CLI and browser modes
+
+**Statistics Provided**:
+- Total meditations processed
+- Total verse links created
+- Total chapter indexes created
+- Breakdown by language (meditations, verses, chapters)
+- Breakdown by brand (meditations, verses)
+- Error list with details
+
+**Safety Features**:
+- Creates timestamped backup before starting
+- Retains backup if too many errors occur (>10)
+- Preserves README.md and other documentation
+- Shows clear error messages for debugging
+
+---
+
+## 🔄 Typical Workflow
+
+Here's how these scripts work together in a typical content management workflow:
+
+### Adding New Content
+1. Admin adds new meditation via admin panel (`a.php`)
+2. Admin panel automatically updates:
+   - Meditation JSON file
+   - Verse-level links
+   - Chapter-level links
+3. Run **m.php** to update `all-meditations.json` indexes
+4. Content is immediately available to users
+
+### Bulk Content Import
+1. Import meditation JSON files directly into meditation folders
+2. Run **m.php** to generate meditation indexes
+3. Run **l.php** to regenerate all cross-reference links
+4. Verify via browser that links work correctly
+
+### Adding New Brand
+1. Create brand folder with required structure
+2. Add `translations.js` with language labels
+3. Add brand metadata to `d.php` script
+4. Run **d.php** to update main landing page data
+5. Add meditations and run **m.php** and **l.php**
+
+### Updating Translations
+1. Edit `translations.js` files in brand folders
+2. Run **d.php** to regenerate `devotions.json`
+3. Landing page automatically reflects new translations
+
+---
 
 #### 📖 Content Features
 - **Multi-Language Support**: Switch between languages seamlessly
@@ -181,27 +524,47 @@ Traditional Tamil devotions providing daily spiritual nourishment. Streamlined s
 
 ```
 bible-devotions-app/
-├── 3-minute-meditation/          # Main meditation app
+├── 3-minute-meditation/          # 3-Minute Meditation brand
 │   ├── a.php                     # Admin panel
 │   ├── index.php                 # User interface
 │   ├── meditations/              # Content storage
 │   │   ├── English/              # English meditations
+│   │   │   ├── 1.json
+│   │   │   ├── 2.json
+│   │   │   └── all-meditations.json  # Generated index
 │   │   └── தமிழ்/                # Tamil meditations
+│   │       ├── 1.json
+│   │       └── all-meditations.json
+│   ├── js/
+│   │   └── translations.js       # Label translations
 │   ├── manifest.json             # PWA manifest
 │   ├── sw.js                     # Service worker
 │   └── README.md                 # Module documentation
 │
-├── அனுதின-மன்னா/                # Tamil Daily Manna
-│   ├── a.php                     # Admin panel
-│   ├── index.php                 # User interface
-│   ├── meditations/              # Content storage
-│   │   ├── English/              # English meditations
-│   │   └── தமிழ்/                # Tamil meditations
-│   ├── js/
-│   │   └── translations.js       # Tamil/English translations
-│   ├── manifest.json             # PWA manifest
-│   ├── sw.js                     # Service worker
-│   └── README.md                 # Module documentation
+├── அனுதின-மன்னா/                # Daily Manna brand
+│   ├── a.php
+│   ├── index.php
+│   ├── meditations/
+│   └── ... (similar structure)
+│
+├── faiths-check-book/            # Faith's Check Book brand
+├── antantulla-appam/             # Antantulla Appam brand
+├── சத்திய-வசனம்/                # Truth Word brand
+├── நாளுக்கொரு-நல்ல-பங்கு/       # Daily Portion brand
+│
+├── links/                        # Bible verse cross-references
+│   ├── English/
+│   │   ├── verses/               # Individual verse links
+│   │   │   ├── 43_3-16.json     # John 3:16 links
+│   │   │   └── ...
+│   │   └── chapters/             # Chapter indexes
+│   │       ├── 43_3.json        # John chapter 3 index
+│   │       └── ...
+│   ├── தமிழ்/
+│   └── ... (other languages)
+│
+├── data/                         # Generated data files
+│   └── devotions.json            # Master devotions metadata
 │
 ├── css/                          # Global stylesheets
 │   └── style.css                 # Main styles
@@ -212,25 +575,27 @@ bible-devotions-app/
 │   ├── bible-data.js             # Bible structure data
 │   └── translations.js           # Label translations
 │
-├── links/                        # Bible verse cross-references
-│   ├── README.md                 # Link system docs
-│   └── [verse_ref].json          # Verse-based links
-│
 ├── pwa/                          # PWA resources
 │   └── pwa.js                    # PWA installation logic
 │
-├── index.php                     # Landing page
+├── index.php                     # Main landing page
 ├── menu-links.php                # Navigation menu
 ├── footer-links.php              # Footer content
 ├── copyright.php                 # Copyright notice
 ├── detect-app.php                # App detection
 ├── google-analytics.php          # Analytics tracking
 │
+├── d.php                         # Devotions Data Generator
+├── m.php                         # Meditation Index Generator
+├── l.php                         # Link Index Regenerator
+│
 ├── LICENSE                       # License file
 ├── README.md                     # This file
 ├── ZOOM_FEATURE.md               # Zoom feature docs
 └── SCHEDULED_FEATURE.md          # Scheduling feature docs
 ```
+
+---
 
 ## 🚀 Getting Started
 
@@ -245,27 +610,50 @@ bible-devotions-app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/bible-devotions-app.git
+   git clone https://github.com/yesudas/bible-devotions-app.git
    cd bible-devotions-app
    ```
 
 2. **Set up permissions**
    ```bash
+   # Meditation folders
    chmod 755 3-minute-meditation/meditations
    chmod 755 அனுதின-மன்னா/meditations
+   chmod 755 faiths-check-book/meditations
+   chmod 755 antantulla-appam/meditations
+   chmod 755 சத்திய-வசனம்/meditations
+   chmod 755 நாளுக்கொரு-நல்ல-பங்கு/meditations
+   
+   # Links and data folders
    chmod 755 links
-   chmod 644 3-minute-meditation/counter.txt
-   chmod 644 அனுதின-மன்னா/counter.txt
+   chmod 755 data
+   
+   # Counter files
+   chmod 644 */counter.txt
    ```
 
-3. **Configure admin users** (edit both `3-minute-meditation/a.php` and `அனுதின-மன்னா/a.php`)
+3. **Configure admin users** (edit `a.php` in each brand folder)
    ```php
    $admin_users = [
-       'username' => 'password'
+       'admin' => 'your-secure-password',
+       'editor' => 'another-password'
    ];
    ```
 
-4. **Start web server**
+4. **Generate initial data files**
+   ```bash
+   # Generate devotions metadata
+   php d.php
+   
+   # Generate meditation indexes
+   # (Visit in browser for visual feedback)
+   # http://localhost:8000/m.php
+   
+   # Generate Bible verse links
+   php l.php
+   ```
+
+5. **Start web server**
    ```bash
    # Using PHP built-in server
    php -S localhost:8000
@@ -273,21 +661,19 @@ bible-devotions-app/
    # Or configure Apache/Nginx virtual host
    ```
 
-5. **Access the application**
+6. **Access the application**
    - Landing Page: `http://localhost:8000/`
    - 3-Minute Meditation: `http://localhost:8000/3-minute-meditation/`
-   - 3-Minute Meditation Admin: `http://localhost:8000/3-minute-meditation/a.php`
-   - அனுதின மன்னா: `http://localhost:8000/அனுதின-மன்னா/`
-   - அனுதின மன்னா Admin: `http://localhost:8000/அனுதின-மன்னா/a.php`
+   - Admin Panels: `http://localhost:8000/[brand-name]/a.php`
 
 ### Initial Setup
 
-1. **Create meditation directories**
+1. **Create meditation directories** (if not exists)
    ```bash
-   mkdir -p 3-minute-meditation/meditations/English
-   mkdir -p 3-minute-meditation/meditations/தமிழ்
-   mkdir -p அனுதின-மன்னா/meditations/English
-   mkdir -p அனுதின-மன்னா/meditations/தமிழ்
+   for brand in "3-minute-meditation" "அனுதின-மன்னா" "faiths-check-book" "antantulla-appam" "சத்திய-வசனம்" "நாளுக்கொரு-நல்ல-பங்கு"; do
+       mkdir -p "$brand/meditations/English"
+       mkdir -p "$brand/meditations/தமிழ்"
+   done
    ```
 
 2. **Set up Google Analytics** (optional)
@@ -297,6 +683,17 @@ bible-devotions-app/
 3. **Customize branding** (optional)
    - Update `copyright.php`
    - Modify `menu-links.php` and `footer-links.php`
+
+4. **Run utility scripts**
+   ```bash
+   # Generate all required data files
+   php d.php    # Generate devotions.json
+   php l.php    # Generate link indexes
+   
+   # Then visit m.php in browser to generate meditation indexes
+   ```
+
+---
 
 ## 📖 Usage
 
@@ -551,38 +948,63 @@ We're grateful to all authors who contribute meditations and devotional content 
 ## 🗺️ Roadmap
 
 ### Recently Completed ✅
-- [x] 3-Minute Meditation module (Full-featured)
-- [x] அனுதின மன்னா module (Streamlined Tamil devotions)
-- [x] Multi-language support (Tamil & English)
+- [x] 6 devotion brands fully implemented
+- [x] Multi-language support (7 languages)
 - [x] PWA with offline capabilities
-- [x] Bible verse cross-reference system
+- [x] Bible verse cross-reference system (verse & chapter level)
 - [x] Scheduled publishing system
+- [x] Dynamic landing page with language selection
+- [x] Automatic data generation utilities (d.php, m.php, l.php)
+- [x] Contact information display for authors
+- [x] URL parameter language passing
 
-### Short Term (Q1 2025)
+### Short Term (Q1 2026)
 - [ ] Add audio devotions support
-- [ ] Implement search functionality
-- [ ] Add social sharing features
-- [ ] Enhanced offline capabilities
+- [ ] Implement full-text search functionality
+- [ ] Add social sharing features (WhatsApp, Facebook, Twitter)
+- [ ] Enhanced offline capabilities with better caching
+- [ ] User favorites/bookmarks (localStorage-based)
+- [ ] Reading statistics dashboard
 
-### Medium Term (Q2-Q3 2025)
-- [ ] Add more languages (Hindi, Malayalam, etc.)
-- [ ] User accounts and bookmarks
+### Medium Term (Q2-Q3 2026)
+- [ ] Add more languages (Sinhala, Bengali, Marathi, etc.)
+- [ ] User accounts and cloud synchronization
 - [ ] Personalized reading plans
 - [ ] Push notifications for daily devotions
-- [ ] Mobile apps (iOS/Android)
+- [ ] Mobile apps (iOS/Android) via Capacitor
+- [ ] Advanced search with filters (date, author, verse, topic)
+- [ ] Reading streaks and achievements
 
-### Long Term (2026+)
+### Long Term (2027+)
 - [ ] Community features (comments, discussions)
-- [ ] Content translation system
-- [ ] Video devotions
+- [ ] Content translation system (crowdsourced)
+- [ ] Video devotions support
 - [ ] Podcast integration
 - [ ] Bible study tools integration
+- [ ] AI-powered content recommendations
+- [ ] Multi-brand reading plans
+- [ ] Content creator portal for submissions
+
+---
 
 ## 📈 Project Status
 
-- **3-Minute Meditation**: ✅ Live and Active
-- **அனுதின மன்னா**: ✅ Live and Active
-- **Other Modules**: 📋 Planned
+### Active Brands
+- **3-Minute Meditation**: ✅ Live and Active (English, தமிழ்)
+- **அனுதின மன்னா**: ✅ Live and Active (தமிழ்)
+- **Faith's Check Book**: ✅ Live and Active (English, தமிழ், German)
+- **Antantulla Appam**: ✅ Live and Active (6 languages)
+- **சத்திய வசனம்**: ✅ Live and Active (தமிழ்)
+- **நாளுக்கொரு நல்ல பங்கு**: ✅ Live and Active (தமிழ்)
+
+### Platform Status
+- **Total Devotion Brands**: 6
+- **Languages Supported**: 7
+- **Total Content**: 1000+ meditations (varies by brand)
+- **Active Users**: Growing daily
+- **PWA Install Rate**: Increasing
+
+---
 
 ## 💝 Support the Project
 

@@ -88,6 +88,8 @@ $devotionBrands = [
 // Brand metadata (add author, contact info here)
 $brandMetadata = [
     '3-minute-meditation' => [
+        'icon' => 'bi bi-clock',
+        'description' => 'Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.',
         'author' => 'Pr. Maria Joseph',
         'email' => 'mjosephnj@gmail.com',
         'phone' => '+919243183231',
@@ -95,6 +97,8 @@ $brandMetadata = [
         'website' => 'https://wordofgod.in'
     ],
     'அனுதின-மன்னா' => [
+        'icon' => 'bi bi-book',
+        'description' => 'Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.',
         'author' => 'Gladys Sugandhi Hazlitt',
         'email' => 'simonhm@gmail.com',
         'phone' => '+91919901470809',
@@ -102,6 +106,8 @@ $brandMetadata = [
         'website' => 'https://wordofgod.in'
     ],
     'faiths-check-book' => [
+        'icon' => 'bi bi-journal-check',
+        'description' => 'Daily devotions on faith from God\'s Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.',
         'author' => 'Charles H. Spurgeon',
         'email' => '',
         'phone' => '',
@@ -109,6 +115,8 @@ $brandMetadata = [
         'website' => 'https://wordofgod.in'
     ],
     'antantulla-appam' => [
+        'icon' => 'bi bi-stars',
+        'description' => 'Deep spiritual insights and biblical meditations to nourish your soul. Discover God\'s purpose for your life through daily devotions.',
         'author' => 'Sam Jebadurai',
         'email' => 'support@elimgrc.com',
         'phone' => '',
@@ -116,6 +124,8 @@ $brandMetadata = [
         'website' => 'https://elimgrc.com'
     ],
     'சத்திய-வசனம்' => [
+        'icon' => 'bi bi-brightness-high',
+        'description' => 'Daily devotions with Scripture reading, memory verses, and practical reflections. Start each day with God\'s truth and fresh insights for your spiritual journey.',
         'author' => 'சத்திய வசனம்',
         'email' => 'svmadurai@yahoo.co.in',
         'phone' => '',
@@ -123,6 +133,8 @@ $brandMetadata = [
         'website' => 'https://SathiyaVasanam.in'
     ],
     'நாளுக்கொரு-நல்ல-பங்கு' => [
+        'icon' => 'bi bi-calendar-heart',
+        'description' => 'Daily spiritual portions from God\'s Word with deep insights and reflections. Experience God\'s goodness through daily meditations and biblical wisdom.',
         'author' => 'போஸ் பொன்ராஜ்',
         'email' => '',
         'phone' => '',
@@ -231,6 +243,12 @@ function buildDevotionsData($devotionBrands, $brandMetadata) {
             ];
             
             // Add metadata if available
+            if (!empty($metadata['icon'])) {
+                $brandEntry['icon'] = $metadata['icon'];
+            }
+            if (!empty($metadata['description'])) {
+                $brandEntry['description'] = $metadata['description'];
+            }
             if (!empty($metadata['author'])) {
                 $brandEntry['author'] = $metadata['author'];
             }
