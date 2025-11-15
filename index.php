@@ -24,7 +24,7 @@ if (file_exists($devotionsFile)) {
 
     <!-- SEO Meta Tags -->
     <meta name="description" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in - Daily Christian meditation app with inspirational content, Bible verses, and spiritual reflections. Daily devotions for spiritual growth.">
-    <meta name="keywords" content="<?php echo $meditation ? htmlspecialchars($meditation['title']) . ', ' : ''; ?><?php echo htmlspecialchars($appName); ?>, meditation, christian, bible, devotion, prayer, spiritual, faith, daily, WordOfGod.in, WordOfGod">
+    <meta name="keywords" content="meditation, christian, bible, devotion, prayer, spiritual, faith, daily, WordOfGod.in, WordOfGod">
     <meta name="author" content="Word of God Team">
     <meta name="robots" content="index, follow">
     
@@ -45,7 +45,21 @@ if (file_exists($devotionsFile)) {
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <meta name="apple-mobile-web-app-title" content="Bible Devotions - a multi language daily devotions and meditation to help your spiritual growth - WordOfGod.in">
+    <meta name="apple-mobile-web-app-title" content="Bible Devotions">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="72x72" href="pwa/icons/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="pwa/icons/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="pwa/icons/icon-128x128.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="pwa/icons/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="pwa/icons/icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="pwa/icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="384x384" href="pwa/icons/icon-384x384.png">
+    <link rel="apple-touch-icon" sizes="512x512" href="pwa/icons/icon-512x512.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="pwa/icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="pwa/icons/icon-512x512.png">
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -197,6 +211,136 @@ if (file_exists($devotionsFile)) {
         .section-hidden {
             display: none;
         }
+        
+        /* PWA Install Banner Styles */
+        #pwaInstallBanner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            transform: translateY(-100%);
+            transition: transform 0.3s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        #pwaInstallBanner.show {
+            transform: translateY(0);
+        }
+        
+        .pwa-banner-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .pwa-banner-icon {
+            font-size: 2rem;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        
+        .pwa-banner-text {
+            flex: 1;
+        }
+        
+        .pwa-banner-text h6 {
+            margin: 0 0 5px 0;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+        
+        .pwa-banner-text p {
+            margin: 0;
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+        
+        .pwa-banner-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .pwa-install-btn {
+            background: rgba(255, 255, 255, 0.95);
+            color: #667eea;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .pwa-install-btn:hover {
+            background: white;
+            transform: scale(1.05);
+        }
+        
+        .pwa-banner-link {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 8px 15px;
+            opacity: 0.9;
+            transition: opacity 0.3s ease;
+            white-space: nowrap;
+        }
+        
+        .pwa-banner-link:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        
+        .pwa-close-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 5px 10px;
+            opacity: 0.8;
+            transition: opacity 0.3s ease;
+        }
+        
+        .pwa-close-btn:hover {
+            opacity: 1;
+        }
+        
+        @media (max-width: 768px) {
+            #pwaInstallBanner {
+                flex-direction: column;
+                align-items: stretch;
+                padding: 12px 15px;
+            }
+            
+            .pwa-banner-content {
+                margin-bottom: 10px;
+            }
+            
+            .pwa-banner-actions {
+                justify-content: space-between;
+                width: 100%;
+            }
+            
+            .pwa-install-btn {
+                flex: 1;
+            }
+        }
     </style>
 
     <!-- Google Analytics -->
@@ -204,6 +348,28 @@ if (file_exists($devotionsFile)) {
 
 </head>
 <body>
+    <!-- PWA Install Banner -->
+    <div id="pwaInstallBanner">
+        <div class="pwa-banner-content">
+            <div class="pwa-banner-icon">
+                <i class="bi bi-download"></i>
+            </div>
+            <div class="pwa-banner-text">
+                <h6>Install Bible Devotions App</h6>
+                <p>Get quick access and easy reading</p>
+            </div>
+        </div>
+        <div class="pwa-banner-actions">
+            <button class="pwa-install-btn" id="pwaInstallBtn">
+                <i class="bi bi-plus-circle me-1"></i>Install
+            </button>
+            <a href="#" class="pwa-banner-link" id="pwaDontShowBtn">Don't show again</a>
+            <button class="pwa-close-btn" id="pwaCloseBtn" aria-label="Close">
+                <i class="bi bi-x"></i>
+            </button>
+        </div>
+    </div>
+
     <div class="container-fluid min-vh-100 d-flex flex-column justify-content-center py-5">
         <div class="row justify-content-center">
             <div class="col-11 col-md-10 col-lg-8">
@@ -351,6 +517,97 @@ if (file_exists($devotionsFile)) {
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- PWA Installation Script -->
+    <script>
+        // Register Service Worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(() => console.log("Service Worker Registered"))
+                .catch(err => console.log("Service Worker Failed:", err));
+        }
+
+        // PWA Installation Banner Logic
+        let deferredPrompt;
+        const pwaInstallBanner = document.getElementById('pwaInstallBanner');
+        const pwaInstallBtn = document.getElementById('pwaInstallBtn');
+        const pwaCloseBtn = document.getElementById('pwaCloseBtn');
+        const pwaDontShowBtn = document.getElementById('pwaDontShowBtn');
+
+        // Check if user has dismissed the banner permanently
+        const dontShowAgain = localStorage.getItem('pwa-dont-show');
+        
+        // Listen for beforeinstallprompt event
+        window.addEventListener('beforeinstallprompt', (e) => {
+            console.log('beforeinstallprompt event fired');
+            e.preventDefault();
+            deferredPrompt = e;
+            
+            // Check if already installed or user chose "Don't show again"
+            if (!dontShowAgain && !window.matchMedia('(display-mode: standalone)').matches) {
+                // Show banner after 2 seconds
+                setTimeout(() => {
+                    pwaInstallBanner.classList.add('show');
+                }, 2000);
+            }
+        });
+
+        // Install button click handler
+        if (pwaInstallBtn) {
+            pwaInstallBtn.addEventListener('click', async () => {
+                if (!deferredPrompt) {
+                    console.log('No deferred prompt available');
+                    return;
+                }
+                
+                // Show the install prompt
+                deferredPrompt.prompt();
+                
+                // Wait for the user's response
+                const { outcome } = await deferredPrompt.userChoice;
+                console.log(`User response to install prompt: ${outcome}`);
+                
+                // Hide the banner regardless of outcome
+                pwaInstallBanner.classList.remove('show');
+                
+                if (outcome === 'accepted') {
+                    console.log('User accepted the install prompt');
+                }
+                
+                // Clear the deferred prompt
+                deferredPrompt = null;
+            });
+        }
+
+        // Close button handler
+        if (pwaCloseBtn) {
+            pwaCloseBtn.addEventListener('click', () => {
+                pwaInstallBanner.classList.remove('show');
+            });
+        }
+
+        // "Don't show again" handler
+        if (pwaDontShowBtn) {
+            pwaDontShowBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                localStorage.setItem('pwa-dont-show', 'true');
+                pwaInstallBanner.classList.remove('show');
+                console.log('User chose not to see install banner again');
+            });
+        }
+
+        // Check if app is already installed
+        window.addEventListener('appinstalled', () => {
+            console.log('PWA was installed');
+            pwaInstallBanner.classList.remove('show');
+        });
+
+        // Hide banner if already running as installed app
+        if (window.matchMedia('(display-mode: standalone)').matches) {
+            console.log('App is running in standalone mode');
+            pwaInstallBanner.style.display = 'none';
+        }
+    </script>
     
     <script>
         let selectedLanguage = localStorage.getItem('selectedLanguage');
