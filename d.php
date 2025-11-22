@@ -39,6 +39,7 @@
  * }
  */
 
+
 // Detect if running in browser or CLI
 $isCLI = php_sapi_name() === 'cli';
 $nl = $isCLI ? "\n" : "<br>\n";

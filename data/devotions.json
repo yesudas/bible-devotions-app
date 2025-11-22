@@ -14,7 +14,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "A Word to You",
-                        "author_label": "Author"
+                        "author_label": "Author",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-clock",
                     "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
@@ -36,7 +40,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "Conclusion",
-                        "author_label": "Author"
+                        "author_label": "Author",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-book",
                     "description": "Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.",
@@ -58,7 +66,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "Conclusion",
-                        "author_label": "Author"
+                        "author_label": "Author",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-journal-check",
                     "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
@@ -77,7 +89,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "Conclusion",
-                        "author_label": "Author"
+                        "author_label": "Author",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-stars",
                     "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
@@ -94,12 +110,14 @@
                         "devotion_label": "Devotion",
                         "quote_label": "Today's Quote",
                         "song_label": "Song",
-                        "prayer_label": "Prayer",
+                        "prayer_label": "Reflect & Pray",
                         "book_label": "Recommended Book",
                         "conclusion_label": "Conclusion",
                         "author_label": "Author",
                         "bible_reading_label": "Bible in a Year",
-                        "bible_portion_label": "Today's Scripture & Insight"
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-calendar-day",
                     "description": "Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.",
@@ -124,7 +142,11 @@
                         "prayer_label": "ஜெபம்",
                         "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
                         "conclusion_label": "உங்களுக்கு ஒரு வார்த்தை",
-                        "author_label": "ஆசிரியர்"
+                        "author_label": "ஆசிரியர்",
+                        "bible_reading_label": "ஓராண்டில் வேதாகமம்",
+                        "bible_portion_label": "வாசிப்பு",
+                        "audio_mp3_label": "ஆடியோ MP3",
+                        "embed_label": "ஆடியோ\/வீடியோ"
                     },
                     "icon": "bi bi-clock",
                     "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
@@ -146,7 +168,11 @@
                         "prayer_label": "ஜெபம்",
                         "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
                         "conclusion_label": "முடிவுரை",
-                        "author_label": "ஆசிரியர்"
+                        "author_label": "ஆசிரியர்",
+                        "bible_reading_label": "ஓராண்டில் வேதாகமம்",
+                        "bible_portion_label": "வாசிப்பு",
+                        "audio_mp3_label": "ஆடியோ MP3",
+                        "embed_label": "ஆடியோ\/வீடியோ"
                     },
                     "icon": "bi bi-book",
                     "description": "Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.",
@@ -168,7 +194,11 @@
                         "prayer_label": "ஜெபம்",
                         "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
                         "conclusion_label": "முடிவுரை",
-                        "author_label": "ஆசிரியர்"
+                        "author_label": "ஆசிரியர்",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "ஆடியோ MP3",
+                        "embed_label": "ஆடியோ\/வீடியோ"
                     },
                     "icon": "bi bi-journal-check",
                     "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
@@ -187,7 +217,11 @@
                         "prayer_label": "ஜெபம்",
                         "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
                         "conclusion_label": "நினைவிற்கு",
-                        "author_label": "ஆசிரியர்"
+                        "author_label": "ஆசிரியர்",
+                        "bible_reading_label": "ஓராண்டில் வேதாகமம்",
+                        "bible_portion_label": "வாசிப்பு",
+                        "audio_mp3_label": "ஆடியோ MP3",
+                        "embed_label": "ஆடியோ\/வீடியோ"
                     },
                     "icon": "bi bi-stars",
                     "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
@@ -208,7 +242,10 @@
                         "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
                         "conclusion_label": "முடிவுரை",
                         "author_label": "ஆசிரியர்",
-                        "bible_reading_label": "இன்றைய வேத வாசிப்பு"
+                        "bible_reading_label": "இன்றைய வேத வாசிப்பு",
+                        "bible_portion_label": "வாசிப்பு",
+                        "audio_mp3_label": "ஆடியோ MP3",
+                        "embed_label": "ஆடியோ\/வீடியோ"
                     },
                     "icon": "bi bi-brightness-high",
                     "description": "Daily devotions with Scripture reading, memory verses, and practical reflections. Start each day with God's truth and fresh insights for your spiritual journey.",
@@ -229,7 +266,10 @@
                         "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
                         "conclusion_label": "முடிவுரை",
                         "author_label": "ஆசிரியர்",
-                        "bible_reading_label": "இன்றைய வேதபகுதி"
+                        "bible_reading_label": "இன்றைய வேதபகுதி",
+                        "bible_portion_label": "வாசிப்பு",
+                        "audio_mp3_label": "ஆடியோ MP3",
+                        "embed_label": "ஆடியோ\/வீடியோ"
                     },
                     "icon": "bi bi-calendar-heart",
                     "description": "Daily spiritual portions from God's Word with deep insights and reflections. Experience God's goodness through daily meditations and biblical wisdom.",
@@ -250,7 +290,9 @@
                         "conclusion_label": "முடிவுரை",
                         "author_label": "ஆசிரியர்",
                         "bible_reading_label": "ஓராண்டில் வேதாகமம்",
-                        "bible_portion_label": "வாசிப்பு"
+                        "bible_portion_label": "வாசிப்பு",
+                        "audio_mp3_label": "ஆடியோ MP3",
+                        "embed_label": "ஆடியோ\/வீடியோ"
                     },
                     "icon": "bi bi-calendar-day",
                     "description": "Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.",
@@ -275,7 +317,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "Conclusion",
-                        "author_label": "Author"
+                        "author_label": "Author",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-journal-check",
                     "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
@@ -298,7 +344,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "నేటి ధ్యానమునకై",
-                        "author_label": "రచయిత"
+                        "author_label": "రచయిత",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-stars",
                     "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
@@ -322,7 +372,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "ಹೆಚ್ಚಿನ ಧ್ಯಾನಕ್ಕಾಗಿ",
-                        "author_label": "ಲೇಖಕ"
+                        "author_label": "ಲೇಖಕ",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-stars",
                     "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
@@ -346,7 +400,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "കൂടുതൽ ധ്യാനത്തിനായി വാക്യം",
-                        "author_label": "സാം ജെബാദുരൈ"
+                        "author_label": "സാം ജെബാദുരൈ",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-stars",
                     "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
@@ -370,7 +428,11 @@
                         "prayer_label": "Prayer",
                         "book_label": "Recommended Book",
                         "conclusion_label": "मनन के लिए पद",
-                        "author_label": "लेखकलेखक का नाम"
+                        "author_label": "लेखकलेखक का नाम",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight",
+                        "audio_mp3_label": "Audio MP3",
+                        "embed_label": "Audio\/Video"
                     },
                     "icon": "bi bi-stars",
                     "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
@@ -381,6 +443,6 @@
             ]
         }
     },
-    "generatedAt": "2025-11-21 00:45:48",
+    "generatedAt": "2025-11-22 09:56:13",
     "version": "1.0"
 }
