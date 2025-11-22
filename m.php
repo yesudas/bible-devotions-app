@@ -13,7 +13,8 @@ $devotionBrands = [
     'faiths-check-book',
     'antantulla-appam',
     'சத்திய-வசனம்',
-    'நாளுக்கொரு-நல்ல-பங்கு'
+    'நாளுக்கொரு-நல்ல-பங்கு',
+    'our-daily-bread'
 ];
 
 // Set headers for browser output

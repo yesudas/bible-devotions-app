@@ -5,8 +5,6 @@
                 {
                     "name": "3-Minute Meditation",
                     "appFolder": "3-minute-meditation",
-                    "icon": "bi bi-clock",
-                    "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
                     "labels": {
                         "app_name": "3-Minute Meditation",
                         "memory_verse_label": "Memory Verse",
@@ -18,6 +16,8 @@
                         "conclusion_label": "A Word to You",
                         "author_label": "Author"
                     },
+                    "icon": "bi bi-clock",
+                    "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
                     "author": "Pr. Maria Joseph",
                     "email": "mjosephnj@gmail.com",
                     "phone": "+919243183231",
@@ -25,10 +25,30 @@
                     "website": "https:\/\/wordofgod.in"
                 },
                 {
+                    "name": "Daily Dose Devotion",
+                    "appFolder": "அனுதின-மன்னா",
+                    "labels": {
+                        "app_name": "Daily Dose Devotion",
+                        "memory_verse_label": "Today's Dose",
+                        "devotion_label": "Devotion",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "Conclusion",
+                        "author_label": "Author"
+                    },
+                    "icon": "bi bi-book",
+                    "description": "Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.",
+                    "author": "Gladys Sugandhi Hazlitt",
+                    "email": "simonhm@gmail.com",
+                    "phone": "+91919901470809",
+                    "whatsapp": "919901470809",
+                    "website": "https:\/\/wordofgod.in"
+                },
+                {
                     "name": "Faiths Check Book",
                     "appFolder": "faiths-check-book",
-                    "icon": "bi bi-journal-check",
-                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "labels": {
                         "app_name": "Faiths Check Book",
                         "memory_verse_label": "Today's Verse",
@@ -40,14 +60,14 @@
                         "conclusion_label": "Conclusion",
                         "author_label": "Author"
                     },
+                    "icon": "bi bi-journal-check",
+                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "author": "Charles H. Spurgeon",
                     "website": "https:\/\/wordofgod.in"
                 },
                 {
                     "name": "Antantulla Appam",
                     "appFolder": "antantulla-appam",
-                    "icon": "bi bi-stars",
-                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "Antantulla Appam",
                         "memory_verse_label": "Today's Bread",
@@ -59,9 +79,34 @@
                         "conclusion_label": "Conclusion",
                         "author_label": "Author"
                     },
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "author": "Sam Jebadurai",
                     "email": "support@elimgrc.com",
                     "website": "https:\/\/elimgrc.com"
+                },
+                {
+                    "name": "Our Daily Bread",
+                    "appFolder": "our-daily-bread",
+                    "labels": {
+                        "app_name": "Our Daily Bread",
+                        "memory_verse_label": "Today's Dose",
+                        "devotion_label": "Devotion",
+                        "quote_label": "Today's Quote",
+                        "song_label": "Song",
+                        "prayer_label": "Prayer",
+                        "book_label": "Recommended Book",
+                        "conclusion_label": "Conclusion",
+                        "author_label": "Author",
+                        "bible_reading_label": "Bible in a Year",
+                        "bible_portion_label": "Today's Scripture & Insight"
+                    },
+                    "icon": "bi bi-calendar-day",
+                    "description": "Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.",
+                    "author": "Our Daily Bread",
+                    "email": "india@odb.org",
+                    "phone": "+919500037162",
+                    "website": "https:\/\/ourdailybread.org\/"
                 }
             ]
         },
@@ -70,8 +115,6 @@
                 {
                     "name": "3 நிமிட தியானம்",
                     "appFolder": "3-minute-meditation",
-                    "icon": "bi bi-clock",
-                    "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
                     "labels": {
                         "app_name": "3 நிமிட தியானம்",
                         "memory_verse_label": "மனப்பாட வசனம்",
@@ -83,6 +126,8 @@
                         "conclusion_label": "உங்களுக்கு ஒரு வார்த்தை",
                         "author_label": "ஆசிரியர்"
                     },
+                    "icon": "bi bi-clock",
+                    "description": "Quick daily spiritual meditations designed to fit into your busy schedule. Perfect for morning devotions or moments of reflection.",
                     "author": "Pr. Maria Joseph",
                     "email": "mjosephnj@gmail.com",
                     "phone": "+919243183231",
@@ -92,8 +137,6 @@
                 {
                     "name": "அனுதின மன்னா",
                     "appFolder": "அனுதின-மன்னா",
-                    "icon": "bi bi-book",
-                    "description": "Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.",
                     "labels": {
                         "app_name": "அனுதின மன்னா",
                         "memory_verse_label": "இன்றைய மன்னா",
@@ -105,6 +148,8 @@
                         "conclusion_label": "முடிவுரை",
                         "author_label": "ஆசிரியர்"
                     },
+                    "icon": "bi bi-book",
+                    "description": "Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.",
                     "author": "Gladys Sugandhi Hazlitt",
                     "email": "simonhm@gmail.com",
                     "phone": "+91919901470809",
@@ -114,8 +159,6 @@
                 {
                     "name": "விசுவாச தின தியானம்",
                     "appFolder": "faiths-check-book",
-                    "icon": "bi bi-journal-check",
-                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "labels": {
                         "app_name": "விசுவாச தின தியானம்",
                         "memory_verse_label": "இன்றைய வசனம்",
@@ -127,14 +170,14 @@
                         "conclusion_label": "முடிவுரை",
                         "author_label": "ஆசிரியர்"
                     },
+                    "icon": "bi bi-journal-check",
+                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "author": "Charles H. Spurgeon",
                     "website": "https:\/\/wordofgod.in"
                 },
                 {
                     "name": "அன்றன்றுள்ள அப்பம்",
                     "appFolder": "antantulla-appam",
-                    "icon": "bi bi-stars",
-                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "அன்றன்றுள்ள அப்பம்",
                         "memory_verse_label": "இன்றைய அப்பம்",
@@ -146,6 +189,8 @@
                         "conclusion_label": "நினைவிற்கு",
                         "author_label": "ஆசிரியர்"
                     },
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "author": "Sam Jebadurai",
                     "email": "support@elimgrc.com",
                     "website": "https:\/\/elimgrc.com"
@@ -153,8 +198,6 @@
                 {
                     "name": "சத்திய வசனம்",
                     "appFolder": "சத்திய-வசனம்",
-                    "icon": "bi bi-brightness-high",
-                    "description": "Daily devotions with Scripture reading, memory verses, and practical reflections. Start each day with God's truth and fresh insights for your spiritual journey.",
                     "labels": {
                         "app_name": "சத்திய வசனம்",
                         "memory_verse_label": "இன்றைய வசனம்",
@@ -167,6 +210,8 @@
                         "author_label": "ஆசிரியர்",
                         "bible_reading_label": "இன்றைய வேத வாசிப்பு"
                     },
+                    "icon": "bi bi-brightness-high",
+                    "description": "Daily devotions with Scripture reading, memory verses, and practical reflections. Start each day with God's truth and fresh insights for your spiritual journey.",
                     "author": "சத்திய வசனம்",
                     "email": "svmadurai@yahoo.co.in",
                     "website": "https:\/\/SathiyaVasanam.in"
@@ -174,8 +219,6 @@
                 {
                     "name": "நாளுக்கொரு நல்ல பங்கு",
                     "appFolder": "நாளுக்கொரு-நல்ல-பங்கு",
-                    "icon": "bi bi-calendar-heart",
-                    "description": "Daily spiritual portions from God's Word with deep insights and reflections. Experience God's goodness through daily meditations and biblical wisdom.",
                     "labels": {
                         "app_name": "நாளுக்கொரு நல்ல பங்கு",
                         "memory_verse_label": "இன்றைய பங்கு",
@@ -188,8 +231,33 @@
                         "author_label": "ஆசிரியர்",
                         "bible_reading_label": "இன்றைய வேதபகுதி"
                     },
+                    "icon": "bi bi-calendar-heart",
+                    "description": "Daily spiritual portions from God's Word with deep insights and reflections. Experience God's goodness through daily meditations and biblical wisdom.",
                     "author": "போஸ் பொன்ராஜ்",
                     "website": "https:\/\/www.tamilbible.org\/"
+                },
+                {
+                    "name": "நமது அனுதின மன்னா",
+                    "appFolder": "our-daily-bread",
+                    "labels": {
+                        "app_name": "நமது அனுதின மன்னா",
+                        "memory_verse_label": "இன்றைய வசனம்",
+                        "devotion_label": "இன்றைய தியானம்",
+                        "quote_label": "பிரபல மேற்கோள்",
+                        "song_label": "பாடல்\/கவிதை",
+                        "prayer_label": "ஜெபம்\/சிந்தனைக்கு",
+                        "book_label": "பரிந்துரைக்கப்படும் புத்தகம்",
+                        "conclusion_label": "முடிவுரை",
+                        "author_label": "ஆசிரியர்",
+                        "bible_reading_label": "ஓராண்டில் வேதாகமம்",
+                        "bible_portion_label": "வாசிப்பு"
+                    },
+                    "icon": "bi bi-calendar-day",
+                    "description": "Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.",
+                    "author": "Our Daily Bread",
+                    "email": "india@odb.org",
+                    "phone": "+919500037162",
+                    "website": "https:\/\/ourdailybread.org\/"
                 }
             ]
         },
@@ -198,8 +266,6 @@
                 {
                     "name": "Das Scheckbuch des Glaubens",
                     "appFolder": "faiths-check-book",
-                    "icon": "bi bi-journal-check",
-                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "labels": {
                         "app_name": "Das Scheckbuch des Glaubens",
                         "memory_verse_label": "Der heutige Vers",
@@ -211,6 +277,8 @@
                         "conclusion_label": "Conclusion",
                         "author_label": "Author"
                     },
+                    "icon": "bi bi-journal-check",
+                    "description": "Daily devotions on faith from God's Word by the Prince of Preachers. Timeless devotions to strengthen your faith journey.",
                     "author": "Charles H. Spurgeon",
                     "website": "https:\/\/wordofgod.in"
                 }
@@ -221,8 +289,6 @@
                 {
                     "name": "అనుదిన మన్నా",
                     "appFolder": "antantulla-appam",
-                    "icon": "bi bi-stars",
-                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "అనుదిన మన్నా",
                         "memory_verse_label": "అనుదిన ధ్యానములు",
@@ -234,6 +300,8 @@
                         "conclusion_label": "నేటి ధ్యానమునకై",
                         "author_label": "రచయిత"
                     },
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "author": "Sam Jebadurai",
                     "email": "support@elimgrc.com",
                     "website": "https:\/\/elimgrc.com"
@@ -245,8 +313,6 @@
                 {
                     "name": "ಅನುದಿನ ಮನ್ನಾ",
                     "appFolder": "antantulla-appam",
-                    "icon": "bi bi-stars",
-                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "ಅನುದಿನ ಮನ್ನಾ",
                         "memory_verse_label": "ಅನುದಿನ ಆಹಾರ",
@@ -258,6 +324,8 @@
                         "conclusion_label": "ಹೆಚ್ಚಿನ ಧ್ಯಾನಕ್ಕಾಗಿ",
                         "author_label": "ಲೇಖಕ"
                     },
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "author": "Sam Jebadurai",
                     "email": "support@elimgrc.com",
                     "website": "https:\/\/elimgrc.com"
@@ -269,8 +337,6 @@
                 {
                     "name": "അനുദിന മന്നാ",
                     "appFolder": "antantulla-appam",
-                    "icon": "bi bi-stars",
-                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "അനുദിന മന്നാ",
                         "memory_verse_label": "ഇന്നത്തെ അപ്പം",
@@ -282,6 +348,8 @@
                         "conclusion_label": "കൂടുതൽ ധ്യാനത്തിനായി വാക്യം",
                         "author_label": "സാം ജെബാദുരൈ"
                     },
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "author": "Sam Jebadurai",
                     "email": "support@elimgrc.com",
                     "website": "https:\/\/elimgrc.com"
@@ -293,8 +361,6 @@
                 {
                     "name": "दैनिक ध्यान",
                     "appFolder": "antantulla-appam",
-                    "icon": "bi bi-stars",
-                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "labels": {
                         "app_name": "दैनिक ध्यान",
                         "memory_verse_label": "दिन का वचन",
@@ -306,6 +372,8 @@
                         "conclusion_label": "मनन के लिए पद",
                         "author_label": "लेखकलेखक का नाम"
                     },
+                    "icon": "bi bi-stars",
+                    "description": "Deep spiritual insights and biblical meditations to nourish your soul. Discover God's purpose for your life through daily devotions.",
                     "author": "Sam Jebadurai",
                     "email": "support@elimgrc.com",
                     "website": "https:\/\/elimgrc.com"
@@ -313,6 +381,6 @@
             ]
         }
     },
-    "generatedAt": "2025-11-09 00:27:28",
+    "generatedAt": "2025-11-21 00:45:48",
     "version": "1.0"
 }

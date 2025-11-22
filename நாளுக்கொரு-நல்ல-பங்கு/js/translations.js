@@ -12,6 +12,9 @@ const labelTranslations = {
         'book_label': 'பரிந்துரைக்கப்படும் புத்தகம்',
         'conclusion_label': 'முடிவுரை',
         'author_label': 'ஆசிரியர்',
-        'bible_reading_label': 'இன்றைய வேதபகுதி'
+        'bible_reading_label': 'இன்றைய வேதபகுதி',
+        'bible_portion_label': 'வாசிப்பு',
+        'audio_mp3_label': 'ஆடியோ MP3',
+        'embed_label': 'ஆடியோ/வீடியோ'
     }
 };

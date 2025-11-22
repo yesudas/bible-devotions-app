@@ -408,26 +408,46 @@ if ($is_logged_in || true) {
             'uniqueid' => $uniqueid,
             'date' => $meditation_date,
             'title' => $_POST['title'],
-            'key_verse' => $_POST['key_verse'],
-            'memory_verse' => [
-                'label' => $_POST['memory_verse_label'] ?: ($language === 'தமிழ்' ? 'மனப்பாட வசனம்' : 'Memory Verse'),
-                'text' => $_POST['memory_verse_text']
-            ],
-            'devotion' => [
-                'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
-                'text' => $_POST['devotion_text']
-            ],
-            'prayer' => [
-                'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
-                'text' => $_POST['prayer_text']
-            ],
-            'author' => [
-                'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
-                'author' => $_POST['author_name'],
-                'mobile' => $_POST['author_mobile'],
-                'whatsapp' => $_POST['author_whatsapp'],
-                'email' => $_POST['author_email']
-            ]
+            'key_verse' => $_POST['key_verse']
+        ];
+        
+        // Add bible_portion if provided
+        if (!empty($_POST['bible_portion_text'])) {
+            $meditation['bible_portion'] = [
+                'label' => $_POST['bible_portion_label'] ?: ($language === 'தமிழ்' ? 'வாசிப்பு' : 'Bible Portion'),
+                'text' => $_POST['bible_portion_text']
+            ];
+        }
+        
+        // Add bible_reading if provided
+        if (!empty($_POST['bible_reading_text'])) {
+            $meditation['bible_reading'] = [
+                'label' => $_POST['bible_reading_label'] ?: ($language === 'தமிழ்' ? 'ஓராண்டில் வேதாகமம்' : 'Bible in a Year'),
+                'text' => $_POST['bible_reading_text']
+            ];
+        }
+        
+        $meditation['memory_verse'] = [
+            'label' => $_POST['memory_verse_label'] ?: ($language === 'தமிழ்' ? 'மனப்பாட வசனம்' : 'Memory Verse'),
+            'text' => $_POST['memory_verse_text']
+        ];
+        
+        $meditation['devotion'] = [
+            'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
+            'text' => $_POST['devotion_text']
+        ];
+        
+        $meditation['prayer'] = [
+            'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
+            'text' => $_POST['prayer_text']
+        ];
+        
+        $meditation['author'] = [
+            'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
+            'author' => $_POST['author_name'],
+            'mobile' => $_POST['author_mobile'],
+            'whatsapp' => $_POST['author_whatsapp'],
+            'email' => $_POST['author_email']
         ];
         
         // Add scheduled attribute if date is in the future
@@ -484,26 +504,46 @@ if ($is_logged_in || true) {
             'uniqueid' => $uniqueid,
             'date' => $meditation_date,
             'title' => $_POST['title'],
-            'key_verse' => $_POST['key_verse'],
-            'memory_verse' => [
-                'label' => $_POST['memory_verse_label'] ?: ($language === 'தமிழ்' ? 'மனப்பாட வசனம்' : 'Memory Verse'),
-                'text' => $_POST['memory_verse_text']
-            ],
-            'devotion' => [
-                'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
-                'text' => $_POST['devotion_text']
-            ],
-            'prayer' => [
-                'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
-                'text' => $_POST['prayer_text']
-            ],
-            'author' => [
-                'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
-                'author' => $_POST['author_name'],
-                'mobile' => $_POST['author_mobile'],
-                'whatsapp' => $_POST['author_whatsapp'],
-                'email' => $_POST['author_email']
-            ]
+            'key_verse' => $_POST['key_verse']
+        ];
+        
+        // Add bible_portion if provided
+        if (!empty($_POST['bible_portion_text'])) {
+            $meditation['bible_portion'] = [
+                'label' => $_POST['bible_portion_label'] ?: ($language === 'தமிழ்' ? 'வாசிப்பு' : 'Bible Portion'),
+                'text' => $_POST['bible_portion_text']
+            ];
+        }
+        
+        // Add bible_reading if provided
+        if (!empty($_POST['bible_reading_text'])) {
+            $meditation['bible_reading'] = [
+                'label' => $_POST['bible_reading_label'] ?: ($language === 'தமிழ்' ? 'ஓராண்டில் வேதாகமம்' : 'Bible in a Year'),
+                'text' => $_POST['bible_reading_text']
+            ];
+        }
+        
+        $meditation['memory_verse'] = [
+            'label' => $_POST['memory_verse_label'] ?: ($language === 'தமிழ்' ? 'மனப்பாட வசனம்' : 'Memory Verse'),
+            'text' => $_POST['memory_verse_text']
+        ];
+        
+        $meditation['devotion'] = [
+            'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
+            'text' => $_POST['devotion_text']
+        ];
+        
+        $meditation['prayer'] = [
+            'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
+            'text' => $_POST['prayer_text']
+        ];
+        
+        $meditation['author'] = [
+            'label' => $_POST['author_label'] ?: ($language === 'தமிழ்' ? 'ஆசிரியர்' : 'Author'),
+            'author' => $_POST['author_name'],
+            'mobile' => $_POST['author_mobile'],
+            'whatsapp' => $_POST['author_whatsapp'],
+            'email' => $_POST['author_email']
         ];
         
         // Add scheduled attribute if date is in the future
@@ -955,6 +995,44 @@ if ($is_logged_in || true) {
                                             <i class="bi bi-info-circle me-1"></i>
                                             <span id="versePreview">No verse selected</span>
                                         </small>
+                                    </div>
+                                </div>
+                                
+                                <!-- Bible Portion Section (Optional) -->
+                                <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book me-2"></i>Bible Portion (Optional)</h6>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="admin-form-group">
+                                            <label for="bible_portion_label" class="admin-form-label">Bible Portion Label</label>
+                                            <input type="text" class="admin-form-control" id="bible_portion_label" name="bible_portion_label" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['bible_portion']['label'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="admin-form-group">
+                                            <label for="bible_portion_text" class="admin-form-label">Bible Portion Text</label>
+                                            <input type="text" class="admin-form-control" id="bible_portion_text" name="bible_portion_text" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['bible_portion']['text'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Bible Reading Section (Optional) -->
+                                <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book-open me-2"></i>Bible Reading (Optional)</h6>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="admin-form-group">
+                                            <label for="bible_reading_label" class="admin-form-label">Bible Reading Label</label>
+                                            <input type="text" class="admin-form-control" id="bible_reading_label" name="bible_reading_label" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['bible_reading']['label'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="admin-form-group">
+                                            <label for="bible_reading_text" class="admin-form-label">Bible Reading Text</label>
+                                            <input type="text" class="admin-form-control" id="bible_reading_text" name="bible_reading_text" 
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['bible_reading']['text'] ?? '') : ''; ?>">
+                                        </div>
                                     </div>
                                 </div>
                                 

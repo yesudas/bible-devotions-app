@@ -82,7 +82,8 @@ $devotionBrands = [
     'faiths-check-book',
     'antantulla-appam',
     'சத்திய-வசனம்',
-    'நாளுக்கொரு-நல்ல-பங்கு'
+    'நாளுக்கொரு-நல்ல-பங்கு',
+    'our-daily-bread'
 ];
 
 // Brand metadata (add author, contact info here)
@@ -140,6 +141,15 @@ $brandMetadata = [
         'phone' => '',
         'whatsapp' => '',
         'website' => 'https://www.tamilbible.org/'
+    ],
+    'our-daily-bread' => [
+        'icon' => 'bi bi-calendar-day',
+        'description' => 'Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.',
+        'author' => 'Our Daily Bread',
+        'email' => 'india@odb.org',
+        'phone' => '+919500037162',
+        'whatsapp' => '',
+        'website' => 'https://ourdailybread.org/'
     ]
 ];
 

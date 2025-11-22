@@ -474,6 +474,39 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         <h2><?php echo htmlspecialchars($meditation['title']); ?></h2>
                     </div>
                     <div class="devotion-content fade-in">
+                        <?php if (!empty($meditation['bible_portion']['text'])): ?>
+                        <div class="section">
+                            <h2><i class="fas fa-bible"></i> <?php echo $meditation['bible_portion']['label'] ?? 'Bible Portion'; ?></h2>
+                            <span class="verse-reference"><?php echo htmlspecialchars($meditation['bible_portion']['text']); ?></span>
+                        </div>
+                        <?php endif; ?>
+                        
+                        <?php if (!empty($meditation['bible_reading']['text'])): ?>
+                        <div class="section">
+                            <h2><i class="fas fa-book-open"></i> <?php echo $meditation['bible_reading']['label'] ?? 'Bible in a Year'; ?></h2>
+                            <span class="verse-reference"><?php echo htmlspecialchars($meditation['bible_reading']['text']); ?></span>
+                        </div>
+                        <?php endif; ?>
+                        
+                        <?php if (!empty($meditation['audio_mp3']['url'])): ?>
+                        <div class="section">
+                            <h2><i class="fas fa-headphones"></i> <?php echo $meditation['audio_mp3']['label'] ?? 'Audio'; ?></h2>
+                            <audio controls style="width: 100%; max-width: 500px;">
+                                <source src="<?php echo htmlspecialchars($meditation['audio_mp3']['url']); ?>" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <?php endif; ?>
+                        
+                        <?php if (!empty($meditation['embed']['text'])): ?>
+                        <div class="section">
+                            <h2><i class="fas fa-play-circle"></i> <?php echo $meditation['embed']['label'] ?? 'Audio/Video'; ?></h2>
+                            <div class="embed-container">
+                                <?php echo $meditation['embed']['text']; ?>
+                            </div>
+                        </div>
+                        <?php endif; ?>
+                        
                         <?php if (!empty($meditation['memory_verse']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-book"></i> <?php echo $meditation['memory_verse']['label'] ?? 'Memory Verse'; ?></h2>

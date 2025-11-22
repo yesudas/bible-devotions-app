@@ -11,7 +11,11 @@ const labelTranslations = {
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
         'conclusion_label': 'Conclusion',
-        'author_label': 'Author'
+        'author_label': 'Author',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'Audio MP3',
+        'embed_label': 'Audio/Video'
     },
     'தமிழ்': {
         'app_name': 'விசுவாச தின தியானம்',
@@ -22,7 +26,11 @@ const labelTranslations = {
         'prayer_label': 'ஜெபம்',
         'book_label': 'பரிந்துரைக்கப்படும் புத்தகம்',
         'conclusion_label': 'முடிவுரை',
-        'author_label': 'ஆசிரியர்'
+        'author_label': 'ஆசிரியர்',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'ஆடியோ MP3',
+        'embed_label': 'ஆடியோ/வீடியோ'
     },
     'German': {
         'app_name': 'Das Scheckbuch des Glaubens',
@@ -33,6 +41,10 @@ const labelTranslations = {
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
         'conclusion_label': 'Conclusion',
-        'author_label': 'Author'
+        'author_label': 'Author',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'Audio MP3',
+        'embed_label': 'Audio/Video'
     }
 };

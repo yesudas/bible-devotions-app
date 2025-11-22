@@ -11,7 +11,11 @@ const labelTranslations = {
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
         'conclusion_label': 'Conclusion',
-        'author_label': 'Author'
+        'author_label': 'Author',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'Audio MP3',
+        'embed_label': 'Audio/Video'
     },
     'தமிழ்': {
         'app_name': 'அன்றன்றுள்ள அப்பம்',
@@ -22,7 +26,11 @@ const labelTranslations = {
         'prayer_label': 'ஜெபம்',
         'book_label': 'பரிந்துரைக்கப்படும் புத்தகம்',
         'conclusion_label': 'நினைவிற்கு',
-        'author_label': 'ஆசிரியர்'
+        'author_label': 'ஆசிரியர்',
+        'bible_reading_label': 'ஓராண்டில் வேதாகமம்',
+        'bible_portion_label': 'வாசிப்பு',
+        'audio_mp3_label': 'ஆடியோ MP3',
+        'embed_label': 'ஆடியோ/வீடியோ'
     },
     'తెలుగు': {
         'app_name': 'అనుదిన మన్నా',
@@ -33,7 +41,11 @@ const labelTranslations = {
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
         'conclusion_label': 'నేటి ధ్యానమునకై',
-        'author_label': 'రచయిత'
+        'author_label': 'రచయిత',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'Audio MP3',
+        'embed_label': 'Audio/Video'
     },
     'ಕನ್ನಡ': {
         'app_name': 'ಅನುದಿನ ಮನ್ನಾ',
@@ -44,7 +56,11 @@ const labelTranslations = {
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
         'conclusion_label': 'ಹೆಚ್ಚಿನ ಧ್ಯಾನಕ್ಕಾಗಿ',
-        'author_label': 'ಲೇಖಕ'
+        'author_label': 'ಲೇಖಕ',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'Audio MP3',
+        'embed_label': 'Audio/Video'
     },
     'മലയാളം': {
         'app_name': 'അനുദിന മന്നാ',
@@ -55,7 +71,11 @@ const labelTranslations = {
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
         'conclusion_label': 'കൂടുതൽ ധ്യാനത്തിനായി വാക്യം',
-        'author_label': 'സാം ജെബാദുരൈ'
+        'author_label': 'സാം ജെബാദുരൈ',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'Audio MP3',
+        'embed_label': 'Audio/Video'
     },
     'हिन्दी': {
         'app_name': 'दैनिक ध्यान',
@@ -66,6 +86,10 @@ const labelTranslations = {
         'prayer_label': 'Prayer',
         'book_label': 'Recommended Book',
         'conclusion_label': 'मनन के लिए पद',
-        'author_label': 'लेखकलेखक का नाम'
+        'author_label': 'लेखकलेखक का नाम',
+        'bible_reading_label': 'Bible in a Year',
+        'bible_portion_label': 'Today\'s Scripture & Insight',
+        'audio_mp3_label': 'Audio MP3',
+        'embed_label': 'Audio/Video'
     }
 };
