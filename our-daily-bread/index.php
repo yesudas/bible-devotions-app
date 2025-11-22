@@ -357,7 +357,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
     <!-- Site Header - Common for all pages -->
     <div class="site-header">
         <div class="container">
-            <h1><i class="fas fa-book-open"></i> <?php echo htmlspecialchars($appName); ?></h1>
+            <h1><i class="bi bi-calendar-check"></i> <?php echo htmlspecialchars($appName); ?></h1>
             <p class="site-tagline">Daily Christian Devotions for Spiritual Growth</p>
             
             <!-- Mode Selector & Zoom Controls -->
@@ -668,12 +668,16 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
             <div class="footer-section">
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p class="mb-1">
+                    <i class="fas fa-globe me-2"></i>
+                    <a href="https://ourdailybread.org/" target="_blank" class="footer-link">ourdailybread.org</a>
+                </p>
+                <p class="mb-1">
                     <i class="fas fa-envelope me-2"></i>
-                    <a href="mailto:simonhm@gmail.com" class="footer-link">simonhm@gmail.com</a>
+                    <a href="mailto:india@odb.org" class="footer-link">india@odb.org</a>
                 </p>
                 <p class="mb-0">
                     <i class="fas fa-phone me-2"></i>
-                    <a href="https://wa.me/919901470809?text=Our-Daily-Bread-App" class="footer-link">+91 9901470809</a>
+                    <a href="tel:+919500037162" class="footer-link">+91 9500037162</a>
                 </p>
             </div>
             

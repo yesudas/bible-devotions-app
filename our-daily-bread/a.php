@@ -669,7 +669,7 @@ if ($is_logged_in || true) {
     <nav class="navbar navbar-expand-lg navbar-dark admin-navbar">
         <div class="container">
             <a class="navbar-brand fw-bold" href="../index.php">
-                <i class="bi bi-shield-lock me-2"></i>Admin Panel - Our Daily Bread
+                <i class="bi bi-calendar-check me-2"></i>Admin Panel - Our Daily Bread
             </a>
             
             <?php if ($is_logged_in): ?>

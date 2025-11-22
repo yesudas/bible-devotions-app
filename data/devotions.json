@@ -119,7 +119,7 @@
                         "audio_mp3_label": "Audio MP3",
                         "embed_label": "Audio\/Video"
                     },
-                    "icon": "bi bi-calendar-day",
+                    "icon": "bi bi-calendar-check",
                     "description": "Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.",
                     "author": "Our Daily Bread",
                     "email": "india@odb.org",
@@ -294,7 +294,7 @@
                         "audio_mp3_label": "ஆடியோ MP3",
                         "embed_label": "ஆடியோ\/வீடியோ"
                     },
-                    "icon": "bi bi-calendar-day",
+                    "icon": "bi bi-calendar-check",
                     "description": "Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.",
                     "author": "Our Daily Bread",
                     "email": "india@odb.org",

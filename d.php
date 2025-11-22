@@ -144,7 +144,7 @@ $brandMetadata = [
         'website' => 'https://www.tamilbible.org/'
     ],
     'our-daily-bread' => [
-        'icon' => 'bi bi-calendar-day',
+        'icon' => 'bi bi-calendar-check',
         'description' => 'Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.',
         'author' => 'Our Daily Bread',
         'email' => 'india@odb.org',
