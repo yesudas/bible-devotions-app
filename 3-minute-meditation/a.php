@@ -1056,7 +1056,7 @@ if ($is_logged_in || true) {
                                     </div>
                                 </div>
                                 
-                                <!-- Bible Portion Section (Optional) -->
+                                <!-- Bible Portion Section (Optional)
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book me-2"></i>Bible Portion (Optional)</h6>
                                 <div class="row">
                                     <div class="col-md-3">
@@ -1073,9 +1073,9 @@ if ($is_logged_in || true) {
                                                    value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['bible_portion']['text'] ?? '') : ''; ?>">
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 
-                                <!-- Bible Reading Section (Optional) -->
+                                <!-- Bible Reading Section (Optional)
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-book-open me-2"></i>Bible Reading (Optional)</h6>
                                 <div class="row">
                                     <div class="col-md-3">
@@ -1092,9 +1092,9 @@ if ($is_logged_in || true) {
                                                    value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['bible_reading']['text'] ?? '') : ''; ?>">
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 
-                                <!-- Audio MP3 Section (Optional) -->
+                                <!-- Audio MP3 Section (Optional)
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-headphones me-2"></i>Audio MP3 (Optional)</h6>
                                 <div class="row">
                                     <div class="col-md-3">
@@ -1112,7 +1112,7 @@ if ($is_logged_in || true) {
                                                    placeholder="https://example.com/audio.mp3">
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 
                                 <!-- Embed Section (Optional) -->
                                 <h6 class="mt-4 mb-3 text-primary"><i class="bi bi-play-circle me-2"></i>Embed Audio/Video (Optional)</h6>

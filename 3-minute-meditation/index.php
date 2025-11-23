@@ -419,6 +419,14 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         </button>
                     </div>
                     <?php endif; ?>
+                    <!-- TTS Read Aloud Button -->
+                    <?php if (!$viewAll && $meditation): ?>
+                    <div>
+                        <button id="ttsBtn" class="zoom-btn" title="Read Aloud">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </div>
+                    <?php endif; ?>
                 </div>
                 
             </div>
@@ -686,5 +694,8 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
     <script src="../js/zoom.js?v=<?php echo $version; ?>" type="text/javascript"></script>
     <script src="../js/copy.js?v=<?php echo $version; ?>" type="text/javascript"></script>
     <script src="../pwa/pwa.js?v=<?php echo $version; ?>" type="text/javascript"></script>
+    <?php if (!$viewAll && $meditation): ?>
+    <script src="../js/tts.js?v=<?php echo $version; ?>" type="text/javascript"></script>
+    <?php endif; ?>
 </body>
 </html>

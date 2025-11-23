@@ -423,6 +423,14 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         </button>
                     </div>
                     <?php endif; ?>
+                    <!-- TTS Read Aloud Button -->
+                    <?php if (!$viewAll && $meditation): ?>
+                    <div>
+                        <button id="ttsBtn" class="zoom-btn" title="Read Aloud">
+                            <i class="fas fa-volume-up"></i>
+                        </button>
+                    </div>
+                    <?php endif; ?>
                 </div>
                 
             </div>
@@ -666,12 +674,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                 <h5><i class="fas fa-envelope"></i> Contact Us</h5>
                 <p class="mb-1">
                     <i class="fas fa-globe me-2"></i>
-                    <a href="https://sathiyavasanam.in/" target="_blank" class="footer-link">SathiyaVasanam.in</a>
-                </p>
-                
-                <p class="mb-0">
-                    <i class="fas fa-envelope me-2"></i>
-                    <a href="mailto:svmadurai@yahoo.co.in" class="footer-link">svmadurai@yahoo.co.in</a>
+                    <a href="https://tamilbible.org/" target="_blank" class="footer-link">tamilbible.org</a>
                 </p>
                 
             </div>
@@ -689,5 +692,8 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
     <script src="../js/zoom.js?v=<?php echo $version; ?>" type="text/javascript"></script>
     <script src="../js/copy.js?v=<?php echo $version; ?>" type="text/javascript"></script>
     <script src="../pwa/pwa.js?v=<?php echo $version; ?>" type="text/javascript"></script>
+    <?php if (!$viewAll && $meditation): ?>
+    <script src="../js/tts.js?v=<?php echo $version; ?>" type="text/javascript"></script>
+    <?php endif; ?>
 </body>
 </html>
