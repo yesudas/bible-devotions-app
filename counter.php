@@ -4,6 +4,21 @@
 $additionalFolders = ['3-minute-meditation', 'அனுதின-மன்னா', 'faiths-check-book', 'antantulla-appam', 'சத்திய-வசனம்', 'நாளுக்கொரு-நல்ல-பங்கு', 'our-daily-bread'];
 $consolidationDay = 'Friday';
 
+// Helper function to read/write last consolidated snapshots
+function getLastConsolidatedSnapshots() {
+    $snapshotFile = __DIR__ . '/counter-snapshots.json';
+    if (file_exists($snapshotFile)) {
+        $data = json_decode(file_get_contents($snapshotFile), true);
+        return $data ?: [];
+    }
+    return [];
+}
+
+function saveConsolidatedSnapshots($snapshots) {
+    $snapshotFile = __DIR__ . '/counter-snapshots.json';
+    file_put_contents($snapshotFile, json_encode($snapshots, JSON_PRETTY_PRINT));
+}
+
 // List of common bot keywords in User-Agent
 $botKeywords = [
     'bot', 'crawl', 'slurp', 'spider', 'mediapartners', 'curl', 'python', 'wget', 'baiduspider', 'bingpreview', 'facebookexternalhit', 'pingdom'
@@ -65,21 +80,39 @@ if (!$isBot) {
         
         // Perform consolidation if needed
         if ($shouldConsolidate) {
-            $consolidatedCount = 0;
+            $deltaCount = 0;
+            $lastSnapshots = getLastConsolidatedSnapshots();
+            $newSnapshots = [];
             
             foreach ($additionalFolders as $folder) {
                 $subCounterFile = __DIR__ . '/' . $folder . '/counter.txt';
                 if (file_exists($subCounterFile)) {
-                    $subCount = (int)trim(file_get_contents($subCounterFile));
-                    $consolidatedCount += $subCount;
+                    $currentSubCount = (int)trim(file_get_contents($subCounterFile));
+                    $lastSubCount = isset($lastSnapshots[$folder]) ? (int)$lastSnapshots[$folder] : 0;
                     
-                    // Reset the subfolder counter to 0 after consolidation
-                    file_put_contents($subCounterFile, "0");
+                    // Calculate delta (new visits since last consolidation)
+                    $delta = $currentSubCount - $lastSubCount;
+                    
+                    // Only add positive deltas (in case of counter reset or corruption)
+                    if ($delta > 0) {
+                        $deltaCount += $delta;
+                    }
+                    
+                    // Store current count as new snapshot
+                    $newSnapshots[$folder] = $currentSubCount;
+                } else {
+                    // If file doesn't exist, preserve last snapshot
+                    if (isset($lastSnapshots[$folder])) {
+                        $newSnapshots[$folder] = $lastSnapshots[$folder];
+                    }
                 }
             }
             
-            // Add consolidated counts to main counter
-            $count += $consolidatedCount;
+            // Save new snapshots for next consolidation
+            saveConsolidatedSnapshots($newSnapshots);
+            
+            // Add only the delta (new visits) to main counter
+            $count += $deltaCount;
         }
     
         // Increment

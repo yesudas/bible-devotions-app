@@ -1,6 +1,7 @@
 .sync.ffs_db
 .DS_Store
 counter.txt
+counter-snapshots.json
 **/.DS_Store
 **/counter.txt
 **/error_log
