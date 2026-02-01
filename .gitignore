@@ -2,7 +2,10 @@
 .DS_Store
 counter.txt
 counter-snapshots.json
+crawler-rate-limit.json
+sitemap.xml
 **/.DS_Store
 **/counter.txt
+**/sitemap.xml
 **/error_log
 sync.ffs_lock

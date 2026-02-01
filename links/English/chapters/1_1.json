@@ -1,0 +1,22 @@
+[
+    {
+        "verse": "1_1:2",
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "AVOID THE VOID",
+                "filename": "31.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_1:27",
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "GOD’S CREATION AND RECREATION",
+                "filename": "55.json"
+            }
+        ]
+    }
+]

@@ -1,3 +1,4 @@
 # Bot Activity Log
 # Format: [Timestamp] ID: unique_hash | IP: ip_address | User-Agent: user_agent | Referer: referer
 # This file logs bot activity detected via the honeypot trap
+[2025-12-10 15:22:33] ID: 1dcd66de9241099357ad4f5359d3a9ef | IP: 202.76.132.117 | User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Chrome/4.0.222.5 Safari/532.2 | Referer: direct

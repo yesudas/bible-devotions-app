@@ -1,5 +1,9 @@
 <?php
 
+require_once __DIR__ . '/../rate-limiter.php';
+$rateLimiter = new CrawlerRateLimiter();
+$rateLimiter->checkRateLimit();
+
 // Set session timeout to 5 minutes (300 seconds)
 ini_set('session.gc_maxlifetime', 300);
 session_set_cookie_params(300);
