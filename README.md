@@ -498,6 +498,24 @@ Here's how these scripts work together in a typical content management workflow:
 
 ---
 
+### 🚀 Deploying Changes to Production
+
+The workflows above assume `d.php`/`m.php`/`l.php` run on the same environment users hit. If you develop locally and deploy by uploading files (FTP/SFTP/rsync/etc.), running these scripts locally only updates your local copies — **you must also upload the generated output**, or production keeps serving stale data even though your source files are correct.
+
+After any change that involves running `d.php`, `m.php`, or `l.php` locally, upload:
+
+| You ran... | Also upload... |
+|---|---|
+| `d.php` | `data/devotions.json` |
+| `m.php` | `{brand}/meditations/{language}/all-meditations.json` for each affected brand/language |
+| `l.php` | the entire `index/` directory |
+
+Plus, obviously, any new/changed brand folders, PHP files, or shared includes (`bible-reference-linker.php`, `menu-links.php`, `footer-links.php`, etc.) themselves.
+
+**Symptom of forgetting this**: a new brand doesn't appear on the landing page, a renamed brand still shows its old name, or a brand's meditations don't load — even though the correct source files exist locally or were already uploaded. If that happens, check whether `data/devotions.json` (or the relevant `all-meditations.json`/`index/` files) on the server actually reflect your latest local run — a stale generated file, not the source code, is almost always the cause.
+
+---
+
 #### 📖 Content Features
 - **Multi-Language Support**: Switch between languages seamlessly
 - **Reading Modes**: 

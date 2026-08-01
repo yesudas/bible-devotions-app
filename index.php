@@ -3,7 +3,8 @@
 include 'counter.php';
 include 'detect-app.php';
 
-$version = "2025.11.9";
+$version = "2025.11.10";
+
 
 // Load devotions data
 $devotionsData = [];
