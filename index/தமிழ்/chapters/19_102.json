@@ -1,0 +1,72 @@
+[
+    {
+        "verse": "19_102:1-2",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஆகாயத் தோட்டம்",
+                "filename": "1086.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_102:1-17",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஐந்து நிமிட விதி",
+                "filename": "616.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_102:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சில நிமிடங்கள்",
+                "filename": "2409.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_102:11-13",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நிகழ் காலத்தில் தேவனோடு நட",
+                "filename": "1575.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_102:13-14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "சபையை நேசி",
+                "filename": "192.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_102:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "சீயோன் மலை!",
+                "filename": "1049.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_102:25",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "எது நிலைத்து நிற்கும்?",
+                "filename": "588.json"
+            }
+        ]
+    }
+]

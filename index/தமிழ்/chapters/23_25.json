@@ -1,0 +1,67 @@
+[
+    {
+        "verse": "23_25:1-5",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவன் “இல்லை” எனச் சொல்லும்போது",
+                "filename": "1219.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_25:1-9",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "துன்பங்களை நீக்குவார்",
+                "filename": "1385.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "திரும்பும் இனிமை",
+                "filename": "1923.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "அடைக்கலம் புகுதல்",
+                "filename": "2574.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "இரட்டிப்பான வாக்குத்தத்தம்",
+                "filename": "937.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_25:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மனித சூழ்ச்சிகளும், தீவினைகளும்!",
+                "filename": "822.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "விளிம்பில் நிற்பவர்களை…",
+                "filename": "2008.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_25:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜெயமாய் விழுங்குகிறவர்!",
+                "filename": "421.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சொன்னது சொன்னபடியே ஆகும்!",
+                "filename": "1511.json"
+            }
+        ]
+    }
+]

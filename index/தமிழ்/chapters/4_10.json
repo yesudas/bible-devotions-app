@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "4_10:1-10",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "செய்தி சொல்லும் ஒலிகள்",
+                "filename": "170.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_10:8-10",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "எக்காள சத்தம்",
+                "filename": "1962.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_10:11-36",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "மூன்று நாள் பயணம்",
+                "filename": "171.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "7_16:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "బలముగల భుజము",
+                "filename": "704.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_16:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మహా బలము!",
+                "filename": "1187.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "సమ్సోను!",
+                "filename": "12.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "కోల్పోయిన ఆత్మీయ బలము!",
+                "filename": "500.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_16:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "కోల్పోయిన బలము!",
+                "filename": "517.json"
+            }
+        ]
+    }
+]

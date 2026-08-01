@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "19_130:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளிலும் உமது சித்தம்!",
+                "filename": "1577.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாடுகளிலும் தேவகரம்",
+                "filename": "5098.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_130:1-8",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "மீன் பிடிக்க அனுமதி இல்லை",
+                "filename": "1824.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_130:1-6",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "எதிர்பார்ப்போடு காத்திருத்தல்",
+                "filename": "976.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_130:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மன்னித்து மறக்கிறார்!",
+                "filename": "1642.json"
+            }
+        ]
+    }
+]

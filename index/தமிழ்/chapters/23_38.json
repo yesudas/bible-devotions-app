@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_38:1-8",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "இரட்டைச் சிறகுகளையுடைய சூரியன்",
+                "filename": "772.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "இரட்டைச் சிறகுகளையுடைய சூரியன்",
+                "filename": "773.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_38:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயத்தைக் கொண்டுவரும் பாவங்கள்",
+                "filename": "1794.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பழைய பாவங்கள்",
+                "filename": "4260.json"
+            }
+        ]
+    }
+]

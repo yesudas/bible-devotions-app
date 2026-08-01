@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "24_32:6-15",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஒரு மதியீனமான முதலீடு",
+                "filename": "2337.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_32:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அதிசயமானவர்",
+                "filename": "3616.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_32:37-44",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "எதிர்கால விசுவாசம்",
+                "filename": "2797.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "எதிர்கால விசுவாசம்",
+                "filename": "3520.json"
+            }
+        ]
+    }
+]

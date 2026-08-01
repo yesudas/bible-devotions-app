@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "23_33:10",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "God Himself Shall Work",
+                "filename": "170.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_33:16",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "High Places of Defense",
+                "filename": "339.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_33:21",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Broad Rivers Without Galleys",
+                "filename": "266.json"
+            }
+        ]
+    }
+]

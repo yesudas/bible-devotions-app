@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "65_1:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "BATTLE OF FAITH !",
+                "filename": "559.json"
+            }
+        ]
+    },
+    {
+        "verse": "65_1:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ENOCH, THE SEVENTH GENERATION !",
+                "filename": "276.json"
+            }
+        ]
+    },
+    {
+        "verse": "65_1:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE ONE WHO PROTECTS !",
+                "filename": "435.json"
+            }
+        ]
+    }
+]

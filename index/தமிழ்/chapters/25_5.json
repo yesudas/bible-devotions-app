@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "25_5:8",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "இடிபாடுகளிலிருந்து புதுப்பிக்கப்படல்",
+                "filename": "248.json"
+            }
+        ]
+    },
+    {
+        "verse": "25_5:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனந்திரும்புவோம்!",
+                "filename": "1842.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனந்திரும்புவோம்!",
+                "filename": "4912.json"
+            }
+        ]
+    },
+    {
+        "verse": "25_5:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "இழந்துபோன நாட்கள்",
+                "filename": "600.json"
+            }
+        ]
+    }
+]

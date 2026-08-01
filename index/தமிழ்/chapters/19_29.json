@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "19_29:1-11",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "இடியும் மின்னலும்",
+                "filename": "517.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_29:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "வல்லமையுள்ள சத்தம்!",
+                "filename": "58.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_29:11",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "பெலன்கொடுத்துச் சமாதானம் அருளுவார்",
+                "filename": "341.json"
+            }
+        ]
+    }
+]

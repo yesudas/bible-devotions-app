@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "19_142:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "வீண் கவலை எதற்கு?",
+                "filename": "1266.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_142:1-7",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "என்னை யாரும் விரும்பவில்லை",
+                "filename": "1001.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "தெரியாத வழி",
+                "filename": "2932.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "தெரியாத வழி",
+                "filename": "3666.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_142:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் பாதையை அறிந்தவர்!",
+                "filename": "1583.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உன் பாதையை அறிந்தவர்",
+                "filename": "5104.json"
+            }
+        ]
+    }
+]

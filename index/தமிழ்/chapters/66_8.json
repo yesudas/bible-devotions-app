@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "66_8:1-5",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நிலைத்திருக்கும் ஜெபங்கள்",
+                "filename": "1536.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_8:1-6",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஜெபம் பூமியை அசைக்கும்போது",
+                "filename": "2539.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_8:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மாற்றம் தரும் ஜெபம்",
+                "filename": "2399.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_8:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இன்னமும் தாமதம் ஏன்?",
+                "filename": "1548.json"
+            }
+        ]
+    }
+]

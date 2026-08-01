@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "28_2:14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "Wilderness Communion",
+                "filename": "200.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:16",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "A Change of Name",
+                "filename": "208.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:18",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "In Calm Repose",
+                "filename": "4.json"
+            }
+        ]
+    },
+    {
+        "verse": "28_2:19",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "An Eternal Pledge",
+                "filename": "204.json"
+            }
+        ]
+    }
+]

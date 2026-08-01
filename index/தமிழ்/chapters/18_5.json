@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "18_5:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவனிடத்தில் அன்புகூருதல்",
+                "filename": "2631.json"
+            }
+        ]
+    },
+    {
+        "verse": "18_5:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அதிசயமானவர்!",
+                "filename": "974.json"
+            }
+        ]
+    },
+    {
+        "verse": "18_5:17-27",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "அவமதிப்பிலிருந்து காயம்",
+                "filename": "2290.json"
+            }
+        ]
+    },
+    {
+        "verse": "18_5:19",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "வரையறைக்குட்படாத விடுதலை",
+                "filename": "233.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "40_7:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "Seek !",
+                "filename": "198.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "Ask !",
+                "filename": "202.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_7:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "GIFT OF THE HOLY SPIRIT !",
+                "filename": "978.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_7:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "YOU WILL KNOW !",
+                "filename": "393.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_7:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "AS PER THE WILL OF THE FATHER !",
+                "filename": "1106.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "DO THE WILL OF GOD !",
+                "filename": "252.json"
+            }
+        ]
+    }
+]

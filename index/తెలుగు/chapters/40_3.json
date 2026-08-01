@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "40_3:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "యెషయా!",
+                "filename": "1.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_3:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "బాప్తిస్మమునందు ఇష్టము!",
+                "filename": "801.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "నివసించు పావురము..!",
+                "filename": "944.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_3:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రియ కుమారుడైనవాడు!",
+                "filename": "378.json"
+            }
+        ]
+    }
+]

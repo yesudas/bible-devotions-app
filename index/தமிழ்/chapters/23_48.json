@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "23_48:5-11",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "பரத்திலிருந்து கொடுக்கப்படும் ஞானமுள்ள பார்வை",
+                "filename": "1751.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_48:10",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "தேர்ந்தெடுக்கப்பட்டவர்கள்",
+                "filename": "240.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உபத்திரவப்படுவது நல்லது!",
+                "filename": "3322.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_48:12-20",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஆசிர்வாதத்தை தவறவிடுதல்",
+                "filename": "2456.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_48:12-19",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவனின் கரம்",
+                "filename": "3422.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "45_1:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "దేవుని కుమారుడు!",
+                "filename": "311.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_1:17",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "విశ్వాసమూలముగా జీవించుట!",
+                "filename": "481.json"
+            }
+        ]
+    },
+    {
+        "verse": "45_1:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "తలంపులు ఒక యుద్ధరంగము!తలంపులు ఒక యుద్ధరంగము!",
+                "filename": "225.json"
+            }
+        ]
+    }
+]

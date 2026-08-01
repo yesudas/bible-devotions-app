@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "19_148:1-14",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "கடற்கரையில் ஜெபங்கள்",
+                "filename": "1889.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_148:1-6",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "காட்சியை ரசியுங்கள்",
+                "filename": "600.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_148:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "துதிக்கும் தேவதூதர்கள்!",
+                "filename": "360.json"
+            }
+        ]
+    }
+]

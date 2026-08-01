@@ -1,0 +1,57 @@
+[
+    {
+        "verse": "58_2:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தேவதூதரிலும் அதிகமாக!",
+                "filename": "349.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_2:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "மரணத்தை ருசிபார்த்தார்!",
+                "filename": "512.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_2:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பாடுகளில் பூரணம்!",
+                "filename": "791.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உடைக்கப்படுதலின் உதயமே உருவாகுதல்!",
+                "filename": "714.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_2:14",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மரணம் மரித்தது!",
+                "filename": "2376.json"
+            }
+        ]
+    },
+    {
+        "verse": "58_2:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மரண பயம்",
+                "filename": "2462.json"
+            }
+        ]
+    }
+]

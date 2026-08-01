@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "19_64:1-10",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "மகிழ்ந்திருக்க காரணங்கள்",
+                "filename": "2616.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_64:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கொல்லும் அம்பு",
+                "filename": "2179.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "அகன்றுபோகும் அம்புகள்",
+                "filename": "843.json"
+            }
+        ]
+    }
+]

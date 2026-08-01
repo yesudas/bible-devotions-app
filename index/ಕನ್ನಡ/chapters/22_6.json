@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "22_6:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕರ್ತನ ಜನರೇ!",
+                "filename": "162.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_6:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಒಂದು ಪರಿಪೂರ್ಣತೆ!",
+                "filename": "1005.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಿಷ್ಠೆಯ ಪಾರಿವಾಳ",
+                "filename": "1050.json"
+            }
+        ]
+    }
+]

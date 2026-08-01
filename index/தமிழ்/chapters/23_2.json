@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "23_2:1-4",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "கத்தி தேவதை",
+                "filename": "1730.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_2:1-5",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேசத்தை ஒன்றிணைத்தல்",
+                "filename": "2842.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "தேசத்தை ஒன்றிணைத்தல்",
+                "filename": "3576.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_2:4",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "உலக ஒப்பந்தம்",
+                "filename": "349.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_2:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கர்த்தரையே நோக்கி…",
+                "filename": "2581.json"
+            }
+        ]
+    }
+]

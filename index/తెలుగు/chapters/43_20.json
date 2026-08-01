@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "43_20:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "సమాధానము",
+                "filename": "750.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_20:26",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "కోల్పోయిన దర్శనము!",
+                "filename": "503.json"
+            }
+        ]
+    },
+    {
+        "verse": "43_20:27",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "విశ్వాసివైయుండుము!",
+                "filename": "475.json"
+            }
+        ]
+    }
+]

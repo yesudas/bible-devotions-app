@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "20_2:1-5",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "மறைந்திருக்கும் பொக்கிஷம்",
+                "filename": "157.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_2:1-11",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "இப்போது, பிறகு அடுத்தது",
+                "filename": "1840.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "ஞானம் மற்றும் புரிதல்",
+                "filename": "2510.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "பெருமதிப்புமிக்க பயம்",
+                "filename": "3448.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_2:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞானத்தையும், அறிவையும்!",
+                "filename": "1176.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_2:15",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பாவ வலை!",
+                "filename": "3039.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "3_25:1-55",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "சமூக பொருளாதார சமத்துவம்",
+                "filename": "148.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவன் பட்சமாய் சாய்தல்",
+                "filename": "2375.json"
+            }
+        ]
+    },
+    {
+        "verse": "3_25:35-37",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "வித்தியாசமான எதிர்காலத்தைப் பார்த்தல்",
+                "filename": "2603.json"
+            }
+        ]
+    }
+]

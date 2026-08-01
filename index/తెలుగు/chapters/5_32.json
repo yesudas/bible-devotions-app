@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "5_32:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువు నడిపించును !",
+                "filename": "1151.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_32:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఉన్నత స్థలమునందు!",
+                "filename": "441.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_32:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "గ్రహించేటువంటి తలంపు!",
+                "filename": "556.json"
+            }
+        ]
+    }
+]

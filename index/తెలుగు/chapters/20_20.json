@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "20_20:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మధ్యము అల్లరి పుట్టించును!",
+                "filename": "74.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_20:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "చెవియు, కన్నును!",
+                "filename": "538.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_20:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "కనిపెట్టుకొనియున్నవారికి రక్షణ!",
+                "filename": "211.json"
+            }
+        ]
+    }
+]

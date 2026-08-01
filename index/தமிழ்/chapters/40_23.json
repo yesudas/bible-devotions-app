@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "40_23:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பரிசேயராகிவிட்டோமோ!",
+                "filename": "1376.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_23:23-33",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "உள்ளிருந்து மறுருபமகுதல்",
+                "filename": "3352.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_23:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சுத்திகரிக்கப்பட்ட பாத்திரம்!",
+                "filename": "731.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_23:28",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "போலித்தனம் வேண்டாம்!",
+                "filename": "3126.json"
+            }
+        ]
+    }
+]

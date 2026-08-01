@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "66_3:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఫిలదెల్ఫియా!",
+                "filename": "343.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "వేయువాడు, తీయువాడు!",
+                "filename": "370.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "పరిశుద్ధతగలవాడు!",
+                "filename": "390.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "క్రొత్త పేరు!",
+                "filename": "816.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "కన్నులకు దృష్టి!",
+                "filename": "543.json"
+            }
+        ]
+    }
+]

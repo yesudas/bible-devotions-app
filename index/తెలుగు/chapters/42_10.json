@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "42_10:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "డెబ్బదిమందిని పరిచర్యకై నియమించెను!",
+                "filename": "904.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_10:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "దెయ్యములను వెళ్ళగొట్టుడి!",
+                "filename": "131.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "దేవుడిచ్చుచున్న అధికారము!",
+                "filename": "87.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_10:39",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "\"ప్రభువుయొక్క పాదములయందు విశ్రాంతి!\"",
+                "filename": "645.json"
+            }
+        ]
+    }
+]

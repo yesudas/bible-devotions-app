@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "23_40:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಆತ್ಮದಿಂದ ಶಕ್ತಿ!",
+                "filename": "760.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_40:26",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಿಮ್ಮ ಕಣ್ಣುಗಳನ್ನು ಮೇಲಕ್ಕೆತ್ತಿ!",
+                "filename": "614.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_40:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ತೊಂದರೆya!",
+                "filename": "1120.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_40:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹದ್ದು!",
+                "filename": "1044.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹದ್ದಿನಂತೆ ಹೊಸ ಶಕ್ತಿ!",
+                "filename": "924.json"
+            }
+        ]
+    }
+]

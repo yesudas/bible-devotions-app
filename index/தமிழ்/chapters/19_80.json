@@ -1,0 +1,22 @@
+[
+    {
+        "verse": "19_80:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "தாவீது!",
+                "filename": "14.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_80:1-19",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நமது பிதாவின் முகம்!",
+                "filename": "710.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "4_22:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మరలా శోధన!",
+                "filename": "955.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_22:30",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆ గాడిద!",
+                "filename": "923.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_22:31",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "బిలాము కన్నులను తెరచెను!",
+                "filename": "317.json"
+            }
+        ]
+    }
+]

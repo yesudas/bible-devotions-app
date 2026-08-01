@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "4_32:1-19",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "யோர்தானைத் தாண்டுவோம்",
+                "filename": "204.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_32:11",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முழுமையான அர்ப்பணிப்பு",
+                "filename": "4193.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_32:16-24",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நம்மைக் காண்பவர்",
+                "filename": "1712.json"
+            }
+        ]
+    },
+    {
+        "verse": "4_32:20-42",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "சகோதரர்களை மறந்துவிடவேண்டாம்",
+                "filename": "205.json"
+            }
+        ]
+    }
+]

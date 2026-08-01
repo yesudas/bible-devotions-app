@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "21_3:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಒಂದು ಸಮಯವಿದೆ!",
+                "filename": "406.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬೇಸರವಿಲ್ಲದ ಮನಸ್ಸು!",
+                "filename": "627.json"
+            }
+        ]
+    },
+    {
+        "verse": "21_3:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ದುಃಖದಲ್ಲಿ ಸಾಂತ್ವನ!",
+                "filename": "1112.json"
+            }
+        ]
+    }
+]

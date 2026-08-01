@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "7_16:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬಲವಾದ ಭುಜ!",
+                "filename": "796.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_16:6",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಸ್ಯಾಮ್ಸನ್!",
+                "filename": "15.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕಳೆದುಹೋದ ಆತ್ಮಿಕ ಶಕ್ತಿ!",
+                "filename": "563.json"
+            }
+        ]
+    },
+    {
+        "verse": "7_16:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕಳೆದುಹೋದ ಶಕ್ತಿ!",
+                "filename": "586.json"
+            }
+        ]
+    }
+]

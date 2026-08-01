@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "47_7:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "BE PERFECTED!",
+                "filename": "782.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "PERFECTION IN HOLINESS!",
+                "filename": "785.json"
+            }
+        ]
+    },
+    {
+        "verse": "47_7:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "CALL TO PEACE !",
+                "filename": "714.json"
+            }
+        ]
+    },
+    {
+        "verse": "47_7:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "CALL TO REMAIN !",
+                "filename": "709.json"
+            }
+        ]
+    }
+]

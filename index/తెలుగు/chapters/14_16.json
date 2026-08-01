@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "14_16:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "సంచరించుచున్న కన్నులు",
+                "filename": "540.json"
+            }
+        ]
+    },
+    {
+        "verse": "14_16:29",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "నైవేద్యముతో ఆరాధించుడి!",
+                "filename": "1048.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆరాధించుడి!",
+                "filename": "1053.json"
+            }
+        ]
+    }
+]

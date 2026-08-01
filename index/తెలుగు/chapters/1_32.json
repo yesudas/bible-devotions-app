@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "1_32:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "యబ్బోకు యేరు!",
+                "filename": "883.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:25",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "దేవునితో పోరాడువాడు",
+                "filename": "979.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_32:28",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "యాకోబు!",
+                "filename": "18.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆశ్చర్యమైన పోరాటము!",
+                "filename": "594.json"
+            }
+        ]
+    }
+]

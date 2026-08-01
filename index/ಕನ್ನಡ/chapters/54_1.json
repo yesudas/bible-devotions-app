@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "54_1:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಪವಿತ್ರಾತ್ಮನಿಂದ ಗುಣಪಡಿಸುವಿಕೆ!",
+                "filename": "322.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಆತ್ಮದಿಂದ ಅಭಿವೃದ್ಧಿಪಡಿಸುವುದು!",
+                "filename": "765.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಬಲ ಮತ್ತು ಪ್ರೀತಿ!",
+                "filename": "826.json"
+            }
+        ]
+    },
+    {
+        "verse": "54_1:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಪಾಪಿಗಳನ್ನು ರಕ್ಷಿಸಲು!",
+                "filename": "941.json"
+            }
+        ]
+    }
+]

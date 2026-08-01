@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "42_3:1-6",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "இரட்சிப்பைக் காணல்",
+                "filename": "1674.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_3:7",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "கொடுப்பதின் வரம்",
+                "filename": "603.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_3:15-18",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "பரிசுத்த அக்கினி",
+                "filename": "1622.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_3:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பதர்",
+                "filename": "764.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_3:38",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனுஷகுமாரனாகிய கிறிஸ்து!",
+                "filename": "565.json"
+            }
+        ]
+    }
+]

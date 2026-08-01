@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "19_103:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రార్థన ద్వారా!",
+                "filename": "140.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "తండ్రివంటివాడు!",
+                "filename": "382.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_103:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రీతికరమైన దానిని చేయుడి!",
+                "filename": "811.json"
+            }
+        ]
+    }
+]

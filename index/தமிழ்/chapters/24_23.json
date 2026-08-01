@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "24_23:16-22",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "வானிலை முன்னறிவிப்பாளரின் தவறு",
+                "filename": "1698.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_23:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொய்த் தீர்க்கதரிசனம்",
+                "filename": "2075.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொய்யான தீர்க்கதரிசனம்",
+                "filename": "3993.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_23:20-24",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "விழிப்புடன் கவனித்தல்",
+                "filename": "1059.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_23:29",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மகத்துவரின் வார்த்தையே",
+                "filename": "2555.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவவார்த்தையின் மகத்துவங்கள்!",
+                "filename": "4410.json"
+            }
+        ]
+    }
+]

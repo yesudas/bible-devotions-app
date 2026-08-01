@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "5_28:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "హెచ్చించును!",
+                "filename": "1044.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ఔనత్యముగా!",
+                "filename": "1168.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_28:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "పరిశుద్ధత యొక్క శ్రేష్టత!",
+                "filename": "1032.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_28:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "తెరచును!",
+                "filename": "1240.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_28:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "తలగా నియమించును!",
+                "filename": "361.json"
+            }
+        ]
+    }
+]

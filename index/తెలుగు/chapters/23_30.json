@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "23_30:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువు కనిపెట్టును !",
+                "filename": "1148.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "காத்திருங்கள்!",
+                "filename": "219.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "కనిపెట్టియుండుడి!",
+                "filename": "220.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_30:20",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "బోధకుని ద్వారా!",
+                "filename": "1104.json"
+            }
+        ]
+    },
+    {
+        "verse": "23_30:23",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువు ఇచ్చును !",
+                "filename": "1145.json"
+            }
+        ]
+    }
+]

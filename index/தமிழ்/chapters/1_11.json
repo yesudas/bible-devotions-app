@@ -1,0 +1,67 @@
+[
+    {
+        "verse": "1_11:1-9",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தேவனின் தலையீடு",
+                "filename": "306.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "பாபேல் திட்டம்",
+                "filename": "2.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_11:1-8",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நிலைத்திருக்கும் கட்டிடம்",
+                "filename": "3420.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_11:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "மனநோக்கு",
+                "filename": "1724.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_11:10-32",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தேவனின் தெரிந்தெடுப்பு",
+                "filename": "307.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_11:26-32",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "வேதாகமத்தின் மாபெரும் கதை",
+                "filename": "2202.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_11:31",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "முதல்படி!",
+                "filename": "1364.json"
+            }
+        ]
+    }
+]

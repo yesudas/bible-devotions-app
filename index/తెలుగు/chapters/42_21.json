@@ -1,0 +1,22 @@
+[
+    {
+        "verse": "42_21:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మీ ఓర్పుచేత!",
+                "filename": "419.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_21:36",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "పాత్రుడు",
+                "filename": "971.json"
+            }
+        ]
+    }
+]

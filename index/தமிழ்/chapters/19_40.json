@@ -1,0 +1,77 @@
+[
+    {
+        "verse": "19_40:1-5",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஆமையோடு சேர்ந்து காத்திருப்போம்",
+                "filename": "1611.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "மகிழ்ச்சியான நம்பிக்கை",
+                "filename": "3135.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_40:1-4",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவனுடைய மீட்பு",
+                "filename": "2998.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "ஓராண்டில் வேதாகமம்",
+                "filename": "3732.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_40:1",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நிற்பதற்கு உறுதியான இடம்",
+                "filename": "301.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_40:1-17",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "மனச் சோர்வான நிலை",
+                "filename": "90.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_40:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "புதிய பாட்டு!",
+                "filename": "953.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "துதித்துப் பாடு",
+                "filename": "3755.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_40:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "பிரியமானதை",
+                "filename": "934.json"
+            }
+        ]
+    }
+]

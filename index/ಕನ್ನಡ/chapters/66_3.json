@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "66_3:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಫಿಲದೆಲ್ಫಿಯಾ!",
+                "filename": "389.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಅವನು ತೆರೆಯುವ ಮತ್ತು ಮುಚ್ಚುವವನು!",
+                "filename": "418.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:12",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹೊಸ ಹೆಸರು !",
+                "filename": "917.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_3:18",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಿಮ್ಮ ಕಣ್ಣಿಗಾಗಿ ರಕ್ಷಣೆ ಹೊಂದಿರಿ!",
+                "filename": "616.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ನೀವು ನೋಡಬಹುದು!",
+                "filename": "617.json"
+            }
+        ]
+    }
+]

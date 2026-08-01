@@ -1,0 +1,97 @@
+[
+    {
+        "verse": "5_4:1-14",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "வேதத்தின் மக்கள்",
+                "filename": "221.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_4:1-9",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஜாக்கிரதையாய் இருங்கள்",
+                "filename": "2644.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_4:3-9",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவன் நினைவுகளை வகுத்தார்",
+                "filename": "1856.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_4:5-8",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "உனக்கு மிக அருகிலேயே",
+                "filename": "1708.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_4:7",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இடைவெளியை நிரப்புவோம்!",
+                "filename": "1025.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சமீபமாய் இருக்கிறார்!",
+                "filename": "1690.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "என் பெறுமதிப்பு என்ன?",
+                "filename": "298.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_4:9-14",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவனை அறிந்து கொள்வதற்கான பசி",
+                "filename": "103.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "சத்தியத்தை பறைசாற்றுதல்",
+                "filename": "2558.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_4:15",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தேவனை உடைய மக்கள்",
+                "filename": "222.json"
+            }
+        ]
+    },
+    {
+        "verse": "5_4:32-49",
+        "meditations": [
+            {
+                "brand": "நாளுக்கொரு-நல்ல-பங்கு",
+                "title": "தேவனுடைய அன்பை பெற்ற மக்கள்",
+                "filename": "223.json"
+            }
+        ]
+    }
+]

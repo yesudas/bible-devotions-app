@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "44_6:1-7",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தவறான கோடுகள்",
+                "filename": "897.json"
+            }
+        ]
+    },
+    {
+        "verse": "44_6:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஜெபம்பண்ணுவதில்!",
+                "filename": "492.json"
+            }
+        ]
+    },
+    {
+        "verse": "44_6:8-15",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தியாகம் நிறைந்த விசுவாசம்",
+                "filename": "451.json"
+            }
+        ]
+    }
+]

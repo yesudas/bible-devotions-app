@@ -1,0 +1,22 @@
+[
+    {
+        "verse": "35_1:1",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "மௌனம்",
+                "filename": "659.json"
+            }
+        ]
+    },
+    {
+        "verse": "35_1:2-11",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "எது வரைக்கும்?",
+                "filename": "768.json"
+            }
+        ]
+    }
+]

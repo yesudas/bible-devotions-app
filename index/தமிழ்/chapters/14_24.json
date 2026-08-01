@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "14_24:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நம் ஆலோசனைக்காரர் யார்?",
+                "filename": "1530.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "வாழ்நாள் பாடம்",
+                "filename": "2559.json"
+            }
+        ]
+    },
+    {
+        "verse": "14_24:17",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறுதியான வேலி!",
+                "filename": "1529.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "27_12:3",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಹೊಳೆಯಿರಿ!",
+                "filename": "896.json"
+            }
+        ]
+    },
+    {
+        "verse": "27_12:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನೀವು ವಿಶ್ರಾಂತಿ ಪಡೆಯುತ್ತೀರಿ!",
+                "filename": "708.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ದಾನಿಯೇಲನ ವಿಶ್ರಾಂತಿ!",
+                "filename": "726.json"
+            }
+        ]
+    }
+]

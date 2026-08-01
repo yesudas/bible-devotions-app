@@ -1,0 +1,77 @@
+[
+    {
+        "verse": "62_5:1-6",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "பெட்டி ஆன்டியின் வழி",
+                "filename": "1930.json"
+            }
+        ]
+    },
+    {
+        "verse": "62_5:1",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தோல்வியா அல்லது வெற்றியா?",
+                "filename": "293.json"
+            }
+        ]
+    },
+    {
+        "verse": "62_5:1-5",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஜீவனைக் கண்டடைதல்",
+                "filename": "2966.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "ஜீவனைக் கண்டடைதல்",
+                "filename": "3700.json"
+            }
+        ]
+    },
+    {
+        "verse": "62_5:7",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "திரித்துவ தேவன் பாகம் - 1",
+                "filename": "48.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "திரித்துவ தேவன் பாகம் - 2",
+                "filename": "49.json"
+            }
+        ]
+    },
+    {
+        "verse": "62_5:13-15",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவன் கேட்கிறாரா?",
+                "filename": "2258.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவனில் நம்பிக்கை",
+                "filename": "2480.json"
+            }
+        ]
+    },
+    {
+        "verse": "62_5:21",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "சிற்பங்கள்",
+                "filename": "54.json"
+            }
+        ]
+    }
+]

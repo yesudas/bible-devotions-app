@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "52_2:1-4",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவனுடைய அங்கீகாரம்",
+                "filename": "1550.json"
+            }
+        ]
+    },
+    {
+        "verse": "52_2:1-9",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தாய் போல நேசி",
+                "filename": "2451.json"
+            }
+        ]
+    },
+    {
+        "verse": "52_2:7-12",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "அன்பான தலைமைத்துவம்",
+                "filename": "2823.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "அன்பான தலைமைத்துவம்",
+                "filename": "3557.json"
+            }
+        ]
+    },
+    {
+        "verse": "52_2:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஆவியினாலே பரிசுத்தம்!",
+                "filename": "781.json"
+            }
+        ]
+    }
+]

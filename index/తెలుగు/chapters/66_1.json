@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "66_1:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "బయలుపరచువాడు",
+                "filename": "99.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_1:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆదిసంభూతుడుగా లేచినవాడు!",
+                "filename": "391.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_1:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "సర్వశక్తిమంతుడు!",
+                "filename": "371.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "అదియును, అంతమునైయున్నవాడు!",
+                "filename": "372.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಆಲ್ಫಾ ಮತ್ತು ಒಮೆಗಾ!",
+                "filename": "373.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "అల్ఫాయు, ఓమెగయైయున్నవాడు!",
+                "filename": "374.json"
+            }
+        ]
+    }
+]

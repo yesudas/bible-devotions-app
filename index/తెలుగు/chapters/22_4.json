@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "22_4:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ముసుకుగుండా!",
+                "filename": "1176.json"
+            }
+        ]
+    },
+    {
+        "verse": "22_4:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "కళంకమేమియులేదు!",
+                "filename": "28.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "నా ప్రియురాలా!",
+                "filename": "804.json"
+            }
+        ]
+    }
+]

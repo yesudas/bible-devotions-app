@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "36_1:1-6",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "உண்மையோடு",
+                "filename": "1013.json"
+            }
+        ]
+    },
+    {
+        "verse": "36_1:14",
+        "meditations": [
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கர்த்தருடைய பெரிய நாள்",
+                "filename": "55.json"
+            },
+            {
+                "brand": "அனுதின-மன்னா",
+                "title": "கர்த்தருடைய பெரிய நாள்",
+                "filename": "56.json"
+            }
+        ]
+    }
+]

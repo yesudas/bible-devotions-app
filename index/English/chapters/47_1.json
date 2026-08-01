@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "47_1:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "CALL TO HOLINESS !",
+                "filename": "715.json"
+            }
+        ]
+    },
+    {
+        "verse": "47_1:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ABILITY TO COMFORT !",
+                "filename": "392.json"
+            }
+        ]
+    },
+    {
+        "verse": "47_1:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "CALL TO FELLOWSHIP!",
+                "filename": "711.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "CALL OF THE FAITHFUL ONE !",
+                "filename": "717.json"
+            }
+        ]
+    },
+    {
+        "verse": "47_1:26-27",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "THE CALLING !",
+                "filename": "716.json"
+            }
+        ]
+    }
+]

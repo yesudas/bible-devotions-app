@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "40_10:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "వరమును పొందిన పండ్రెండుమంది!",
+                "filename": "903.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "గొఱ్ఱెలను పంపుచున్నాను!",
+                "filename": "925.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "అంతమువరకును!",
+                "filename": "167.json"
+            }
+        ]
+    },
+    {
+        "verse": "40_10:38",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "వెంబడింపనివాడు",
+                "filename": "976.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "verse": "19_30:1-12",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "புலம்பலிலிருந்து ஆராதனைக்கு",
+                "filename": "1300.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "துதியின் கண்ணீர்",
+                "filename": "2792.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "மறுரூபமான ஆராதனை",
+                "filename": "3266.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "துதியின் கண்ணீர்",
+                "filename": "3515.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "பாதுகாப்பாக கொண்டுவரப்பட்டோம்",
+                "filename": "739.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_30:5",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "அழுகை நிறைந்த இரவு, மகிழ்ச்சியான பகல்",
+                "filename": "234.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_30:12",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பிறரும் பெற்றுக்கொள்ள…",
+                "filename": "3871.json"
+            }
+        ]
+    }
+]

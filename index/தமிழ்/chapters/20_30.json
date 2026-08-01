@@ -1,0 +1,77 @@
+[
+    {
+        "verse": "20_30:2",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் ஒன்றுமில்லை!",
+                "filename": "320.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "நான் ஒன்றுமில்லை",
+                "filename": "3974.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_30:5",
+        "meditations": [
+            {
+                "brand": "3-minute-meditation",
+                "title": "பரிசுத்த பயத்துடன் எழுதப்பட்ட வார்த்தைகள், துல்லியமாக நிறைவேறிய வேத சத்தியங்கள்",
+                "filename": "57.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_30:5-8",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "சத்தியமும் பொய்யும்",
+                "filename": "2146.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_30:7-9",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "இது போதும்",
+                "filename": "2675.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_30:8",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பொய்யைக் களைந்துவிடு!",
+                "filename": "4387.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_30:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "இரண்டு மனு!",
+                "filename": "3011.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_30:24-31",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நோக்கத்துடன் இளைப்பாறுவது",
+                "filename": "1898.json"
+            }
+        ]
+    }
+]

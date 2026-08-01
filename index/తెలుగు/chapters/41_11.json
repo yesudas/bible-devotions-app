@@ -1,0 +1,27 @@
+[
+    {
+        "verse": "41_11:13",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆకులుగల అంజూరపు చెట్టు!",
+                "filename": "178.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆకులు మాత్రమేనా?",
+                "filename": "348.json"
+            }
+        ]
+    },
+    {
+        "verse": "41_11:24",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "విశ్వాసపు ప్రార్థన!",
+                "filename": "489.json"
+            }
+        ]
+    }
+]

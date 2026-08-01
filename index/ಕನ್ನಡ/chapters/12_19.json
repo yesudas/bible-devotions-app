@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "12_19:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಎಲಿಷಾ!",
+                "filename": "7.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_19:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನಿಮ್ಮ ಸ್ಥಳದಲ್ಲಿ ನಿಮ್ಮನ್ನು ಹುಡುಕುತ್ತಿದ್ದೇನೆ!",
+                "filename": "35.json"
+            }
+        ]
+    },
+    {
+        "verse": "12_19:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ನೀನು ಯಾರನ್ನು ನಿಂದಿಸಿದ್ದೀ?",
+                "filename": "131.json"
+            }
+        ]
+    }
+]

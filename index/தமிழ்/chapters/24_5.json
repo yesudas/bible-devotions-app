@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "24_5:14",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "அக்கினியைப்போன்றது!",
+                "filename": "43.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_5:18-23",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "கேட்பதற்கே செவிகள் உருவாக்கப்பட்டன",
+                "filename": "1255.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_5:22",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "பயப்படத்தக்கவர்!",
+                "filename": "2068.json"
+            }
+        ]
+    }
+]

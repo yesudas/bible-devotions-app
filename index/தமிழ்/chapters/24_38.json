@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "24_38:1-10",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "சாக்லேட்டில் சிக்கியது",
+                "filename": "3245.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_38:6",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "துரவில் போடப்பட்டாலும்…",
+                "filename": "3180.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உளையிலே அமிழ்ந்தார் எரேமியா!",
+                "filename": "801.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_38:17-23",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "இயேசுவுக்கு ஒப்புவித்தல்",
+                "filename": "3027.json"
+            }
+        ]
+    }
+]

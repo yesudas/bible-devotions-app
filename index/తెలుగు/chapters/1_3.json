@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "1_3:7",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఆదాము, అవ్వయొక్క కన్నులను తరిచేను",
+                "filename": "319.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_3:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రసన్నత యొక్క స్వరము!",
+                "filename": "46.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువు యొక్క స్వరము!",
+                "filename": "48.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రభువు యొక్క స్వరము!",
+                "filename": "49.json"
+            }
+        ]
+    }
+]

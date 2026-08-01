@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "66_2:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "The Overcomer",
+                "filename": "20.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_2:11",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "No Fear of Death",
+                "filename": "114.json"
+            }
+        ]
+    },
+    {
+        "verse": "66_2:17",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "The Overcomer’s Reward",
+                "filename": "121.json"
+            }
+        ]
+    }
+]

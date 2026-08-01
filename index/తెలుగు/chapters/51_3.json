@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "51_3:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "పైనున్నవాటినే!",
+                "filename": "1036.json"
+            }
+        ]
+    },
+    {
+        "verse": "51_3:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రాచీనపురుషుడు, నవీనపురుషుడు!",
+                "filename": "1194.json"
+            }
+        ]
+    },
+    {
+        "verse": "51_3:15",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "దేవుని సమాధానము ఏలనియ్యుడి!",
+                "filename": "1229.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "కృతజ్ఞులై!",
+                "filename": "1239.json"
+            }
+        ]
+    },
+    {
+        "verse": "51_3:16",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "భక్తితో పాడుము",
+                "filename": "241.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "24_12:1-3",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவன் நம்மை அறிவார்",
+                "filename": "2753.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "தேவன் நம்மை அறிவார்",
+                "filename": "3487.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_12:3",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சொந்த வீட்டார் வெறுத்தாலும்…",
+                "filename": "3177.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சொந்த வீட்டாரே வெறுத்தாலும் …",
+                "filename": "798.json"
+            }
+        ]
+    },
+    {
+        "verse": "24_12:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "சரணடைந்து விடு!",
+                "filename": "3575.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தைரியத்தோடு ஓடுவோம்!",
+                "filename": "3586.json"
+            }
+        ]
+    }
+]

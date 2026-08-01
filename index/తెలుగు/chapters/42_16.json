@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "42_16:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "స్నేహితులను!",
+                "filename": "1225.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_16:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "తెలియజేయబడని ధనవంతుడు!",
+                "filename": "267.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_16:22",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "మూడు ఒడిలు!",
+                "filename": "1298.json"
+            }
+        ]
+    }
+]

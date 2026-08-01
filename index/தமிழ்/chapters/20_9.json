@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "20_9:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞானத்தின் வீடு!",
+                "filename": "671.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_9:8",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞானத்தின் வழிமுறை!",
+                "filename": "664.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_9:9",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "ஞானமுள்ளவனுக்கே போதனை!",
+                "filename": "3032.json"
+            }
+        ]
+    }
+]

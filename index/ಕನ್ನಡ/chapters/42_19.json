@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "42_19:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ತುರ್ತು ಕರೆ!",
+                "filename": "684.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ವೈಯಕ್ತಿಕ ಕರೆ!",
+                "filename": "686.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕೃಪೆಯ ಕರೆ!",
+                "filename": "687.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "ಕೃಪೆಯಿಂದ ಆಹ್ವಾನ!",
+                "filename": "915.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_19:9",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ರಕ್ಷಣೆಯ ಕರೆ!",
+                "filename": "685.json"
+            }
+        ]
+    },
+    {
+        "verse": "42_19:10",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ಅದು ಕಳೆದುಹೋಗಿದೆ!",
+                "filename": "581.json"
+            }
+        ]
+    }
+]

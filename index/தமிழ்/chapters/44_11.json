@@ -1,0 +1,47 @@
+[
+    {
+        "verse": "44_11:9-26",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "பேசும் வாழைப்பழங்கள்",
+                "filename": "1772.json"
+            }
+        ]
+    },
+    {
+        "verse": "44_11:19-26",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "அவர்களுக்கு எப்படி தெரியும்",
+                "filename": "2315.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "ஊக்கமளிக்கும் மக்கள்",
+                "filename": "3393.json"
+            }
+        ]
+    },
+    {
+        "verse": "44_11:19-30",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "வெற்றி இலக்கு",
+                "filename": "3259.json"
+            }
+        ]
+    },
+    {
+        "verse": "44_11:26",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "கிறிஸ்துவைக் காண்பி!",
+                "filename": "1678.json"
+            }
+        ]
+    }
+]

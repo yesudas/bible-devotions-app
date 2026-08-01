@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "1_17:1",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "నా సన్నిధిలో!",
+                "filename": "33.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:5",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "అబ్రహాము!",
+                "filename": "20.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "అబ్రహాము!",
+                "filename": "21.json"
+            }
+        ]
+    },
+    {
+        "verse": "1_17:19",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ఇస్సాకు!",
+                "filename": "259.json"
+            }
+        ]
+    }
+]

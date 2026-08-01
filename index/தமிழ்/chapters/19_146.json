@@ -1,0 +1,62 @@
+[
+    {
+        "verse": "19_146:1-10",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "எப்பொழுதும் அவரைப் போற்றும் வாழ்க்கைமுறை",
+                "filename": "1600.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "மேலே நோக்குதல்",
+                "filename": "198.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "சிறைப்பட்டவர்களை விடுவித்தல்",
+                "filename": "404.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "நித்திய நம்பிக்கை",
+                "filename": "842.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_146:5",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேவ நம்பிக்கையை ஊட்டுதல்",
+                "filename": "3458.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_146:7",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "கட்டுகளிலிருந்து விடுதலை",
+                "filename": "67.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_146:8",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "தூக்கிவிடுவதற்கு வல்லமை",
+                "filename": "113.json"
+            },
+            {
+                "brand": "antantulla-appam",
+                "title": "கர்த்தர் திறக்கிறார்!",
+                "filename": "375.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "verse": "20_5:1-23",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "அன்பின் அழகு",
+                "filename": "1240.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_5:1-14",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "கதவை தவிர்க்கவும்",
+                "filename": "2380.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_5:4",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தேனில் தோய்ந்த பட்டயம்!",
+                "filename": "3036.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_5:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தித்திக்கும் திருமணம்!",
+                "filename": "4857.json"
+            }
+        ]
+    },
+    {
+        "verse": "20_5:21",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ஞான இலக்கியம்!",
+                "filename": "672.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாழ்மையின் ஆவி!",
+                "filename": "315.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாழ்மையின் ஆவி",
+                "filename": "3967.json"
+            }
+        ]
+    }
+]

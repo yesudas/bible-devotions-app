@@ -1,0 +1,37 @@
+[
+    {
+        "verse": "14_7:1-10",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "மகிழ்ச்சியான இருதயம்",
+                "filename": "677.json"
+            }
+        ]
+    },
+    {
+        "verse": "14_7:11-16",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "எழுப்புதல் வருகிறது",
+                "filename": "2739.json"
+            }
+        ]
+    },
+    {
+        "verse": "14_7:14",
+        "meditations": [
+            {
+                "brand": "faiths-check-book",
+                "title": "செய்ய வேண்டியதும் பெறுவதும்",
+                "filename": "287.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "தாழ்மையின் ஜெபம்!",
+                "filename": "305.json"
+            }
+        ]
+    }
+]

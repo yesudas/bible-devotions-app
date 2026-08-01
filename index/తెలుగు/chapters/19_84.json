@@ -1,0 +1,32 @@
+[
+    {
+        "verse": "19_84:2",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "ప్రేమయు ఆరాధనయు!",
+                "filename": "1051.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_84:4",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "నీ మందిరమునందు!",
+                "filename": "420.json"
+            }
+        ]
+    },
+    {
+        "verse": "19_84:11",
+        "meditations": [
+            {
+                "brand": "antantulla-appam",
+                "title": "దయచేయును!",
+                "filename": "1090.json"
+            }
+        ]
+    }
+]

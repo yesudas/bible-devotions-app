@@ -1,0 +1,62 @@
+[
+    {
+        "verse": "16_4:1",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதிர்ப்பு",
+                "filename": "2699.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதிர்ப்புகளை மேற்கொள்!",
+                "filename": "3703.json"
+            }
+        ]
+    },
+    {
+        "verse": "16_4:1-6",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "விமர்சனம் செய்வோரை அமைதிப்படுத்துதல்",
+                "filename": "1020.json"
+            }
+        ]
+    },
+    {
+        "verse": "16_4:6-9",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "சுவர்களில் தேவதூதர்கள்",
+                "filename": "3093.json"
+            }
+        ]
+    },
+    {
+        "verse": "16_4:7",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "நமது தெய்வீகப் பாதுகாப்பு",
+                "filename": "254.json"
+            }
+        ]
+    },
+    {
+        "verse": "16_4:18",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதிர்ப்பை எதிர்நோக்கும் வழி",
+                "filename": "2698.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "எதிர்ப்பை எதிர்நோக்கும் வழி!",
+                "filename": "3702.json"
+            }
+        ]
+    }
+]

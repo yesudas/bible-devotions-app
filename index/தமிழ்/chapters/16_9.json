@@ -1,0 +1,42 @@
+[
+    {
+        "verse": "16_9:9",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "தாமதிப்பதும் ஒரு காரணத்திற்காக",
+                "filename": "1668.json"
+            }
+        ]
+    },
+    {
+        "verse": "16_9:17",
+        "meditations": [
+            {
+                "brand": "our-daily-bread",
+                "title": "ஒருபோதும் அதிக பாவமில்லை",
+                "filename": "1826.json"
+            },
+            {
+                "brand": "our-daily-bread",
+                "title": "ஒருபோதும் அதிக பாவமில்லை",
+                "filename": "1857.json"
+            }
+        ]
+    },
+    {
+        "verse": "16_9:38",
+        "meditations": [
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறுதி செய்துகொள்ளுங்கள்!",
+                "filename": "2691.json"
+            },
+            {
+                "brand": "சத்திய-வசனம்",
+                "title": "உறுதி செய்துகொள்!",
+                "filename": "3695.json"
+            }
+        ]
+    }
+]
