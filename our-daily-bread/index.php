@@ -19,6 +19,7 @@ if (isset($_GET['reset'])) {
 
 include 'counter.php';
 include '../detect-app.php';
+include '../bible-reference-linker.php';
 
 $version = "2025.10.4";
 
@@ -489,14 +490,14 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         <?php if (!empty($meditation['bible_portion']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-bible"></i> <?php echo $meditation['bible_portion']['label'] ?? 'Bible Portion'; ?></h2>
-                            <span class="verse-reference"><?php echo htmlspecialchars($meditation['bible_portion']['text']); ?></span>
+                            <span class="verse-reference"><?php echo linkBibleReferences($meditation['bible_portion']['text'], $selectedLanguage); ?></span>
                         </div>
                         <?php endif; ?>
                         
                         <?php if (!empty($meditation['bible_reading']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-book-open"></i> <?php echo $meditation['bible_reading']['label'] ?? 'Bible in a Year'; ?></h2>
-                            <span class="verse-reference"><?php echo htmlspecialchars($meditation['bible_reading']['text']); ?></span>
+                            <span class="verse-reference"><?php echo linkBibleReferences($meditation['bible_reading']['text'], $selectedLanguage); ?></span>
                         </div>
                         <?php endif; ?>
                         
@@ -522,7 +523,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         <?php if (!empty($meditation['memory_verse']['text'])): ?>
                         <div class="section">
                             <h2><i class="fas fa-book"></i> <?php echo $meditation['memory_verse']['label'] ?? 'Memory Verse'; ?></h2>
-                            <span class="verse-reference"><?php echo htmlspecialchars($meditation['memory_verse']['text']); ?></span>
+                            <span class="verse-reference"><?php echo linkBibleReferences($meditation['memory_verse']['text'], $selectedLanguage); ?></span>
                         </div>
                         <?php endif; ?>
                     

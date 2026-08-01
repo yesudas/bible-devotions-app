@@ -434,6 +434,29 @@ GET /api.php?action=getDevotions&lang=தமிழ்&book=43&chapter=3&verse=16
 
 ---
 
+### bible-reference-linker.php - Bible Reference Auto-Linker
+
+**Purpose**: Shared utility, included by every brand's `index.php`, that scans the labeled reference fields of a meditation (Memory Verse, Bible Reading, Bible Portion) for Bible book references and turns each one it recognizes into a link to the WordOfGod.in online Bible reader. Text that doesn't match a known book name/chapter/verse pattern is left untouched — the feature fails safe rather than erroring.
+
+**Function**: `linkBibleReferences($text, $language)` — returns HTML-safe markup; callers use it in place of `htmlspecialchars()` when echoing these fields (it already escapes non-matching text internally).
+
+**Book numbering**: 1 (Genesis) through 66 (Revelation), matching `js/bible-data.js`. Book names are defined per language (English, தமிழ், German, తెలుగు, ಕನ್ನಡ, മലയാളം, हिन्दी) in a `$GLOBALS['bibleBookNames']` table inside the file — add a language there to extend coverage. Non-English/Tamil name spellings were sourced from common published translations and should be reviewed by a native speaker against each brand's actual content if links aren't appearing as expected.
+
+**Generated link format**:
+```
+https://wordofgod.in/bibles/?book={bookNo}&chapter={chapter}&verse={verse}&lang={language}
+```
+`verse` is omitted when the matched text has no verse number (e.g. a chapter-only reference).
+
+**Usage** (already wired into all 8 brands):
+```php
+include '../bible-reference-linker.php';
+// ...
+echo linkBibleReferences($meditation['bible_portion']['text'], $selectedLanguage);
+```
+
+---
+
 ## 🔄 Typical Workflow
 
 Here's how these scripts work together in a typical content management workflow:
@@ -631,6 +654,7 @@ bible-devotions-app/
 ├── m.php                         # Meditation Index Generator
 ├── l.php                         # Link Index Regenerator
 ├── api.php                       # Devotions lookup API
+├── bible-reference-linker.php    # Bible reference auto-linker (shared)
 │
 ├── LICENSE                       # License file
 ├── README.md                     # This file
