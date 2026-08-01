@@ -436,23 +436,31 @@ GET /api.php?action=getDevotions&lang=தமிழ்&book=43&chapter=3&verse=16
 
 ### bible-reference-linker.php - Bible Reference Auto-Linker
 
-**Purpose**: Shared utility, included by every brand's `index.php`, that scans the labeled reference fields of a meditation (Memory Verse, Bible Reading, Bible Portion) for Bible book references and turns each one it recognizes into a link to the WordOfGod.in online Bible reader. Text that doesn't match a known book name/chapter/verse pattern is left untouched — the feature fails safe rather than erroring.
+**Purpose**: Shared utility, included by every brand's `index.php`, that recognizes Bible book references and turns each one into a link to the WordOfGod.in online Bible reader. Text that doesn't match a known book name/chapter/verse pattern is left untouched — the feature fails safe rather than erroring.
 
-**Function**: `linkBibleReferences($text, $language)` — returns HTML-safe markup; callers use it in place of `htmlspecialchars()` when echoing these fields (it already escapes non-matching text internally).
+**Functions**:
+- `linkBibleReferences($text, $language)` — scans free text (Memory Verse, Bible Reading, Bible Portion, and any other field a brand chooses to pass through it, e.g. Cross References) for inline references like `"Gen 1:4"` or `"1 கொரிந்தியர் 12:26"` and wraps each match in a link. Returns HTML-safe markup; callers use it in place of `htmlspecialchars()` (it already escapes non-matching text internally).
+- `formatKeyVerseLink($keyVerse, $language)` — formats a structured `key_verse` value (e.g. `"1_1:1"`, `"46_12:12-26"`, or several refs joined with `;`) into a human-readable linked reference, e.g. **Genesis 1:1**. Used in the "All Meditations" list (in place of the date) and anywhere else a meditation's `key_verse` should be displayed rather than parsed from prose. Returns `''` if `$keyVerse` is empty/unparseable.
 
-**Book numbering**: 1 (Genesis) through 66 (Revelation), matching `js/bible-data.js`. Book names are defined per language (English, தமிழ், German, తెలుగు, ಕನ್ನಡ, മലയാളം, हिन्दी) in a `$GLOBALS['bibleBookNames']` table inside the file — add a language there to extend coverage. Non-English/Tamil name spellings were sourced from common published translations and should be reviewed by a native speaker against each brand's actual content if links aren't appearing as expected.
+**Book name recognition**: 1 (Genesis) through 66 (Revelation), matching `js/bible-data.js`. Book name variants are defined per language (English, தமிழ், German, తెలుగు, ಕన్నడ, മലയാళం, हिन्दी) in a `$GLOBALS['bibleBookNames']` table inside the file — add a language, or more variants for an existing one, there. Coverage per language:
+- **English**: full names plus common abbreviations (`Gen`, `Eph`, `1 Pet`, `1 Jn`, etc.).
+- **தமிழ்**: full names plus abbreviation styles merged from `bible-parser`'s `BookIDTamilVersion1-6.java` (different published sources abbreviate books differently — e.g. `1 கொரிந்தியர்` / `1கொரிந்தியர்` / `1 கொரி` / `1கொரி`), each generated in both Unicode NFC and NFD forms since Tamil vowel signs can be encoded either way and a mismatch silently breaks matching. Ultra-short 1-2 character codes from those source files (e.g. `அ` for Acts, `நா`, `வெ`) were deliberately excluded — too likely to collide with ordinary Tamil words.
+- **German, తెలుగు, ಕన్నడ, മలయాళం, हिन्दी**: one full name per book, sourced from common published translations — not yet cross-checked against real content, so review against a brand's actual usage if links aren't appearing as expected.
+
+A boundary guard (`(?<![\p{L}\p{N}])`) stops short abbreviations (e.g. English `Ex`, `Ps`) from matching mid-word.
 
 **Generated link format**:
 ```
 https://wordofgod.in/bibles/?book={bookNo}&chapter={chapter}&verse={verse}&lang={language}
 ```
-`verse` is omitted when the matched text has no verse number (e.g. a chapter-only reference).
+`verse` is omitted when there's no verse number (e.g. a chapter-only reference); for a verse range only the first verse is linked (the URL format has no range support).
 
 **Usage** (already wired into all 8 brands):
 ```php
 include '../bible-reference-linker.php';
 // ...
 echo linkBibleReferences($meditation['bible_portion']['text'], $selectedLanguage);
+echo formatKeyVerseLink($med['key_verse'], $selectedLanguage);
 ```
 
 ---

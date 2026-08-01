@@ -462,7 +462,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                                 <div class="meditation-number">#<?php echo $idx + 1; ?></div>
                                 <div class="meditation-info">
                                     <h5><?php echo htmlspecialchars($med['title']); ?></h5>
-                                    <p class="text-muted mb-0"><?php echo htmlspecialchars($med['date']); ?></p>
+                                    <p class="text-muted mb-0"><?php echo !empty($med['key_verse']) ? formatKeyVerseLink($med['key_verse'], $selectedLanguage) : htmlspecialchars($med['date']); ?></p>
                                 </div>
                                 <a href="?mode=<?php echo $mode; ?>&id=<?php echo urlencode($med['uniqueid']); ?>&lang=<?php echo urlencode($selectedLanguage); ?>&title=<?php echo urlencode(createSlug($med['title'])); ?>" class="btn btn-sm nav-btn">
                                     <i class="fas fa-arrow-right"></i>
