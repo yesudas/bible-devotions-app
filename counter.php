@@ -1,7 +1,7 @@
 <?php
 // counter.php
 
-$additionalFolders = ['3-minute-meditation', 'அனுதின-மன்னா', 'faiths-check-book', 'antantulla-appam', 'சத்திய-வசனம்', 'நாளுக்கொரு-நல்ல-பங்கு', 'our-daily-bread'];
+$additionalFolders = ['3-minute-meditation', 'அனுதின-மன்னா', 'faiths-check-book', 'antantulla-appam', 'சத்திய-வசனம்', 'நாளுக்கொரு-நல்ல-பங்கு', 'our-daily-bread', 'bible-minutes'];
 $consolidationDay = 'Friday';
 
 // Helper function to read/write last consolidated snapshots

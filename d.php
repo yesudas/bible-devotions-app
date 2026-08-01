@@ -79,6 +79,7 @@ if (!$isCLI) {
 // Configuration
 $devotionBrands = [
     '3-minute-meditation',
+    'bible-minutes',
     'அனுதின-மன்னா',
     'faiths-check-book',
     'antantulla-appam',
@@ -151,6 +152,15 @@ $brandMetadata = [
         'phone' => '+919500037162',
         'whatsapp' => '',
         'website' => 'https://ourdailybread.org/'
+    ],
+    'bible-minutes' => [
+        'icon' => 'bi bi-stopwatch',
+        'description' => 'A devotional journey through the Bible, chapter by chapter, verse by verse, in simple language for your daily bible reading and meditation.',
+        'author' => 'Yesudas Solomon',
+        'email' => 'wordofgod@wordofgod.in',
+        'phone' => '+917676505599',
+        'whatsapp' => '917676505599',
+        'website' => 'https://wordofgod.in'
     ]
 ];
 

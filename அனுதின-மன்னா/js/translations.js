@@ -3,7 +3,7 @@
 
 const labelTranslations = {
     'English': {
-        'app_name': 'Daily Dose Devotion',
+        'app_name': 'Anudhina Manna',
         'memory_verse_label': "Today's Dose",
         'devotion_label': 'Devotion',
         'quote_label': "Today's Quote",

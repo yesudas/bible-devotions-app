@@ -1,4 +1,8 @@
             <div class="footer-section footer-links">
+                <a href="https://wordofgod.in/bibles/" target="_blank" class="footer-link">
+                    <i class="bi bi-book-half me-1"></i>Online Bibles
+                </a>
+                <span class="footer-separator">|</span>
                 <a href="https://wordofgod.in/good-news-collections/" target="_blank" class="footer-link">
                     <i class="bi bi-box-seam me-1"></i>Good News Collections
                 </a>

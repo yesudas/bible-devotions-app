@@ -12,6 +12,7 @@
  * php l.php
  */
 
+
 // Detect if running in browser or CLI
 $isBrowser = php_sapi_name() !== 'cli';
 
@@ -34,10 +35,11 @@ $devotionBrands = [
     'antantulla-appam',
     'சத்திய-வசனம்',
     'நாளுக்கொரு-நல்ல-பங்கு',
-    'our-daily-bread'
+    'our-daily-bread',
+    'bible-minutes'
 ];
 
-$languages = ['தமிழ்', 'English', 'German', 'తెలుగు', 'ಕನ್ನಡ', 'മലയാളം'];
+$languages = ['தமிழ்', 'English', 'German', 'తెలుగు', 'ಕನ್ನಡ', 'മലయాളం'];
 
 // Statistics tracking
 $stats = [
@@ -53,7 +55,7 @@ echo "=== Link Index Regeneration Script ===$br$br";
 
 // Step 1: Backup current links folder
 echo "Step 1: Backing up current links folder...$br";
-$linksDir = __DIR__ . '/links';
+$linksDir = __DIR__ . '/index';
 $backupDir = __DIR__ . '/links_backup_' . date('Y-m-d_H-i-s');
 
 if (is_dir($linksDir)) {

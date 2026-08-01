@@ -9,3 +9,5 @@ sitemap.xml
 **/sitemap.xml
 **/error_log
 sync.ffs_lock
+.claude
+links_backup_*

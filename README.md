@@ -33,8 +33,8 @@ The platform currently hosts **6 devotion brands** across **7 languages**, provi
 - **Contact**: mjosephnj@gmail.com | +91 9243183231
 - **Website**: [wordofgod.in](https://wordofgod.in)
 
-### 2. அனுதின மன்னா (Daily Manna)
-- **Languages**: தமிழ் (Tamil)
+### 2. அனுதின மன்னா (Anudhina Manna)
+- **Languages**: English, தமிழ் (Tamil)
 - **Author**: Gladys Sugandhi Hazlitt
 - **Icon**: � Book
 - **Description**: Daily spiritual nourishment in Tamil. Traditional devotions and scriptural insights for Tamil-speaking believers.
@@ -70,6 +70,14 @@ The platform currently hosts **6 devotion brands** across **7 languages**, provi
 - **Icon**: 💖 Calendar Heart
 - **Description**: Daily spiritual portions from God's Word with deep insights and reflections. Experience God's goodness through daily meditations and biblical wisdom.
 - **Website**: [tamilbible.org](https://www.tamilbible.org/)
+
+### 7. Bible Minutes
+- **Languages**: English, தமிழ் (Tamil)
+- **Author**: Yesudas Solomon
+- **Icon**: ⏱️ Stopwatch
+- **Description**: A devotional journey through the Bible, chapter by chapter, verse by verse, in simple language for your daily bible reading and meditation.
+- **Contact**: wordofgod@wordofgod.in | +91 7676505599
+- **Website**: [wordofgod.in](https://wordofgod.in)
 
 ---
 
@@ -162,7 +170,7 @@ The platform currently supports **7 languages**:
 
 ## 🛠️ Utility Scripts
 
-The project includes three powerful utility scripts for managing the devotions platform. These scripts automate data aggregation, link generation, and index creation.
+The project includes three powerful utility scripts for managing the devotions platform, plus a read-only API for querying the resulting indexes. These scripts automate data aggregation, link generation, and index creation.
 
 ### d.php - Devotions Data Generator
 
@@ -300,7 +308,7 @@ Creates `all-meditations.json` in each language folder:
 4. **Generates** two types of indexes:
    - **Verse-level**: Individual verse links (e.g., `verses/43_3-16.json`)
    - **Chapter-level**: Chapter index with all verses (e.g., `chapters/43_3.json`)
-5. **Creates** directory structure: `links/{language}/verses/` and `links/{language}/chapters/`
+5. **Creates** directory structure: `index/{language}/verses/` and `index/{language}/chapters/`
 6. **Deletes** backup upon successful completion
 
 **Usage**:
@@ -321,7 +329,7 @@ http://localhost:8000/l.php
 
 **Directory Structure Created**:
 ```
-links/
+index/
 ├── English/
 │   ├── verses/
 │   │   ├── 43_3-16.json    # Individual verse links
@@ -391,6 +399,38 @@ links/
 - Retains backup if too many errors occur (>10)
 - Preserves README.md and other documentation
 - Shows clear error messages for debugging
+
+---
+
+### api.php - Devotions Lookup API
+
+**Purpose**: Read-only JSON API that looks up which meditations reference a given Bible verse or chapter, using the indexes built by `l.php`.
+
+**Endpoint**: `getDevotions`
+
+**Query Params**:
+- `lang` - Language name (e.g. `English`, `தமிழ்`)
+- `book` - Bible book number (e.g. `43` for John)
+- `chapter` - Chapter number
+- `verse` - Verse number (optional)
+
+**Usage**:
+```
+GET /api.php?action=getDevotions&lang=தமிழ்&book=43&chapter=3&verse=16
+```
+
+**Lookup Order**:
+1. `index/{lang}/verses/{book}_{chapter}-{verse}.json` (skipped if no `verse` given)
+2. `index/{lang}/chapters/{book}_{chapter}.json`
+3. If `lang` isn't `English` and nothing matched yet, repeat steps 1-2 against `index/English/...`
+4. Returns `[]` if nothing matches anywhere
+
+**Response**: The raw contents of whichever index file matched (see [Cross-Reference Links](#cross-reference-links) for the file format), or an empty array:
+```json
+[
+  { "brand": "3-minute-meditation", "title": "The Love of God", "filename": "7.json" }
+]
+```
 
 ---
 
@@ -551,8 +591,10 @@ bible-devotions-app/
 ├── antantulla-appam/             # Antantulla Appam brand
 ├── சத்திய-வசனம்/                # Truth Word brand
 ├── நாளுக்கொரு-நல்ல-பங்கு/       # Daily Portion brand
+├── our-daily-bread/               # Our Daily Bread brand
+├── bible-minutes/                 # Bible Minutes brand
 │
-├── links/                        # Bible verse cross-references
+├── index/                        # Bible verse cross-references
 │   ├── English/
 │   │   ├── verses/               # Individual verse links
 │   │   │   ├── 43_3-16.json     # John 3:16 links
@@ -588,6 +630,7 @@ bible-devotions-app/
 ├── d.php                         # Devotions Data Generator
 ├── m.php                         # Meditation Index Generator
 ├── l.php                         # Link Index Regenerator
+├── api.php                       # Devotions lookup API
 │
 ├── LICENSE                       # License file
 ├── README.md                     # This file
@@ -623,6 +666,8 @@ bible-devotions-app/
    chmod 755 antantulla-appam/meditations
    chmod 755 சத்திய-வசனம்/meditations
    chmod 755 நாளுக்கொரு-நல்ல-பங்கு/meditations
+   chmod 755 our-daily-bread/meditations
+   chmod 755 bible-minutes/meditations
    
    # Links and data folders
    chmod 755 links
@@ -664,13 +709,14 @@ bible-devotions-app/
 6. **Access the application**
    - Landing Page: `http://localhost:8000/`
    - 3-Minute Meditation: `http://localhost:8000/3-minute-meditation/`
+   - Bible Minutes: `http://localhost:8000/bible-minutes/`
    - Admin Panels: `http://localhost:8000/[brand-name]/a.php`
 
 ### Initial Setup
 
 1. **Create meditation directories** (if not exists)
    ```bash
-   for brand in "3-minute-meditation" "அனுதின-மன்னா" "faiths-check-book" "antantulla-appam" "சத்திய-வசனம்" "நாளுக்கொரு-நல்ல-பங்கு"; do
+   for brand in "3-minute-meditation" "அனுதின-மன்னா" "faiths-check-book" "antantulla-appam" "சத்திய-வசனம்" "நாளுக்கொரு-நல்ல-பங்கு" "our-daily-bread" "bible-minutes"; do
        mkdir -p "$brand/meditations/English"
        mkdir -p "$brand/meditations/தமிழ்"
    done
@@ -682,7 +728,7 @@ bible-devotions-app/
 
 3. **Customize branding** (optional)
    - Update `copyright.php`
-   - Modify `menu-links.php` and `footer-links.php`
+   - Modify `menu-links.php` and `footer-links.php` — shared across all brands, includes external WordOfGod.in resource links (Online Bibles, Good News Collections, Bible Dictionaries, Bible Concordances, Bible Wallpapers, Bible App Modules, Free Christian Resources)
 
 4. **Run utility scripts**
    ```bash
@@ -789,21 +835,20 @@ See `js/bible-data.js` for complete structure.
 
 ### Cross-Reference Links
 
-The system automatically creates cross-reference files in `/links/` directory:
+The system automatically creates cross-reference files in the `/index/` directory (see [l.php](#lphp---link-index-regenerator)):
 
-**File**: `43_3:16.json`
+**Verse-level file**: `index/English/verses/43_3-16.json`
 ```json
 [
   {
     "brand": "3-minute-meditation",
     "title": "For God So Loved the World",
-    "language": "English",
-    "file": "/3-minute-meditation/meditations/English/7.json"
+    "filename": "7.json"
   }
 ]
 ```
 
-This enables finding all meditations that reference a specific Bible verse across all brands and languages.
+This enables finding all meditations that reference a specific Bible verse across all brands and languages. See [api.php](#apiphp---devotions-lookup-api) for a ready-made endpoint that queries these indexes.
 
 ## 🔐 Security
 
@@ -991,14 +1036,16 @@ We're grateful to all authors who contribute meditations and devotional content 
 
 ### Active Brands
 - **3-Minute Meditation**: ✅ Live and Active (English, தமிழ்)
-- **அனுதின மன்னா**: ✅ Live and Active (தமிழ்)
+- **அனுதின மன்னா**: ✅ Live and Active (English, தமிழ்)
 - **Faith's Check Book**: ✅ Live and Active (English, தமிழ், German)
 - **Antantulla Appam**: ✅ Live and Active (6 languages)
 - **சத்திய வசனம்**: ✅ Live and Active (தமிழ்)
 - **நாளுக்கொரு நல்ல பங்கு**: ✅ Live and Active (தமிழ்)
+- **Our Daily Bread**: ✅ Live and Active (தமிழ்)
+- **Bible Minutes**: 🆕 Newly Added (English, தமிழ் — content pending)
 
 ### Platform Status
-- **Total Devotion Brands**: 6
+- **Total Devotion Brands**: 8
 - **Languages Supported**: 7
 - **Total Content**: 1000+ meditations (varies by brand)
 - **Active Users**: Growing daily

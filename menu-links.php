@@ -6,6 +6,7 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="menuDropdown">
                             <li><a class="dropdown-item" href="https://wordofgod.in/bible-devotions/">Other Devotions</a></li>
                             <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://wordofgod.in/bibles/" target="_blank"><i class="bi bi-book-half me-2"></i>Online Bibles</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/good-news-collections/" target="_blank"><i class="bi bi-box-seam me-2"></i>Good News Collections</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/bibledictionary/" target="_blank"><i class="bi bi-collection me-2"></i>Bible Dictionaries</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/bible-concordance/" target="_blank"><i class="bi bi-search me-2"></i>Bible Concordances</a></li>
