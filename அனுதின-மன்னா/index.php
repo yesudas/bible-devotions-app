@@ -653,6 +653,8 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         </a>
                         <?php } ?>
                     </div>
+
+                    <?php include_once '../related-devotions.php'; ?>
                 <?php else: ?>
                     <div class="devotion-header">
                         <h2><i class="fas fa-exclamation-triangle"></i> Not Found</h2>
