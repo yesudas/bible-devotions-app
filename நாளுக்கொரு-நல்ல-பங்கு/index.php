@@ -21,7 +21,9 @@ include 'counter.php';
 include '../detect-app.php';
 include '../bible-reference-linker.php';
 
-$version = "2025.10.4";
+
+require_once __DIR__ . '/../version.php';
+
 
 $languages = ["தமிழ்"];
 
