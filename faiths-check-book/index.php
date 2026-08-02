@@ -457,8 +457,19 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                             <i class="fas fa-info-circle me-2"></i>No meditations available yet.
                         </div>
                     <?php else: ?>
+                        <?php include_once '../devotion-filter.php'; ?>
                         <?php foreach ($allMeditations as $idx => $med): ?>
-                            <div class="meditation-item">
+                            <?php
+                                $devotionFilterBook = '';
+                                $devotionFilterChapter = '';
+                                $devotionFilterVerse = '';
+                                if (!empty($med['key_verse']) && preg_match('/^(\d+)_(\d+)(?::(\d+))?/', trim($med['key_verse']), $dfm)) {
+                                    $devotionFilterBook = $dfm[1];
+                                    $devotionFilterChapter = $dfm[2];
+                                    $devotionFilterVerse = $dfm[3] ?? '';
+                                }
+                            ?>
+                            <div class="meditation-item" data-book="<?php echo htmlspecialchars($devotionFilterBook); ?>" data-chapter="<?php echo htmlspecialchars($devotionFilterChapter); ?>" data-verse="<?php echo htmlspecialchars($devotionFilterVerse); ?>" data-title="<?php echo htmlspecialchars(mb_strtolower($med['title'])); ?>">
                                 <div class="meditation-number">#<?php echo $idx + 1; ?></div>
                                 <div class="meditation-info">
                                     <h5><?php echo htmlspecialchars($med['title']); ?></h5>
@@ -483,6 +494,9 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
             <?php else: ?>
                 <!-- Single Meditation View -->
                 <?php if ($meditation): ?>
+                    <div class="devotion-content">
+                        <?php $devotionFilterMode = 'navigate'; include_once '../devotion-filter.php'; ?>
+                    </div>
                     <div class="devotion-header">
                         <h2><?php echo htmlspecialchars($meditation['title']); ?></h2>
                     </div>
