@@ -678,7 +678,7 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         </div>
                     </div>
                     <div class="navigation">
-                        <a href="" class="nav-btn">
+                        <a href="../" class="nav-btn">
                             <i class="fas fa-home"></i> Go Home
                         </a>
                         <span></span>
