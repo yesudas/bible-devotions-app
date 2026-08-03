@@ -3,6 +3,8 @@
 include 'counter.php';
 include 'detect-app.php';
 include 'version.php';
+include 'bible-reference-linker.php';
+include 'related-devotions.php';
 
 // Load devotions data
 $devotionsData = [];
@@ -65,7 +67,10 @@ if (file_exists($devotionsFile)) {
     
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
+
+    <!-- Shared devotion-filter / related-devotions styles (see css/style.css) -->
+    <link href="css/style.css?v=<?php echo $version; ?>" rel="stylesheet">
+
     <!-- Custom CSS -->
     <style>
         body {
@@ -382,6 +387,19 @@ if (file_exists($devotionsFile)) {
                     <p class="lead mb-4">Bible Devotions from various authors in various languages at one place with mobile friendly UX</p>
                 </div>
 
+                <!-- Browse by Bible Reference (testing) -->
+                <div class="mb-5" id="bibleBrowserSection">
+                    <div class="text-center text-white mb-3">
+                        <h2 class="fw-bold">Browse by Bible Reference</h2>
+                        <p>Find devotions across all brands by Book, Chapter, and Verse</p>
+                    </div>
+                    <div class="devotion-container">
+                        <div class="devotion-content">
+                            <?php include 'bible-browser.php'; ?>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Language Selection Section -->
                 <div id="languageSection" class="mb-5">
                     <div class="text-center text-white mb-4">
@@ -668,15 +686,10 @@ if (file_exists($devotionsFile)) {
             document.getElementById('languageSection').scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
         
-        // Add a subtle parallax effect on scroll
-        window.addEventListener('scroll', () => {
-            const scrolled = window.pageYOffset;
-            const parallax = document.querySelector('.hero-section');
-            if (parallax) {
-                const speed = scrolled * 0.5;
-                parallax.style.transform = `translateY(${speed}px)`;
-            }
-        });
+        // Note: a decorative parallax effect on .hero-section used to live here
+        // (translateY on scroll). Removed - it visually slides the hero over
+        // whatever content follows it, which became a real problem once the
+        // Browse by Bible Reference section was added directly below.
 
         // Add click animation to app cards
         document.querySelectorAll('.app-card:not(.coming-soon)').forEach(card => {

@@ -62,8 +62,12 @@ if (!empty($meditation['key_verse'])) {
  * excluding the one currently being viewed. Returns a list of
  * ['url','title','brand','brandLabel','verseLabel','sortKey'], sorted by
  * verse number.
+ *
+ * $urlPrefix is prepended to each brand folder in the returned URL - use
+ * the default '../' when calling from a brand's own index.php (one
+ * directory below root), or '' when calling from the root index.php.
  */
-function getRelatedDevotions($keyVerse, $language, $excludeBrand, $excludeFilename) {
+function getRelatedDevotions($keyVerse, $language, $excludeBrand, $excludeFilename, $urlPrefix = '../') {
     $rootDir = __DIR__;
     $results = [];
     $seen = [];
@@ -120,8 +124,10 @@ function getRelatedDevotions($keyVerse, $language, $excludeBrand, $excludeFilena
                     continue;
                 }
 
-                $slug = function_exists('createSlug') ? createSlug($title) : rawurlencode($title);
-                $url = '../' . $brand . '/?mode=latest&id=' . urlencode($uniqueId)
+                // Note: the caller's own urlencode() runs on this afterward, so this
+                // fallback must produce a plain (unencoded) slug, not a pre-encoded one.
+                $slug = function_exists('createSlug') ? createSlug($title) : trim(preg_replace('/[^\p{L}\p{N}]+/u', '-', $title), '-');
+                $url = $urlPrefix . $brand . '/?mode=latest&id=' . urlencode($uniqueId)
                     . '&lang=' . urlencode($language) . '&title=' . urlencode($slug);
 
                 $results[] = [

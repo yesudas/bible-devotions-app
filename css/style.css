@@ -705,6 +705,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    min-width: 0;
+    flex: 1 1 140px;
 }
 
 .devotion-filter-field label {
@@ -719,7 +721,20 @@ body {
     border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 0.95rem;
-    min-width: 140px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .devotion-filter-bar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .devotion-filter-field {
+        flex: 1 1 auto;
+    }
 }
 
 .devotion-filter-field-title {
