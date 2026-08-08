@@ -74,10 +74,13 @@ class CopyManager {
     cleanUrl(url) {
         try {
             const urlObj = new URL(url);
-            // Remove f=app query parameter
-            urlObj.searchParams.delete('f');
-            // Return decoded URL for better readability (especially for non-English characters)
-            return decodeURIComponent(urlObj.toString());
+            // Keep only the devotion id so shared/copied links stay short and stable
+            const id = urlObj.searchParams.get('id');
+            urlObj.search = '';
+            if (id) {
+                urlObj.searchParams.set('id', id);
+            }
+            return urlObj.toString();
         } catch (error) {
             console.error('Error cleaning URL:', error);
             return url;
@@ -85,7 +88,13 @@ class CopyManager {
     }
 
     extractMeditationContent() {
-        const devotionContent = document.querySelector('.devotion-content');
+        // Prefer the main devotion body (.fade-in). The bible-filter bar is also
+        // wrapped in .devotion-content and is first in the DOM, so a plain
+        // querySelector('.devotion-content') finds that empty container instead.
+        const devotionContent =
+            document.querySelector('.devotion-content.fade-in') ||
+            [...document.querySelectorAll('.devotion-content')].find(el => el.querySelector('.section')) ||
+            null;
         if (!devotionContent) return null;
 
         const title = document.querySelector('.devotion-header h2')?.textContent?.trim() || '';
@@ -101,9 +110,10 @@ class CopyManager {
             }
         });
 
-        // Add source attribution
+        // Add source attribution using the brand name from the page header
+        const brand = document.querySelector('.site-header h1')?.textContent?.trim() || 'Bible Devotions';
         const cleanUrl = this.cleanUrl(window.location.href);
-        content += `\n---\nSource: 3-Minute Meditation - WordOfGod.in\nLink: ${cleanUrl}`;
+        content += `\n---\nSource: ${brand} - WordOfGod.in\nLink: ${cleanUrl}`;
 
         return content;
     }
