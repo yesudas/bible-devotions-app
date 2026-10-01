@@ -540,6 +540,13 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                             <h2><i class="fas fa-heart"></i> <?php echo $meditation['devotion']['label'] ?? 'Insight & Reflection'; ?></h2>
                             <p><?php echo nl2br(htmlspecialchars($meditation['devotion']['text'])); ?></p>
                         </div>
+
+                        <?php if (!empty($meditation['reflection']['text'])): ?>
+                        <div class="section">
+                            <h2><i class="fas fa-lightbulb"></i> <?php echo $meditation['reflection']['label'] ?? 'Reflection'; ?></h2>
+                            <p><?php echo nl2br(htmlspecialchars($meditation['reflection']['text'])); ?></p>
+                        </div>
+                        <?php endif; ?>
                     
                         <?php if (!empty($meditation['quote']['text'])): ?>
                         <div class="section">
@@ -576,6 +583,13 @@ if (!$viewAll && $meditation && $currentIndex !== null) {
                         <div class="section">
                             <h2><i class="fas fa-praying-hands"></i> <?php echo $meditation['prayer']['label'] ?? 'Prayer'; ?></h2>
                             <p><?php echo nl2br(htmlspecialchars($meditation['prayer']['text'])); ?></p>
+                        </div>
+                        <?php endif; ?>
+
+                        <?php if (!empty($meditation['cross_references']['text'])): ?>
+                        <div class="section">
+                            <h2><i class="fas fa-link"></i> <?php echo $meditation['cross_references']['label'] ?? 'Cross References'; ?></h2>
+                            <span class="verse-reference"><?php echo linkBibleReferences($meditation['cross_references']['text'], $selectedLanguage); ?></span>
                         </div>
                         <?php endif; ?>
                     

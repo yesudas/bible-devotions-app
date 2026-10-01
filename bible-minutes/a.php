@@ -444,9 +444,16 @@ if ($is_logged_in || true) {
         ];
         
         $meditation['devotion'] = [
-            'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
+            'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Devotion'),
             'text' => $_POST['devotion_text']
         ];
+
+        if (!empty($_POST['reflection_text'])) {
+            $meditation['reflection'] = [
+                'label' => $_POST['reflection_label'] ?: ($language === 'தமிழ்' ? 'சிந்தனைக்கு' : 'Reflection'),
+                'text' => $_POST['reflection_text']
+            ];
+        }
         
         $meditation['quote'] = [
             'label' => $_POST['quote_label'] ?: ($language === 'தமிழ்' ? 'பிரபல மேற்கோள்' : "Today's Quote"),
@@ -457,6 +464,13 @@ if ($is_logged_in || true) {
             'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
             'text' => $_POST['prayer_text']
         ];
+
+        if (!empty($_POST['cross_references_text'])) {
+            $meditation['cross_references'] = [
+                'label' => $_POST['cross_references_label'] ?: ($language === 'தமிழ்' ? 'வேதாகம இணைப்புகள்' : 'Cross References'),
+                'text' => $_POST['cross_references_text']
+            ];
+        }
         
         $meditation['conclusion'] = [
             'label' => $_POST['conclusion_label'] ?: ($language === 'தமிழ்' ? 'உங்களுக்கு ஒரு வார்த்தை' : 'A Word to You'),
@@ -572,9 +586,16 @@ if ($is_logged_in || true) {
         ];
         
         $meditation['devotion'] = [
-            'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Insight / Reflection'),
+            'label' => $_POST['devotion_label'] ?: ($language === 'தமிழ்' ? 'தியானம்' : 'Devotion'),
             'text' => $_POST['devotion_text']
         ];
+
+        if (!empty($_POST['reflection_text'])) {
+            $meditation['reflection'] = [
+                'label' => $_POST['reflection_label'] ?: ($language === 'தமிழ்' ? 'சிந்தனைக்கு' : 'Reflection'),
+                'text' => $_POST['reflection_text']
+            ];
+        }
         
         $meditation['quote'] = [
             'label' => $_POST['quote_label'] ?: ($language === 'தமிழ்' ? 'பிரபல மேற்கோள்' : "Today's Quote"),
@@ -585,6 +606,13 @@ if ($is_logged_in || true) {
             'label' => $_POST['prayer_label'] ?: ($language === 'தமிழ்' ? 'ஜெபம்' : 'Prayer'),
             'text' => $_POST['prayer_text']
         ];
+
+        if (!empty($_POST['cross_references_text'])) {
+            $meditation['cross_references'] = [
+                'label' => $_POST['cross_references_label'] ?: ($language === 'தமிழ்' ? 'வேதாகம இணைப்புகள்' : 'Cross References'),
+                'text' => $_POST['cross_references_text']
+            ];
+        }
         
         $meditation['conclusion'] = [
             'label' => $_POST['conclusion_label'] ?: ($language === 'தமிழ்' ? 'உங்களுக்கு ஒரு வார்த்தை' : 'A Word to You'),
@@ -1164,6 +1192,22 @@ if ($is_logged_in || true) {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="admin-form-group">
+                                            <label for="reflection_label" class="admin-form-label">Reflection Label</label>
+                                            <input type="text" class="admin-form-control" id="reflection_label" name="reflection_label"
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['reflection']['label'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="admin-form-group">
+                                            <label for="reflection_text" class="admin-form-label">Reflection Text</label>
+                                            <textarea class="admin-form-control" id="reflection_text" name="reflection_text" rows="4"><?php echo $edit_meditation ? htmlspecialchars($edit_meditation['reflection']['text'] ?? '') : ''; ?></textarea>
+                                        </div>
+                                    </div>
+                                </div>
                                 
                                 <div class="row">
                                     <div class="col-md-3">
@@ -1263,6 +1307,23 @@ if ($is_logged_in || true) {
                                         <div class="admin-form-group">
                                             <label for="prayer_text" class="admin-form-label">Prayer Text *</label>
                                             <textarea class="admin-form-control" id="prayer_text" name="prayer_text" rows="3" required><?php echo $edit_meditation ? htmlspecialchars($edit_meditation['prayer']['text']) : ''; ?></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="admin-form-group">
+                                            <label for="cross_references_label" class="admin-form-label">Cross References Label</label>
+                                            <input type="text" class="admin-form-control" id="cross_references_label" name="cross_references_label"
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['cross_references']['label'] ?? '') : ''; ?>">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="admin-form-group">
+                                            <label for="cross_references_text" class="admin-form-label">Cross References</label>
+                                            <input type="text" class="admin-form-control" id="cross_references_text" name="cross_references_text"
+                                                   value="<?php echo $edit_meditation ? htmlspecialchars($edit_meditation['cross_references']['text'] ?? '') : ''; ?>">
                                         </div>
                                     </div>
                                 </div>

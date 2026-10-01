@@ -13,5 +13,7 @@
                             <li><a class="dropdown-item" href="https://wordofgod.in/bible-wallpapers/" target="_blank"><i class="bi bi-card-image me-2"></i>Bible Wallpapers</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/bible-app-modules/" target="_blank"><i class="bi bi-phone me-2"></i>Bible App Modules</a></li>
                             <li><a class="dropdown-item" href="https://wordofgod.in/" target="_blank"><i class="bi bi-gift me-2"></i>Free Christian Resources</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="https://www.wordofgodteam.com/" target="_blank"><i class="bi bi-info-circle me-2"></i>About Us</a></li>
                         </ul>
                     </div>

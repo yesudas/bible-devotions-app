@@ -27,6 +27,10 @@
                     <i class="bi bi-gift me-1"></i>Free Christian Resources
                 </a>
                 <span class="footer-separator">|</span>
+                <a href="https://www.wordofgodteam.com/" target="_blank" class="footer-link">
+                    <i class="bi bi-info-circle me-1"></i>About Us
+                </a>
+                <span class="footer-separator">|</span>
                 <span class="footer-visitors">
                     <i class="bi bi-emoji-heart-eyes me-1"></i>Visitors: <?= $visitors2 ?>
                 </span>
